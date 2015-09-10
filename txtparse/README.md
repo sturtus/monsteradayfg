@@ -1,0 +1,1 @@
+Folder for alphabetical listing of individual text files for each monster. These will be concatenated regularly and run through PAR5E to create the necessary module.

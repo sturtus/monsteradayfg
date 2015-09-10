@@ -1,0 +1,1 @@
+Folder for alphabetical listing of png files for use as NPC portraits.
