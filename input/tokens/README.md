@@ -3,12 +3,10 @@ Folder for an alphabetical listing of all tokens, png format, top down style. Us
 ## PAR5E Documentation on Tokens
 
 Tokens can be linked to both the Campaign classes of 5E (under Personalities) and the Reference Library (NPC). Token content is parsed using a single source folder.
-✦ tokens
-
-### Tokens
 
 Input:
-* PNG tokens located in the token path will be copied to the module.
+
+* PNG tokens located in the token path will be copied to the module.
 * Tokens which match the sane name of Traps/NPCs will be linked to the objects. A sane name is a name converted to lowercase and with all spaces removed and non-alpha characters converted to _ characters.
 ```
 Fred Blog = fredblog.png
