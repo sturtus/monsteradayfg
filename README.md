@@ -13,7 +13,7 @@ If you are familiar with git and contributing through GitHub, then working on th
 Add entries in the input/npcs.txt file using the format specified in the PAR5E documentation.
 
 ### Tokens
-Add tokens with clear lowercase names in the input/tokens folder. Each token should use the base template token-template.psd.
+Add tokens with clear lowercase names in the input/tokens folder. Each token should use the base template pog_base01.psd.
 
 TBD: resolution.
 
