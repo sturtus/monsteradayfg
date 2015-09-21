@@ -196,9 +196,109 @@
           </id-00006>
         </traits>
       </bonegolem>
+      <clockworkdragon>
+        <locked type="number">1</locked>
+        <name type="string">Clockwork Dragon</name>
+        <type type="string">construct</type>
+        <size type="string">Huge</size>
+        <ac type="number">18</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">184</hp>
+        <hd type="string">(16d12 + 80)</hd>
+        <speed type="string">40 ft., fly 80 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">23</score>
+            <modifier type="string">+6</modifier>
+          </strength>
+          <constitution>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">9</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <charisma>
+            <score type="number">5</score>
+            <modifier type="string">-2</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Dex +5, Con +10</savingthrows>
+        <skills type="string">Perception +10</skills>
+        <damageimmunities type="string">poison, psychic; bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine</damageimmunities>
+        <conditionimmunities type="string">charmed, exhaustion, frightened, paralyzed, petrified, poisoned</conditionimmunities>
+        <senses type="string">truesight 60 ft., darkvision 120 ft., passive Perception 20</senses>
+        <alignment type="string">unaligned</alignment>
+        <languages type="string">understands the languages of its creator but can't speak</languages>
+        <cr type="string">14</cr>
+        <xp type="number">11500</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Immutable Form</name>
+            <desc type="string">The dragon is immune to any spell or effect that would alter its form.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Legendary Resistance (3/day)</name>
+            <desc type="string">If the dragon fails a saving throw, it can choose to succeed instead.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Self Destruct</name>
+            <desc type="string">When the dragon is reduced to O hit points, it explodes, and each creature within 30 feet of it must make a DC 18 Dexterity saving throw, taking 21 (6d6) fire damage and 21 (6d6) piercing damage on a failed save, or half as much damage on a successful one.</desc>
+          </id-00003>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The dragon makes three attacks: one with its bite and two with its claws.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Bite</name>
+            <desc type="string">Melee Weapon Attack: + 11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Claw</name>
+            <desc type="string">Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Tail</name>
+            <desc type="string">Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage.</desc>
+          </id-00004>
+          <id-00005>
+            <name type="string">Breath Weapons (Recharge 5-6)</name>
+            <desc type="string">The dragon uses one of the following breath weapons.</desc>
+          </id-00005>
+          <id-00006>
+            <name type="string">Fire Tar Breath</name>
+            <desc type="string">The dragon sprays flaming tar in a 30-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 35 (1 Od6) fire damage on a failed save, or half as much damage on a successful one. On a failed save, a creature is restrained (escape DC 18). While restrained in this way, a creature takes 1 O (3d6) fire damage at the start of each of its turns.</desc>
+          </id-00006>
+          <id-00007>
+            <name type="string">Knockout Gas Breath</name>
+            <desc type="string">The dragon exhales knockout gas in a 60-foot cone. Each creature in that area must succeed on a DC 18 Constitution saving throw or fall unconscious for 1 O minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</desc>
+          </id-00007>
+        </actions>
+        <legendaryactions>
+          <id-00001>
+            <name type="string">Knockout Gas Breath</name>
+            <desc type="string"> The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Detect</name>
+            <desc type="string">The dragon makes a Wisdom (Perception) check.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Tail Attack</name>
+            <desc type="string">The dragon makes a tail attack.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Wing Attack (Costs 2 Actions)</name>
+            <desc type="string">The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.</desc>
+          </id-00004>
+        </legendaryactions>
+      </clockworkdragon>
       <crystallinesliver>
         <locked type="number">1</locked>
-        <name type="string">CRYSTALLINE SLIVER</name>
+        <name type="string">Crystalline Sliver</name>
         <type type="string">monstrosity (sliver)</type>
         <size type="string">Large</size>
         <ac type="number">14</ac>
@@ -265,7 +365,7 @@
       </crystallinesliver>
       <spittingsliver>
         <locked type="number">1</locked>
-        <name type="string">SPITTING SLIVER</name>
+        <name type="string">Spitting Sliver</name>
         <type type="string">monstrosity (sliver)</type>
         <size type="string">Large</size>
         <ac type="number">12</ac>
@@ -332,7 +432,7 @@
       </spittingsliver>
       <fallenangel>
         <locked type="number">1</locked>
-        <name type="string">FALLEN ANGEL</name>
+        <name type="string">Fallen Angel</name>
         <type type="string">celestial</type>
         <size type="string">Medium</size>
         <ac type="number">17</ac>
@@ -410,7 +510,7 @@
       </fallenangel>
       <fernlizard>
         <locked type="number">1</locked>
-        <name type="string">FERN LIZARD</name>
+        <name type="string">Fern Lizard</name>
         <type type="string">beast</type>
         <size type="string">Small</size>
         <ac type="number">12</ac>
@@ -469,7 +569,7 @@
       </fernlizard>
       <fusionelemental>
         <locked type="number">1</locked>
-        <name type="string">FUSION ELEMENTAL</name>
+        <name type="string">Fusion Elemental</name>
         <type type="string">elemental</type>
         <size type="string">Huge</size>
         <ac type="number">17</ac>
@@ -560,7 +660,7 @@
       </fusionelemental>
       <gnolldeathknight>
         <locked type="number">1</locked>
-        <name type="string">GNOLL DEATHKNIGHT</name>
+        <name type="string">Gnoll Deathknight</name>
         <type type="string">humanoid (gnoll)</type>
         <size type="string">Medium</size>
         <ac type="number">17</ac>
@@ -628,7 +728,7 @@
       </gnolldeathknight>
       <fiendishhyena>
         <locked type="number">1</locked>
-        <name type="string">FIENDISH HYENA</name>
+        <name type="string">Fiendish Hyena</name>
         <type type="string">fiend</type>
         <size type="string">Large</size>
         <ac type="number">12</ac>
@@ -674,7 +774,7 @@
       </fiendishhyena>
       <gnolldeathmage>
         <locked type="number">1</locked>
-        <name type="string">GNOLL DEATHMAGE</name>
+        <name type="string">Gnoll Deathmage</name>
         <type type="string">humanoid (gnoll)</type>
         <size type="string">Medium</size>
         <ac type="number">12</ac>
@@ -725,7 +825,7 @@
       </gnolldeathmage>
       <gravetitan>
         <locked type="number">1</locked>
-        <name type="string">GRAVE TITAN</name>
+        <name type="string">Grave Titan</name>
         <type type="string">undead</type>
         <size type="string">Huge</size>
         <ac type="number">14</ac>
@@ -784,9 +884,75 @@
           </id-00003>
         </actions>
       </gravetitan>
+      <heraldofrot>
+        <locked type="number">1</locked>
+        <name type="string">Herald Of Rot</name>
+        <type type="string">fiend (demon)</type>
+        <size type="string">Large</size>
+        <ac type="number">15</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">104</hp>
+        <hd type="string">(11d10 +44)</hd>
+        <speed type="string">40 ft., fly 60 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">17</score>
+            <modifier type="string">+3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </constitution>
+          <wisdom>
+            <score type="number">13</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+        </abilities>
+        <savingthrows type="string">Oex +5, Con +7. Wis +4</savingthrows>
+        <damageresistances type="string">cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical weapons</damageresistances>
+        <damageimmunities type="string">poison, necrotic</damageimmunities>
+        <conditionimmunities type="string">poisoned</conditionimmunities>
+        <senses type="string">darkvision 120 ft., passive Perception 11</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">Abyssal, telepathy 120 ft.</languages>
+        <cr type="string">6</cr>
+        <xp type="number">2300</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Magic Resistance</name>
+            <desc type="string">The herald has advantage on saving throws against spells and other magical effects.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Aura of Decay</name>
+            <desc type="string">Negative energy radiates from the herald in an aura with a 120-foot radius. Any creature in that area can't regain hit points.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The herald makes two attacks: one with its beak and one with its claws.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Beak</name>
+            <desc type="string">Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit 10 (2d6 + 3) piercing damage.If the target is a creature, it must succeed on a DC 14 Constitution saving throw or become diseased. While diseased in this way, the target takes 9 (2d8) necrotic damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, ending the disease on a success.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Claws</name>
+            <desc type="string">Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2dl 0 + 3) slashing damage.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Fetid Cloud (Recharge 5-6)</name>
+            <desc type="string">A 20-foot-radius cloud of disease extends out from the herald. The cloud spreads around corners. Each creature in that area must succeed on a DC 14 Constitution saving throw or become diseased. While diseased in this way, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. A target can repeat the saving throw at the end of each of its turns, ending the disease on a success.</desc>
+          </id-00004>
+        </actions>
+      </heraldofrot>
       <leonin>
         <locked type="number">1</locked>
-        <name type="string">LEONIN</name>
+        <name type="string">Leonin</name>
         <type type="string">humanoid (leonin)</type>
         <size type="string">Medium</size>
         <ac type="number">14</ac>
@@ -857,7 +1023,7 @@
       </leonin>
       <koboldbully>
         <locked type="number">1</locked>
-        <name type="string">KOBOLD BULLY</name>
+        <name type="string">Kobold Bully</name>
         <type type="string">humanoid (kobold)</type>
         <size type="string">Small</size>
         <ac type="number">14</ac>
@@ -927,7 +1093,7 @@
       </koboldbully>
       <koboldhero>
         <locked type="number">1</locked>
-        <name type="string">KOBOLD HERO</name>
+        <name type="string">Kobold Hero</name>
         <type type="string">humanoid (kobold)</type>
         <size type="string">Small</size>
         <ac type="number">18</ac>
@@ -1001,71 +1167,9 @@
           </id-00004>
         </legendaryactions>
       </koboldhero>
-      <koboldshaman>
-        <locked type="number">1</locked>
-        <name type="string">KOBOLD SHAMAN</name>
-        <type type="string">humanoid (kobold)</type>
-        <size type="string">Small</size>
-        <ac type="number">13</ac>
-        <actext type="string">(leather armor)</actext>
-        <hp type="number">27</hp>
-        <hd type="string">(6d6 + 6)</hd>
-        <speed type="string">30 ft.</speed>
-        <abilities>
-          <strength>
-            <score type="number">9</score>
-            <modifier type="string">0</modifier>
-          </strength>
-          <dexterity>
-            <score type="number">15</score>
-            <modifier type="string">+2</modifier>
-          </dexterity>
-          <constitution>
-            <score type="number">12</score>
-            <modifier type="string">+1</modifier>
-          </constitution>
-          <intelligence>
-            <score type="number">10</score>
-            <modifier type="string">0</modifier>
-          </intelligence>
-          <wisdom>
-            <score type="number">14</score>
-            <modifier type="string">+2</modifier>
-          </wisdom>
-          <charisma>
-            <score type="number">12</score>
-            <modifier type="string">+1</modifier>
-          </charisma>
-        </abilities>
-        <senses type="string">darkvision 60 ft., passive Perception 11</senses>
-        <alignment type="string">lawful evil</alignment>
-        <languages type="string">Common, Draconic</languages>
-        <cr type="string">2</cr>
-        <xp type="number">450</xp>
-        <traits>
-          <id-00001>
-            <name type="string">Sunlight Sensitivity</name>
-            <desc type="string">While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</desc>
-          </id-00001>
-          <id-00002>
-            <name type="string">Pack Tactics</name>
-            <desc type="string">The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated.</desc>
-          </id-00002>
-          <id-00003>
-            <name type="string">Spellcasting</name>
-            <desc type="string">The kobold is a 4th-level spellcaster. Its spellcasting ability is Wisdom (save DC 12, +4 to hit with spell attacks). The kobold has the following spells prepared: Cantrips (at will): druidcraft, produceflame, shillelagh 1st level (4 slots): cure wounds,fog cloud, healing word 2nd level (3 slots):flaming sphere, heat metal</desc>
-          </id-00003>
-        </traits>
-        <actions>
-          <id-00001>
-            <name type="string">Club</name>
-            <desc type="string">Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 -1) bludgeoning damage.</desc>
-          </id-00001>
-        </actions>
-      </koboldshaman>
       <krakenhatchling>
         <locked type="number">1</locked>
-        <name type="string">KRAKEN HATCHLING</name>
+        <name type="string">Kraken Hatchling</name>
         <type type="string">monstrosity (titan)</type>
         <size type="string">Huge</size>
         <ac type="number">17</ac>
@@ -1149,7 +1253,7 @@
       </krakenhatchling>
       <fivespireinitiate>
         <locked type="number">1</locked>
-        <name type="string">FIVE SPIRE INITIATE</name>
+        <name type="string">Five Spire Initiate</name>
         <type type="string">humanoid (any race)</type>
         <size type="string">Medium</size>
         <ac type="number">15</ac>
@@ -1221,7 +1325,7 @@
       </fivespireinitiate>
       <masterofthefivespires>
         <locked type="number">1</locked>
-        <name type="string">MASTER OF THE FIVE SPIRES</name>
+        <name type="string">Master Of The Five Spires</name>
         <type type="string">humanoid (any race)</type>
         <size type="string">Medium</size>
         <ac type="number">17</ac>
@@ -1301,7 +1405,7 @@
       </masterofthefivespires>
       <morphlit>
         <locked type="number">1</locked>
-        <name type="string">MORPHLIT</name>
+        <name type="string">Morphlit</name>
         <type type="string">aberration</type>
         <size type="string">Small</size>
         <ac type="number">14</ac>
@@ -1360,7 +1464,7 @@
       </morphlit>
       <myrbattlesphere>
         <locked type="number">1</locked>
-        <name type="string">MYR BATTLESPHERE</name>
+        <name type="string">Myr Battlesphere</name>
         <type type="string">construct (myr)</type>
         <size type="string">Huge</size>
         <ac type="number">18</ac>
@@ -1424,7 +1528,7 @@
       </myrbattlesphere>
       <priestofblight>
         <locked type="number">1</locked>
-        <name type="string">PRIEST OF BLIGHT</name>
+        <name type="string">Priest Of Blight</name>
         <type type="string">humanoid (any race)</type>
         <size type="string">Medium</size>
         <ac type="number">14</ac>
@@ -1485,7 +1589,7 @@
       </priestofblight>
       <rathermit>
         <locked type="number">1</locked>
-        <name type="string">RAT HERMIT</name>
+        <name type="string">Rat Hermit</name>
         <type type="string">humanoid (any race)</type>
         <size type="string">Medium</size>
         <ac type="number">15</ac>
@@ -1540,7 +1644,7 @@
       </rathermit>
       <selachian>
         <locked type="number">1</locked>
-        <name type="string">SELACHIAN</name>
+        <name type="string">Selachian</name>
         <type type="string">humanoid (se/achian)</type>
         <size type="string">Large</size>
         <ac type="number">15</ac>
@@ -1613,7 +1717,7 @@
       </selachian>
       <sliver>
         <locked type="number">1</locked>
-        <name type="string">SLIVER</name>
+        <name type="string">Sliver</name>
         <type type="string">monstrosity (sliver)</type>
         <size type="string">Medium</size>
         <ac type="number">12</ac>
@@ -1672,7 +1776,7 @@
       </sliver>
       <sliverqueen>
         <locked type="number">1</locked>
-        <name type="string">SLIVER QUEEN</name>
+        <name type="string">Sliver Queen</name>
         <type type="string">monstrosity (sliver)</type>
         <size type="string">Huge</size>
         <ac type="number">17</ac>
@@ -1763,7 +1867,7 @@
       </sliverqueen>
       <spirit>
         <locked type="number">1</locked>
-        <name type="string">SPIRIT</name>
+        <name type="string">Spirit</name>
         <type type="string">undead</type>
         <size type="string">Medium</size>
         <ac type="number">11</ac>
@@ -1870,16 +1974,6 @@
                 </link>
                 <source type="string"/>
               </koboldhero>
-              <koboldshaman>
-                <link type="windowreference">
-                  <class>npc</class>
-                  <recordname>npc.koboldshaman@Monster a Day</recordname>
-                  <description>
-                    <field>name</field>
-                  </description>
-                </link>
-                <source type="string"/>
-              </koboldshaman>
               <krakenhatchling>
                 <link type="windowreference">
                   <class>npc</class>
@@ -1925,6 +2019,16 @@
           <typeletterc>
             <description type="string">C</description>
             <index>
+              <clockworkdragon>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.clockworkdragon@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </clockworkdragon>
               <crystallinesliver>
                 <link type="windowreference">
                   <class>npc</class>
@@ -2082,6 +2186,21 @@
               </gravetitan>
             </index>
           </typeletterg>
+          <typeletterh>
+            <description type="string">H</description>
+            <index>
+              <heraldofrot>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.heraldofrot@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </heraldofrot>
+            </index>
+          </typeletterh>
           <typeletterl>
             <description type="string">L</description>
             <index>
@@ -2363,9 +2482,109 @@
           </id-00006>
         </traits>
       </bonegolem>
+      <clockworkdragon>
+        <locked type="number">1</locked>
+        <name type="string">Clockwork Dragon</name>
+        <type type="string">construct</type>
+        <size type="string">Huge</size>
+        <ac type="number">18</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">184</hp>
+        <hd type="string">(16d12 + 80)</hd>
+        <speed type="string">40 ft., fly 80 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">23</score>
+            <modifier type="string">+6</modifier>
+          </strength>
+          <constitution>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">9</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <charisma>
+            <score type="number">5</score>
+            <modifier type="string">-2</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Dex +5, Con +10</savingthrows>
+        <skills type="string">Perception +10</skills>
+        <damageimmunities type="string">poison, psychic; bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine</damageimmunities>
+        <conditionimmunities type="string">charmed, exhaustion, frightened, paralyzed, petrified, poisoned</conditionimmunities>
+        <senses type="string">truesight 60 ft., darkvision 120 ft., passive Perception 20</senses>
+        <alignment type="string">unaligned</alignment>
+        <languages type="string">understands the languages of its creator but can't speak</languages>
+        <cr type="string">14</cr>
+        <xp type="number">11500</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Immutable Form</name>
+            <desc type="string">The dragon is immune to any spell or effect that would alter its form.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Legendary Resistance (3/day)</name>
+            <desc type="string">If the dragon fails a saving throw, it can choose to succeed instead.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Self Destruct</name>
+            <desc type="string">When the dragon is reduced to O hit points, it explodes, and each creature within 30 feet of it must make a DC 18 Dexterity saving throw, taking 21 (6d6) fire damage and 21 (6d6) piercing damage on a failed save, or half as much damage on a successful one.</desc>
+          </id-00003>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The dragon makes three attacks: one with its bite and two with its claws.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Bite</name>
+            <desc type="string">Melee Weapon Attack: + 11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Claw</name>
+            <desc type="string">Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Tail</name>
+            <desc type="string">Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage.</desc>
+          </id-00004>
+          <id-00005>
+            <name type="string">Breath Weapons (Recharge 5-6)</name>
+            <desc type="string">The dragon uses one of the following breath weapons.</desc>
+          </id-00005>
+          <id-00006>
+            <name type="string">Fire Tar Breath</name>
+            <desc type="string">The dragon sprays flaming tar in a 30-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 35 (1 Od6) fire damage on a failed save, or half as much damage on a successful one. On a failed save, a creature is restrained (escape DC 18). While restrained in this way, a creature takes 1 O (3d6) fire damage at the start of each of its turns.</desc>
+          </id-00006>
+          <id-00007>
+            <name type="string">Knockout Gas Breath</name>
+            <desc type="string">The dragon exhales knockout gas in a 60-foot cone. Each creature in that area must succeed on a DC 18 Constitution saving throw or fall unconscious for 1 O minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</desc>
+          </id-00007>
+        </actions>
+        <legendaryactions>
+          <id-00001>
+            <name type="string">Knockout Gas Breath</name>
+            <desc type="string"> The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Detect</name>
+            <desc type="string">The dragon makes a Wisdom (Perception) check.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Tail Attack</name>
+            <desc type="string">The dragon makes a tail attack.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Wing Attack (Costs 2 Actions)</name>
+            <desc type="string">The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.</desc>
+          </id-00004>
+        </legendaryactions>
+      </clockworkdragon>
       <crystallinesliver>
         <locked type="number">1</locked>
-        <name type="string">CRYSTALLINE SLIVER</name>
+        <name type="string">Crystalline Sliver</name>
         <type type="string">monstrosity (sliver)</type>
         <size type="string">Large</size>
         <ac type="number">14</ac>
@@ -2432,7 +2651,7 @@
       </crystallinesliver>
       <spittingsliver>
         <locked type="number">1</locked>
-        <name type="string">SPITTING SLIVER</name>
+        <name type="string">Spitting Sliver</name>
         <type type="string">monstrosity (sliver)</type>
         <size type="string">Large</size>
         <ac type="number">12</ac>
@@ -2499,7 +2718,7 @@
       </spittingsliver>
       <fallenangel>
         <locked type="number">1</locked>
-        <name type="string">FALLEN ANGEL</name>
+        <name type="string">Fallen Angel</name>
         <type type="string">celestial</type>
         <size type="string">Medium</size>
         <ac type="number">17</ac>
@@ -2577,7 +2796,7 @@
       </fallenangel>
       <fernlizard>
         <locked type="number">1</locked>
-        <name type="string">FERN LIZARD</name>
+        <name type="string">Fern Lizard</name>
         <type type="string">beast</type>
         <size type="string">Small</size>
         <ac type="number">12</ac>
@@ -2636,7 +2855,7 @@
       </fernlizard>
       <fusionelemental>
         <locked type="number">1</locked>
-        <name type="string">FUSION ELEMENTAL</name>
+        <name type="string">Fusion Elemental</name>
         <type type="string">elemental</type>
         <size type="string">Huge</size>
         <ac type="number">17</ac>
@@ -2727,7 +2946,7 @@
       </fusionelemental>
       <gnolldeathknight>
         <locked type="number">1</locked>
-        <name type="string">GNOLL DEATHKNIGHT</name>
+        <name type="string">Gnoll Deathknight</name>
         <type type="string">humanoid (gnoll)</type>
         <size type="string">Medium</size>
         <ac type="number">17</ac>
@@ -2795,7 +3014,7 @@
       </gnolldeathknight>
       <fiendishhyena>
         <locked type="number">1</locked>
-        <name type="string">FIENDISH HYENA</name>
+        <name type="string">Fiendish Hyena</name>
         <type type="string">fiend</type>
         <size type="string">Large</size>
         <ac type="number">12</ac>
@@ -2841,7 +3060,7 @@
       </fiendishhyena>
       <gnolldeathmage>
         <locked type="number">1</locked>
-        <name type="string">GNOLL DEATHMAGE</name>
+        <name type="string">Gnoll Deathmage</name>
         <type type="string">humanoid (gnoll)</type>
         <size type="string">Medium</size>
         <ac type="number">12</ac>
@@ -2892,7 +3111,7 @@
       </gnolldeathmage>
       <gravetitan>
         <locked type="number">1</locked>
-        <name type="string">GRAVE TITAN</name>
+        <name type="string">Grave Titan</name>
         <type type="string">undead</type>
         <size type="string">Huge</size>
         <ac type="number">14</ac>
@@ -2951,9 +3170,75 @@
           </id-00003>
         </actions>
       </gravetitan>
+      <heraldofrot>
+        <locked type="number">1</locked>
+        <name type="string">Herald Of Rot</name>
+        <type type="string">fiend (demon)</type>
+        <size type="string">Large</size>
+        <ac type="number">15</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">104</hp>
+        <hd type="string">(11d10 +44)</hd>
+        <speed type="string">40 ft., fly 60 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">17</score>
+            <modifier type="string">+3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </constitution>
+          <wisdom>
+            <score type="number">13</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+        </abilities>
+        <savingthrows type="string">Oex +5, Con +7. Wis +4</savingthrows>
+        <damageresistances type="string">cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical weapons</damageresistances>
+        <damageimmunities type="string">poison, necrotic</damageimmunities>
+        <conditionimmunities type="string">poisoned</conditionimmunities>
+        <senses type="string">darkvision 120 ft., passive Perception 11</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">Abyssal, telepathy 120 ft.</languages>
+        <cr type="string">6</cr>
+        <xp type="number">2300</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Magic Resistance</name>
+            <desc type="string">The herald has advantage on saving throws against spells and other magical effects.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Aura of Decay</name>
+            <desc type="string">Negative energy radiates from the herald in an aura with a 120-foot radius. Any creature in that area can't regain hit points.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The herald makes two attacks: one with its beak and one with its claws.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Beak</name>
+            <desc type="string">Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit 10 (2d6 + 3) piercing damage.If the target is a creature, it must succeed on a DC 14 Constitution saving throw or become diseased. While diseased in this way, the target takes 9 (2d8) necrotic damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, ending the disease on a success.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Claws</name>
+            <desc type="string">Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2dl 0 + 3) slashing damage.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Fetid Cloud (Recharge 5-6)</name>
+            <desc type="string">A 20-foot-radius cloud of disease extends out from the herald. The cloud spreads around corners. Each creature in that area must succeed on a DC 14 Constitution saving throw or become diseased. While diseased in this way, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. A target can repeat the saving throw at the end of each of its turns, ending the disease on a success.</desc>
+          </id-00004>
+        </actions>
+      </heraldofrot>
       <leonin>
         <locked type="number">1</locked>
-        <name type="string">LEONIN</name>
+        <name type="string">Leonin</name>
         <type type="string">humanoid (leonin)</type>
         <size type="string">Medium</size>
         <ac type="number">14</ac>
@@ -3024,7 +3309,7 @@
       </leonin>
       <koboldbully>
         <locked type="number">1</locked>
-        <name type="string">KOBOLD BULLY</name>
+        <name type="string">Kobold Bully</name>
         <type type="string">humanoid (kobold)</type>
         <size type="string">Small</size>
         <ac type="number">14</ac>
@@ -3094,7 +3379,7 @@
       </koboldbully>
       <koboldhero>
         <locked type="number">1</locked>
-        <name type="string">KOBOLD HERO</name>
+        <name type="string">Kobold Hero</name>
         <type type="string">humanoid (kobold)</type>
         <size type="string">Small</size>
         <ac type="number">18</ac>
@@ -3168,71 +3453,9 @@
           </id-00004>
         </legendaryactions>
       </koboldhero>
-      <koboldshaman>
-        <locked type="number">1</locked>
-        <name type="string">KOBOLD SHAMAN</name>
-        <type type="string">humanoid (kobold)</type>
-        <size type="string">Small</size>
-        <ac type="number">13</ac>
-        <actext type="string">(leather armor)</actext>
-        <hp type="number">27</hp>
-        <hd type="string">(6d6 + 6)</hd>
-        <speed type="string">30 ft.</speed>
-        <abilities>
-          <strength>
-            <score type="number">9</score>
-            <modifier type="string">0</modifier>
-          </strength>
-          <dexterity>
-            <score type="number">15</score>
-            <modifier type="string">+2</modifier>
-          </dexterity>
-          <constitution>
-            <score type="number">12</score>
-            <modifier type="string">+1</modifier>
-          </constitution>
-          <intelligence>
-            <score type="number">10</score>
-            <modifier type="string">0</modifier>
-          </intelligence>
-          <wisdom>
-            <score type="number">14</score>
-            <modifier type="string">+2</modifier>
-          </wisdom>
-          <charisma>
-            <score type="number">12</score>
-            <modifier type="string">+1</modifier>
-          </charisma>
-        </abilities>
-        <senses type="string">darkvision 60 ft., passive Perception 11</senses>
-        <alignment type="string">lawful evil</alignment>
-        <languages type="string">Common, Draconic</languages>
-        <cr type="string">2</cr>
-        <xp type="number">450</xp>
-        <traits>
-          <id-00001>
-            <name type="string">Sunlight Sensitivity</name>
-            <desc type="string">While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</desc>
-          </id-00001>
-          <id-00002>
-            <name type="string">Pack Tactics</name>
-            <desc type="string">The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated.</desc>
-          </id-00002>
-          <id-00003>
-            <name type="string">Spellcasting</name>
-            <desc type="string">The kobold is a 4th-level spellcaster. Its spellcasting ability is Wisdom (save DC 12, +4 to hit with spell attacks). The kobold has the following spells prepared: Cantrips (at will): druidcraft, produceflame, shillelagh 1st level (4 slots): cure wounds,fog cloud, healing word 2nd level (3 slots):flaming sphere, heat metal</desc>
-          </id-00003>
-        </traits>
-        <actions>
-          <id-00001>
-            <name type="string">Club</name>
-            <desc type="string">Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 -1) bludgeoning damage.</desc>
-          </id-00001>
-        </actions>
-      </koboldshaman>
       <krakenhatchling>
         <locked type="number">1</locked>
-        <name type="string">KRAKEN HATCHLING</name>
+        <name type="string">Kraken Hatchling</name>
         <type type="string">monstrosity (titan)</type>
         <size type="string">Huge</size>
         <ac type="number">17</ac>
@@ -3316,7 +3539,7 @@
       </krakenhatchling>
       <fivespireinitiate>
         <locked type="number">1</locked>
-        <name type="string">FIVE SPIRE INITIATE</name>
+        <name type="string">Five Spire Initiate</name>
         <type type="string">humanoid (any race)</type>
         <size type="string">Medium</size>
         <ac type="number">15</ac>
@@ -3388,7 +3611,7 @@
       </fivespireinitiate>
       <masterofthefivespires>
         <locked type="number">1</locked>
-        <name type="string">MASTER OF THE FIVE SPIRES</name>
+        <name type="string">Master Of The Five Spires</name>
         <type type="string">humanoid (any race)</type>
         <size type="string">Medium</size>
         <ac type="number">17</ac>
@@ -3468,7 +3691,7 @@
       </masterofthefivespires>
       <morphlit>
         <locked type="number">1</locked>
-        <name type="string">MORPHLIT</name>
+        <name type="string">Morphlit</name>
         <type type="string">aberration</type>
         <size type="string">Small</size>
         <ac type="number">14</ac>
@@ -3527,7 +3750,7 @@
       </morphlit>
       <myrbattlesphere>
         <locked type="number">1</locked>
-        <name type="string">MYR BATTLESPHERE</name>
+        <name type="string">Myr Battlesphere</name>
         <type type="string">construct (myr)</type>
         <size type="string">Huge</size>
         <ac type="number">18</ac>
@@ -3591,7 +3814,7 @@
       </myrbattlesphere>
       <priestofblight>
         <locked type="number">1</locked>
-        <name type="string">PRIEST OF BLIGHT</name>
+        <name type="string">Priest Of Blight</name>
         <type type="string">humanoid (any race)</type>
         <size type="string">Medium</size>
         <ac type="number">14</ac>
@@ -3652,7 +3875,7 @@
       </priestofblight>
       <rathermit>
         <locked type="number">1</locked>
-        <name type="string">RAT HERMIT</name>
+        <name type="string">Rat Hermit</name>
         <type type="string">humanoid (any race)</type>
         <size type="string">Medium</size>
         <ac type="number">15</ac>
@@ -3707,7 +3930,7 @@
       </rathermit>
       <selachian>
         <locked type="number">1</locked>
-        <name type="string">SELACHIAN</name>
+        <name type="string">Selachian</name>
         <type type="string">humanoid (se/achian)</type>
         <size type="string">Large</size>
         <ac type="number">15</ac>
@@ -3780,7 +4003,7 @@
       </selachian>
       <sliver>
         <locked type="number">1</locked>
-        <name type="string">SLIVER</name>
+        <name type="string">Sliver</name>
         <type type="string">monstrosity (sliver)</type>
         <size type="string">Medium</size>
         <ac type="number">12</ac>
@@ -3839,7 +4062,7 @@
       </sliver>
       <sliverqueen>
         <locked type="number">1</locked>
-        <name type="string">SLIVER QUEEN</name>
+        <name type="string">Sliver Queen</name>
         <type type="string">monstrosity (sliver)</type>
         <size type="string">Huge</size>
         <ac type="number">17</ac>
@@ -3930,7 +4153,7 @@
       </sliverqueen>
       <spirit>
         <locked type="number">1</locked>
-        <name type="string">SPIRIT</name>
+        <name type="string">Spirit</name>
         <type type="string">undead</type>
         <size type="string">Medium</size>
         <ac type="number">11</ac>
@@ -4061,16 +4284,6 @@
                 </link>
                 <source type="number"/>
               </koboldhero>
-              <koboldshaman>
-                <link type="windowreference">
-                  <class>npc</class>
-                  <recordname>reference.npcdata.koboldshaman@Monster a Day</recordname>
-                  <description>
-                    <field>name</field>
-                  </description>
-                </link>
-                <source type="number"/>
-              </koboldshaman>
               <krakenhatchling>
                 <link type="windowreference">
                   <class>npc</class>
@@ -4116,6 +4329,16 @@
           <typeletterC>
             <description type="string">C</description>
             <index>
+              <clockworkdragon>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.clockworkdragon@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </clockworkdragon>
               <crystallinesliver>
                 <link type="windowreference">
                   <class>npc</class>
@@ -4273,6 +4496,21 @@
               </gravetitan>
             </index>
           </typeletterG>
+          <typeletterH>
+            <description type="string">H</description>
+            <index>
+              <heraldofrot>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.heraldofrot@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </heraldofrot>
+            </index>
+          </typeletterH>
           <typeletterL>
             <description type="string">L</description>
             <index>
@@ -4391,16 +4629,6 @@
                 </link>
                 <source type="number"/>
               </fiendishhyena>
-              <koboldshaman>
-                <link type="windowreference">
-                  <class>npc</class>
-                  <recordname>reference.npcdata.koboldshaman@Monster a Day</recordname>
-                  <description>
-                    <field>name</field>
-                  </description>
-                </link>
-                <source type="number"/>
-              </koboldshaman>
               <morphlit>
                 <link type="windowreference">
                   <class>npc</class>
@@ -4463,6 +4691,21 @@
               </bonegolem>
             </index>
           </level09>
+          <level14>
+            <description type="string">14</description>
+            <index>
+              <clockworkdragon>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.clockworkdragon@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </clockworkdragon>
+            </index>
+          </level14>
           <level04>
             <description type="string">4</description>
             <index>
@@ -4576,6 +4819,16 @@
                 </link>
                 <source type="number"/>
               </gnolldeathknight>
+              <heraldofrot>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.heraldofrot@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </heraldofrot>
             </index>
           </level06>
           <level07>
@@ -4741,16 +4994,6 @@
                 </link>
                 <source>humanoid (kobold)</source>
               </koboldhero>
-              <koboldshaman>
-                <link type="windowreference">
-                  <class>npc</class>
-                  <recordname>reference.npcdata.koboldshaman@Monster a Day</recordname>
-                  <description>
-                    <field>name</field>
-                  </description>
-                </link>
-                <source>humanoid (kobold)</source>
-              </koboldshaman>
             </index>
           </typehumanoid_kobold_>
           <typemonstrosity_sliver_>
@@ -4821,6 +5064,16 @@
                 </link>
                 <source>construct</source>
               </bonegolem>
+              <clockworkdragon>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.clockworkdragon@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>construct</source>
+              </clockworkdragon>
             </index>
           </typeconstruct>
           <typecelestial>
@@ -4933,6 +5186,21 @@
               </spirit>
             </index>
           </typeundead>
+          <typefiend_demon_>
+            <description type="string">Fiend (demon)</description>
+            <index>
+              <heraldofrot>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.heraldofrot@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>fiend (demon)</source>
+              </heraldofrot>
+            </index>
+          </typefiend_demon_>
           <typehumanoid_leonin_>
             <description type="string">Humanoid (leonin)</description>
             <index>
