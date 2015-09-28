@@ -1934,6 +1934,210 @@
           </id-00003>
         </actions>
       </spirit>
+      <spellskite>
+        <locked type="number">1</locked>
+        <name type="string">Spellskite</name>
+        <type type="string">construct</type>
+        <size type="string">Large</size>
+        <ac type="number">14</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">102</hp>
+        <hd type="string">(12d10 + 36)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">5</score>
+            <modifier type="string">-2</modifier>
+          </intelligence>
+          <charisma>
+            <score type="number">1</score>
+            <modifier type="string">-4</modifier>
+          </charisma>
+        </abilities>
+        <damageimmunities type="string">poison, psychic</damageimmunities>
+        <conditionimmunities type="string">charmed, exhaustion, frightened, paralyzed, petrified, poisoned</conditionimmunities>
+        <senses type="string">darkvision 60 ft., passive Perception 9</senses>
+        <alignment type="string">unaligned</alignment>
+        <languages type="string">understands the languages of its creator but can't speak</languages>
+        <cr type="string">5</cr>
+        <xp type="number">1800</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Immutable Form</name>
+            <desc type="string">The spellskite is immune to any spell or effect that would alter its form.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Magic Resistance</name>
+            <desc type="string">The spellskite has advantage on saving throws against spells and other magical effects.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Magic Ward</name>
+            <desc type="string">The spellskite has resistance to damage from spells.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Redirect Spells</name>
+            <desc type="string">Whenever a spell is cast within 120 feet of the spellskite that targets only one creature and doesn't have a range of self or touch, the spellskite magically redirects the spell and becomes the target. If the spell could not normally affect the spellskite, the spell fails. The creator of the spellskite can designate creatures that won't be affected by this trait.</desc>
+          </id-00004>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Bite</name>
+            <desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 10 (2d8 + 1) piercing damage.</desc>
+          </id-00001>
+        </actions>
+      </spellskite>
+      <silverpawdog>
+        <locked type="number">1</locked>
+        <name type="string">Silverpaw Dog</name>
+        <type type="string">fey</type>
+        <size type="string">Medium</size>
+        <ac type="number">14</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">32</hp>
+        <hd type="string">(2d8 + 10)</hd>
+        <speed type="string">50 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">17</score>
+            <modifier type="string">+3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">6</score>
+            <modifier type="string">-2</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+        </abilities>
+        <savingthrows type="string">Dex +5</savingthrows>
+        <skills type="string">Acrobatics +S, Athletics +S, Perception +3</skills>
+        <senses type="string">passive Perception 13</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">understands Sylvan but can't speak</languages>
+        <cr type="string">1</cr>
+        <xp type="number">200</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Keen Hearing and Smell</name>
+            <desc type="string">The dog has advantage on Wisdom (Perception) checks that rely on hearing or smell.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Evasion</name>
+            <desc type="string">When the dog is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Bite</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 8 (2d4 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</desc>
+          </id-00001>
+        </actions>
+      </silverpawdog>
+      <dreameater>
+        <locked type="number">1</locked>
+        <name type="string">Dream Eater</name>
+        <type type="string">aberration</type>
+        <size type="string">Large</size>
+        <ac type="number">17</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">133</hp>
+        <hd type="string">(14d10 + 56)</hd>
+        <speed type="string">0 ft., fly 40 ft,</speed>
+        <abilities>
+          <strength>
+            <score type="number">21</score>
+            <modifier type="string">+5</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">19</score>
+            <modifier type="string">+4</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">13</score>
+            <modifier type="string">+1</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">17</score>
+            <modifier type="string">+3</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Dex +9, Wis +7, Cha +8</savingthrows>
+        <skills type="string">Perception +7</skills>
+        <damageimmunities type="string">poison, psychic</damageimmunities>
+        <conditionimmunities type="string">charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained</conditionimmunities>
+        <senses type="string">truesight 120 ft., passive Perception 17</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">all, telepathy 120 ft.</languages>
+        <cr type="string">10</cr>
+        <xp type="number">5900</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Legendary Resistance (2/Day)</name>
+            <desc type="string">If the dream eater fails a saving throw, it can choose to succeed instead.</desc>
+          </id-00001>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The dream eater makes two claw attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Claw</name>
+            <desc type="string">Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (3d8) psychic damage, and the target must succeed on a DC 14 Constitution saving throw or gain one level of exhaustion.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Terrorize (Recharge 5-6)</name>
+            <desc type="string">The dream eater emits nightmarish visions. Each creature within 10 feet of the dream eater must succeed on a DC 14 Wisdom saving throw or become paralyzed untii the end of the dream eater's next turn.</desc>
+          </id-00003>
+        </actions>
+        <legendaryactions>
+          <id-00001>
+            <name type="string">Terrorize (Recharge 5-6)</name>
+            <desc type="string"> The dream eater can take 2 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dream</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">eater regains spent legendary actions at the start of its turn</name>
+            <desc type="string"/>
+          </id-00002>
+          <id-00003>
+            <name type="string">Dream Walk</name>
+            <desc type="string">The dream eater magically teleports up to 40 feet to an unoccupied space it can see.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Deep Slumber (Costs 2 Actions)</name>
+            <desc type="string">The dream eater targets one creature that it can see within 60 feet of it. The target must succeed on a DC 14 Wisdom saving throw or fall unconscious for 8 hours. The target wakes up if it takes damage or if another creature takes an action to shake it awake.</desc>
+          </id-00004>
+        </legendaryactions>
+      </dreameater>
     </category>
   </npc>
   <lists>
@@ -2094,6 +2298,26 @@
                 </link>
                 <source type="string"/>
               </spirit>
+              <spellskite>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.spellskite@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </spellskite>
+              <silverpawdog>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.silverpawdog@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </silverpawdog>
             </index>
           </typeletters>
           <typeletterf>
@@ -2281,6 +2505,21 @@
               </rathermit>
             </index>
           </typeletterr>
+          <typeletterd>
+            <description type="string">D</description>
+            <index>
+              <dreameater>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.dreameater@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </dreameater>
+            </index>
+          </typeletterd>
         </groups>
       </byletter>
     </npc>
@@ -4220,6 +4459,210 @@
           </id-00003>
         </actions>
       </spirit>
+      <spellskite>
+        <locked type="number">1</locked>
+        <name type="string">Spellskite</name>
+        <type type="string">construct</type>
+        <size type="string">Large</size>
+        <ac type="number">14</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">102</hp>
+        <hd type="string">(12d10 + 36)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">5</score>
+            <modifier type="string">-2</modifier>
+          </intelligence>
+          <charisma>
+            <score type="number">1</score>
+            <modifier type="string">-4</modifier>
+          </charisma>
+        </abilities>
+        <damageimmunities type="string">poison, psychic</damageimmunities>
+        <conditionimmunities type="string">charmed, exhaustion, frightened, paralyzed, petrified, poisoned</conditionimmunities>
+        <senses type="string">darkvision 60 ft., passive Perception 9</senses>
+        <alignment type="string">unaligned</alignment>
+        <languages type="string">understands the languages of its creator but can't speak</languages>
+        <cr type="string">5</cr>
+        <xp type="number">1800</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Immutable Form</name>
+            <desc type="string">The spellskite is immune to any spell or effect that would alter its form.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Magic Resistance</name>
+            <desc type="string">The spellskite has advantage on saving throws against spells and other magical effects.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Magic Ward</name>
+            <desc type="string">The spellskite has resistance to damage from spells.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Redirect Spells</name>
+            <desc type="string">Whenever a spell is cast within 120 feet of the spellskite that targets only one creature and doesn't have a range of self or touch, the spellskite magically redirects the spell and becomes the target. If the spell could not normally affect the spellskite, the spell fails. The creator of the spellskite can designate creatures that won't be affected by this trait.</desc>
+          </id-00004>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Bite</name>
+            <desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 10 (2d8 + 1) piercing damage.</desc>
+          </id-00001>
+        </actions>
+      </spellskite>
+      <silverpawdog>
+        <locked type="number">1</locked>
+        <name type="string">Silverpaw Dog</name>
+        <type type="string">fey</type>
+        <size type="string">Medium</size>
+        <ac type="number">14</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">32</hp>
+        <hd type="string">(2d8 + 10)</hd>
+        <speed type="string">50 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">17</score>
+            <modifier type="string">+3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">6</score>
+            <modifier type="string">-2</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+        </abilities>
+        <savingthrows type="string">Dex +5</savingthrows>
+        <skills type="string">Acrobatics +S, Athletics +S, Perception +3</skills>
+        <senses type="string">passive Perception 13</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">understands Sylvan but can't speak</languages>
+        <cr type="string">1</cr>
+        <xp type="number">200</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Keen Hearing and Smell</name>
+            <desc type="string">The dog has advantage on Wisdom (Perception) checks that rely on hearing or smell.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Evasion</name>
+            <desc type="string">When the dog is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Bite</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 8 (2d4 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</desc>
+          </id-00001>
+        </actions>
+      </silverpawdog>
+      <dreameater>
+        <locked type="number">1</locked>
+        <name type="string">Dream Eater</name>
+        <type type="string">aberration</type>
+        <size type="string">Large</size>
+        <ac type="number">17</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">133</hp>
+        <hd type="string">(14d10 + 56)</hd>
+        <speed type="string">0 ft., fly 40 ft,</speed>
+        <abilities>
+          <strength>
+            <score type="number">21</score>
+            <modifier type="string">+5</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">19</score>
+            <modifier type="string">+4</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">13</score>
+            <modifier type="string">+1</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">17</score>
+            <modifier type="string">+3</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Dex +9, Wis +7, Cha +8</savingthrows>
+        <skills type="string">Perception +7</skills>
+        <damageimmunities type="string">poison, psychic</damageimmunities>
+        <conditionimmunities type="string">charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained</conditionimmunities>
+        <senses type="string">truesight 120 ft., passive Perception 17</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">all, telepathy 120 ft.</languages>
+        <cr type="string">10</cr>
+        <xp type="number">5900</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Legendary Resistance (2/Day)</name>
+            <desc type="string">If the dream eater fails a saving throw, it can choose to succeed instead.</desc>
+          </id-00001>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The dream eater makes two claw attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Claw</name>
+            <desc type="string">Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (3d8) psychic damage, and the target must succeed on a DC 14 Constitution saving throw or gain one level of exhaustion.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Terrorize (Recharge 5-6)</name>
+            <desc type="string">The dream eater emits nightmarish visions. Each creature within 10 feet of the dream eater must succeed on a DC 14 Wisdom saving throw or become paralyzed untii the end of the dream eater's next turn.</desc>
+          </id-00003>
+        </actions>
+        <legendaryactions>
+          <id-00001>
+            <name type="string">Terrorize (Recharge 5-6)</name>
+            <desc type="string"> The dream eater can take 2 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dream</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">eater regains spent legendary actions at the start of its turn</name>
+            <desc type="string"/>
+          </id-00002>
+          <id-00003>
+            <name type="string">Dream Walk</name>
+            <desc type="string">The dream eater magically teleports up to 40 feet to an unoccupied space it can see.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Deep Slumber (Costs 2 Actions)</name>
+            <desc type="string">The dream eater targets one creature that it can see within 60 feet of it. The target must succeed on a DC 14 Wisdom saving throw or fall unconscious for 8 hours. The target wakes up if it takes damage or if another creature takes an action to shake it awake.</desc>
+          </id-00004>
+        </legendaryactions>
+      </dreameater>
     </npcdata>
     <npclists>
       <npcs>
@@ -4404,6 +4847,26 @@
                 </link>
                 <source type="number"/>
               </spirit>
+              <spellskite>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.spellskite@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </spellskite>
+              <silverpawdog>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.silverpawdog@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </silverpawdog>
             </index>
           </typeletterS>
           <typeletterF>
@@ -4591,6 +5054,21 @@
               </rathermit>
             </index>
           </typeletterR>
+          <typeletterD>
+            <description type="string">D</description>
+            <index>
+              <dreameater>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.dreameater@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </dreameater>
+            </index>
+          </typeletterD>
         </groups>
       </byletter>
       <bylevel>
@@ -4754,6 +5232,16 @@
                 </link>
                 <source type="number"/>
               </gravetitan>
+              <dreameater>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.dreameater@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </dreameater>
             </index>
           </level10>
           <level1_2>
@@ -4874,6 +5362,16 @@
                 </link>
                 <source type="number"/>
               </koboldbully>
+              <silverpawdog>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.silverpawdog@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </silverpawdog>
             </index>
           </level01>
           <level12>
@@ -4939,6 +5437,16 @@
                 </link>
                 <source type="number"/>
               </myrbattlesphere>
+              <spellskite>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.spellskite@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </spellskite>
             </index>
           </level05>
           <level13>
@@ -5074,6 +5582,16 @@
                 </link>
                 <source>construct</source>
               </clockworkdragon>
+              <spellskite>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.spellskite@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>construct</source>
+              </spellskite>
             </index>
           </typeconstruct>
           <typecelestial>
@@ -5289,6 +5807,16 @@
                 </link>
                 <source>aberration</source>
               </morphlit>
+              <dreameater>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.dreameater@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>aberration</source>
+              </dreameater>
             </index>
           </typeaberration>
           <typeconstruct_myr_>
@@ -5321,6 +5849,21 @@
               </selachian>
             </index>
           </typehumanoid_se_achian_>
+          <typefey>
+            <description type="string">Fey</description>
+            <index>
+              <silverpawdog>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.silverpawdog@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>fey</source>
+              </silverpawdog>
+            </index>
+          </typefey>
         </groups>
       </bytype>
     </npclists>
