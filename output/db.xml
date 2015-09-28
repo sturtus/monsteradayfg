@@ -63,6 +63,70 @@
           </id-00001>
         </actions>
       </koboldshaman>
+      <arcanamite>
+        <locked type="number">1</locked>
+        <name type="string">Arcanamite</name>
+        <type type="string">monstrosity</type>
+        <size type="string">Small</size>
+        <ac type="number">15</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">27</hp>
+        <hd type="string">(5d6 + 10)</hd>
+        <speed type="string">30 ft., climb 30 ft</speed>
+        <abilities>
+          <strength>
+            <score type="number">7</score>
+            <modifier type="string">-1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">2</score>
+            <modifier type="string">-4</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">6</score>
+            <modifier type="string">-2</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Perception +3, Stealth +4</skills>
+        <damagevulnerabilities type="string">bludgeoning</damagevulnerabilities>
+        <senses type="string">darkvision 60 ft., passive Perception 13</senses>
+        <alignment type="string">unaligned</alignment>
+        <languages type="string">-</languages>
+        <cr type="string">1</cr>
+        <xp type="number">200</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Magic Scent</name>
+            <desc type="string">The arcanamite can pinpoint, by scent, the location of a creature that can cast spells within 60 feet of it.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Reflective Carapace</name>
+            <desc type="string">Any time the arcanamite is targeted by a magic missile spell, a line spell, or a spell that requires a ranged attack roll, roll a d6. On a 1 to 5, the arcanamite is unaffected. On a 6, the arcanamite is unaffected, and the effect is reflected back at the caster as though it originated from the arcanamite, turning the caster into the target.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Bite</name>
+            <desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:4 (1d4 + 2) piercing damage, and the arcanamite can attach itself to the target. The arcanamite can be removed if a creature takes an action and succeeds on a DC 15 Strength check against it. The arcanamite detaches if it takes fire damage. Until the arcanamite detaches, it can't bite another target.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Leech Magic</name>
+            <desc type="string">If the arcanamite is attached to a creature with spell slots, roll a d4. The target loses a spell slot of that level, or the next highest level if it has no spell slots of that level. If the arcanamite has leeched a number of spell slots with a combined level of 8 or more, it detaches from the creature.</desc>
+          </id-00002>
+        </actions>
+      </arcanamite>
       <armorsliver>
         <locked type="number">1</locked>
         <name type="string">Armor Sliver</name>
@@ -126,6 +190,124 @@
           </id-00002>
         </actions>
       </armorsliver>
+      <mightsliver>
+        <locked type="number">1</locked>
+        <name type="string">Might Sliver</name>
+        <type type="string">monstrosity (sliver)</type>
+        <size type="string">Large</size>
+        <ac type="number">12</ac>
+        <actext type="string"/>
+        <hp type="number">37</hp>
+        <hd type="string">(5d10 + 10)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Perception +3</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 13</senses>
+        <alignment type="string">neutral evil</alignment>
+        <languages type="string">Sliver (see Hive Mind)</languages>
+        <cr type="string">2</cr>
+        <xp type="number">450</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Hive Mind</name>
+            <desc type="string">All slivers within 100 miles of their queen are in constant communication via a telepathic bond.If one sliver is aware of a threat, they all are.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Might of the Hive</name>
+            <desc type="string">All slivers within 120 feet of the might sliver have advantage on Strength checks. Additionally, whenever a sliver in that area rolls a 1 or 2 on a damage die for an attack it makes with a melee weapon, it can reroll the die and must use the new roll.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The sliver makes two claw attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Claw</name>
+            <desc type="string">Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d8+5) slashing damage.</desc>
+          </id-00002>
+        </actions>
+      </mightsliver>
+      <baneling>
+        <locked type="number">1</locked>
+        <name type="string">Baneling</name>
+        <type type="string">fiend (demon)</type>
+        <size type="string">Small</size>
+        <ac type="number">12</ac>
+        <actext type="string"/>
+        <hp type="number">7</hp>
+        <hd type="string">(2d6)</hd>
+        <speed type="string">40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">6</score>
+            <modifier type="string">-2</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">7</score>
+            <modifier type="string">-1</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">3</score>
+            <modifier type="string">-3</modifier>
+          </charisma>
+        </abilities>
+        <damageimmunities type="string">acid</damageimmunities>
+        <senses type="string">darkvision 60 ft., passive Perception 10</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">understands Abyssal but can't speak</languages>
+        <cr type="string">1/2</cr>
+        <xp type="number">100</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Death Burst</name>
+            <desc type="string">The baneling explodes when it drops to 0 hit points. Each creature within 10 feet of it must make a DC 12 Dexterity saving throw, taking 7 (2d6) acid damage on a failed save, or half as much damage on a successful one.</desc>
+          </id-00001>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Bite</name>
+            <desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 2 (1d4) acid damage.</desc>
+          </id-00001>
+        </actions>
+      </baneling>
       <bonegolem>
         <locked type="number">1</locked>
         <name type="string">Bone Golem</name>
@@ -658,6 +840,69 @@
           </id-00004>
         </legendaryactions>
       </fusionelemental>
+      <gazellean>
+        <locked type="number">1</locked>
+        <name type="string">Gazellean</name>
+        <type type="string">humanoid (gazellean)</type>
+        <size type="string">Medium</size>
+        <ac type="number">14</ac>
+        <actext type="string">(padded armor)</actext>
+        <hp type="number">16</hp>
+        <hd type="string">(3d8 + 3)</hd>
+        <speed type="string">40 ft.,</speed>
+        <abilities>
+          <strength>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Perception +3, Stealth +5</skills>
+        <senses type="string">passive Perception 13</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">Common, Gazellean</languages>
+        <cr type="string">1/2</cr>
+        <xp type="number">100</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Sprinter</name>
+            <desc type="string">The gazellean can take the Dash or Disengage action as a bonus action on each of its turns.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Alert</name>
+            <desc type="string">The gazellean has advantage on Dexterity checks for initiative. Additionally, the gazellean can't be surprised, and other creatures don't gain advantage on attack rolls against it as a result of being hidden from it.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The gazellean makes two melee attacks or two ranged attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Javelin</name>
+            <desc type="string">Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</desc>
+          </id-00002>
+        </actions>
+      </gazellean>
       <gnolldeathknight>
         <locked type="number">1</locked>
         <name type="string">Gnoll Deathknight</name>
@@ -1021,6 +1266,59 @@
           </id-00003>
         </actions>
       </leonin>
+      <luckdragon>
+        <locked type="number">1</locked>
+        <name type="string">Luck Dragon</name>
+        <type type="string">dragon</type>
+        <size type="string">Tiny</size>
+        <ac type="number">12</ac>
+        <actext type="string"/>
+        <hp type="number">7</hp>
+        <hd type="string">(2d4 + 2)</hd>
+        <speed type="string">15 ft., fly 60 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">6</score>
+            <modifier type="string">-2</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </constitution>
+        </abilities>
+        <skills type="string">Perception +3, Persuasion +5</skills>
+        <damageresistances type="string">bludgeoning, piercing, and slashing from nonmagical weapons</damageresistances>
+        <senses type="string">darkvision 60 ft., passive Perception 13</senses>
+        <alignment type="string">unaligned</alignment>
+        <languages type="string">understands Common and Draconic but can't speak</languages>
+        <cr type="string">1/4</cr>
+        <xp type="number">50</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Dragon Luck (1/Day)</name>
+            <desc type="string">When t he luck dragon makes an attack roll, an ability check, or a saving throw, it can gain advantage on the roll.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Limited Telepathy</name>
+            <desc type="string">The luck dragon can magically communicate simple ideas, emotions, and images telepathically with any creature within 100 feet of it that can understand a language.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Bite</name>
+            <desc type="string">Me/ee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</desc>
+          </id-00001>
+        </actions>
+        <text type="formattedtext">
+          <p>VARIANT: LUCK DRAGON FAMILIAR</p>
+          <p>Some luck dragons are wi lling to serve spellcasters as a familiar. Such luck dragons have the following trait.</p>
+          <p>Familiar. The luck dragon can serve another creature as a famil iar, forming a magic, telepathic bond with that willing companion. While the two are bonded, the companion can sense what the luck dragon senses as long as they are with in 1 mile of each other. Additionally, wh ile the luck dragon is with in 10 feet of its companion, the companion shares the luck dragon's Dragon Luck feature. At any t ime and for any reason, the luck dragon can end its service as a famil iar, ending the telepathic bond.</p>
+        </text>
+      </luckdragon>
       <koboldbully>
         <locked type="number">1</locked>
         <name type="string">Kobold Bully</name>
@@ -1462,6 +1760,66 @@
           </id-00002>
         </actions>
       </morphlit>
+      <myr>
+        <locked type="number">1</locked>
+        <name type="string">Myr</name>
+        <type type="string">construct (myr)</type>
+        <size type="string">Small</size>
+        <ac type="number">14</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">9</hp>
+        <hd type="string">(2d6 + 2)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">1</score>
+            <modifier type="string">-4</modifier>
+          </charisma>
+        </abilities>
+        <damageimmunities type="string">poison</damageimmunities>
+        <conditionimmunities type="string">charmed, exhaustion, frightened, paralyzed, petrified, poisoned</conditionimmunities>
+        <senses type="string">darkvision 60 ft., passive Perception 10</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">understands the languages of its creator but can't speak</languages>
+        <cr type="string">1/4</cr>
+        <xp type="number">50</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Defense Matrix</name>
+            <desc type="string">Attack rolls against the myr have disadvantage if at least one of the myr's allies is within 5 feet of it and isn't incapacitated.</desc>
+          </id-00001>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Beak</name>
+            <desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) piercing damage.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Electric Arc</name>
+            <desc type="string">Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit: 4 (1d4+2) lightning damage.</desc>
+          </id-00002>
+        </actions>
+      </myr>
       <myrbattlesphere>
         <locked type="number">1</locked>
         <name type="string">Myr Battlesphere</name>
@@ -1526,6 +1884,87 @@
           </id-00002>
         </actions>
       </myrbattlesphere>
+      <pactdevil>
+        <locked type="number">1</locked>
+        <name type="string">Pact Devil</name>
+        <type type="string">fiend (devil)</type>
+        <size type="string">Large</size>
+        <ac type="number">17</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">142</hp>
+        <hd type="string">(15d10 + 60)</hd>
+        <speed type="string">40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Int +6, Wis +6, Cha +8</savingthrows>
+        <skills type="string">Deception +8, Insight +6</skills>
+        <damageresistances type="string">cold, bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered</damageresistances>
+        <damageimmunities type="string">fire, poison</damageimmunities>
+        <conditionimmunities type="string">poisoned</conditionimmunities>
+        <senses type="string">darkvision 120 ft., passive Perception 12</senses>
+        <alignment type="string">lawful evil</alignment>
+        <languages type="string">Infernal, telepathy 120 ft.</languages>
+        <cr type="string">9</cr>
+        <xp type="number">5000</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Overrun (Recharge 5-6)</name>
+            <desc type="string"> Devil's Sight. Magical darkness doesn't impede the devil's darkvision.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Magic Resistance</name>
+            <desc type="string">The devil has advantage on saving throws against spells and other magical effects.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Infernal Pact</name>
+            <desc type="string">The devil can make an infernal pact with a willing creature, granting it special boons in exchange for its soul.</desc>
+          </id-00003>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The devil makes three attacks: two with its claws and one with its horns.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Claw</name>
+            <desc type="string">Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Horns</name>
+            <desc type="string">Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 14 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a successful DC 14 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.</desc>
+          </id-00003>
+        </actions>
+        <text type="formattedtext">
+          <p>INFERNAL PACT</p>
+          <p>A pact devil may convince a creatu re to exchange its soul for powerful infernal boons. Such boons may include but are not limited to: ability score improvements, new feats, or epic boons found in the Dungeon M aster's Guide (page 232). The pact lasts until the devil chooses to dismiss it or the devil dies. A wish spell can also end the pact.</p>
+          <p>If a creature bound by such a pact dies, the devil claims its soul, forcing it into servitude for eternity. The creature can't be brought back to life after its soul has been claimed.</p>
+          <p>Additionally, while bound by the infernal pact, the devil can communicate with the creature telepathically over any distance, even from another plane of existence. Once per month, the devil may charm the creature as if using the geas spell. The creature automatically fails the saving throw to resist the spell, and it can't be ended by any normal magic except for a wish spell, which also ends the pact.</p>
+        </text>
+      </pactdevil>
       <priestofblight>
         <locked type="number">1</locked>
         <name type="string">Priest Of Blight</name>
@@ -1587,6 +2026,66 @@
           </id-00002>
         </actions>
       </priestofblight>
+      <pustuloid>
+        <locked type="number">1</locked>
+        <name type="string">Pustuloid</name>
+        <type type="string">fiend (demon)</type>
+        <size type="string">Small</size>
+        <ac type="number">12</ac>
+        <actext type="string"/>
+        <hp type="number">27</hp>
+        <hd type="string">(5d6 + 10)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">5</score>
+            <modifier type="string">-2</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">9</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">3</score>
+            <modifier type="string">-3</modifier>
+          </charisma>
+        </abilities>
+        <damageimmunities type="string">poison, necrotic</damageimmunities>
+        <conditionimmunities type="string">poisoned</conditionimmunities>
+        <senses type="string">darkvision 60 ft., passive Perception 10</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">Abyssal</languages>
+        <cr type="string">1</cr>
+        <xp type="number">200</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Death Burst</name>
+            <desc type="string">When the pustuloid dies, it explodes in a burst of foul pus. Each creature within 5 feet of it must succeed on a DC 12 Constitution saving throw or become diseased. The diseased creature's skin rapidly develops painful pustules, and the creature has disadvantage on Constitution checks and Constitution saving throws.</desc>
+          </id-00001>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Claws</name>
+            <desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) slashing damage plus 5 (2d4) necrotic damage.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Putrid Breath (Recharge 6)</name>
+            <desc type="string">The pustuloid exhales a 15-foot cone of putrid gas. Each creature in that area must succeed on a DC 12 Dexterity saving throw, taking 10 (3d6) necrotic damage on a failed save, or half as much damage on a successful one.</desc>
+          </id-00002>
+        </actions>
+      </pustuloid>
       <rathermit>
         <locked type="number">1</locked>
         <name type="string">Rat Hermit</name>
@@ -1934,6 +2433,321 @@
           </id-00003>
         </actions>
       </spirit>
+      <truesongdancer>
+        <locked type="number">1</locked>
+        <name type="string">Truesong Dancer</name>
+        <type type="string">humanoid (any race)</type>
+        <size type="string">Medium</size>
+        <ac type="number">14</ac>
+        <actext type="string">(leather)</actext>
+        <hp type="number">44</hp>
+        <hd type="string">(8d8 + 8)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </constitution>
+          <charisma>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Dex +5</savingthrows>
+        <skills type="string">Acrobatics +5, Performance +5</skills>
+        <senses type="string">passive Perception 10</senses>
+        <alignment type="string">chaotic neutral</alignment>
+        <languages type="string">Common</languages>
+        <cr type="string">3</cr>
+        <xp type="number">700</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Nimble Action</name>
+            <desc type="string">On each of its turns, the dancer can use a bonus action to take the Dash or Disengage action.</desc>
+          </id-00001>
+        </traits>
+        <reactions>
+          <id-00001>
+            <name type="string">Parry</name>
+            <desc type="string">The dancer adds 2 to its AC against one melee attack that would hit it. To do so, the dancer must see the attacker and be wielding a melee weapon.</desc>
+          </id-00001>
+        </reactions>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The dancer makes three melee attacks: two with its scimitar and one with its whip.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Scimitar</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Whip</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 5 (1d4 + 3) slashing damage.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Hymn of Battle</name>
+            <desc type="string">As an action, the dancer begins to sing a song that magically boosts its attacks. Whenever the dancer makes an attack roll while singing, it can add a d4 to its roll. The dancer can maintain concentration to continue singing the song. If it loses concentration, the song ends.</desc>
+          </id-00004>
+        </actions>
+      </truesongdancer>
+      <truesongdirge>
+        <locked type="number">1</locked>
+        <name type="string">Truesong Dirge</name>
+        <type type="string">humanoid (any race)</type>
+        <size type="string">Medium</size>
+        <ac type="number">16</ac>
+        <actext type="string">(chain mail)</actext>
+        <hp type="number">91</hp>
+        <hd type="string">(14d8 + 28)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">17</score>
+            <modifier type="string">+3</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Con +5, Cha +6</savingthrows>
+        <skills type="string">Intimidation +6, Performance +6</skills>
+        <senses type="string">passive Perception 11</senses>
+        <alignment type="string">chaotic neutral</alignment>
+        <languages type="string">Common</languages>
+        <cr type="string">5</cr>
+        <xp type="number">1800</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Rhythmic Fighting</name>
+            <desc type="string">The dirge can play songs while wielding a melee weapon in one hand.</desc>
+          </id-00001>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The dirge makes two melee attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Warhammer</name>
+            <desc type="string">Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) bludgeoning damage, or 8 (1d10 + 3) bludgeoning damage if used with two hands to make a melee attack.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Heavy Crossbow</name>
+            <desc type="string">Melee Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit 6 (1d1O+1) piercing damage.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Thunderous Crescendo</name>
+            <desc type="string">As a bonus action, the dirge begins to play a magical song. At the start of each of the dirge's turns, all enemy creatures within 30 feet of the dirge that can hear the song must succeed on a DC 14 Constitution saving throw or take 9 (2d8) thunder damage. Any creature that takes damage in this way loses concentration if it is concentrating. The dirge can maintain concentration to continue playing the song. If it loses concentration, the song ends.</desc>
+          </id-00004>
+        </actions>
+      </truesongdirge>
+      <tuskaloth>
+        <locked type="number">1</locked>
+        <name type="string">Tuskaloth</name>
+        <type type="string">beast</type>
+        <size type="string">Gargantuan</size>
+        <ac type="number">14</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">198</hp>
+        <hd type="string">(12d20 + 72)</hd>
+        <speed type="string">40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">28</score>
+            <modifier type="string">+9</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">22</score>
+            <modifier type="string">+6</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">3</score>
+            <modifier type="string">-3</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">7</score>
+            <modifier type="string">-1</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Con +10</savingthrows>
+        <senses type="string">passive Perception 10</senses>
+        <alignment type="string">unaligned</alignment>
+        <languages type="string">-</languages>
+        <cr type="string">10</cr>
+        <xp type="number">5900</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Siege Beast</name>
+            <desc type="string">The tuskaloth deals double damage to objects and structures.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Trampling Charge</name>
+            <desc type="string">If the tuskaloth moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 18 Strength saving throw or be knocked prone. If the target is prone, the tuskaloth can make one stomp attack against it as a bonus action.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Gore</name>
+            <desc type="string">Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 22 (3d8 + 9) piercing damage.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Stomp</name>
+            <desc type="string">Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 31 (4d10 + 9) piercing damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Earthshake (Recharge 5-6)</name>
+            <desc type="string">The tuskaloth pounds the ground with incredible force, causing a tremor. Each creature on the ground within 30 feet of the tuskaloth must succeed on a DC 18 Dexterity saving throw or be knocked prone. The tremor also deals 50 bludgeoning damage to any structure in contact with the ground in that area. A structure that drops to 0 hit points collapses.</desc>
+          </id-00003>
+        </actions>
+      </tuskaloth>
+      <wingedsliver>
+        <locked type="number">1</locked>
+        <name type="string">Winged Sliver</name>
+        <type type="string">monstrosity (sliver)</type>
+        <size type="string">Large</size>
+        <ac type="number">12</ac>
+        <actext type="string"/>
+        <hp type="number">60</hp>
+        <hd type="string">(8d10 + 16)</hd>
+        <speed type="string">30 ft., fly 60 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+        </abilities>
+        <skills type="string">Perception +3</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 13</senses>
+        <alignment type="string">neutral evil</alignment>
+        <languages type="string">Sliver (see Hive Mind)</languages>
+        <cr type="string">3</cr>
+        <xp type="number">700</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Hive Mind</name>
+            <desc type="string">All slivers within 100 miles of their queen are in constant communication via a telepathic bond. If one sliver is aware of a threat, they all are.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Flight of the Hive</name>
+            <desc type="string">All slivers within 120 feet of the winged sliver have a fly speed of 60 ft. and the Flyby feature.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Flyby</name>
+            <desc type="string">The sliver doesn't provoke opportunity attacks when it flies out of an enemy's reach.</desc>
+          </id-00003>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The sliver makes two claw attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Claw</name>
+            <desc type="string">Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage.</desc>
+          </id-00002>
+        </actions>
+      </wingedsliver>
+      <virulentsliver>
+        <locked type="number">1</locked>
+        <name type="string">Virulent Sliver</name>
+        <type type="string">monstrosity (sliver)</type>
+        <size type="string">Large</size>
+        <ac type="number">12</ac>
+        <actext type="string"/>
+        <hp type="number">52</hp>
+        <hd type="string">(7d10 + 14)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+        </abilities>
+        <skills type="string">Perception +3</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 13</senses>
+        <alignment type="string">neutral evil</alignment>
+        <languages type="string">Sliver (see Hive Mind)</languages>
+        <cr type="string">3</cr>
+        <xp type="number">700</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Hive Mind</name>
+            <desc type="string">All slivers within 100 miles of their queen are in constant communication via a telepathic bond. If one sliver is aware of a threat, they all are.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Virulence of the Hive</name>
+            <desc type="string">All slivers within 120 feet of the virulent sliver have the Poison Claw feature.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Poison Claw</name>
+            <desc type="string">When the sliver hits a creature with a claw attack, the target must succeed on a DC 12 Constitution saving throw or become poisoned. While poisoned in this way, a target takes 5 (1d10) poison damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</desc>
+          </id-00003>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The sliver makes two claw attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Claw</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8+ 3) slashing damage.</desc>
+          </id-00002>
+        </actions>
+      </virulentsliver>
       <spellskite>
         <locked type="number">1</locked>
         <name type="string">Spellskite</name>
@@ -1998,6 +2812,141 @@
           </id-00001>
         </actions>
       </spellskite>
+      <trollboar>
+        <locked type="number">1</locked>
+        <name type="string">Troll Boar</name>
+        <type type="string">monstrosity</type>
+        <size type="string">Large</size>
+        <ac type="number">13</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">57</hp>
+        <hd type="string">(6d10 + 24)</hd>
+        <speed type="string">40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">2</score>
+            <modifier type="string">-4</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">3</score>
+            <modifier type="string">-3</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Perception +2</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 12</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">-</languages>
+        <cr type="string">3</cr>
+        <xp type="number">700</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Keen Smell</name>
+            <desc type="string">The boar has advantage on Wisdom (Perception) checks that rely on smeil.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Charge</name>
+            <desc type="string">If the boar moves at least 20 feet straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 9 (2d8) slashing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Regeneration</name>
+            <desc type="string">The boar regains 10 hit points at the start of its turn. If the boar takes acid or fire damage, this trait doesn't function at the start of the boar's next turn. The boar dies only if it starts its turn with 0 hit points and doesn't regenerate.</desc>
+          </id-00003>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Tusk</name>
+            <desc type="string">Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 +4) slashing damage.</desc>
+          </id-00001>
+        </actions>
+      </trollboar>
+      <groveguardian>
+        <locked type="number">1</locked>
+        <name type="string">Grove Guardian</name>
+        <type type="string">fey</type>
+        <size type="string">Large</size>
+        <ac type="number">15</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">71</hp>
+        <hd type="string">(11d10 + 11)</hd>
+        <speed type="string">50 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">17</score>
+            <modifier type="string">+3</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Dex +6, Wis +7</savingthrows>
+        <skills type="string">Perception +10, Stealth +6</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 20</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">Sylvan</languages>
+        <cr type="string">5</cr>
+        <xp type="number">1800</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Innate Speflcasting</name>
+            <desc type="string">The guardian's innate spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). The guardian can innately cast the following spells, requiring no material components: At will: druidcraft, thorn whip (11th level) 3/day each: spike growth, silence 1/day each: conjure animals, plant growth</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Keen Hearing and Smell</name>
+            <desc type="string">The guardian has advantage on Wisdom (Perception) checks that rely on hearing or smell.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Speak with Beasts and Plants</name>
+            <desc type="string">The guardian can communicate with beasts and plants as if they shared a language.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Tree Stride</name>
+            <desc type="string">Once on its turn, the guardian can use 10 feet of its movement to step magically into one living tree within its reach and emerge from a second living tree within 60 feet of the first tree, appearing in an unoccupied space within 5 feet of the second tree. Both trees must be Large or bigger.</desc>
+          </id-00004>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The guardian makes two bite attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Bite</name>
+            <desc type="string">Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 10 (2d6 + 3) piercing damage.If the target is a  creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</desc>
+          </id-00002>
+        </actions>
+      </groveguardian>
       <silverpawdog>
         <locked type="number">1</locked>
         <name type="string">Silverpaw Dog</name>
@@ -2054,6 +3003,72 @@
           </id-00001>
         </actions>
       </silverpawdog>
+      <silverpawpaladin>
+        <locked type="number">1</locked>
+        <name type="string">Silverpaw Paladin</name>
+        <type type="string">humanoid (halfling)</type>
+        <size type="string">Small</size>
+        <ac type="number">15</ac>
+        <actext type="string">(chain shirt)</actext>
+        <hp type="number">65</hp>
+        <hd type="string">(10d6 + 30)</hd>
+        <speed type="string">25 ft.</speed>
+        <abilities>
+          <constitution>
+            <score type="number">17</score>
+            <modifier type="string">+3</modifier>
+          </constitution>
+          <charisma>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Dex +5, Con +5, Cha +6</savingthrows>
+        <skills type="string">Acrobatics +5, Animal Handling +3, Perception +3</skills>
+        <senses type="string">passive Perception 13</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">Common, Halfling, Sylvan</languages>
+        <cr type="string">4</cr>
+        <xp type="number">1100</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Brave</name>
+            <desc type="string">The paladin has advantage on saving throws against being frightened.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Mounted Combatant</name>
+            <desc type="string">The paladin can force an attack targeted at its mount to target itself instead.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Spellcasting</name>
+            <desc type="string">The paladin is a 5th-level spellcaster. Its spellcasting ability is Charisma (save DC 14). The paladin has the following spells prepared: 1st level (4 slots): ensnaring strike, speak with animals, thunderous smite 2nd level (2 slots): moonbeam, misty step</desc>
+          </id-00003>
+        </traits>
+        <reactions>
+          <id-00001>
+            <name type="string">Parry</name>
+            <desc type="string">The paladin adds 3 to its AC against one melee attack that would hit it. To do so, the paladin must see the attacker and be wielding a melee weapon.</desc>
+          </id-00001>
+        </reactions>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The paladin makes two melee attacks or two ranged attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Shortsword</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) piercing damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Sling</name>
+            <desc type="string">Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. Hit: 5 (1 d4 + 3) bludgeoning damage.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Lay on Hands (1/ Day)</name>
+            <desc type="string">The paladin can touch a creature to restore 25 hit points to that creature. Additionally, the touch cures the target of one disease or neutralizes one poison affecting it.</desc>
+          </id-00004>
+        </actions>
+      </silverpawpaladin>
       <dreameater>
         <locked type="number">1</locked>
         <name type="string">Dream Eater</name>
@@ -2138,6 +3153,157 @@
           </id-00004>
         </legendaryactions>
       </dreameater>
+      <covenhorror>
+        <locked type="number">1</locked>
+        <name type="string">Coven Horror</name>
+        <type type="string">monstrosity</type>
+        <size type="string">Large</size>
+        <ac type="number">15</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">123</hp>
+        <hd type="string">(13d10 + 52)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">17</score>
+            <modifier type="string">+3</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Con +8, Cha +9</savingthrows>
+        <skills type="string">Deception +9, Insight +6, Perception +10</skills>
+        <damageresistances type="string">cold, fire; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered</damageresistances>
+        <conditionimmunities type="string">charmed, frightened</conditionimmunities>
+        <senses type="string">darkvision 120 ft., passive Perception 20</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">Abyssal, Common, Infernal, Primordial</languages>
+        <cr type="string">9</cr>
+        <xp type="number">3900</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Wails of the Unborn</name>
+            <desc type="string">Humanoids within 60 feet of the horror that can hear it have disadvantage on Constitution saving throws to maintain concentration.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Magic Resistance</name>
+            <desc type="string">The horror has advantage on saving throws against spells and other magical effects.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The horror can use its Gaze. It then makes two claw attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Claw</name>
+            <desc type="string">Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit: 14 (2d8 + 5) slashing damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Gaze</name>
+            <desc type="string">The horror makes one gaze at random, choosing one target it can see within 60 feet of it 1.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">1</name>
+            <desc type="string">Gaze of Agony. The target creature must make a DC 15 Charisma saving throw, taking 36 (8d8) psychic damage on a failed save, or half as much damage on a successful one.</desc>
+          </id-00004>
+          <id-00005>
+            <name type="string">2</name>
+            <desc type="string">Gaze of Lethargy. The target creature must succeed on a DC 15 Charisma saving throw. On a failed save, the target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</desc>
+          </id-00005>
+          <id-00006>
+            <name type="string">3</name>
+            <desc type="string">Gaze of Despair. The target creature must succeed on a DC 15 Charisma saving throw. On a failed save, the target becomes overwhelmed with despair for 1 minute, and has disadvantage on attack rolls, saving throws, and ability checks. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</desc>
+          </id-00006>
+        </actions>
+      </covenhorror>
+      <burningskeleton>
+        <locked type="number">1</locked>
+        <name type="string">Burning Skeleton</name>
+        <type type="string">undead</type>
+        <size type="string">Medium</size>
+        <ac type="number">15</ac>
+        <actext type="string">(chain shirt)</actext>
+        <hp type="number">26</hp>
+        <hd type="string">(4d8 + 8)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">6</score>
+            <modifier type="string">-2</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">6</score>
+            <modifier type="string">-2</modifier>
+          </charisma>
+        </abilities>
+        <damagevulnerabilities type="string">bludgeoning, cold</damagevulnerabilities>
+        <damageimmunities type="string">fire, poison</damageimmunities>
+        <conditionimmunities type="string">exhaustion, poisoned</conditionimmunities>
+        <senses type="string">darkvision 60 ft., passive Perception 9</senses>
+        <alignment type="string">lawful evil</alignment>
+        <languages type="string">understands all languages it knew in life but cannot speak</languages>
+        <cr type="string">1</cr>
+        <xp type="number">200</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Heated Body</name>
+            <desc type="string">A creature that touches the skeleton or hits it with a melee attack while within 5 feet of it takes 3 (1d6) fire damage.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Heated Weapons</name>
+            <desc type="string">Any weapon the skeleton wields deals an extra 3 (1d6) fire damage on a hit (included in the attack).</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The skeleton makes two melee attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Shortsword</name>
+            <desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:5 (1d6 + 2) piercing damage plus 3 (1d6) fire damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Shortbow</name>
+            <desc type="string">Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:5 (1d6 + 2) piercing damage plus 3 (1d6) fire damage.</desc>
+          </id-00003>
+        </actions>
+      </burningskeleton>
     </category>
   </npc>
   <lists>
@@ -2193,6 +3359,16 @@
           <typelettera>
             <description type="string">A</description>
             <index>
+              <arcanamite>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.arcanamite@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </arcanamite>
               <armorsliver>
                 <link type="windowreference">
                   <class>npc</class>
@@ -2205,9 +3381,74 @@
               </armorsliver>
             </index>
           </typelettera>
+          <typeletterm>
+            <description type="string">M</description>
+            <index>
+              <mightsliver>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.mightsliver@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </mightsliver>
+              <masterofthefivespires>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.masterofthefivespires@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </masterofthefivespires>
+              <morphlit>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.morphlit@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </morphlit>
+              <myr>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.myr@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </myr>
+              <myrbattlesphere>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.myrbattlesphere@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </myrbattlesphere>
+            </index>
+          </typeletterm>
           <typeletterb>
             <description type="string">B</description>
             <index>
+              <baneling>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.baneling@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </baneling>
               <bonegolem>
                 <link type="windowreference">
                   <class>npc</class>
@@ -2218,6 +3459,16 @@
                 </link>
                 <source type="string"/>
               </bonegolem>
+              <burningskeleton>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.burningskeleton@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </burningskeleton>
             </index>
           </typeletterb>
           <typeletterc>
@@ -2243,6 +3494,16 @@
                 </link>
                 <source type="string"/>
               </crystallinesliver>
+              <covenhorror>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.covenhorror@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </covenhorror>
             </index>
           </typeletterc>
           <typeletters>
@@ -2318,6 +3579,16 @@
                 </link>
                 <source type="string"/>
               </silverpawdog>
+              <silverpawpaladin>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.silverpawpaladin@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </silverpawpaladin>
             </index>
           </typeletters>
           <typeletterf>
@@ -2378,6 +3649,16 @@
           <typeletterg>
             <description type="string">G</description>
             <index>
+              <gazellean>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.gazellean@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </gazellean>
               <gnolldeathknight>
                 <link type="windowreference">
                   <class>npc</class>
@@ -2408,6 +3689,16 @@
                 </link>
                 <source type="string"/>
               </gravetitan>
+              <groveguardian>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.groveguardian@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </groveguardian>
             </index>
           </typeletterg>
           <typeletterh>
@@ -2438,46 +3729,31 @@
                 </link>
                 <source type="string"/>
               </leonin>
+              <luckdragon>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.luckdragon@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </luckdragon>
             </index>
           </typeletterl>
-          <typeletterm>
-            <description type="string">M</description>
-            <index>
-              <masterofthefivespires>
-                <link type="windowreference">
-                  <class>npc</class>
-                  <recordname>npc.masterofthefivespires@Monster a Day</recordname>
-                  <description>
-                    <field>name</field>
-                  </description>
-                </link>
-                <source type="string"/>
-              </masterofthefivespires>
-              <morphlit>
-                <link type="windowreference">
-                  <class>npc</class>
-                  <recordname>npc.morphlit@Monster a Day</recordname>
-                  <description>
-                    <field>name</field>
-                  </description>
-                </link>
-                <source type="string"/>
-              </morphlit>
-              <myrbattlesphere>
-                <link type="windowreference">
-                  <class>npc</class>
-                  <recordname>npc.myrbattlesphere@Monster a Day</recordname>
-                  <description>
-                    <field>name</field>
-                  </description>
-                </link>
-                <source type="string"/>
-              </myrbattlesphere>
-            </index>
-          </typeletterm>
           <typeletterp>
             <description type="string">P</description>
             <index>
+              <pactdevil>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.pactdevil@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </pactdevil>
               <priestofblight>
                 <link type="windowreference">
                   <class>npc</class>
@@ -2488,6 +3764,16 @@
                 </link>
                 <source type="string"/>
               </priestofblight>
+              <pustuloid>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.pustuloid@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </pustuloid>
             </index>
           </typeletterp>
           <typeletterr>
@@ -2505,6 +3791,81 @@
               </rathermit>
             </index>
           </typeletterr>
+          <typelettert>
+            <description type="string">T</description>
+            <index>
+              <truesongdancer>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.truesongdancer@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </truesongdancer>
+              <truesongdirge>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.truesongdirge@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </truesongdirge>
+              <tuskaloth>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.tuskaloth@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </tuskaloth>
+              <trollboar>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.trollboar@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </trollboar>
+            </index>
+          </typelettert>
+          <typeletterw>
+            <description type="string">W</description>
+            <index>
+              <wingedsliver>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.wingedsliver@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </wingedsliver>
+            </index>
+          </typeletterw>
+          <typeletterv>
+            <description type="string">V</description>
+            <index>
+              <virulentsliver>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.virulentsliver@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </virulentsliver>
+            </index>
+          </typeletterv>
           <typeletterd>
             <description type="string">D</description>
             <index>
@@ -2588,6 +3949,70 @@
           </id-00001>
         </actions>
       </koboldshaman>
+      <arcanamite>
+        <locked type="number">1</locked>
+        <name type="string">Arcanamite</name>
+        <type type="string">monstrosity</type>
+        <size type="string">Small</size>
+        <ac type="number">15</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">27</hp>
+        <hd type="string">(5d6 + 10)</hd>
+        <speed type="string">30 ft., climb 30 ft</speed>
+        <abilities>
+          <strength>
+            <score type="number">7</score>
+            <modifier type="string">-1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">2</score>
+            <modifier type="string">-4</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">6</score>
+            <modifier type="string">-2</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Perception +3, Stealth +4</skills>
+        <damagevulnerabilities type="string">bludgeoning</damagevulnerabilities>
+        <senses type="string">darkvision 60 ft., passive Perception 13</senses>
+        <alignment type="string">unaligned</alignment>
+        <languages type="string">-</languages>
+        <cr type="string">1</cr>
+        <xp type="number">200</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Magic Scent</name>
+            <desc type="string">The arcanamite can pinpoint, by scent, the location of a creature that can cast spells within 60 feet of it.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Reflective Carapace</name>
+            <desc type="string">Any time the arcanamite is targeted by a magic missile spell, a line spell, or a spell that requires a ranged attack roll, roll a d6. On a 1 to 5, the arcanamite is unaffected. On a 6, the arcanamite is unaffected, and the effect is reflected back at the caster as though it originated from the arcanamite, turning the caster into the target.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Bite</name>
+            <desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:4 (1d4 + 2) piercing damage, and the arcanamite can attach itself to the target. The arcanamite can be removed if a creature takes an action and succeeds on a DC 15 Strength check against it. The arcanamite detaches if it takes fire damage. Until the arcanamite detaches, it can't bite another target.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Leech Magic</name>
+            <desc type="string">If the arcanamite is attached to a creature with spell slots, roll a d4. The target loses a spell slot of that level, or the next highest level if it has no spell slots of that level. If the arcanamite has leeched a number of spell slots with a combined level of 8 or more, it detaches from the creature.</desc>
+          </id-00002>
+        </actions>
+      </arcanamite>
       <armorsliver>
         <locked type="number">1</locked>
         <name type="string">Armor Sliver</name>
@@ -2651,6 +4076,124 @@
           </id-00002>
         </actions>
       </armorsliver>
+      <mightsliver>
+        <locked type="number">1</locked>
+        <name type="string">Might Sliver</name>
+        <type type="string">monstrosity (sliver)</type>
+        <size type="string">Large</size>
+        <ac type="number">12</ac>
+        <actext type="string"/>
+        <hp type="number">37</hp>
+        <hd type="string">(5d10 + 10)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Perception +3</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 13</senses>
+        <alignment type="string">neutral evil</alignment>
+        <languages type="string">Sliver (see Hive Mind)</languages>
+        <cr type="string">2</cr>
+        <xp type="number">450</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Hive Mind</name>
+            <desc type="string">All slivers within 100 miles of their queen are in constant communication via a telepathic bond.If one sliver is aware of a threat, they all are.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Might of the Hive</name>
+            <desc type="string">All slivers within 120 feet of the might sliver have advantage on Strength checks. Additionally, whenever a sliver in that area rolls a 1 or 2 on a damage die for an attack it makes with a melee weapon, it can reroll the die and must use the new roll.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The sliver makes two claw attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Claw</name>
+            <desc type="string">Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d8+5) slashing damage.</desc>
+          </id-00002>
+        </actions>
+      </mightsliver>
+      <baneling>
+        <locked type="number">1</locked>
+        <name type="string">Baneling</name>
+        <type type="string">fiend (demon)</type>
+        <size type="string">Small</size>
+        <ac type="number">12</ac>
+        <actext type="string"/>
+        <hp type="number">7</hp>
+        <hd type="string">(2d6)</hd>
+        <speed type="string">40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">6</score>
+            <modifier type="string">-2</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">7</score>
+            <modifier type="string">-1</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">3</score>
+            <modifier type="string">-3</modifier>
+          </charisma>
+        </abilities>
+        <damageimmunities type="string">acid</damageimmunities>
+        <senses type="string">darkvision 60 ft., passive Perception 10</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">understands Abyssal but can't speak</languages>
+        <cr type="string">1/2</cr>
+        <xp type="number">100</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Death Burst</name>
+            <desc type="string">The baneling explodes when it drops to 0 hit points. Each creature within 10 feet of it must make a DC 12 Dexterity saving throw, taking 7 (2d6) acid damage on a failed save, or half as much damage on a successful one.</desc>
+          </id-00001>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Bite</name>
+            <desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 2 (1d4) acid damage.</desc>
+          </id-00001>
+        </actions>
+      </baneling>
       <bonegolem>
         <locked type="number">1</locked>
         <name type="string">Bone Golem</name>
@@ -3183,6 +4726,69 @@
           </id-00004>
         </legendaryactions>
       </fusionelemental>
+      <gazellean>
+        <locked type="number">1</locked>
+        <name type="string">Gazellean</name>
+        <type type="string">humanoid (gazellean)</type>
+        <size type="string">Medium</size>
+        <ac type="number">14</ac>
+        <actext type="string">(padded armor)</actext>
+        <hp type="number">16</hp>
+        <hd type="string">(3d8 + 3)</hd>
+        <speed type="string">40 ft.,</speed>
+        <abilities>
+          <strength>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Perception +3, Stealth +5</skills>
+        <senses type="string">passive Perception 13</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">Common, Gazellean</languages>
+        <cr type="string">1/2</cr>
+        <xp type="number">100</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Sprinter</name>
+            <desc type="string">The gazellean can take the Dash or Disengage action as a bonus action on each of its turns.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Alert</name>
+            <desc type="string">The gazellean has advantage on Dexterity checks for initiative. Additionally, the gazellean can't be surprised, and other creatures don't gain advantage on attack rolls against it as a result of being hidden from it.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The gazellean makes two melee attacks or two ranged attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Javelin</name>
+            <desc type="string">Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</desc>
+          </id-00002>
+        </actions>
+      </gazellean>
       <gnolldeathknight>
         <locked type="number">1</locked>
         <name type="string">Gnoll Deathknight</name>
@@ -3546,6 +5152,59 @@
           </id-00003>
         </actions>
       </leonin>
+      <luckdragon>
+        <locked type="number">1</locked>
+        <name type="string">Luck Dragon</name>
+        <type type="string">dragon</type>
+        <size type="string">Tiny</size>
+        <ac type="number">12</ac>
+        <actext type="string"/>
+        <hp type="number">7</hp>
+        <hd type="string">(2d4 + 2)</hd>
+        <speed type="string">15 ft., fly 60 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">6</score>
+            <modifier type="string">-2</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </constitution>
+        </abilities>
+        <skills type="string">Perception +3, Persuasion +5</skills>
+        <damageresistances type="string">bludgeoning, piercing, and slashing from nonmagical weapons</damageresistances>
+        <senses type="string">darkvision 60 ft., passive Perception 13</senses>
+        <alignment type="string">unaligned</alignment>
+        <languages type="string">understands Common and Draconic but can't speak</languages>
+        <cr type="string">1/4</cr>
+        <xp type="number">50</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Dragon Luck (1/Day)</name>
+            <desc type="string">When t he luck dragon makes an attack roll, an ability check, or a saving throw, it can gain advantage on the roll.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Limited Telepathy</name>
+            <desc type="string">The luck dragon can magically communicate simple ideas, emotions, and images telepathically with any creature within 100 feet of it that can understand a language.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Bite</name>
+            <desc type="string">Me/ee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</desc>
+          </id-00001>
+        </actions>
+        <text type="formattedtext">
+          <p>VARIANT: LUCK DRAGON FAMILIAR</p>
+          <p>Some luck dragons are wi lling to serve spellcasters as a familiar. Such luck dragons have the following trait.</p>
+          <p>Familiar. The luck dragon can serve another creature as a famil iar, forming a magic, telepathic bond with that willing companion. While the two are bonded, the companion can sense what the luck dragon senses as long as they are with in 1 mile of each other. Additionally, wh ile the luck dragon is with in 10 feet of its companion, the companion shares the luck dragon's Dragon Luck feature. At any t ime and for any reason, the luck dragon can end its service as a famil iar, ending the telepathic bond.</p>
+        </text>
+      </luckdragon>
       <koboldbully>
         <locked type="number">1</locked>
         <name type="string">Kobold Bully</name>
@@ -3987,6 +5646,66 @@
           </id-00002>
         </actions>
       </morphlit>
+      <myr>
+        <locked type="number">1</locked>
+        <name type="string">Myr</name>
+        <type type="string">construct (myr)</type>
+        <size type="string">Small</size>
+        <ac type="number">14</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">9</hp>
+        <hd type="string">(2d6 + 2)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">1</score>
+            <modifier type="string">-4</modifier>
+          </charisma>
+        </abilities>
+        <damageimmunities type="string">poison</damageimmunities>
+        <conditionimmunities type="string">charmed, exhaustion, frightened, paralyzed, petrified, poisoned</conditionimmunities>
+        <senses type="string">darkvision 60 ft., passive Perception 10</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">understands the languages of its creator but can't speak</languages>
+        <cr type="string">1/4</cr>
+        <xp type="number">50</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Defense Matrix</name>
+            <desc type="string">Attack rolls against the myr have disadvantage if at least one of the myr's allies is within 5 feet of it and isn't incapacitated.</desc>
+          </id-00001>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Beak</name>
+            <desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) piercing damage.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Electric Arc</name>
+            <desc type="string">Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit: 4 (1d4+2) lightning damage.</desc>
+          </id-00002>
+        </actions>
+      </myr>
       <myrbattlesphere>
         <locked type="number">1</locked>
         <name type="string">Myr Battlesphere</name>
@@ -4051,6 +5770,87 @@
           </id-00002>
         </actions>
       </myrbattlesphere>
+      <pactdevil>
+        <locked type="number">1</locked>
+        <name type="string">Pact Devil</name>
+        <type type="string">fiend (devil)</type>
+        <size type="string">Large</size>
+        <ac type="number">17</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">142</hp>
+        <hd type="string">(15d10 + 60)</hd>
+        <speed type="string">40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Int +6, Wis +6, Cha +8</savingthrows>
+        <skills type="string">Deception +8, Insight +6</skills>
+        <damageresistances type="string">cold, bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered</damageresistances>
+        <damageimmunities type="string">fire, poison</damageimmunities>
+        <conditionimmunities type="string">poisoned</conditionimmunities>
+        <senses type="string">darkvision 120 ft., passive Perception 12</senses>
+        <alignment type="string">lawful evil</alignment>
+        <languages type="string">Infernal, telepathy 120 ft.</languages>
+        <cr type="string">9</cr>
+        <xp type="number">5000</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Overrun (Recharge 5-6)</name>
+            <desc type="string"> Devil's Sight. Magical darkness doesn't impede the devil's darkvision.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Magic Resistance</name>
+            <desc type="string">The devil has advantage on saving throws against spells and other magical effects.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Infernal Pact</name>
+            <desc type="string">The devil can make an infernal pact with a willing creature, granting it special boons in exchange for its soul.</desc>
+          </id-00003>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The devil makes three attacks: two with its claws and one with its horns.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Claw</name>
+            <desc type="string">Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Horns</name>
+            <desc type="string">Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 14 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a successful DC 14 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.</desc>
+          </id-00003>
+        </actions>
+        <text type="formattedtext">
+          <p>INFERNAL PACT</p>
+          <p>A pact devil may convince a creatu re to exchange its soul for powerful infernal boons. Such boons may include but are not limited to: ability score improvements, new feats, or epic boons found in the Dungeon M aster's Guide (page 232). The pact lasts until the devil chooses to dismiss it or the devil dies. A wish spell can also end the pact.</p>
+          <p>If a creature bound by such a pact dies, the devil claims its soul, forcing it into servitude for eternity. The creature can't be brought back to life after its soul has been claimed.</p>
+          <p>Additionally, while bound by the infernal pact, the devil can communicate with the creature telepathically over any distance, even from another plane of existence. Once per month, the devil may charm the creature as if using the geas spell. The creature automatically fails the saving throw to resist the spell, and it can't be ended by any normal magic except for a wish spell, which also ends the pact.</p>
+        </text>
+      </pactdevil>
       <priestofblight>
         <locked type="number">1</locked>
         <name type="string">Priest Of Blight</name>
@@ -4112,6 +5912,66 @@
           </id-00002>
         </actions>
       </priestofblight>
+      <pustuloid>
+        <locked type="number">1</locked>
+        <name type="string">Pustuloid</name>
+        <type type="string">fiend (demon)</type>
+        <size type="string">Small</size>
+        <ac type="number">12</ac>
+        <actext type="string"/>
+        <hp type="number">27</hp>
+        <hd type="string">(5d6 + 10)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">5</score>
+            <modifier type="string">-2</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">9</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">3</score>
+            <modifier type="string">-3</modifier>
+          </charisma>
+        </abilities>
+        <damageimmunities type="string">poison, necrotic</damageimmunities>
+        <conditionimmunities type="string">poisoned</conditionimmunities>
+        <senses type="string">darkvision 60 ft., passive Perception 10</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">Abyssal</languages>
+        <cr type="string">1</cr>
+        <xp type="number">200</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Death Burst</name>
+            <desc type="string">When the pustuloid dies, it explodes in a burst of foul pus. Each creature within 5 feet of it must succeed on a DC 12 Constitution saving throw or become diseased. The diseased creature's skin rapidly develops painful pustules, and the creature has disadvantage on Constitution checks and Constitution saving throws.</desc>
+          </id-00001>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Claws</name>
+            <desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) slashing damage plus 5 (2d4) necrotic damage.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Putrid Breath (Recharge 6)</name>
+            <desc type="string">The pustuloid exhales a 15-foot cone of putrid gas. Each creature in that area must succeed on a DC 12 Dexterity saving throw, taking 10 (3d6) necrotic damage on a failed save, or half as much damage on a successful one.</desc>
+          </id-00002>
+        </actions>
+      </pustuloid>
       <rathermit>
         <locked type="number">1</locked>
         <name type="string">Rat Hermit</name>
@@ -4459,6 +6319,321 @@
           </id-00003>
         </actions>
       </spirit>
+      <truesongdancer>
+        <locked type="number">1</locked>
+        <name type="string">Truesong Dancer</name>
+        <type type="string">humanoid (any race)</type>
+        <size type="string">Medium</size>
+        <ac type="number">14</ac>
+        <actext type="string">(leather)</actext>
+        <hp type="number">44</hp>
+        <hd type="string">(8d8 + 8)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </constitution>
+          <charisma>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Dex +5</savingthrows>
+        <skills type="string">Acrobatics +5, Performance +5</skills>
+        <senses type="string">passive Perception 10</senses>
+        <alignment type="string">chaotic neutral</alignment>
+        <languages type="string">Common</languages>
+        <cr type="string">3</cr>
+        <xp type="number">700</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Nimble Action</name>
+            <desc type="string">On each of its turns, the dancer can use a bonus action to take the Dash or Disengage action.</desc>
+          </id-00001>
+        </traits>
+        <reactions>
+          <id-00001>
+            <name type="string">Parry</name>
+            <desc type="string">The dancer adds 2 to its AC against one melee attack that would hit it. To do so, the dancer must see the attacker and be wielding a melee weapon.</desc>
+          </id-00001>
+        </reactions>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The dancer makes three melee attacks: two with its scimitar and one with its whip.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Scimitar</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Whip</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 5 (1d4 + 3) slashing damage.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Hymn of Battle</name>
+            <desc type="string">As an action, the dancer begins to sing a song that magically boosts its attacks. Whenever the dancer makes an attack roll while singing, it can add a d4 to its roll. The dancer can maintain concentration to continue singing the song. If it loses concentration, the song ends.</desc>
+          </id-00004>
+        </actions>
+      </truesongdancer>
+      <truesongdirge>
+        <locked type="number">1</locked>
+        <name type="string">Truesong Dirge</name>
+        <type type="string">humanoid (any race)</type>
+        <size type="string">Medium</size>
+        <ac type="number">16</ac>
+        <actext type="string">(chain mail)</actext>
+        <hp type="number">91</hp>
+        <hd type="string">(14d8 + 28)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">17</score>
+            <modifier type="string">+3</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Con +5, Cha +6</savingthrows>
+        <skills type="string">Intimidation +6, Performance +6</skills>
+        <senses type="string">passive Perception 11</senses>
+        <alignment type="string">chaotic neutral</alignment>
+        <languages type="string">Common</languages>
+        <cr type="string">5</cr>
+        <xp type="number">1800</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Rhythmic Fighting</name>
+            <desc type="string">The dirge can play songs while wielding a melee weapon in one hand.</desc>
+          </id-00001>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The dirge makes two melee attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Warhammer</name>
+            <desc type="string">Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) bludgeoning damage, or 8 (1d10 + 3) bludgeoning damage if used with two hands to make a melee attack.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Heavy Crossbow</name>
+            <desc type="string">Melee Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit 6 (1d1O+1) piercing damage.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Thunderous Crescendo</name>
+            <desc type="string">As a bonus action, the dirge begins to play a magical song. At the start of each of the dirge's turns, all enemy creatures within 30 feet of the dirge that can hear the song must succeed on a DC 14 Constitution saving throw or take 9 (2d8) thunder damage. Any creature that takes damage in this way loses concentration if it is concentrating. The dirge can maintain concentration to continue playing the song. If it loses concentration, the song ends.</desc>
+          </id-00004>
+        </actions>
+      </truesongdirge>
+      <tuskaloth>
+        <locked type="number">1</locked>
+        <name type="string">Tuskaloth</name>
+        <type type="string">beast</type>
+        <size type="string">Gargantuan</size>
+        <ac type="number">14</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">198</hp>
+        <hd type="string">(12d20 + 72)</hd>
+        <speed type="string">40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">28</score>
+            <modifier type="string">+9</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">22</score>
+            <modifier type="string">+6</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">3</score>
+            <modifier type="string">-3</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">7</score>
+            <modifier type="string">-1</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Con +10</savingthrows>
+        <senses type="string">passive Perception 10</senses>
+        <alignment type="string">unaligned</alignment>
+        <languages type="string">-</languages>
+        <cr type="string">10</cr>
+        <xp type="number">5900</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Siege Beast</name>
+            <desc type="string">The tuskaloth deals double damage to objects and structures.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Trampling Charge</name>
+            <desc type="string">If the tuskaloth moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 18 Strength saving throw or be knocked prone. If the target is prone, the tuskaloth can make one stomp attack against it as a bonus action.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Gore</name>
+            <desc type="string">Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 22 (3d8 + 9) piercing damage.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Stomp</name>
+            <desc type="string">Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 31 (4d10 + 9) piercing damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Earthshake (Recharge 5-6)</name>
+            <desc type="string">The tuskaloth pounds the ground with incredible force, causing a tremor. Each creature on the ground within 30 feet of the tuskaloth must succeed on a DC 18 Dexterity saving throw or be knocked prone. The tremor also deals 50 bludgeoning damage to any structure in contact with the ground in that area. A structure that drops to 0 hit points collapses.</desc>
+          </id-00003>
+        </actions>
+      </tuskaloth>
+      <wingedsliver>
+        <locked type="number">1</locked>
+        <name type="string">Winged Sliver</name>
+        <type type="string">monstrosity (sliver)</type>
+        <size type="string">Large</size>
+        <ac type="number">12</ac>
+        <actext type="string"/>
+        <hp type="number">60</hp>
+        <hd type="string">(8d10 + 16)</hd>
+        <speed type="string">30 ft., fly 60 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+        </abilities>
+        <skills type="string">Perception +3</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 13</senses>
+        <alignment type="string">neutral evil</alignment>
+        <languages type="string">Sliver (see Hive Mind)</languages>
+        <cr type="string">3</cr>
+        <xp type="number">700</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Hive Mind</name>
+            <desc type="string">All slivers within 100 miles of their queen are in constant communication via a telepathic bond. If one sliver is aware of a threat, they all are.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Flight of the Hive</name>
+            <desc type="string">All slivers within 120 feet of the winged sliver have a fly speed of 60 ft. and the Flyby feature.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Flyby</name>
+            <desc type="string">The sliver doesn't provoke opportunity attacks when it flies out of an enemy's reach.</desc>
+          </id-00003>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The sliver makes two claw attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Claw</name>
+            <desc type="string">Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage.</desc>
+          </id-00002>
+        </actions>
+      </wingedsliver>
+      <virulentsliver>
+        <locked type="number">1</locked>
+        <name type="string">Virulent Sliver</name>
+        <type type="string">monstrosity (sliver)</type>
+        <size type="string">Large</size>
+        <ac type="number">12</ac>
+        <actext type="string"/>
+        <hp type="number">52</hp>
+        <hd type="string">(7d10 + 14)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+        </abilities>
+        <skills type="string">Perception +3</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 13</senses>
+        <alignment type="string">neutral evil</alignment>
+        <languages type="string">Sliver (see Hive Mind)</languages>
+        <cr type="string">3</cr>
+        <xp type="number">700</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Hive Mind</name>
+            <desc type="string">All slivers within 100 miles of their queen are in constant communication via a telepathic bond. If one sliver is aware of a threat, they all are.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Virulence of the Hive</name>
+            <desc type="string">All slivers within 120 feet of the virulent sliver have the Poison Claw feature.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Poison Claw</name>
+            <desc type="string">When the sliver hits a creature with a claw attack, the target must succeed on a DC 12 Constitution saving throw or become poisoned. While poisoned in this way, a target takes 5 (1d10) poison damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</desc>
+          </id-00003>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The sliver makes two claw attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Claw</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8+ 3) slashing damage.</desc>
+          </id-00002>
+        </actions>
+      </virulentsliver>
       <spellskite>
         <locked type="number">1</locked>
         <name type="string">Spellskite</name>
@@ -4523,6 +6698,141 @@
           </id-00001>
         </actions>
       </spellskite>
+      <trollboar>
+        <locked type="number">1</locked>
+        <name type="string">Troll Boar</name>
+        <type type="string">monstrosity</type>
+        <size type="string">Large</size>
+        <ac type="number">13</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">57</hp>
+        <hd type="string">(6d10 + 24)</hd>
+        <speed type="string">40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">2</score>
+            <modifier type="string">-4</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">3</score>
+            <modifier type="string">-3</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Perception +2</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 12</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">-</languages>
+        <cr type="string">3</cr>
+        <xp type="number">700</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Keen Smell</name>
+            <desc type="string">The boar has advantage on Wisdom (Perception) checks that rely on smeil.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Charge</name>
+            <desc type="string">If the boar moves at least 20 feet straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 9 (2d8) slashing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Regeneration</name>
+            <desc type="string">The boar regains 10 hit points at the start of its turn. If the boar takes acid or fire damage, this trait doesn't function at the start of the boar's next turn. The boar dies only if it starts its turn with 0 hit points and doesn't regenerate.</desc>
+          </id-00003>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Tusk</name>
+            <desc type="string">Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 +4) slashing damage.</desc>
+          </id-00001>
+        </actions>
+      </trollboar>
+      <groveguardian>
+        <locked type="number">1</locked>
+        <name type="string">Grove Guardian</name>
+        <type type="string">fey</type>
+        <size type="string">Large</size>
+        <ac type="number">15</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">71</hp>
+        <hd type="string">(11d10 + 11)</hd>
+        <speed type="string">50 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">17</score>
+            <modifier type="string">+3</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Dex +6, Wis +7</savingthrows>
+        <skills type="string">Perception +10, Stealth +6</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 20</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">Sylvan</languages>
+        <cr type="string">5</cr>
+        <xp type="number">1800</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Innate Speflcasting</name>
+            <desc type="string">The guardian's innate spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). The guardian can innately cast the following spells, requiring no material components: At will: druidcraft, thorn whip (11th level) 3/day each: spike growth, silence 1/day each: conjure animals, plant growth</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Keen Hearing and Smell</name>
+            <desc type="string">The guardian has advantage on Wisdom (Perception) checks that rely on hearing or smell.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Speak with Beasts and Plants</name>
+            <desc type="string">The guardian can communicate with beasts and plants as if they shared a language.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Tree Stride</name>
+            <desc type="string">Once on its turn, the guardian can use 10 feet of its movement to step magically into one living tree within its reach and emerge from a second living tree within 60 feet of the first tree, appearing in an unoccupied space within 5 feet of the second tree. Both trees must be Large or bigger.</desc>
+          </id-00004>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The guardian makes two bite attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Bite</name>
+            <desc type="string">Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 10 (2d6 + 3) piercing damage.If the target is a  creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</desc>
+          </id-00002>
+        </actions>
+      </groveguardian>
       <silverpawdog>
         <locked type="number">1</locked>
         <name type="string">Silverpaw Dog</name>
@@ -4579,6 +6889,72 @@
           </id-00001>
         </actions>
       </silverpawdog>
+      <silverpawpaladin>
+        <locked type="number">1</locked>
+        <name type="string">Silverpaw Paladin</name>
+        <type type="string">humanoid (halfling)</type>
+        <size type="string">Small</size>
+        <ac type="number">15</ac>
+        <actext type="string">(chain shirt)</actext>
+        <hp type="number">65</hp>
+        <hd type="string">(10d6 + 30)</hd>
+        <speed type="string">25 ft.</speed>
+        <abilities>
+          <constitution>
+            <score type="number">17</score>
+            <modifier type="string">+3</modifier>
+          </constitution>
+          <charisma>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Dex +5, Con +5, Cha +6</savingthrows>
+        <skills type="string">Acrobatics +5, Animal Handling +3, Perception +3</skills>
+        <senses type="string">passive Perception 13</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">Common, Halfling, Sylvan</languages>
+        <cr type="string">4</cr>
+        <xp type="number">1100</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Brave</name>
+            <desc type="string">The paladin has advantage on saving throws against being frightened.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Mounted Combatant</name>
+            <desc type="string">The paladin can force an attack targeted at its mount to target itself instead.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Spellcasting</name>
+            <desc type="string">The paladin is a 5th-level spellcaster. Its spellcasting ability is Charisma (save DC 14). The paladin has the following spells prepared: 1st level (4 slots): ensnaring strike, speak with animals, thunderous smite 2nd level (2 slots): moonbeam, misty step</desc>
+          </id-00003>
+        </traits>
+        <reactions>
+          <id-00001>
+            <name type="string">Parry</name>
+            <desc type="string">The paladin adds 3 to its AC against one melee attack that would hit it. To do so, the paladin must see the attacker and be wielding a melee weapon.</desc>
+          </id-00001>
+        </reactions>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The paladin makes two melee attacks or two ranged attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Shortsword</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) piercing damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Sling</name>
+            <desc type="string">Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. Hit: 5 (1 d4 + 3) bludgeoning damage.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Lay on Hands (1/ Day)</name>
+            <desc type="string">The paladin can touch a creature to restore 25 hit points to that creature. Additionally, the touch cures the target of one disease or neutralizes one poison affecting it.</desc>
+          </id-00004>
+        </actions>
+      </silverpawpaladin>
       <dreameater>
         <locked type="number">1</locked>
         <name type="string">Dream Eater</name>
@@ -4663,6 +7039,157 @@
           </id-00004>
         </legendaryactions>
       </dreameater>
+      <covenhorror>
+        <locked type="number">1</locked>
+        <name type="string">Coven Horror</name>
+        <type type="string">monstrosity</type>
+        <size type="string">Large</size>
+        <ac type="number">15</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">123</hp>
+        <hd type="string">(13d10 + 52)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">17</score>
+            <modifier type="string">+3</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Con +8, Cha +9</savingthrows>
+        <skills type="string">Deception +9, Insight +6, Perception +10</skills>
+        <damageresistances type="string">cold, fire; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered</damageresistances>
+        <conditionimmunities type="string">charmed, frightened</conditionimmunities>
+        <senses type="string">darkvision 120 ft., passive Perception 20</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">Abyssal, Common, Infernal, Primordial</languages>
+        <cr type="string">9</cr>
+        <xp type="number">3900</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Wails of the Unborn</name>
+            <desc type="string">Humanoids within 60 feet of the horror that can hear it have disadvantage on Constitution saving throws to maintain concentration.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Magic Resistance</name>
+            <desc type="string">The horror has advantage on saving throws against spells and other magical effects.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The horror can use its Gaze. It then makes two claw attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Claw</name>
+            <desc type="string">Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit: 14 (2d8 + 5) slashing damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Gaze</name>
+            <desc type="string">The horror makes one gaze at random, choosing one target it can see within 60 feet of it 1.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">1</name>
+            <desc type="string">Gaze of Agony. The target creature must make a DC 15 Charisma saving throw, taking 36 (8d8) psychic damage on a failed save, or half as much damage on a successful one.</desc>
+          </id-00004>
+          <id-00005>
+            <name type="string">2</name>
+            <desc type="string">Gaze of Lethargy. The target creature must succeed on a DC 15 Charisma saving throw. On a failed save, the target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</desc>
+          </id-00005>
+          <id-00006>
+            <name type="string">3</name>
+            <desc type="string">Gaze of Despair. The target creature must succeed on a DC 15 Charisma saving throw. On a failed save, the target becomes overwhelmed with despair for 1 minute, and has disadvantage on attack rolls, saving throws, and ability checks. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</desc>
+          </id-00006>
+        </actions>
+      </covenhorror>
+      <burningskeleton>
+        <locked type="number">1</locked>
+        <name type="string">Burning Skeleton</name>
+        <type type="string">undead</type>
+        <size type="string">Medium</size>
+        <ac type="number">15</ac>
+        <actext type="string">(chain shirt)</actext>
+        <hp type="number">26</hp>
+        <hd type="string">(4d8 + 8)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">6</score>
+            <modifier type="string">-2</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">6</score>
+            <modifier type="string">-2</modifier>
+          </charisma>
+        </abilities>
+        <damagevulnerabilities type="string">bludgeoning, cold</damagevulnerabilities>
+        <damageimmunities type="string">fire, poison</damageimmunities>
+        <conditionimmunities type="string">exhaustion, poisoned</conditionimmunities>
+        <senses type="string">darkvision 60 ft., passive Perception 9</senses>
+        <alignment type="string">lawful evil</alignment>
+        <languages type="string">understands all languages it knew in life but cannot speak</languages>
+        <cr type="string">1</cr>
+        <xp type="number">200</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Heated Body</name>
+            <desc type="string">A creature that touches the skeleton or hits it with a melee attack while within 5 feet of it takes 3 (1d6) fire damage.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Heated Weapons</name>
+            <desc type="string">Any weapon the skeleton wields deals an extra 3 (1d6) fire damage on a hit (included in the attack).</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The skeleton makes two melee attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Shortsword</name>
+            <desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:5 (1d6 + 2) piercing damage plus 3 (1d6) fire damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Shortbow</name>
+            <desc type="string">Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:5 (1d6 + 2) piercing damage plus 3 (1d6) fire damage.</desc>
+          </id-00003>
+        </actions>
+      </burningskeleton>
     </npcdata>
     <npclists>
       <npcs>
@@ -4742,6 +7269,16 @@
           <typeletterA>
             <description type="string">A</description>
             <index>
+              <arcanamite>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.arcanamite@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </arcanamite>
               <armorsliver>
                 <link type="windowreference">
                   <class>npc</class>
@@ -4754,9 +7291,74 @@
               </armorsliver>
             </index>
           </typeletterA>
+          <typeletterM>
+            <description type="string">M</description>
+            <index>
+              <mightsliver>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.mightsliver@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </mightsliver>
+              <masterofthefivespires>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.masterofthefivespires@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </masterofthefivespires>
+              <morphlit>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.morphlit@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </morphlit>
+              <myr>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.myr@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </myr>
+              <myrbattlesphere>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.myrbattlesphere@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </myrbattlesphere>
+            </index>
+          </typeletterM>
           <typeletterB>
             <description type="string">B</description>
             <index>
+              <baneling>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.baneling@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </baneling>
               <bonegolem>
                 <link type="windowreference">
                   <class>npc</class>
@@ -4767,6 +7369,16 @@
                 </link>
                 <source type="number"/>
               </bonegolem>
+              <burningskeleton>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.burningskeleton@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </burningskeleton>
             </index>
           </typeletterB>
           <typeletterC>
@@ -4792,6 +7404,16 @@
                 </link>
                 <source type="number"/>
               </crystallinesliver>
+              <covenhorror>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.covenhorror@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </covenhorror>
             </index>
           </typeletterC>
           <typeletterS>
@@ -4867,6 +7489,16 @@
                 </link>
                 <source type="number"/>
               </silverpawdog>
+              <silverpawpaladin>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.silverpawpaladin@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </silverpawpaladin>
             </index>
           </typeletterS>
           <typeletterF>
@@ -4927,6 +7559,16 @@
           <typeletterG>
             <description type="string">G</description>
             <index>
+              <gazellean>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.gazellean@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </gazellean>
               <gnolldeathknight>
                 <link type="windowreference">
                   <class>npc</class>
@@ -4957,6 +7599,16 @@
                 </link>
                 <source type="number"/>
               </gravetitan>
+              <groveguardian>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.groveguardian@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </groveguardian>
             </index>
           </typeletterG>
           <typeletterH>
@@ -4987,46 +7639,31 @@
                 </link>
                 <source type="number"/>
               </leonin>
+              <luckdragon>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.luckdragon@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </luckdragon>
             </index>
           </typeletterL>
-          <typeletterM>
-            <description type="string">M</description>
-            <index>
-              <masterofthefivespires>
-                <link type="windowreference">
-                  <class>npc</class>
-                  <recordname>reference.npcdata.masterofthefivespires@Monster a Day</recordname>
-                  <description>
-                    <field>name</field>
-                  </description>
-                </link>
-                <source type="number"/>
-              </masterofthefivespires>
-              <morphlit>
-                <link type="windowreference">
-                  <class>npc</class>
-                  <recordname>reference.npcdata.morphlit@Monster a Day</recordname>
-                  <description>
-                    <field>name</field>
-                  </description>
-                </link>
-                <source type="number"/>
-              </morphlit>
-              <myrbattlesphere>
-                <link type="windowreference">
-                  <class>npc</class>
-                  <recordname>reference.npcdata.myrbattlesphere@Monster a Day</recordname>
-                  <description>
-                    <field>name</field>
-                  </description>
-                </link>
-                <source type="number"/>
-              </myrbattlesphere>
-            </index>
-          </typeletterM>
           <typeletterP>
             <description type="string">P</description>
             <index>
+              <pactdevil>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.pactdevil@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </pactdevil>
               <priestofblight>
                 <link type="windowreference">
                   <class>npc</class>
@@ -5037,6 +7674,16 @@
                 </link>
                 <source type="number"/>
               </priestofblight>
+              <pustuloid>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.pustuloid@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </pustuloid>
             </index>
           </typeletterP>
           <typeletterR>
@@ -5054,6 +7701,81 @@
               </rathermit>
             </index>
           </typeletterR>
+          <typeletterT>
+            <description type="string">T</description>
+            <index>
+              <truesongdancer>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.truesongdancer@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </truesongdancer>
+              <truesongdirge>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.truesongdirge@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </truesongdirge>
+              <tuskaloth>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.tuskaloth@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </tuskaloth>
+              <trollboar>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.trollboar@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </trollboar>
+            </index>
+          </typeletterT>
+          <typeletterW>
+            <description type="string">W</description>
+            <index>
+              <wingedsliver>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.wingedsliver@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </wingedsliver>
+            </index>
+          </typeletterW>
+          <typeletterV>
+            <description type="string">V</description>
+            <index>
+              <virulentsliver>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.virulentsliver@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </virulentsliver>
+            </index>
+          </typeletterV>
           <typeletterD>
             <description type="string">D</description>
             <index>
@@ -5087,6 +7809,16 @@
                 </link>
                 <source type="number"/>
               </koboldshaman>
+              <mightsliver>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.mightsliver@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </mightsliver>
               <spittingsliver>
                 <link type="windowreference">
                   <class>npc</class>
@@ -5119,6 +7851,61 @@
               </morphlit>
             </index>
           </level02>
+          <level01>
+            <description type="string">1</description>
+            <index>
+              <arcanamite>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.arcanamite@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </arcanamite>
+              <koboldbully>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.koboldbully@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </koboldbully>
+              <pustuloid>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.pustuloid@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </pustuloid>
+              <silverpawdog>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.silverpawdog@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </silverpawdog>
+              <burningskeleton>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.burningskeleton@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </burningskeleton>
+            </index>
+          </level01>
           <level03>
             <description type="string">3</description>
             <index>
@@ -5152,8 +7939,103 @@
                 </link>
                 <source type="number"/>
               </rathermit>
+              <truesongdancer>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.truesongdancer@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </truesongdancer>
+              <wingedsliver>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.wingedsliver@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </wingedsliver>
+              <virulentsliver>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.virulentsliver@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </virulentsliver>
+              <trollboar>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.trollboar@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </trollboar>
             </index>
           </level03>
+          <level1_2>
+            <description type="string">1/2</description>
+            <index>
+              <baneling>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.baneling@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </baneling>
+              <fernlizard>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.fernlizard@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </fernlizard>
+              <gazellean>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.gazellean@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </gazellean>
+              <sliver>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.sliver@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </sliver>
+              <spirit>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.spirit@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </spirit>
+            </index>
+          </level1_2>
           <level09>
             <description type="string">9</description>
             <index>
@@ -5167,6 +8049,26 @@
                 </link>
                 <source type="number"/>
               </bonegolem>
+              <pactdevil>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.pactdevil@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </pactdevil>
+              <covenhorror>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.covenhorror@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </covenhorror>
             </index>
           </level09>
           <level14>
@@ -5207,6 +8109,16 @@
                 </link>
                 <source type="number"/>
               </koboldhero>
+              <silverpawpaladin>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.silverpawpaladin@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </silverpawpaladin>
             </index>
           </level04>
           <level10>
@@ -5232,6 +8144,16 @@
                 </link>
                 <source type="number"/>
               </gravetitan>
+              <tuskaloth>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.tuskaloth@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </tuskaloth>
               <dreameater>
                 <link type="windowreference">
                   <class>npc</class>
@@ -5244,41 +8166,6 @@
               </dreameater>
             </index>
           </level10>
-          <level1_2>
-            <description type="string">1/2</description>
-            <index>
-              <fernlizard>
-                <link type="windowreference">
-                  <class>npc</class>
-                  <recordname>reference.npcdata.fernlizard@Monster a Day</recordname>
-                  <description>
-                    <field>name</field>
-                  </description>
-                </link>
-                <source type="number"/>
-              </fernlizard>
-              <sliver>
-                <link type="windowreference">
-                  <class>npc</class>
-                  <recordname>reference.npcdata.sliver@Monster a Day</recordname>
-                  <description>
-                    <field>name</field>
-                  </description>
-                </link>
-                <source type="number"/>
-              </sliver>
-              <spirit>
-                <link type="windowreference">
-                  <class>npc</class>
-                  <recordname>reference.npcdata.spirit@Monster a Day</recordname>
-                  <description>
-                    <field>name</field>
-                  </description>
-                </link>
-                <source type="number"/>
-              </spirit>
-            </index>
-          </level1_2>
           <level15>
             <description type="string">15</description>
             <index>
@@ -5347,33 +8234,28 @@
                 </link>
                 <source type="number"/>
               </leonin>
+              <luckdragon>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.luckdragon@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </luckdragon>
+              <myr>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.myr@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </myr>
             </index>
           </level1_4>
-          <level01>
-            <description type="string">1</description>
-            <index>
-              <koboldbully>
-                <link type="windowreference">
-                  <class>npc</class>
-                  <recordname>reference.npcdata.koboldbully@Monster a Day</recordname>
-                  <description>
-                    <field>name</field>
-                  </description>
-                </link>
-                <source type="number"/>
-              </koboldbully>
-              <silverpawdog>
-                <link type="windowreference">
-                  <class>npc</class>
-                  <recordname>reference.npcdata.silverpawdog@Monster a Day</recordname>
-                  <description>
-                    <field>name</field>
-                  </description>
-                </link>
-                <source type="number"/>
-              </silverpawdog>
-            </index>
-          </level01>
           <level12>
             <description type="string">12</description>
             <index>
@@ -5437,6 +8319,16 @@
                 </link>
                 <source type="number"/>
               </myrbattlesphere>
+              <truesongdirge>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.truesongdirge@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </truesongdirge>
               <spellskite>
                 <link type="windowreference">
                   <class>npc</class>
@@ -5447,6 +8339,16 @@
                 </link>
                 <source type="number"/>
               </spellskite>
+              <groveguardian>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.groveguardian@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </groveguardian>
             </index>
           </level05>
           <level13>
@@ -5504,6 +8406,41 @@
               </koboldhero>
             </index>
           </typehumanoid_kobold_>
+          <typemonstrosity>
+            <description type="string">Monstrosity</description>
+            <index>
+              <arcanamite>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.arcanamite@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>monstrosity</source>
+              </arcanamite>
+              <trollboar>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.trollboar@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>monstrosity</source>
+              </trollboar>
+              <covenhorror>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.covenhorror@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>monstrosity</source>
+              </covenhorror>
+            </index>
+          </typemonstrosity>
           <typemonstrosity_sliver_>
             <description type="string">Monstrosity (sliver)</description>
             <index>
@@ -5517,6 +8454,16 @@
                 </link>
                 <source>monstrosity (sliver)</source>
               </armorsliver>
+              <mightsliver>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.mightsliver@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>monstrosity (sliver)</source>
+              </mightsliver>
               <crystallinesliver>
                 <link type="windowreference">
                   <class>npc</class>
@@ -5557,8 +8504,63 @@
                 </link>
                 <source>monstrosity (sliver)</source>
               </sliverqueen>
+              <wingedsliver>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.wingedsliver@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>monstrosity (sliver)</source>
+              </wingedsliver>
+              <virulentsliver>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.virulentsliver@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>monstrosity (sliver)</source>
+              </virulentsliver>
             </index>
           </typemonstrosity_sliver_>
+          <typefiend_demon_>
+            <description type="string">Fiend (demon)</description>
+            <index>
+              <baneling>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.baneling@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>fiend (demon)</source>
+              </baneling>
+              <heraldofrot>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.heraldofrot@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>fiend (demon)</source>
+              </heraldofrot>
+              <pustuloid>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.pustuloid@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>fiend (demon)</source>
+              </pustuloid>
+            </index>
+          </typefiend_demon_>
           <typeconstruct>
             <description type="string">Construct</description>
             <index>
@@ -5622,6 +8624,16 @@
                 </link>
                 <source>beast</source>
               </fernlizard>
+              <tuskaloth>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.tuskaloth@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>beast</source>
+              </tuskaloth>
             </index>
           </typebeast>
           <typeelemental>
@@ -5639,6 +8651,21 @@
               </fusionelemental>
             </index>
           </typeelemental>
+          <typehumanoid_gazellean_>
+            <description type="string">Humanoid (gazellean)</description>
+            <index>
+              <gazellean>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.gazellean@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>humanoid (gazellean)</source>
+              </gazellean>
+            </index>
+          </typehumanoid_gazellean_>
           <typehumanoid_gnoll_>
             <description type="string">Humanoid (gnoll)</description>
             <index>
@@ -5702,23 +8729,18 @@
                 </link>
                 <source>undead</source>
               </spirit>
-            </index>
-          </typeundead>
-          <typefiend_demon_>
-            <description type="string">Fiend (demon)</description>
-            <index>
-              <heraldofrot>
+              <burningskeleton>
                 <link type="windowreference">
                   <class>npc</class>
-                  <recordname>reference.npcdata.heraldofrot@Monster a Day</recordname>
+                  <recordname>reference.npcdata.burningskeleton@Monster a Day</recordname>
                   <description>
                     <field>name</field>
                   </description>
                 </link>
-                <source>fiend (demon)</source>
-              </heraldofrot>
+                <source>undead</source>
+              </burningskeleton>
             </index>
-          </typefiend_demon_>
+          </typeundead>
           <typehumanoid_leonin_>
             <description type="string">Humanoid (leonin)</description>
             <index>
@@ -5734,6 +8756,21 @@
               </leonin>
             </index>
           </typehumanoid_leonin_>
+          <typedragon>
+            <description type="string">Dragon</description>
+            <index>
+              <luckdragon>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.luckdragon@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>dragon</source>
+              </luckdragon>
+            </index>
+          </typedragon>
           <typemonstrosity_titan_>
             <description type="string">Monstrosity (titan)</description>
             <index>
@@ -5792,6 +8829,26 @@
                 </link>
                 <source>humanoid (any race)</source>
               </rathermit>
+              <truesongdancer>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.truesongdancer@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>humanoid (any race)</source>
+              </truesongdancer>
+              <truesongdirge>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.truesongdirge@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>humanoid (any race)</source>
+              </truesongdirge>
             </index>
           </typehumanoid_anyrace_>
           <typeaberration>
@@ -5822,6 +8879,16 @@
           <typeconstruct_myr_>
             <description type="string">Construct (myr)</description>
             <index>
+              <myr>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.myr@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>construct (myr)</source>
+              </myr>
               <myrbattlesphere>
                 <link type="windowreference">
                   <class>npc</class>
@@ -5834,6 +8901,21 @@
               </myrbattlesphere>
             </index>
           </typeconstruct_myr_>
+          <typefiend_devil_>
+            <description type="string">Fiend (devil)</description>
+            <index>
+              <pactdevil>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.pactdevil@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>fiend (devil)</source>
+              </pactdevil>
+            </index>
+          </typefiend_devil_>
           <typehumanoid_se_achian_>
             <description type="string">Humanoid (se/achian)</description>
             <index>
@@ -5852,6 +8934,16 @@
           <typefey>
             <description type="string">Fey</description>
             <index>
+              <groveguardian>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.groveguardian@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>fey</source>
+              </groveguardian>
               <silverpawdog>
                 <link type="windowreference">
                   <class>npc</class>
@@ -5864,6 +8956,21 @@
               </silverpawdog>
             </index>
           </typefey>
+          <typehumanoid_halfling_>
+            <description type="string">Humanoid (halfling)</description>
+            <index>
+              <silverpawpaladin>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.silverpawpaladin@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>humanoid (halfling)</source>
+              </silverpawpaladin>
+            </index>
+          </typehumanoid_halfling_>
         </groups>
       </bytype>
     </npclists>
