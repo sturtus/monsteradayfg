@@ -3304,6 +3304,130 @@
           </id-00003>
         </actions>
       </burningskeleton>
+      <broodmonitor>
+        <locked type="number">1</locked>
+        <name type="string">Brood Monitor</name>
+        <type type="string">aberration</type>
+        <size type="string">Huge</size>
+        <ac type="number">12</ac>
+        <actext type="string"/>
+        <hp type="number">126</hp>
+        <hd type="string">(12d12 + 48)</hd>
+        <speed type="string">40 ft., climb 40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">21</score>
+            <modifier type="string">+5</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">7</score>
+            <modifier type="string">-1</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Wis +5</savingthrows>
+        <skills type="string">Perception +5</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 15</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">-</languages>
+        <cr type="string">7</cr>
+        <xp type="number">2900</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Alien Mind</name>
+            <desc type="string">The monitor has advantage on Wisdom saving throws.</desc>
+          </id-00001>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The monitor makes two fist attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Fist</name>
+            <desc type="string">Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit 21 (3d10 + 5) bludgeoning damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Constrict</name>
+            <desc type="string">Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (3d8 + 5) bludgeoning damage, and the target is grappled (escape DC 16). Until this grapple ends, the creature is restrained, and the monitor can't constrict another target.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Spawn Scion (3/Day)</name>
+            <desc type="string">The monitor spawns an eldrazi scion that appears in an unoccupied space within 5 feet of it.</desc>
+          </id-00004>
+        </actions>
+      </broodmonitor>
+      <eldraziscion>
+        <locked type="number">1</locked>
+        <name type="string">Eldrazi Scion</name>
+        <type type="string">aberration</type>
+        <size type="string">Large</size>
+        <ac type="number">12</ac>
+        <actext type="string"/>
+        <hp type="number">45</hp>
+        <hd type="string">(6d10 + 12)</hd>
+        <speed type="string">40 ft., burrow 10 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">17</score>
+            <modifier type="string">+3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">6</score>
+            <modifier type="string">-2</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">13</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">4</score>
+            <modifier type="string">-3</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Wis +3</savingthrows>
+        <skills type="string">Perception +5, Stealth +4</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 15</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">-</languages>
+        <cr type="string">1</cr>
+        <xp type="number">200</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Alien Mind</name>
+            <desc type="string">The scion has advantage on Wisdom saving throws.</desc>
+          </id-00001>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Tentacles</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage. If the target is a creature, it is grappled (escape DC 16). Until the grapple ends, the target is restrained, and the scion can't use its tentacles on another target.</desc>
+          </id-00001>
+        </actions>
+      </eldraziscion>
     </category>
   </npc>
   <lists>
@@ -3469,6 +3593,16 @@
                 </link>
                 <source type="string"/>
               </burningskeleton>
+              <broodmonitor>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.broodmonitor@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </broodmonitor>
             </index>
           </typeletterb>
           <typeletterc>
@@ -3881,6 +4015,21 @@
               </dreameater>
             </index>
           </typeletterd>
+          <typelettere>
+            <description type="string">E</description>
+            <index>
+              <eldraziscion>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.eldraziscion@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </eldraziscion>
+            </index>
+          </typelettere>
         </groups>
       </byletter>
     </npc>
@@ -7190,6 +7339,130 @@
           </id-00003>
         </actions>
       </burningskeleton>
+      <broodmonitor>
+        <locked type="number">1</locked>
+        <name type="string">Brood Monitor</name>
+        <type type="string">aberration</type>
+        <size type="string">Huge</size>
+        <ac type="number">12</ac>
+        <actext type="string"/>
+        <hp type="number">126</hp>
+        <hd type="string">(12d12 + 48)</hd>
+        <speed type="string">40 ft., climb 40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">21</score>
+            <modifier type="string">+5</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">7</score>
+            <modifier type="string">-1</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Wis +5</savingthrows>
+        <skills type="string">Perception +5</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 15</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">-</languages>
+        <cr type="string">7</cr>
+        <xp type="number">2900</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Alien Mind</name>
+            <desc type="string">The monitor has advantage on Wisdom saving throws.</desc>
+          </id-00001>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The monitor makes two fist attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Fist</name>
+            <desc type="string">Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit 21 (3d10 + 5) bludgeoning damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Constrict</name>
+            <desc type="string">Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (3d8 + 5) bludgeoning damage, and the target is grappled (escape DC 16). Until this grapple ends, the creature is restrained, and the monitor can't constrict another target.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Spawn Scion (3/Day)</name>
+            <desc type="string">The monitor spawns an eldrazi scion that appears in an unoccupied space within 5 feet of it.</desc>
+          </id-00004>
+        </actions>
+      </broodmonitor>
+      <eldraziscion>
+        <locked type="number">1</locked>
+        <name type="string">Eldrazi Scion</name>
+        <type type="string">aberration</type>
+        <size type="string">Large</size>
+        <ac type="number">12</ac>
+        <actext type="string"/>
+        <hp type="number">45</hp>
+        <hd type="string">(6d10 + 12)</hd>
+        <speed type="string">40 ft., burrow 10 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">17</score>
+            <modifier type="string">+3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">6</score>
+            <modifier type="string">-2</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">13</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">4</score>
+            <modifier type="string">-3</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Wis +3</savingthrows>
+        <skills type="string">Perception +5, Stealth +4</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 15</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">-</languages>
+        <cr type="string">1</cr>
+        <xp type="number">200</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Alien Mind</name>
+            <desc type="string">The scion has advantage on Wisdom saving throws.</desc>
+          </id-00001>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Tentacles</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage. If the target is a creature, it is grappled (escape DC 16). Until the grapple ends, the target is restrained, and the scion can't use its tentacles on another target.</desc>
+          </id-00001>
+        </actions>
+      </eldraziscion>
     </npcdata>
     <npclists>
       <npcs>
@@ -7379,6 +7652,16 @@
                 </link>
                 <source type="number"/>
               </burningskeleton>
+              <broodmonitor>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.broodmonitor@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </broodmonitor>
             </index>
           </typeletterB>
           <typeletterC>
@@ -7791,6 +8074,21 @@
               </dreameater>
             </index>
           </typeletterD>
+          <typeletterE>
+            <description type="string">E</description>
+            <index>
+              <eldraziscion>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.eldraziscion@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </eldraziscion>
+            </index>
+          </typeletterE>
         </groups>
       </byletter>
       <bylevel>
@@ -7904,6 +8202,16 @@
                 </link>
                 <source type="number"/>
               </burningskeleton>
+              <eldraziscion>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.eldraziscion@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </eldraziscion>
             </index>
           </level01>
           <level03>
@@ -8219,6 +8527,16 @@
                 </link>
                 <source type="number"/>
               </gnolldeathmage>
+              <broodmonitor>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.broodmonitor@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </broodmonitor>
             </index>
           </level07>
           <level1_4>
@@ -8874,6 +9192,26 @@
                 </link>
                 <source>aberration</source>
               </dreameater>
+              <broodmonitor>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.broodmonitor@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>aberration</source>
+              </broodmonitor>
+              <eldraziscion>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.eldraziscion@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>aberration</source>
+              </eldraziscion>
             </index>
           </typeaberration>
           <typeconstruct_myr_>
