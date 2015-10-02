@@ -3428,6 +3428,152 @@
           </id-00001>
         </actions>
       </eldraziscion>
+      <broodbutcher>
+        <locked type="number">1</locked>
+        <name type="string">Brood Butcher</name>
+        <type type="string">aberration</type>
+        <size type="string">Huge</size>
+        <ac type="number">14</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">184</hp>
+        <hd type="string">(16d12 + 80)</hd>
+        <speed type="string">40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">23</score>
+            <modifier type="string">+6</modifier>
+          </strength>
+          <constitution>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">7</score>
+            <modifier type="string">-1</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Wis +6</savingthrows>
+        <skills type="string">Perception +6</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 16</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">-</languages>
+        <cr type="string">9</cr>
+        <xp type="number">5000</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Alien Mind</name>
+            <desc type="string">The butcher has advantage on Wisdom saving throws.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Ingest Scion</name>
+            <desc type="string">As a bonus action, the butcher can ingest an eldrazi scion within 1 O feet of it, destroying the scion. The butcher then regains use of Consume.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The butcher makes two claw attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Claw</name>
+            <desc type="string">Me/ee Weapon Attack: +1 Oto hit, reach 1 Oft., one target. Hit: 22 (3d10 + 6) slashing damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Constrict</name>
+            <desc type="string">Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 19 (3d8 + 6) bludgeoning damage, and the target is grappled (escape DC 16). Until this grapple ends, the creature is restrained, and the butcher can't constrict another target.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Consume (1/Day)</name>
+            <desc type="string">The butcher targets one creature that it can see within 60 feet of it. The target must make a DC 16 Constitution saving throw, taking 28 (8d6) necrotic damage on a failed save, or half as much damage on a successful one. If this damage reduces the creature to O hit points, its body becomes a pile of white dust.</desc>
+          </id-00004>
+        </actions>
+      </broodbutcher>
+      <sireofstagnation>
+        <locked type="number">1</locked>
+        <name type="string">Sire Of Stagnation</name>
+        <type type="string">aberration</type>
+        <size type="string">Gargantuan</size>
+        <ac type="number">18</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">310</hp>
+        <hd type="string">(20d20 + 100)</hd>
+        <speed type="string">50 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">25</score>
+            <modifier type="string">+7</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">13</score>
+            <modifier type="string">+1</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Str +13, Con +11, Wis +8</savingthrows>
+        <skills type="string">Perception +8</skills>
+        <damageimmunities type="string">psychic, bludgeoning, piercing, and slashing from nonmagical weapons</damageimmunities>
+        <conditionimmunities type="string">charmed, frightened</conditionimmunities>
+        <senses type="string">darkvision 120 ft., passive Perception 18</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">Eldrazi, telepathy 120 ft.</languages>
+        <cr type="string">17</cr>
+        <xp type="number">18000</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Alien Mind</name>
+            <desc type="string">The sire has advantage on Wisdom saving throws.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Blighted Trail</name>
+            <desc type="string">Terrain that the sire passes over turns to white ash. Plants are destroyed in that area and cannot regrow for 1d10 days.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Ingest Scion</name>
+            <desc type="string">As a bonus action, the sire can ingest an eldrazi scion within 15 feet of it, destroying the scion. The sire then regains 16 (3d10) hit points.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Scour from Existence</name>
+            <desc type="string">When the sire reduces a creature to 0 hit points, that creature's body becomes a pile of white dust.</desc>
+          </id-00004>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The sire makes four fist attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Fist</name>
+            <desc type="string">Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 20 (2d12 + 7) bludgeoning damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Maddening Roar (Recharge 6)</name>
+            <desc type="string">The sire emits a mind-shattering roar. Each creature of the sire's choice within 100 feet of it and able to hear the roar must make a DC 18 Wisdom saving throw. On a failed save, a creature takes 44 (8d10) psychic damage and is afflicted with short-term madness (Dungeon Master's Guide pg. 259). On a successful save, the creature takes half as much damage and isn't afflicted with madness.</desc>
+          </id-00003>
+        </actions>
+      </sireofstagnation>
     </category>
   </npc>
   <lists>
@@ -3603,6 +3749,16 @@
                 </link>
                 <source type="string"/>
               </broodmonitor>
+              <broodbutcher>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.broodbutcher@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </broodbutcher>
             </index>
           </typeletterb>
           <typeletterc>
@@ -3723,6 +3879,16 @@
                 </link>
                 <source type="string"/>
               </silverpawpaladin>
+              <sireofstagnation>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.sireofstagnation@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </sireofstagnation>
             </index>
           </typeletters>
           <typeletterf>
@@ -7463,6 +7629,152 @@
           </id-00001>
         </actions>
       </eldraziscion>
+      <broodbutcher>
+        <locked type="number">1</locked>
+        <name type="string">Brood Butcher</name>
+        <type type="string">aberration</type>
+        <size type="string">Huge</size>
+        <ac type="number">14</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">184</hp>
+        <hd type="string">(16d12 + 80)</hd>
+        <speed type="string">40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">23</score>
+            <modifier type="string">+6</modifier>
+          </strength>
+          <constitution>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">7</score>
+            <modifier type="string">-1</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Wis +6</savingthrows>
+        <skills type="string">Perception +6</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 16</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">-</languages>
+        <cr type="string">9</cr>
+        <xp type="number">5000</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Alien Mind</name>
+            <desc type="string">The butcher has advantage on Wisdom saving throws.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Ingest Scion</name>
+            <desc type="string">As a bonus action, the butcher can ingest an eldrazi scion within 1 O feet of it, destroying the scion. The butcher then regains use of Consume.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The butcher makes two claw attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Claw</name>
+            <desc type="string">Me/ee Weapon Attack: +1 Oto hit, reach 1 Oft., one target. Hit: 22 (3d10 + 6) slashing damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Constrict</name>
+            <desc type="string">Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 19 (3d8 + 6) bludgeoning damage, and the target is grappled (escape DC 16). Until this grapple ends, the creature is restrained, and the butcher can't constrict another target.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Consume (1/Day)</name>
+            <desc type="string">The butcher targets one creature that it can see within 60 feet of it. The target must make a DC 16 Constitution saving throw, taking 28 (8d6) necrotic damage on a failed save, or half as much damage on a successful one. If this damage reduces the creature to O hit points, its body becomes a pile of white dust.</desc>
+          </id-00004>
+        </actions>
+      </broodbutcher>
+      <sireofstagnation>
+        <locked type="number">1</locked>
+        <name type="string">Sire Of Stagnation</name>
+        <type type="string">aberration</type>
+        <size type="string">Gargantuan</size>
+        <ac type="number">18</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">310</hp>
+        <hd type="string">(20d20 + 100)</hd>
+        <speed type="string">50 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">25</score>
+            <modifier type="string">+7</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">13</score>
+            <modifier type="string">+1</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Str +13, Con +11, Wis +8</savingthrows>
+        <skills type="string">Perception +8</skills>
+        <damageimmunities type="string">psychic, bludgeoning, piercing, and slashing from nonmagical weapons</damageimmunities>
+        <conditionimmunities type="string">charmed, frightened</conditionimmunities>
+        <senses type="string">darkvision 120 ft., passive Perception 18</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">Eldrazi, telepathy 120 ft.</languages>
+        <cr type="string">17</cr>
+        <xp type="number">18000</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Alien Mind</name>
+            <desc type="string">The sire has advantage on Wisdom saving throws.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Blighted Trail</name>
+            <desc type="string">Terrain that the sire passes over turns to white ash. Plants are destroyed in that area and cannot regrow for 1d10 days.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Ingest Scion</name>
+            <desc type="string">As a bonus action, the sire can ingest an eldrazi scion within 15 feet of it, destroying the scion. The sire then regains 16 (3d10) hit points.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Scour from Existence</name>
+            <desc type="string">When the sire reduces a creature to 0 hit points, that creature's body becomes a pile of white dust.</desc>
+          </id-00004>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The sire makes four fist attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Fist</name>
+            <desc type="string">Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 20 (2d12 + 7) bludgeoning damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Maddening Roar (Recharge 6)</name>
+            <desc type="string">The sire emits a mind-shattering roar. Each creature of the sire's choice within 100 feet of it and able to hear the roar must make a DC 18 Wisdom saving throw. On a failed save, a creature takes 44 (8d10) psychic damage and is afflicted with short-term madness (Dungeon Master's Guide pg. 259). On a successful save, the creature takes half as much damage and isn't afflicted with madness.</desc>
+          </id-00003>
+        </actions>
+      </sireofstagnation>
     </npcdata>
     <npclists>
       <npcs>
@@ -7662,6 +7974,16 @@
                 </link>
                 <source type="number"/>
               </broodmonitor>
+              <broodbutcher>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.broodbutcher@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </broodbutcher>
             </index>
           </typeletterB>
           <typeletterC>
@@ -7782,6 +8104,16 @@
                 </link>
                 <source type="number"/>
               </silverpawpaladin>
+              <sireofstagnation>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.sireofstagnation@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </sireofstagnation>
             </index>
           </typeletterS>
           <typeletterF>
@@ -8377,6 +8709,16 @@
                 </link>
                 <source type="number"/>
               </covenhorror>
+              <broodbutcher>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.broodbutcher@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </broodbutcher>
             </index>
           </level09>
           <level14>
@@ -8684,6 +9026,21 @@
               </sliverqueen>
             </index>
           </level13>
+          <level17>
+            <description type="string">17</description>
+            <index>
+              <sireofstagnation>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.sireofstagnation@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </sireofstagnation>
+            </index>
+          </level17>
         </groups>
       </bylevel>
       <bytype>
@@ -9212,6 +9569,26 @@
                 </link>
                 <source>aberration</source>
               </eldraziscion>
+              <broodbutcher>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.broodbutcher@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>aberration</source>
+              </broodbutcher>
+              <sireofstagnation>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.sireofstagnation@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>aberration</source>
+              </sireofstagnation>
             </index>
           </typeaberration>
           <typeconstruct_myr_>
