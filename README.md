@@ -18,4 +18,4 @@ Add tokens with clear lowercase names in the input/tokens folder. Each token sho
 TBD: resolution.
 
 ### Images and portraits
-NPC images should be uploaded to input/images. These should be monster imagery from the Monster A Day reddit thread, cropped to only include the monster image.
+NPC images should be uploaded to input/images. These should not be the monster imagery from the Monster A Day reddit thread, as we do not have permission from any of the artists. Originals only, cropped to only include the monster image.
