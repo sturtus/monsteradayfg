@@ -1034,7 +1034,7 @@ Constrict. Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 19 (3d
 Consume (1/Day). The butcher targets one creature that it can see within 60 feet of it. The target must make a DC 16 Constitution saving throw, taking 28 (8d6) necrotic damage on a failed save, or half as much damage on a successful one. If this damage reduces the creature to O hit points, its body becomes a pile of white dust.
 
 Ulamog, The Ceaseless Hunger
-Colossal aberration (titan), chaotic evil
+Gargantuan aberration (titan), chaotic evil
 Armor Class 25 (natural armor)
 Hit Points 717 (35d20 + 350)
 Speed 50 ft.

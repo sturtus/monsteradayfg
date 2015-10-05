@@ -3496,6 +3496,111 @@
           </id-00004>
         </actions>
       </broodbutcher>
+      <ulamog_theceaselesshunger>
+        <locked type="number">1</locked>
+        <name type="string">Ulamog, The Ceaseless Hunger</name>
+        <type type="string">aberration (titan)</type>
+        <size type="string">Gargantuan</size>
+        <ac type="number">25</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">717</hp>
+        <hd type="string">(35d20 + 350)</hd>
+        <speed type="string">50 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">30</score>
+            <modifier type="string">+10</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">30</score>
+            <modifier type="string">+10</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">25</score>
+            <modifier type="string">+7</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">26</score>
+            <modifier type="string">+8</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Str +19, Con +19, Wis +14, Cha +17</savingthrows>
+        <damagevulnerabilities type="string">bludgeoning, piercing, and slashing from hedron weapons</damagevulnerabilities>
+        <damageresistances type="string">acid, cold, fire, lightning</damageresistances>
+        <damageimmunities type="string">psychic, bludgeoning, piercing, and slashing from nonmagical weapons</damageimmunities>
+        <conditionimmunities type="string">charmed, exhaustion, frightened</conditionimmunities>
+        <senses type="string">truesight 120 ft., passive Perception 24</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">Eldrazi, telepathy 500 ft.</languages>
+        <cr type="string">30</cr>
+        <xp type="number">155000</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Innate Spellcasting</name>
+            <desc type="string">Ulamog's innate spellcasting ability is Wisdom (spell save DC 22). It can innately cast the following spells, requiring no material components: At will: detect magic, dispel magic 3/day each: confusion, counterspell (9th level spell slot), weird 1/day each: divine word, feeblemind, plane shift</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Legendary Resistance (3/Day)</name>
+            <desc type="string">If Ulamog fails a saving throw, it can choose to succeed instead.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Magic Resistance</name>
+            <desc type="string">Ulamog has advantage on saving throws against spells and other magical effects.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Magic Weapons</name>
+            <desc type="string">Ulamog's weapon attacks are magical.</desc>
+          </id-00004>
+          <id-00005>
+            <name type="string">Scour from Existence</name>
+            <desc type="string">When Ulamog reduces a creature to 0 hit points, that creature's body becomes a pile of white dust.</desc>
+          </id-00005>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">Ulamog can use its Maddening Presence. It then makes six attacks: four with its fists, and two with its tentacles.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Fist</name>
+            <desc type="string">Melee Weapon Attack: +19 to hit, reach 20 ft., one target. Hit: 36 (4d12 + 10) bludgeoning damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Tentacle</name>
+            <desc type="string">Melee Weapon Attack: +19 to hit, reach 30 ft., one target. Hit: 28 (4d8 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 20 Strength saving throw or be knocked prone.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Maddening Presence</name>
+            <desc type="string">Each creature of Ulamog's choice within 120 feet of it and aware of it must succeed on a DC 18 Wisdom saving throw or become afflicted with short-term madness (Dungeon Master's Guide pg. 259). If a creature afflicted with short-term madness fails its saving throw, it becomes afflicted with long-term madness. If a creature afflicted with long-term madness fails its saving throw, it becomes afflicted with indefinite madness. If a creature afflicted with indefinite madness fails its saving throw, it dies from psychological trauma. If a creature's saving throw is successful, the creature is immune to Ulamog's Maddening Presence for the next 24 hours.</desc>
+          </id-00004>
+        </actions>
+        <legendaryactions>
+          <id-00001>
+            <name type="string">Maddening Presence</name>
+            <desc type="string"> Ulamog can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Ulamog regains spent legendary actions at the start of its turn.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Grip of Desolation</name>
+            <desc type="string">Ulamog makes a fist attack. If the attack hits, the target is grappled (escape DC 20) if it is a Huge or smaller creature and Ulamog doesn't have four other creatures grappled. Until this grapple ends, the target is restrained and takes 4d10</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">psychic damage at the start of each of its turns</name>
+            <desc type="string"/>
+          </id-00003>
+          <id-00004>
+            <name type="string">Transgress the Mind (Costs 2 actions)</name>
+            <desc type="string">Ulamog casts phantasmal killer, no concentration required. Titan's Presence (Costs 3 actions). Ulamog casts banishment.</desc>
+          </id-00004>
+        </legendaryactions>
+      </ulamog_theceaselesshunger>
       <sireofstagnation>
         <locked type="number">1</locked>
         <name type="string">Sire Of Stagnation</name>
@@ -3574,6 +3679,130 @@
           </id-00003>
         </actions>
       </sireofstagnation>
+      <tentaghoul>
+        <locked type="number">1</locked>
+        <name type="string">Tentaghoul</name>
+        <type type="string">Undead</type>
+        <size type="string">Large</size>
+        <ac type="number">13</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">76</hp>
+        <hd type="string">(9d10 + 27)</hd>
+        <speed type="string">40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">19</score>
+            <modifier type="string">+4</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">9</score>
+            <modifier type="string">0</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">7</score>
+            <modifier type="string">-1</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">7</score>
+            <modifier type="string">-1</modifier>
+          </charisma>
+        </abilities>
+        <damageresistances type="string">necrotic, bludgeoning</damageresistances>
+        <damageimmunities type="string">poison</damageimmunities>
+        <conditionimmunities type="string">charmed, exhaustion, poisoned</conditionimmunities>
+        <senses type="string">darkvision 60 ft., passive Perception 9</senses>
+        <alignment type="string">Chaotic Evil</alignment>
+        <languages type="string">Common, Giant</languages>
+        <cr type="string">3</cr>
+        <xp type="number">700</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Stench</name>
+            <desc type="string">Any creature that starts its turn within 10 feet of the tentaghoul must succeed on a DC 12 Constitution saving throw or be poisoned until the start of its next turn. On a successful saving throw, the creature is immune to the tentaghoul's Stench for 24 hours.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Turning Defiance</name>
+            <desc type="string">The tentaghoul and any ghouls within 30 feet of it have advantage on saving throws against effects that turn undead.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Tentacle</name>
+            <desc type="string">Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage. If the target is a creature other than an undead, it must succeed on a DC 12 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</desc>
+          </id-00001>
+        </actions>
+      </tentaghoul>
+      <deathwidow>
+        <locked type="number">1</locked>
+        <name type="string">Death Widow</name>
+        <type type="string">Monstrosity</type>
+        <size type="string">Large</size>
+        <ac type="number">14</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">60</hp>
+        <hd type="string">(8d10 + 16)</hd>
+        <speed type="string">30 ft., climb 30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">2</score>
+            <modifier type="string">-4</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">5</score>
+            <modifier type="string">-2</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Stealth (+7)</skills>
+        <senses type="string">blindsight 10 ft., darkvision 60 ft., passive Perception 11</senses>
+        <alignment type="string">unaligned</alignment>
+        <languages type="string">-</languages>
+        <cr type="string">3</cr>
+        <xp type="number">700</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Spider Climb</name>
+            <desc type="string">The Widow can climb difficult surfaces including upside down on ceilings, without needing to make an ability check.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Web Sense</name>
+            <desc type="string">While in contact with a web, the widow knows the exact location of any other creature in contact with the same web.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Web Walker</name>
+            <desc type="string">The Widow ignores movement restrictions caused by webbing.</desc>
+          </id-00003>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Bite</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or become poisoned. While poisoned in this way, the target is incapacitated and takes 13 (3d8) poison damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</desc>
+          </id-00001>
+        </actions>
+      </deathwidow>
     </category>
   </npc>
   <lists>
@@ -4134,6 +4363,16 @@
                 </link>
                 <source type="string"/>
               </trollboar>
+              <tentaghoul>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.tentaghoul@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </tentaghoul>
             </index>
           </typelettert>
           <typeletterw>
@@ -4179,6 +4418,16 @@
                 </link>
                 <source type="string"/>
               </dreameater>
+              <deathwidow>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.deathwidow@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </deathwidow>
             </index>
           </typeletterd>
           <typelettere>
@@ -4196,6 +4445,21 @@
               </eldraziscion>
             </index>
           </typelettere>
+          <typeletteru>
+            <description type="string">U</description>
+            <index>
+              <ulamog_theceaselesshunger>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.ulamog_theceaselesshunger@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </ulamog_theceaselesshunger>
+            </index>
+          </typeletteru>
         </groups>
       </byletter>
     </npc>
@@ -7697,6 +7961,111 @@
           </id-00004>
         </actions>
       </broodbutcher>
+      <ulamog_theceaselesshunger>
+        <locked type="number">1</locked>
+        <name type="string">Ulamog, The Ceaseless Hunger</name>
+        <type type="string">aberration (titan)</type>
+        <size type="string">Gargantuan</size>
+        <ac type="number">25</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">717</hp>
+        <hd type="string">(35d20 + 350)</hd>
+        <speed type="string">50 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">30</score>
+            <modifier type="string">+10</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">30</score>
+            <modifier type="string">+10</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">25</score>
+            <modifier type="string">+7</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">26</score>
+            <modifier type="string">+8</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Str +19, Con +19, Wis +14, Cha +17</savingthrows>
+        <damagevulnerabilities type="string">bludgeoning, piercing, and slashing from hedron weapons</damagevulnerabilities>
+        <damageresistances type="string">acid, cold, fire, lightning</damageresistances>
+        <damageimmunities type="string">psychic, bludgeoning, piercing, and slashing from nonmagical weapons</damageimmunities>
+        <conditionimmunities type="string">charmed, exhaustion, frightened</conditionimmunities>
+        <senses type="string">truesight 120 ft., passive Perception 24</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">Eldrazi, telepathy 500 ft.</languages>
+        <cr type="string">30</cr>
+        <xp type="number">155000</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Innate Spellcasting</name>
+            <desc type="string">Ulamog's innate spellcasting ability is Wisdom (spell save DC 22). It can innately cast the following spells, requiring no material components: At will: detect magic, dispel magic 3/day each: confusion, counterspell (9th level spell slot), weird 1/day each: divine word, feeblemind, plane shift</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Legendary Resistance (3/Day)</name>
+            <desc type="string">If Ulamog fails a saving throw, it can choose to succeed instead.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Magic Resistance</name>
+            <desc type="string">Ulamog has advantage on saving throws against spells and other magical effects.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Magic Weapons</name>
+            <desc type="string">Ulamog's weapon attacks are magical.</desc>
+          </id-00004>
+          <id-00005>
+            <name type="string">Scour from Existence</name>
+            <desc type="string">When Ulamog reduces a creature to 0 hit points, that creature's body becomes a pile of white dust.</desc>
+          </id-00005>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">Ulamog can use its Maddening Presence. It then makes six attacks: four with its fists, and two with its tentacles.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Fist</name>
+            <desc type="string">Melee Weapon Attack: +19 to hit, reach 20 ft., one target. Hit: 36 (4d12 + 10) bludgeoning damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Tentacle</name>
+            <desc type="string">Melee Weapon Attack: +19 to hit, reach 30 ft., one target. Hit: 28 (4d8 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 20 Strength saving throw or be knocked prone.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Maddening Presence</name>
+            <desc type="string">Each creature of Ulamog's choice within 120 feet of it and aware of it must succeed on a DC 18 Wisdom saving throw or become afflicted with short-term madness (Dungeon Master's Guide pg. 259). If a creature afflicted with short-term madness fails its saving throw, it becomes afflicted with long-term madness. If a creature afflicted with long-term madness fails its saving throw, it becomes afflicted with indefinite madness. If a creature afflicted with indefinite madness fails its saving throw, it dies from psychological trauma. If a creature's saving throw is successful, the creature is immune to Ulamog's Maddening Presence for the next 24 hours.</desc>
+          </id-00004>
+        </actions>
+        <legendaryactions>
+          <id-00001>
+            <name type="string">Maddening Presence</name>
+            <desc type="string"> Ulamog can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Ulamog regains spent legendary actions at the start of its turn.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Grip of Desolation</name>
+            <desc type="string">Ulamog makes a fist attack. If the attack hits, the target is grappled (escape DC 20) if it is a Huge or smaller creature and Ulamog doesn't have four other creatures grappled. Until this grapple ends, the target is restrained and takes 4d10</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">psychic damage at the start of each of its turns</name>
+            <desc type="string"/>
+          </id-00003>
+          <id-00004>
+            <name type="string">Transgress the Mind (Costs 2 actions)</name>
+            <desc type="string">Ulamog casts phantasmal killer, no concentration required. Titan's Presence (Costs 3 actions). Ulamog casts banishment.</desc>
+          </id-00004>
+        </legendaryactions>
+      </ulamog_theceaselesshunger>
       <sireofstagnation>
         <locked type="number">1</locked>
         <name type="string">Sire Of Stagnation</name>
@@ -7775,6 +8144,130 @@
           </id-00003>
         </actions>
       </sireofstagnation>
+      <tentaghoul>
+        <locked type="number">1</locked>
+        <name type="string">Tentaghoul</name>
+        <type type="string">Undead</type>
+        <size type="string">Large</size>
+        <ac type="number">13</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">76</hp>
+        <hd type="string">(9d10 + 27)</hd>
+        <speed type="string">40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">19</score>
+            <modifier type="string">+4</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">9</score>
+            <modifier type="string">0</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">7</score>
+            <modifier type="string">-1</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">7</score>
+            <modifier type="string">-1</modifier>
+          </charisma>
+        </abilities>
+        <damageresistances type="string">necrotic, bludgeoning</damageresistances>
+        <damageimmunities type="string">poison</damageimmunities>
+        <conditionimmunities type="string">charmed, exhaustion, poisoned</conditionimmunities>
+        <senses type="string">darkvision 60 ft., passive Perception 9</senses>
+        <alignment type="string">Chaotic Evil</alignment>
+        <languages type="string">Common, Giant</languages>
+        <cr type="string">3</cr>
+        <xp type="number">700</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Stench</name>
+            <desc type="string">Any creature that starts its turn within 10 feet of the tentaghoul must succeed on a DC 12 Constitution saving throw or be poisoned until the start of its next turn. On a successful saving throw, the creature is immune to the tentaghoul's Stench for 24 hours.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Turning Defiance</name>
+            <desc type="string">The tentaghoul and any ghouls within 30 feet of it have advantage on saving throws against effects that turn undead.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Tentacle</name>
+            <desc type="string">Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage. If the target is a creature other than an undead, it must succeed on a DC 12 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</desc>
+          </id-00001>
+        </actions>
+      </tentaghoul>
+      <deathwidow>
+        <locked type="number">1</locked>
+        <name type="string">Death Widow</name>
+        <type type="string">Monstrosity</type>
+        <size type="string">Large</size>
+        <ac type="number">14</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">60</hp>
+        <hd type="string">(8d10 + 16)</hd>
+        <speed type="string">30 ft., climb 30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">2</score>
+            <modifier type="string">-4</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">5</score>
+            <modifier type="string">-2</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Stealth (+7)</skills>
+        <senses type="string">blindsight 10 ft., darkvision 60 ft., passive Perception 11</senses>
+        <alignment type="string">unaligned</alignment>
+        <languages type="string">-</languages>
+        <cr type="string">3</cr>
+        <xp type="number">700</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Spider Climb</name>
+            <desc type="string">The Widow can climb difficult surfaces including upside down on ceilings, without needing to make an ability check.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Web Sense</name>
+            <desc type="string">While in contact with a web, the widow knows the exact location of any other creature in contact with the same web.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Web Walker</name>
+            <desc type="string">The Widow ignores movement restrictions caused by webbing.</desc>
+          </id-00003>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Bite</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or become poisoned. While poisoned in this way, the target is incapacitated and takes 13 (3d8) poison damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</desc>
+          </id-00001>
+        </actions>
+      </deathwidow>
     </npcdata>
     <npclists>
       <npcs>
@@ -8359,6 +8852,16 @@
                 </link>
                 <source type="number"/>
               </trollboar>
+              <tentaghoul>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.tentaghoul@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </tentaghoul>
             </index>
           </typeletterT>
           <typeletterW>
@@ -8404,6 +8907,16 @@
                 </link>
                 <source type="number"/>
               </dreameater>
+              <deathwidow>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.deathwidow@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </deathwidow>
             </index>
           </typeletterD>
           <typeletterE>
@@ -8421,6 +8934,21 @@
               </eldraziscion>
             </index>
           </typeletterE>
+          <typeletterU>
+            <description type="string">U</description>
+            <index>
+              <ulamog_theceaselesshunger>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.ulamog_theceaselesshunger@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </ulamog_theceaselesshunger>
+            </index>
+          </typeletterU>
         </groups>
       </byletter>
       <bylevel>
@@ -8619,6 +9147,26 @@
                 </link>
                 <source type="number"/>
               </trollboar>
+              <tentaghoul>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.tentaghoul@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </tentaghoul>
+              <deathwidow>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.deathwidow@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </deathwidow>
             </index>
           </level03>
           <level1_2>
@@ -9026,6 +9574,21 @@
               </sliverqueen>
             </index>
           </level13>
+          <level30>
+            <description type="string">30</description>
+            <index>
+              <ulamog_theceaselesshunger>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.ulamog_theceaselesshunger@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </ulamog_theceaselesshunger>
+            </index>
+          </level30>
           <level17>
             <description type="string">17</description>
             <index>
@@ -9114,6 +9677,16 @@
                 </link>
                 <source>monstrosity</source>
               </covenhorror>
+              <deathwidow>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.deathwidow@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>Monstrosity</source>
+              </deathwidow>
             </index>
           </typemonstrosity>
           <typemonstrosity_sliver_>
@@ -9414,6 +9987,16 @@
                 </link>
                 <source>undead</source>
               </burningskeleton>
+              <tentaghoul>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.tentaghoul@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>Undead</source>
+              </tentaghoul>
             </index>
           </typeundead>
           <typehumanoid_leonin_>
@@ -9686,6 +10269,111 @@
               </silverpawpaladin>
             </index>
           </typehumanoid_halfling_>
+          <typeaberration_titan_>
+            <description type="string">Aberration (titan)</description>
+            <index>
+              <ulamog_theceaselesshunger>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.ulamog_theceaselesshunger@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>aberration (titan)</source>
+              </ulamog_theceaselesshunger>
+            </index>
+          </typeaberration_titan_>
+          <typeundead>
+            <description type="string">Undead</description>
+            <index>
+              <gravetitan>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.gravetitan@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>undead</source>
+              </gravetitan>
+              <spirit>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.spirit@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>undead</source>
+              </spirit>
+              <burningskeleton>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.burningskeleton@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>undead</source>
+              </burningskeleton>
+              <tentaghoul>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.tentaghoul@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>Undead</source>
+              </tentaghoul>
+            </index>
+          </typeundead>
+          <typemonstrosity>
+            <description type="string">Monstrosity</description>
+            <index>
+              <arcanamite>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.arcanamite@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>monstrosity</source>
+              </arcanamite>
+              <trollboar>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.trollboar@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>monstrosity</source>
+              </trollboar>
+              <covenhorror>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.covenhorror@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>monstrosity</source>
+              </covenhorror>
+              <deathwidow>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.deathwidow@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>Monstrosity</source>
+              </deathwidow>
+            </index>
+          </typemonstrosity>
         </groups>
       </bytype>
     </npclists>
