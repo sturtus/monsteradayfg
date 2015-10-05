@@ -3803,6 +3803,69 @@
           </id-00001>
         </actions>
       </deathwidow>
+      <screecher>
+        <locked type="number">1</locked>
+        <name type="string">Screecher</name>
+        <type type="string">monstrosity</type>
+        <size type="string">Large</size>
+        <ac type="number">13</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">45</hp>
+        <hd type="string">(6d10 + 12)</hd>
+        <speed type="string">50 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">2</score>
+            <modifier type="string">-4</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">5</score>
+            <modifier type="string">-2</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Perception +5</skills>
+        <senses type="string">blindsight 60 ft., passive Perception 15</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">-</languages>
+        <cr type="string">2</cr>
+        <xp type="number">450</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Echolocation</name>
+            <desc type="string">The screecher can't use its blindsight while deafened.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Keen Hearing</name>
+            <desc type="string">The screecher has advantage on Wisdom (Perception) checks that rely on hearing.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Bite</name>
+            <desc type="string">Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Screech (Recharge 5-6)</name>
+            <desc type="string">Each creature within 60 feet of the screecher that can hear it must succeed on a DC 12 Constitution saving throw or become stunned until the end of the screecher's next turn.</desc>
+          </id-00002>
+        </actions>
+      </screecher>
     </category>
   </npc>
   <lists>
@@ -4118,6 +4181,16 @@
                 </link>
                 <source type="string"/>
               </sireofstagnation>
+              <screecher>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.screecher@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </screecher>
             </index>
           </typeletters>
           <typeletterf>
@@ -8268,6 +8341,69 @@
           </id-00001>
         </actions>
       </deathwidow>
+      <screecher>
+        <locked type="number">1</locked>
+        <name type="string">Screecher</name>
+        <type type="string">monstrosity</type>
+        <size type="string">Large</size>
+        <ac type="number">13</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">45</hp>
+        <hd type="string">(6d10 + 12)</hd>
+        <speed type="string">50 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">2</score>
+            <modifier type="string">-4</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">5</score>
+            <modifier type="string">-2</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Perception +5</skills>
+        <senses type="string">blindsight 60 ft., passive Perception 15</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">-</languages>
+        <cr type="string">2</cr>
+        <xp type="number">450</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Echolocation</name>
+            <desc type="string">The screecher can't use its blindsight while deafened.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Keen Hearing</name>
+            <desc type="string">The screecher has advantage on Wisdom (Perception) checks that rely on hearing.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Bite</name>
+            <desc type="string">Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Screech (Recharge 5-6)</name>
+            <desc type="string">Each creature within 60 feet of the screecher that can hear it must succeed on a DC 12 Constitution saving throw or become stunned until the end of the screecher's next turn.</desc>
+          </id-00002>
+        </actions>
+      </screecher>
     </npcdata>
     <npclists>
       <npcs>
@@ -8607,6 +8743,16 @@
                 </link>
                 <source type="number"/>
               </sireofstagnation>
+              <screecher>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.screecher@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </screecher>
             </index>
           </typeletterS>
           <typeletterF>
@@ -9007,6 +9153,16 @@
                 </link>
                 <source type="number"/>
               </morphlit>
+              <screecher>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.screecher@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </screecher>
             </index>
           </level02>
           <level01>
@@ -9687,6 +9843,16 @@
                 </link>
                 <source>Monstrosity</source>
               </deathwidow>
+              <screecher>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.screecher@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>monstrosity</source>
+              </screecher>
             </index>
           </typemonstrosity>
           <typemonstrosity_sliver_>
@@ -10372,6 +10538,16 @@
                 </link>
                 <source>Monstrosity</source>
               </deathwidow>
+              <screecher>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.screecher@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>monstrosity</source>
+              </screecher>
             </index>
           </typemonstrosity>
         </groups>

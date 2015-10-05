@@ -1121,3 +1121,19 @@ Web Sense. While in contact with a web, the widow knows the exact location of an
 Web Walker. The Widow ignores movement restrictions caused by webbing.
 ACTIONS
 Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or become poisoned. While poisoned in this way, the target is incapacitated and takes 13 (3d8) poison damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+Screecher
+Large monstrosity, neutral
+Armor Class 13 (natural armor)
+Hit Points 45 (6d10 + 12)
+Speed 50 ft.
+STR DEX CON INT WIS CHA 18 (+4) 14 (+2) 14 (+2) 2 (-4) 12 (+1) 5 (-3)
+Skills Perception +5
+Senses blindsight 60 ft., passive Perception 15
+Languages -
+Challenge 2 (450 XP)
+Echolocation. The screecher can't use its blindsight while deafened.
+Keen Hearing. The screecher has advantage on Wisdom (Perception) checks that rely on hearing.
+ACTIONS
+Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage.
+Screech (Recharge 5-6). Each creature within 60 feet of the screecher that can hear it must succeed on a DC 12 Constitution saving throw or become stunned until the end of the screecher's next turn.
