@@ -1135,3 +1135,40 @@ Keen Hearing. The screecher has advantage on Wisdom (Perception) checks that rel
 ACTIONS
 Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage.
 Screech (Recharge 5-6). Each creature within 60 feet of the screecher that can hear it must succeed on a DC 12 Constitution saving throw or become stunned until the end of the screecher's next turn.
+
+Gladeborn Trapper
+Medium humanoid (any race), neutral
+Armor Class 16 (breastplate)
+Hit Points 52 (8d8 + 16)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 12 (+1) 16 (+3) 14 (+2) 11 (+0) 14 (+2) 11 (+0)
+Saving Throws Dex +5
+Skills Perception +6, Survival +4
+Senses passive Perception 16
+Languages Common
+Challenge 3 (700 XP)
+Crossbow Expert. The trapper ignores the loading quality on crossbows. Additionally, being within 5 feet of a hostile creature doesn't impose disadvantage on its ranged attack rolls.
+ACTIONS
+Multiattack. The trapper makes two melee attacks or two ranged attacks.
+Shortsword. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 +3) piercing damage.
+Heavy Crossbow. Ranged Weapon Attack: +5 to hit, range 100/400 ft., one target. Hit: 8 (1d10 + 3) piercing damage plus 3 (1d6) poison damage.
+Conjure Bolas (Recharge 5-6). Ranged Weapon Attack: +5 to hit, range 30/60 ft., one target. Hit: 5 (1d3 + 3) bludgeoning damage and the target is restrained for 1 minute (escape DC 13)
+
+Gladeborn Hunter
+Medium humanoid (any race), neutral
+Armor Class 16 (studded leather)
+Hit Points 91 (14d8 + 28)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 15 (+2) 18 (+4) 14 (+2) 12 (+1) 14 (+2) 12 (+1)
+Saving Throws Dex +7
+Skills Perception +8, Survival +5, Stealth +10
+Senses passive Perception 18
+Languages Common
+Challenge 5 (1,800 XP)
+Magic Weapons. The hunter's weapon attacks are magical
+Skilled Tracker. The hunter magically knows the distance to and direction of its quarry, so long as the creature is within 50 miles of the hunter.
+ACTIONS
+Multiattack. The hunter makes two melee attacks or three ranged attacks
+Handaxe. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.
+Longbow. Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 8 (1d8 + 4) piercing damage plus 3 (1d6) force damage.
+Multishot (Recharge 5-6). The hunter unleashes a magical volley of arrows in a 90-foot cone. The hunter can make a longbow attack against each creature in that area, dealing an extra 14 (4d6) force damage on a hit. A creature hit by an attack in this way must succeed on a DC 14 Constitution saving throw or be stunned until the end of the hunter's next turn.
