@@ -90,7 +90,7 @@ Challenge 9 (5,000 XP)
 Immutable Form. The golem is immune to any spell or effect that would alter its form.
 Magic Resistance. The golem has advantage on saving throws against spells and other magical effects.
 Magic Weapons. The golem's weapon attacks are magical.
-ACTION5
+ACTIONS
 Multiattack. The golem makes two slam attacks.
 Slam. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (3d8 + 5) bludgeoning damage.
 Bone Prison. The golem targets one creature it can see within 60 feet of it. A prison of magical bones surrounds the creature. The target must make a DC 15 Dexterity saving throw or become restrained. The restrained creature can break free by succeeding on a DC 20 escape check, or by destroying the bone prison (AC 20; 50 hit points; immunity to poison and psychic damage). The golem can only have one bone prison active at a time. It may dismiss the bone prison as a bonus action.
@@ -213,10 +213,10 @@ ACTIONS
 Multlattack. The elemental makes two slam attacks.
 Slam. Melee Weapon Attack: +14 to hit, reach 1 Oft., one target. Hit: 20 (2d10 + 9) bludgeoning damage plus 9 (2d8) damage of a type chosen randomly from the following: acid, lightning, fire, or cold.
 Hurl Energy. Ranged Weapon Attack: +14 to hit, range 60/240 ft., one target. Hit: 18 (2d8 + 9) damage of a type chosen randomly from the following: acid, lightning, fire, or cold. Elemental Chaos (Recharge 5-6). The elemental makes one elemental chaos attack at random. 
-1. Earthquake. A seismic disturbance radiates from the elemental in a 100-foot radius circle. Each creature on the ground in that area must succeed on a DC 18 Dexterity saving throw or be knocked prone. Each creature on the ground that is concentrating must also succeed on a DC 18 Constitution saving throw or break concentration. The area becomes difficult terrain after the earthquake.
-2. Fire Breath. The elemental exhales fire in a 60-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 54 ( 12d8) fire damage on a failed save, or half as much damage on a successful one. 
-3. Tidal Wave. A massive wave emanates from the elemental. Each creature within 60 feet of the elemental must succeed on a DC 18 Strength saving throw or be pushed up to 60 feet away from the elemental. On a success, the creature is pushed 10 feet away from the elemental.
-4. Whirlwind. The elemental summons a 10-foot-radius, 60-foot high whirlwind centered on a point within 120 feet of it. Each creature in that area must make a DC 18 Strength saving throw. On a failure, a target takes 27 (6d8) bludgeoning damage and is flung up to 40 feet away in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 18 Dexterity saving throw or take the same damage and be knocked prone. If the saving throw is successful, the target takes half the bludgeoning damage and isn't flung away or knocked prone.
+1 Earthquake. A seismic disturbance radiates from the elemental in a 100-foot radius circle. Each creature on the ground in that area must succeed on a DC 18 Dexterity saving throw or be knocked prone. Each creature on the ground that is concentrating must also succeed on a DC 18 Constitution saving throw or break concentration. The area becomes difficult terrain after the earthquake.
+2 Fire Breath. The elemental exhales fire in a 60-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 54 ( 12d8) fire damage on a failed save, or half as much damage on a successful one. 
+3 Tidal Wave. A massive wave emanates from the elemental. Each creature within 60 feet of the elemental must succeed on a DC 18 Strength saving throw or be pushed up to 60 feet away from the elemental. On a success, the creature is pushed 10 feet away from the elemental.
+4 Whirlwind. The elemental summons a 10-foot-radius, 60-foot high whirlwind centered on a point within 120 feet of it. Each creature in that area must make a DC 18 Strength saving throw. On a failure, a target takes 27 (6d8) bludgeoning damage and is flung up to 40 feet away in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 18 Dexterity saving throw or take the same damage and be knocked prone. If the saving throw is successful, the target takes half the bludgeoning damage and isn't flung away or knocked prone.
 LEGENDARY ACTIONS
 The elemental can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The elemental regains spent legendary actions at the start of its turn.
 Hurl Energy. The elemental uses its Hurl Energy. 
@@ -934,8 +934,7 @@ Multiattack. The dream eater makes two claw attacks.
 Claw. Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (3d8) psychic damage, and the target must succeed on a DC 14 Constitution saving throw or gain one level of exhaustion.
 Terrorize (Recharge 5-6). The dream eater emits nightmarish visions. Each creature within 10 feet of the dream eater must succeed on a DC 14 Wisdom saving throw or become paralyzed untii the end of the dream eater's next turn.
 LEGENDARY ACTIONS
-The dream eater can take 2 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dream
-eater regains spent legendary actions at the start of its turn. 
+The dream eater can take 2 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dream eater regains spent legendary actions at the start of its turn. 
 Dream Walk. The dream eater magically teleports up to 40 feet to an unoccupied space it can see.
 Deep Slumber (Costs 2 Actions). The dream eater targets one creature that it can see within 60 feet of it. The target must succeed on a DC 14 Wisdom saving throw or fall unconscious for 8 hours. The target wakes up if it takes damage or if another creature takes an action to shake it awake.
 
@@ -958,9 +957,9 @@ ACTIONS
 Multiattack. The horror can use its Gaze. It then makes two claw attacks.
 Claw. Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit: 14 (2d8 + 5) slashing damage.
 Gaze. The horror makes one gaze at random, choosing one target it can see within 60 feet of it 1. 
-1. Gaze of Agony. The target creature must make a DC 15 Charisma saving throw, taking 36 (8d8) psychic damage on a failed save, or half as much damage on a successful one.
-2. Gaze of Lethargy. The target creature must succeed on a DC 15 Charisma saving throw. On a failed save, the target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-3. Gaze of Despair. The target creature must succeed on a DC 15 Charisma saving throw. On a failed save, the target becomes overwhelmed with despair for 1 minute, and has disadvantage on attack rolls, saving throws, and ability checks. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+1 Gaze of Agony. The target creature must make a DC 15 Charisma saving throw, taking 36 (8d8) psychic damage on a failed save, or half as much damage on a successful one.
+2 Gaze of Lethargy. The target creature must succeed on a DC 15 Charisma saving throw. On a failed save, the target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+3 Gaze of Despair. The target creature must succeed on a DC 15 Charisma saving throw. On a failed save, the target becomes overwhelmed with despair for 1 minute, and has disadvantage on attack rolls, saving throws, and ability checks. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 
 Burning Skeleton
 Medium undead, lawful evil
@@ -1062,8 +1061,7 @@ Tentacle. Melee Weapon Attack: +19 to hit, reach 30 ft., one target. Hit: 28 (4d
 Maddening Presence. Each creature of Ulamog's choice within 120 feet of it and aware of it must succeed on a DC 18 Wisdom saving throw or become afflicted with short-term madness (Dungeon Master's Guide pg. 259). If a creature afflicted with short-term madness fails its saving throw, it becomes afflicted with long-term madness. If a creature afflicted with long-term madness fails its saving throw, it becomes afflicted with indefinite madness. If a creature afflicted with indefinite madness fails its saving throw, it dies from psychological trauma. If a creature's saving throw is successful, the creature is immune to Ulamog's Maddening Presence for the next 24 hours.
 LEGENDARY ACTIONS
 Ulamog can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Ulamog regains spent legendary actions at the start of its turn.
-Grip of Desolation. Ulamog makes a fist attack. If the attack hits, the target is grappled (escape DC 20) if it is a Huge or smaller creature and Ulamog doesn't have four other creatures grappled. Until this grapple ends, the target is restrained and takes 4d10
-psychic damage at the start of each of its turns.
+Grip of Desolation. Ulamog makes a fist attack. If the attack hits, the target is grappled (escape DC 20) if it is a Huge or smaller creature and Ulamog doesn't have four other creatures grappled. Until this grapple ends, the target is restrained and takes 4d10 psychic damage at the start of each of its turns.
 Transgress the Mind (Costs 2 actions). Ulamog casts phantasmal killer, no concentration required.
 Titan's Presence (Costs 3 actions). Ulamog casts banishment.
 
