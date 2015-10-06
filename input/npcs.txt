@@ -1172,3 +1172,127 @@ Multiattack. The hunter makes two melee attacks or three ranged attacks
 Handaxe. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.
 Longbow. Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 8 (1d8 + 4) piercing damage plus 3 (1d6) force damage.
 Multishot (Recharge 5-6). The hunter unleashes a magical volley of arrows in a 90-foot cone. The hunter can make a longbow attack against each creature in that area, dealing an extra 14 (4d6) force damage on a hit. A creature hit by an attack in this way must succeed on a DC 14 Constitution saving throw or be stunned until the end of the hunter's next turn.
+
+Harmonic Sliver
+Large Monstrosity (sliver), Neutral Evil
+Armor Class 12 (natural armor)
+Hit Points 45 (6d10 + 12)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 16 (+3) 14 (+2) 14 (+2) 10 (+0) 12 (+1) 11 (+0)
+Senses darkvision 60ft., passive Perception 11
+Languages Sliver (see Hive Mind)
+Challenge 3 (700 XP)
+Hive Mind. All slivers within 100 miles of their queen are in constant communication via a telepathic bond.If one sliver is aware of a threat, they all are.
+Harmony of the Hive. All slivers within 120 feet of the harmonic sliver gain the Harmonic trait.
+Harmonic. Any creature that starts their turn within 5 feet of this creature must make a DC 11 Concentration check in order to maintain a concentration spell effect. If there are more than one creature with Harmonic next to this same creature, that creature makes one Concentration check at disadvantage instead of multiple checks.
+ACTIONS
+Multiattack. The sliver makes two claw attacks.
+Claw. Melee Weapon Attack: +5 to hit, reach 5 ft.,  one target. Hit: 7 (1d8 + 3) slashing damage.
+
+Plated Sliver
+Large Monstrosity (sliver), Neutral Evil
+Armor Class 14 (natural armor)
+Hit Points 114 (12d10 + 48)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 16 (+3) 14 (+2) 18 (+4) 10 (+0) 12 (+1) 11 (+0)
+Damage Resistances bludgeoning, piercing, and slashing from nonmagical sources.
+Senses darkvision 60 ft., passive Perception 11
+Languages Sliver (see Hive Mind)
+Challenge 6 (2,300 XP)
+Hive Mind. All slivers within 100 miles of their queen are in constant communication via a telepathic bond.If one sliver is aware of a threat, they all are.
+Plating of the Hive. All slivers within 120 feet of the plated sliver gain resistance to bludgeoning, piercing and slashing from nonmagical sources.
+ACTIONS
+Multiattack. The sliver makes two claw attacks.
+Claw. Melee Weapon Attack: +6 to hit, reach 5 ft.,  one target. Hit: 7 (1d8 + 3) slashing damage.
+
+Bonescythe Sliver
+Large Monstrosity (sliver), Neutral Evil
+Armor Class 15 (natural armor)
+Hit Points 68 (9d10 + 18)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 18 (+4) 16 (+3) 14 (+2) 10 (+0) 12 (+1) 11 (+0)
+Senses darkvision 60 ft., passive Perception 11
+Languages Sliver (see Hive Mind)
+Challenge 5 (1,800 XP)
+Hive Mind. All slivers within 100 miles of their queen are in constant communication via a telepathic bond.If one sliver is aware of a threat, they all are.
+ACTIONS
+Multiattack. The sliver makes two claw attacks.
+Claw. Melee Weapon Attack: +7 to hit, reach 5 ft.,  one target. Hit: 8 (1d8 + 4) slashing damage.
+REACTIONS
+Alacrity of the Hive. All slivers within 120 feet of the bonescythe sliver may make a single melee attack against a creature in range that is making an attack against that sliver, as a reaction.
+
+Constricting Sliver
+Large Monstrosity (sliver), Neutral Evil
+Armor Class 14 (natural armor)
+Hit Points 75 (10d10 + 20)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 18 (+4) 14 (+2) 14 (+2) 10 (+0) 12 (+1) 11 (+0)
+Senses darkvision 60 ft., passive Perception 11
+Languages Sliver (see Hive Mind)
+Challenge 5 (1,800 XP)
+Hive Mind. All slivers within 100 miles of their queen are in constant communication via a telepathic bond.If one sliver is aware of a threat, they all are.
+Grip of the Hive. All slivers within 120 feet of the constricting sliver grapple and restrain a creature struck be their claw attack (escape DC 15). Slivers cannot attack with a claw that is grappling a creature, instead they deal 8 (1d8 + 4) piercing damage to the grappled creature.
+ACTIONS
+Multiattack. The sliver makes two claw attacks.
+Claw. Melee Weapon Attack: +7 to hit, reach 5 ft.,  one target. Hit: 8 (1d8 + 4) slashing damage.
+
+Shifting Sliver
+Large Monstrosity (sliver), Neutral Evil
+Armor Class 15 (natural armor)
+Hit Points 60 (8d10 + 16)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 16 (+3) 16 (+3) 14 (+2) 10 (+0) 12 (+1) 11 (+0)
+Senses darkvision 60 ft., passive Perception 11
+Languages Sliver (see Hive Mind)
+Challenge 4 (1,100 XP)
+Hive Mind. All slivers within 100 miles of their queen are in constant communication via a telepathic bond.If one sliver is aware of a threat, they all are.
+Shift of the Hive. All slivers within 120 feet of the shifting sliver displace their original positions. A sliver shifting this way grants disadvantage to all attack rolls against it. When a sliver that is shifting is hit with an attack it stops shfting until the beginning of its next turn.
+ACTIONS
+Multiattack. The sliver makes two claw attacks.
+Claw. Melee Weapon Attack: +5 to hit, reach 5 ft.,  one target. Hit: 7 (1d8 + 3) slashing damage.
+
+Essence Sliver
+Large Monstrosity (sliver), Neutral Evil
+Armor Class 14 (natural armor)
+Hit Points 60 (7d10 + 21)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 16 (+3) 14 (+2) 16 (+3) 10 (+0) 12 (+1) 11 (+0)
+Senses darkvision 60 ft., passive Perception 11
+Languages Sliver (see Hive Mind)
+Challenge 4 (1,100 XP)
+Hive Mind. All slivers within 100 miles of their queen are in constant communication via a telepathic bond.If one sliver is aware of a threat, they all are.
+Lifelink of the Hive. All slivers within 120 feet of the essence sliver gain 2 (1d4) HP after dealing damage with a melee attack.
+ACTIONS
+Multiattack. The sliver makes two claw attacks.
+Claw. Melee Weapon Attack: +5 to hit, reach 5 ft.,  one target. Hit: 7 (1d8 + 3) slashing damage.
+
+Heart Sliver
+Large Monstrosity (sliver), Neutral Evil
+Armor Class 12 (natural armor)
+Hit Points 45 (6d10 + 12)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 16 (+3) 14 (+2) 14 (+2) 10 (+0) 16 (+3) 11 (+0)
+Senses darkvision 60 ft., passive Perception 18
+Languages Sliver (see Hive Mind)
+Challenge 2 (450 XP)
+Hive Mind. All slivers within 100 miles of their queen are in constant communication via a telepathic bond.If one sliver is aware of a threat, they all are.
+Awareness of the Hive. All slivers within 120 feet of the heart sliver cannot be surprised and have advantage in Wisdom (Perception) checks relying or sight or hearing.
+ACTIONS
+Multiattack. The sliver makes two claw attacks.
+Claw. Melee Weapon attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.
+
+Telekinetic Sliver
+Large Monstrosity (sliver), Neutral Evil
+Armor Class 14 (natural armor)
+Hit Points 60 (8d10 + 16)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 14 (+2) 14 (+2) 14 (+2) 16 (+3) 12 (+1) 11 (+0)
+Senses darkvision 60 ft., passive Perception 18
+Languages Sliver (see Hive Mind)
+Challenge 6 (2,300 XP)
+Hive Mind. All slivers within 100 miles of their queen are in constant communication via a telepathic bond.If one sliver is aware of a threat, they all are.
+Psionics of the Hive. All slivers within 120 feet of the telekinetic sliver gain the Mind Thrust action.
+ACTIONS
+Multiattack. The sliver makes two claw attacks.
+Claw. Melee Weapon attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.
+Mind Thrust (Recharge 4-6). The sliver targets one creature it can sense within 60 feet of it. That creature must succeed on a DC 14 Intelligence saving throw or take 12 (3d6) damage on a failed save, or half as much damage on a successful one.
