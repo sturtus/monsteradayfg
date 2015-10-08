@@ -4564,6 +4564,58 @@
           </id-00002>
         </actions>
       </spiderskull>
+      <swarmofsquirrels>
+        <locked type="number">1</locked>
+        <name type="string">Swarm Of Squirrels</name>
+        <type type="string">swarm of Tiny beasts</type>
+        <size type="string">Medium</size>
+        <ac type="number">14</ac>
+        <actext type="string"/>
+        <hp type="number">36</hp>
+        <hd type="string">(8d8)</hd>
+        <speed type="string">30 ft., climb 30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">9</score>
+            <modifier type="string">0</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </dexterity>
+          <intelligence>
+            <score type="number">2</score>
+            <modifier type="string">-4</modifier>
+          </intelligence>
+          <charisma>
+            <score type="number">3</score>
+            <modifier type="string">-3</modifier>
+          </charisma>
+        </abilities>
+        <damageresistances type="string">bludgeoning, piercing, slashing</damageresistances>
+        <conditionimmunities type="string">charmed, frightened, paralyzed, petrified, prone, restrained, stunned</conditionimmunities>
+        <senses type="string">darkvision 30 ft., passive Perception 10</senses>
+        <alignment type="string">unaligned</alignment>
+        <languages type="string">-</languages>
+        <cr type="string">2</cr>
+        <xp type="number">450</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Keen Smell</name>
+            <desc type="string">The swarm has advantage on Wisdom (Perception) checks that rely on smell.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Swarm</name>
+            <desc type="string">The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny squirrel. The swarm can't regain hit points or gain temporary hit points.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Bites</name>
+            <desc type="string">Melee Weapon Attack: +6 to hit, reach Oft., one creature in the swarm's space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer. The target must succeed on a DC 10 Constitution saving throw or fall prone, becoming incapacitated with laughter and unable to stand up until the end of the swarm's next turn.</desc>
+          </id-00001>
+        </actions>
+      </swarmofsquirrels>
     </category>
   </npc>
   <lists>
@@ -4929,6 +4981,16 @@
                 </link>
                 <source type="string"/>
               </spiderskull>
+              <swarmofsquirrels>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.swarmofsquirrels@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </swarmofsquirrels>
             </index>
           </typeletters>
           <typeletterf>
@@ -9910,6 +9972,58 @@
           </id-00002>
         </actions>
       </spiderskull>
+      <swarmofsquirrels>
+        <locked type="number">1</locked>
+        <name type="string">Swarm Of Squirrels</name>
+        <type type="string">swarm of Tiny beasts</type>
+        <size type="string">Medium</size>
+        <ac type="number">14</ac>
+        <actext type="string"/>
+        <hp type="number">36</hp>
+        <hd type="string">(8d8)</hd>
+        <speed type="string">30 ft., climb 30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">9</score>
+            <modifier type="string">0</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </dexterity>
+          <intelligence>
+            <score type="number">2</score>
+            <modifier type="string">-4</modifier>
+          </intelligence>
+          <charisma>
+            <score type="number">3</score>
+            <modifier type="string">-3</modifier>
+          </charisma>
+        </abilities>
+        <damageresistances type="string">bludgeoning, piercing, slashing</damageresistances>
+        <conditionimmunities type="string">charmed, frightened, paralyzed, petrified, prone, restrained, stunned</conditionimmunities>
+        <senses type="string">darkvision 30 ft., passive Perception 10</senses>
+        <alignment type="string">unaligned</alignment>
+        <languages type="string">-</languages>
+        <cr type="string">2</cr>
+        <xp type="number">450</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Keen Smell</name>
+            <desc type="string">The swarm has advantage on Wisdom (Perception) checks that rely on smell.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Swarm</name>
+            <desc type="string">The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny squirrel. The swarm can't regain hit points or gain temporary hit points.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Bites</name>
+            <desc type="string">Melee Weapon Attack: +6 to hit, reach Oft., one creature in the swarm's space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer. The target must succeed on a DC 10 Constitution saving throw or fall prone, becoming incapacitated with laughter and unable to stand up until the end of the swarm's next turn.</desc>
+          </id-00001>
+        </actions>
+      </swarmofsquirrels>
     </npcdata>
     <npclists>
       <npcs>
@@ -10299,6 +10413,16 @@
                 </link>
                 <source type="number"/>
               </spiderskull>
+              <swarmofsquirrels>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.swarmofsquirrels@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </swarmofsquirrels>
             </index>
           </typeletterS>
           <typeletterF>
@@ -10789,6 +10913,16 @@
                 </link>
                 <source type="number"/>
               </heartsliver>
+              <swarmofsquirrels>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.swarmofsquirrels@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </swarmofsquirrels>
             </index>
           </level02>
           <level01>
@@ -12561,6 +12695,21 @@
               </telekineticsliver>
             </index>
           </typemonstrosity_sliver_>
+          <typeswarmoftinybeasts>
+            <description type="string">Swarm Of Tiny Beasts</description>
+            <index>
+              <swarmofsquirrels>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.swarmofsquirrels@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>swarm of Tiny beasts</source>
+              </swarmofsquirrels>
+            </index>
+          </typeswarmoftinybeasts>
         </groups>
       </bytype>
     </npclists>

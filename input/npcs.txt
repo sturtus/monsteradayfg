@@ -1314,3 +1314,19 @@ Turn Immunity. The skull is immune to effects that turn undead.
 ACTIONS
 Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage, and the skull attaches to the target. If the target is Medium or smaller and the skull has advantage on the attack roll, it attaches to the target's face, and the target is also blinded while the skull is attached in this way. While attached to the target, the skull can attack no other creature except the target but has advantage on its attack rolls. The skull's speed also becomes 0, and it moves with the target. A creature can detach the skull by making a successful DC 12 Strength check as an action. On its turn, the skull can detach itself from the target by using 5 feet of movement.
 Kiss of Undeath (1/Day). If the skull is attached to a creature's face, it inserts its proboscis into the target's mouth. The target must succeed on a DC 12 Constitution saving throw or take 10 (3d6) poison damage and become poisoned for one hour.
+
+Swarm Of Squirrels
+Medium swarm of Tiny beasts, unaligned
+Armor Class 14
+Hit Points 36 (8d8)
+Speed 30 ft., climb 30 ft.
+STR DEX CON INT WIS CHA 9 (-1) 18 (+4) 11 ( +O) 2 (-4) 10 (+O) 3 (-4)
+Damage Resistances bludgeoning, piercing, slashing
+Condition Immunities charmed, frightened, paralyzed, petrified, prone, restrained, stunned
+Senses darkvision 30 ft., passive Perception 10
+Languages -
+Challenge 2 (450 XP)
+Keen Smell. The swarm has advantage on Wisdom (Perception) checks that rely on smell.
+Swarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny squirrel. The swarm can't regain hit points or gain temporary hit points.
+ACTIONS
+Bites. Melee Weapon Attack: +6 to hit, reach Oft., one creature in the swarm's space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer. The target must succeed on a DC 10 Constitution saving throw or fall prone, becoming incapacitated with laughter and unable to stand up until the end of the swarm's next turn.
