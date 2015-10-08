@@ -1296,3 +1296,21 @@ ACTIONS
 Multiattack. The sliver makes two claw attacks.
 Claw. Melee Weapon attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.
 Mind Thrust (Recharge 4-6). The sliver targets one creature it can sense within 60 feet of it. That creature must succeed on a DC 14 Intelligence saving throw or take 12 (3d6) damage on a failed save, or half as much damage on a successful one.
+
+Spider Skull
+Tiny undead, neutral evil
+Armor Class 13
+Hit Points 13 (3d4 + 6)
+Speed 30 ft., climb 30 ft.
+STR DEX CON INT WIS CHA 14 (+2) 16(+3) 14 (+2) 5 (-3) 10 (+O) 4 (-3)
+Damage Vulnerabilities bludgeoning
+Damage Immunities poison
+Condition Immunities exhaustion, poisoned
+Senses blindsight 30 ft., darkvision 60 ft., passive Perception 10
+Languages understands Common but can't speak
+Challenge 1/2 (100 XP)
+Pack Tactics. The skull has advantage on attack rolls against a creature if at least one of the skull's allies is within 5 feet of the creature and the ally isn't incapacitated.
+Turn Immunity. The skull is immune to effects that turn undead.
+ACTIONS
+Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage, and the skull attaches to the target. If the target is Medium or smaller and the skull has advantage on the attack roll, it attaches to the target's face, and the target is also blinded while the skull is attached in this way. While attached to the target, the skull can attack no other creature except the target but has advantage on its attack rolls. The skull's speed also becomes 0, and it moves with the target. A creature can detach the skull by making a successful DC 12 Strength check as an action. On its turn, the skull can detach itself from the target by using 5 feet of movement.
+Kiss of Undeath (1/Day). If the skull is attached to a creature's face, it inserts its proboscis into the target's mouth. The target must succeed on a DC 12 Constitution saving throw or take 10 (3d6) poison damage and become poisoned for one hour.
