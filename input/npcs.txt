@@ -1313,7 +1313,7 @@ Tiny undead, neutral evil
 Armor Class 13
 Hit Points 13 (3d4 + 6)
 Speed 30 ft., climb 30 ft.
-STR DEX CON INT WIS CHA 14 (+2) 16(+3) 14 (+2) 5 (-3) 10 (+O) 4 (-3)
+STR DEX CON INT WIS CHA 14 (+2) 16 (+3) 14 (+2) 5 (-3) 10 (+0) 4 (-3)
 Damage Vulnerabilities bludgeoning
 Damage Immunities poison
 Condition Immunities exhaustion, poisoned
@@ -1331,7 +1331,7 @@ Medium swarm of Tiny beasts, unaligned
 Armor Class 14
 Hit Points 36 (8d8)
 Speed 30 ft., climb 30 ft.
-STR DEX CON INT WIS CHA 9 (-1) 18 (+4) 11 ( +O) 2 (-4) 10 (+O) 3 (-4)
+STR DEX CON INT WIS CHA 9 (-1) 18 (+4) 11 (+0) 2 (-4) 10 (+0) 3 (-4)
 Damage Resistances bludgeoning, piercing, slashing
 Condition Immunities charmed, frightened, paralyzed, petrified, prone, restrained, stunned
 Senses darkvision 30 ft., passive Perception 10
@@ -1341,3 +1341,44 @@ Keen Smell. The swarm has advantage on Wisdom (Perception) checks that rely on s
 Swarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny squirrel. The swarm can't regain hit points or gain temporary hit points.
 ACTIONS
 Bites. Melee Weapon Attack: +6 to hit, reach Oft., one creature in the swarm's space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer. The target must succeed on a DC 10 Constitution saving throw or fall prone, becoming incapacitated with laughter and unable to stand up until the end of the swarm's next turn.
+
+Ginormous Squirrel
+Gargantuan beast, unaligned
+Armor Class 20 (natural armor)
+Hit Points 248 (16d20 + 80)
+Speed 50 ft., clumb 50 ft.
+STR DEX CON INT WIS CHA 27 (+8) 16 (+3) 20 (+5) 2 (-4) 12 (+1) 10 (+0)
+Saving Throws Str +13, Dex +8, Con +10
+Skills Perception +11
+Senses darvision 120 ft., passive Perception 21
+Langauges -
+Challenge 16 (15,000 XP)
+Keen Smell. The squirrel has advantage on Wisdom (Perception) checks that rely on smell.
+Legendary Resistance (3/day). If the squirrel fails a saving throw, it can choose to succeed instead.
+ACTIONS
+Multiattack. The squirrel makes three attacks: one with its bite and two with its claws.
+Bite. Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 19 (2d10 + 8) piercing damage.
+Claw. Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 15 (2d6 + 8) slashing damage.
+Tail. Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage.
+Monstrous Chatter (Recharge 5-6). The squirrel chatters furiously. Each creature within 60 feet of the squirrel and able to hear its chatter must make a DC 18 Constitution saving throw, taking 45 (10d8) thunder damage on a failed save, or half as much damamge on a successful one. If a creature fails the saving throw, it becomes incapacitated until the end of the squirrel's next turn.
+LEGENDARY ACTIONS
+The Squirrel can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The squirrel regains spent legendary actions at the start of its turn.
+Tail Attack. The squirrel makes a tail attack.
+Trample (costs 2 actions). The squirrel moves up to its speed without provoking opportunity attacks. It can move through another creature's space but must end its movement in an unoccupied space. Each creature in the squirrel's path must succeed on a DC 21 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone.
+Might of Oaks (costs 3 actions). The squirrel goes into a frenzy, uprooting nearby trees and disrupting the earth around it. Each creature on the grounds within 20 feet of the squirrel must make a DC 21 Dexterity saving throw, taking 24 (7d6) bludgeoning damage on a failed save, or half as much damage on a successful one. The ground in that area becomes difficult terrain.
+
+Finned Sliver
+Large Monstrosity (sliver), Neutral Evil
+Armor Class 15 (natural armor)
+Hit Points 45 (6d10 + 12)
+Speed 30 ft., swim 30 ft.
+STR DEX CON INT WIS CHA 14 (+2) 16 (+3) 14 (+2) 10 (+0) 14 (+2) 11 (+0)
+Sense darkvision 60 ft., blindsight 60 ft., passive Perception 12
+Languages Sliver (see Hive Mind)
+Challenge 2 (450 XP)
+Hive Mind. All slivers within 100 miles of their queen are in constant communication via a telepathic bond.If one sliver is aware of a threat, they all are.
+Amphibious. Can breathe in air or water normally.
+Fins of the Hive. All slivers within 120 feet of the finned sliver gain the Amphibious trait, blindsight 60 ft., and swim speed 30 ft.
+ACTIONS
+Multiattack. The sliver makes two claw attacks.
+Claw. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.
