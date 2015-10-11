@@ -1382,3 +1382,20 @@ Fins of the Hive. All slivers within 120 feet of the finned sliver gain the Amph
 ACTIONS
 Multiattack. The sliver makes two claw attacks.
 Claw. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.
+
+Verdalin
+Small Fey, Neutral
+Armor Class 13 (natural armor)
+Hit Points 18 (4d6 + 4)
+Speed 30 ft., climb 30 ft.
+STR DEX CON INT WIS CHA 6 (-2) 17 (+3) 12 (+1) 10 (+0) 14 (+2) 15 (+2)
+Skills Perception +6, Stealth +5
+Senses darkvision 60 ft., passive Perception 16
+Languages -
+Challenge 1/2 (100 XP)
+Camouflage. The veralin has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+Innate Spellcasting. The verdalin's innate spellcasting ability is Charisma (spell save DC 12). The verdalin can innately cast the following spells, requiring no material components:
+At will: minor illusion, silent image
+1/day each: mirror image, phantasmal force
+ACTIONS
+Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage.
