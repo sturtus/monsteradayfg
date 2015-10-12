@@ -27,7 +27,7 @@ Challenge 1 (200 XP)
 Magic Scent. The arcanamite can pinpoint, by scent, the location of a creature that can cast spells within 60 feet of it.
 Reflective Carapace. Any time the arcanamite is targeted by a magic missile spell, a line spell, or a spell that requires a ranged attack roll, roll a d6. On a 1 to 5, the arcanamite is unaffected. On a 6, the arcanamite is unaffected, and the effect is reflected back at the caster as though it originated from the arcanamite, turning the caster into the target.
 ACTIONS
-Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) piercing damage, and the arcanamite can attach itself to the target. The arcanamite can be removed if a creature takes an action and succeeds on a DC 15 Strength check against it.The arcanamite detaches if it takes fire damage. Until the arcanamite detaches, it can't bite another target.
+Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:4 (1d4 + 2) piercing damage, and the arcanamite can attach itself to the target. The arcanamite can be removed if a creature takes an action and succeeds on a DC 15 Strength check against it.The arcanamite detaches if it takes fire damage. Until the arcanamite detaches, it can't bite another target.
 Leech Magic. If the arcanamite is attached to a creature with spell slots, roll a d4. The target loses a spell slot of that level, or the next highest level if it has no spell slots of that level. If the arcanamite has leeched a number of spell slots with a combined level of 8 or more, it detaches from the creature.
 
 Armor Sliver
@@ -49,17 +49,17 @@ Claw. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:1 (1d8 + 3) s
 Might Sliver
 Large monstrosity (sliver), neutral evil
 Armor Class 12
-Hit Points 37 (5d10+10)
+Hit Points 37 (5d10 + 10)
 Speed 30 ft.
 STR DEX CON INT WIS CHA 20 (+5) 14 (+2) 14 (+2) 11 (+0) 12 (+1) 10 (+0)
 Skills Perception +3
 Senses darkvision 60 ft., passive Perception 13
 Languages Sliver (see Hive Mind)
-Challenge 2 (100 XP)
+Challenge 2 (450 XP)
 Hive Mind. All slivers within 100 miles of their queen are in constant communication via a telepathic bond.If one sliver is aware of a threat, they all are.
 Might of the Hive. All slivers within 120 feet of the might sliver have advantage on Strength checks. Additionally, whenever a sliver in that area rolls a 1 or 2 on a damage die for an attack it makes with a melee weapon, it can reroll the die and must use the new roll.
 ACTIONS
-Multiattack. The sliver makes two daw attacks.
+Multiattack. The sliver makes two claw attacks.
 Claw. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d8+5) slashing damage.
 
 Baneling
@@ -90,7 +90,7 @@ Challenge 9 (5,000 XP)
 Immutable Form. The golem is immune to any spell or effect that would alter its form.
 Magic Resistance. The golem has advantage on saving throws against spells and other magical effects.
 Magic Weapons. The golem's weapon attacks are magical.
-ACTION5
+ACTIONS
 Multiattack. The golem makes two slam attacks.
 Slam. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (3d8 + 5) bludgeoning damage.
 Bone Prison. The golem targets one creature it can see within 60 feet of it. A prison of magical bones surrounds the creature. The target must make a DC 15 Dexterity saving throw or become restrained. The restrained creature can break free by succeeding on a DC 20 escape check, or by destroying the bone prison (AC 20; 50 hit points; immunity to poison and psychic damage). The golem can only have one bone prison active at a time. It may dismiss the bone prison as a bonus action.
@@ -613,7 +613,7 @@ Speed 40 ft.
 STR DEX CON INT WIS CHA 18 (+4) 16 (+3) 18 (+4) 15 (+2) 14 (+2) 18 (+4)
 Saving Throws Int +6, Wis +6, Cha +8
 Skills Deception +8, Insight +6
-Damage Resistances cold; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered
+Damage Resistances cold, bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered
 Damage Immunities fire, poison
 Condition Immunities poisoned
 Senses darkvision 120 ft., passive Perception 12
@@ -629,8 +629,9 @@ Horns. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4
 ##;
 INFERNAL PACT
 A pact devil may convince a creatu re to exchange its soul for powerful infernal boons. Such boons may include but are not limited to: ability score improvements, new feats, or epic boons found in the Dungeon M aster's Guide (page 232). The pact lasts until the devil chooses to dismiss it or the devil dies. A wish spell can also end the pact.
+A pact devil may convince a creatu re to exchange its soul for powerful infernal boons. Such boons may include but are not limited to: ability score improvements, new feats, or epic boons found in the Dungeon M aster's Guide (page 232). The pact lasts until the devil chooses to dismiss it or the devil dies. A wish spell can also end the pact.
 If a creature bound by such a pact dies, the devil claims its soul, forcing it into servitude for eternity. The creature can't be brought back to life after its soul has been claimed.
-Additionally, while bound by the infernal pact, the devil can communicate with the creature telepathically over any distance, even from another plane of existence. Once per month, the devil may charm the creature as if using the geas spell. The creature automatically fails the saving throw to resist the spell, and it can't be ended by any normal magic except for a wish spell, which also ends t he pact.
+Additionally, while bound by the infernal pact, the devil can communicate with the creature telepathically over any distance, even from another plane of existence. Once per month, the devil may charm the creature as if using the geas spell. The creature automatically fails the saving throw to resist the spell, and it can't be ended by any normal magic except for a wish spell, which also ends the pact.
 
 Priest Of Blight
 Medium humanoid (any race), chaotic evil
@@ -695,8 +696,10 @@ Claws . Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3
 Call the Swarm (Recharge 5-6) . The rat hermit magically calls a swarm of rats. The called creatures arrive in 1 round, acting as allies of the rat hermit and obeying its commands.
 ##;
 #h;Rat Hermit
-“The worse moment wasn’t when we found ourselves surrounded by rats…It was when we discovered that they were all thinking the same thing.”
-Rat Hermits find themselves as social outcasts. Exiled from normal civilization, they instead create their own world among the vermin they live close to. Rat Hermits dwell in sewers and cramped alleys, where they slowly build their small kingdom and seek revenge against those who shunned them. An individual who appeals to the Rat Hermit’s sense of revenge is more likely to be treated nicely, provided they can give the Rat Hermit what they want.
+#is;“The worse moment wasn’t when we found ourselves surrounded by rats…It was when we discovered that they were all thinking the same thing.”
+Rat Hermits find themselves as social outcasts. Exiled from normal civilization, they instead create their own world among the vermin they live close to.
+Rat Hermits dwell in sewers and cramped alleys, where they slowly build their small kingdom and seek revenge against those who shunned them. 
+An individual who appeals to the Rat Hermit’s sense of revenge is more likely to be treated nicely, provided they can give the Rat Hermit what they want.
 
 Selachian
 Large humanoid (se/achian), any chaotic alignment
@@ -796,7 +799,7 @@ Speed 30 ft.
 STR DEX CON INT WIS CHA 12 (+1) 16 (+3) 12 (+1) 10 (+0) 11 (+0) 16 (+3)
 Saving Throws Dex +5 
 Skills Acrobatics +5, Performance +5
-Senses passive Perception 1 O
+Senses passive Perception 10
 Languages Common
 Challenge 3 (700 XP)
 Nimble Action. On each of its turns, the dancer can use a bonus action to take the Dash or Disengage action.
@@ -834,14 +837,14 @@ Speed 40 ft.
 STR DEX CON INT WIS CHA 28 (+9) 8 (-1) 22 (+6) 3 (-4) 11 (+0) 7 (-2)
 Saving Throws Con +10
 Senses passive Perception 10
-Languages Common
+Languages -
 Challenge 10 (5,900 XP)
 Siege. The tuskaloth deals double damage to objects and structures.
 Trampling Charge. If the tuskaloth moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 18 Strength saving throw or be knocked prone. If the target is prone, the tuskaloth can make one stomp attack against it as a bonus action.
 ACTIONS
 Gore. Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 22 (3d8 + 9) piercing damage.
 Stomp. Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 31 (4d10 + 9) piercing damage.
-Earthshake. (Recharge 5-6). The tuskaloth pounds the ground with incredible force, causing a tremor. Each creature on the ground within 30 feet of the tuskaloth must succeed on a DC 18 Dexterity saving throw or be knocked prone. The tremor also deals 50 bludgeoning damage to any structure in contact with the ground in that area. A structure that drops to 0 hit points collapses.
+Earthshake (Recharge 5-6). The tuskaloth pounds the ground with incredible force, causing a tremor. Each creature on the ground within 30 feet of the tuskaloth must succeed on a DC 18 Dexterity saving throw or be knocked prone. The tremor also deals 50 bludgeoning damage to any structure in contact with the ground in that area. A structure that drops to 0 hit points collapses.
 
 Winged Sliver
 Large monstrosity (sliver), neutral evil
@@ -901,7 +904,7 @@ Armor Class 13 (natural armor)
 Hit Points 57 (6d10 + 24)
 Speed 40 ft.
 STR DEX CON INT WIS CHA 18 (+4) 10 (+0) 18 (+4) 2 (-4) 10 (+0) 3 (-4)
-Skills Perception +20
+Skills Perception +2
 Senses darkvision 60 ft., passive Perception 12
 Languages -
 Challenge 3 (700 XP)
@@ -918,7 +921,8 @@ Hit Points 71 (11d10 + 11)
 Speed 50 ft.
 STR DEX CON INT WIS CHA 16 (+3) 17 (+3) 12 (+1) 12 (+1) 18 (+4) 15 (+2)
 Saving Throws Dex +6, Wis +7
-Skills Perception +10, Stealth +60Senses darkvision 60 ft., passive Perception 20
+Skills Perception +10, Stealth +60
+Senses darkvision 60 ft., passive Perception 20
 Languages Sylvan
 Challenge 5 (1,800 XP)
 Innate Spellcasting. The guardian's innate spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). The guardian can innately cast the following spells, requiring no material components:
