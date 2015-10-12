@@ -17,7 +17,7 @@ Arcanamite
 Small monstrosity, unaligned
 Armor Class 15 (natural armor)
 Hit Points 27 (5d6 + 10)
-Speed 30 ft., climb 30 ft
+Speed 30 ft., climb 30 ft.
 STR DEX CON INT WIS CHA 7 (-2) 15 (+2) 15 (+2) 2 (-4) 12 (+1) 6 (-2)
 Skills Perception +3, Stealth +4
 Damage Vulnerabilities bludgeoning
@@ -27,7 +27,7 @@ Challenge 1 (200 XP)
 Magic Scent. The arcanamite can pinpoint, by scent, the location of a creature that can cast spells within 60 feet of it.
 Reflective Carapace. Any time the arcanamite is targeted by a magic missile spell, a line spell, or a spell that requires a ranged attack roll, roll a d6. On a 1 to 5, the arcanamite is unaffected. On a 6, the arcanamite is unaffected, and the effect is reflected back at the caster as though it originated from the arcanamite, turning the caster into the target.
 ACTIONS
-Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:4 (1d4 + 2) piercing damage, and the arcanamite can attach itself to the target. The arcanamite can be removed if a creature takes an action and succeeds on a DC 15 Strength check against it. The arcanamite detaches if it takes fire damage. Until the arcanamite detaches, it can't bite another target.
+Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) piercing damage, and the arcanamite can attach itself to the target. The arcanamite can be removed if a creature takes an action and succeeds on a DC 15 Strength check against it.The arcanamite detaches if it takes fire damage. Until the arcanamite detaches, it can't bite another target.
 Leech Magic. If the arcanamite is attached to a creature with spell slots, roll a d4. The target loses a spell slot of that level, or the next highest level if it has no spell slots of that level. If the arcanamite has leeched a number of spell slots with a combined level of 8 or more, it detaches from the creature.
 
 Armor Sliver
@@ -49,17 +49,17 @@ Claw. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:1 (1d8 + 3) s
 Might Sliver
 Large monstrosity (sliver), neutral evil
 Armor Class 12
-Hit Points 37 (5d10 + 10)
+Hit Points 37 (5d10+10)
 Speed 30 ft.
 STR DEX CON INT WIS CHA 20 (+5) 14 (+2) 14 (+2) 11 (+0) 12 (+1) 10 (+0)
 Skills Perception +3
 Senses darkvision 60 ft., passive Perception 13
 Languages Sliver (see Hive Mind)
-Challenge 2 (450 XP)
+Challenge 2 (100 XP)
 Hive Mind. All slivers within 100 miles of their queen are in constant communication via a telepathic bond.If one sliver is aware of a threat, they all are.
 Might of the Hive. All slivers within 120 feet of the might sliver have advantage on Strength checks. Additionally, whenever a sliver in that area rolls a 1 or 2 on a damage die for an attack it makes with a melee weapon, it can reroll the die and must use the new roll.
 ACTIONS
-Multiattack. The sliver makes two claw attacks.
+Multiattack. The sliver makes two daw attacks.
 Claw. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d8+5) slashing damage.
 
 Baneling
@@ -90,17 +90,23 @@ Challenge 9 (5,000 XP)
 Immutable Form. The golem is immune to any spell or effect that would alter its form.
 Magic Resistance. The golem has advantage on saving throws against spells and other magical effects.
 Magic Weapons. The golem's weapon attacks are magical.
-ACTIONS
+ACTION5
 Multiattack. The golem makes two slam attacks.
 Slam. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (3d8 + 5) bludgeoning damage.
 Bone Prison. The golem targets one creature it can see within 60 feet of it. A prison of magical bones surrounds the creature. The target must make a DC 15 Dexterity saving throw or become restrained. The restrained creature can break free by succeeding on a DC 20 escape check, or by destroying the bone prison (AC 20; 50 hit points; immunity to poison and psychic damage). The golem can only have one bone prison active at a time. It may dismiss the bone prison as a bonus action.
+##;
+#h;Bone Golem:
+#is;“At first we scoffed as the bones rattled, then when the entire pile rose, we fled – the screams of the overconfident filling the air behind us.” – Kendrick Hiln thief of the Black Nine
+A Bone Golem is the defiled abomination of animated skeletons crafted into a singular entity that desires nothing more than to add more material to its hideous form. Similar to other golems, Bone Golems serve the commands of their masters, following them with disturbing ferocity and precision. Sharing traits with its lesser skeletal counterparts, Bone Golems do not try to damage themselves to reach a goal, instead resorting to try a door handle rather than harm themselves by breaking through it.
+Necromancers who have created these monstrosities also have the presence of mind to make the Bone Golem itself a master of bone. Capable of gathering bones together into a prison for its victims, Bone Golems serve adeptly as guards of ancient tombs or its master’s personal studies.
+An empty shell driven by negative energy, the many heads of the Bone Golem still quietly whisper with the pain and suffering of those used to create the construct. Faint screams and cry echo from Bone Golems.
 
 Clockwork Dragon
 Huge construct, unaligned
 Armor Class 18 (natural armor)
 Hit Points 184 (16d12 + 80)
 Speed 40 ft., fly 80 ft.
-STR DEX CON INT WIS CHA 23 (+6) 10(+O)  20 (+5)  9 (-1)  11 ( +O)  5 (-3)
+STR DEX CON INT WIS CHA 23 (+6) 10 (+0) 20 (+5) 9 (-1) 11 (+0) 5 (-3)
 Saving Throws Dex +5, Con +10
 Skills Perception +10
 Damage Immunities poison, psychic; bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine
@@ -128,7 +134,7 @@ Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 
 Crystalline Sliver
 Large monstrosity (sliver), neutral evil
 Armor Class 14 (natural armor)
-Hit Points 75 (1Od10 + 20)
+Hit Points 75 (10d10 + 20)
 Speed 30 ft.
 STR DEX CON INT WIS CHA 18 (+4) 14 (+2) 14 (+2) 11 (+0) 12 (+1) 10 (+0)
 Skills Perception +3
@@ -173,7 +179,7 @@ Senses darkvision 120 ft., passive Perception 19
 Languages all, telepathy 120 ft.
 Challenge 10 (5,900 XP)
 Corrupted Weapons. The angel's weapon attacks are magical. When the angel hits with any weapon, the weapon deals an extra 4d8 necrotic damage (included in the attack).
-Innate Spellcasting. The angel's spellcasting ability is Charisma (spell save DC 16). The angel can innately cast the following spells, requiring only verbal components: At will: detect evil and good, 1/day each: death ward, harm,  
+Innate Spellcasting. The angel's spellcasting ability is Charisma (spell save DC 16). The angel can innately cast the following spells, requiring only verbal components: At will: detect evil and good, 1/day each: death ward, harm, 
 Magic Resistance. The angel has advantage on saving throws against spells and other magical effects. 
 Shapechanger. The angel can use its action to polymorph into a Small or Medium humanoid, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
 ACTIONS
@@ -201,11 +207,11 @@ Huge elemental, neutral
 Armor Class 17 (natural armor)
 Hit Points 250 (20d12+120)
 Speed 50 ft.
-STR DEX CON INT WIS CHA 29 (+9) 11 (+O) 20 (+5)  7 (-2) 10 (+O) 9 (-1)
+STR DEX CON INT WIS CHA 29 (+9) 11 (+0) 20 (+5) 7 (-2) 10 (+0) 9 (-1)
 Saving Throws Str +14, Wis +5
 Damage Immunities acid, cold, fire, lightning, poison, bludgeoning, piercing, and slashing from nonmagical weapons
 Condition Immunities exhaustion, grappled, paralyzed, petrified, poisoned, restrained, unconscious
-Senses darkvision 120 ft., passive Perception 1O
+Senses darkvision 120 ft., passive Perception 10
 Languages Auran, Terran, Ignan, Aquan, Primordial
 Challenge 15 (13,000 XP)
 Volatile Form. When the elemental dies, it explodes, and each creature within 30 feet of it must make a DC 18 Dexterity saving throw, taking 10 (3d6) acid damage, 10 (3d6) lightning damage, 10 (3d6) fire damage, and 10 (3d6) cold damage on a failed save, or half as much damage on a successful one. 
@@ -213,10 +219,10 @@ ACTIONS
 Multlattack. The elemental makes two slam attacks.
 Slam. Melee Weapon Attack: +14 to hit, reach 1 Oft., one target. Hit: 20 (2d10 + 9) bludgeoning damage plus 9 (2d8) damage of a type chosen randomly from the following: acid, lightning, fire, or cold.
 Hurl Energy. Ranged Weapon Attack: +14 to hit, range 60/240 ft., one target. Hit: 18 (2d8 + 9) damage of a type chosen randomly from the following: acid, lightning, fire, or cold. Elemental Chaos (Recharge 5-6). The elemental makes one elemental chaos attack at random. 
-1 Earthquake. A seismic disturbance radiates from the elemental in a 100-foot radius circle. Each creature on the ground in that area must succeed on a DC 18 Dexterity saving throw or be knocked prone. Each creature on the ground that is concentrating must also succeed on a DC 18 Constitution saving throw or break concentration. The area becomes difficult terrain after the earthquake.
-2 Fire Breath. The elemental exhales fire in a 60-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 54 ( 12d8) fire damage on a failed save, or half as much damage on a successful one. 
-3 Tidal Wave. A massive wave emanates from the elemental. Each creature within 60 feet of the elemental must succeed on a DC 18 Strength saving throw or be pushed up to 60 feet away from the elemental. On a success, the creature is pushed 10 feet away from the elemental.
-4 Whirlwind. The elemental summons a 10-foot-radius, 60-foot high whirlwind centered on a point within 120 feet of it. Each creature in that area must make a DC 18 Strength saving throw. On a failure, a target takes 27 (6d8) bludgeoning damage and is flung up to 40 feet away in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 18 Dexterity saving throw or take the same damage and be knocked prone. If the saving throw is successful, the target takes half the bludgeoning damage and isn't flung away or knocked prone.
+1. Earthquake. A seismic disturbance radiates from the elemental in a 100-foot radius circle. Each creature on the ground in that area must succeed on a DC 18 Dexterity saving throw or be knocked prone. Each creature on the ground that is concentrating must also succeed on a DC 18 Constitution saving throw or break concentration. The area becomes difficult terrain after the earthquake.
+2. Fire Breath. The elemental exhales fire in a 60-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 54 ( 12d8) fire damage on a failed save, or half as much damage on a successful one. 
+3. Tidal Wave. A massive wave emanates from the elemental. Each creature within 60 feet of the elemental must succeed on a DC 18 Strength saving throw or be pushed up to 60 feet away from the elemental. On a success, the creature is pushed 10 feet away from the elemental.
+4. Whirlwind. The elemental summons a 10-foot-radius, 60-foot high whirlwind centered on a point within 120 feet of it. Each creature in that area must make a DC 18 Strength saving throw. On a failure, a target takes 27 (6d8) bludgeoning damage and is flung up to 40 feet away in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 18 Dexterity saving throw or take the same damage and be knocked prone. If the saving throw is successful, the target takes half the bludgeoning damage and isn't flung away or knocked prone.
 LEGENDARY ACTIONS
 The elemental can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The elemental regains spent legendary actions at the start of its turn.
 Hurl Energy. The elemental uses its Hurl Energy. 
@@ -227,7 +233,7 @@ Gazellean
 Medium humanoid (gazellean), neutral
 Armor Class 14 (padded armor)
 Hit Points 16 (3d8 + 3)
-Speed 40 ft.,
+Speed 40 ft.
 STR DEX CON INT WIS CHA 14 (+2) 16 (+3) 12 (+1) 10 (+0) 12 (+1) 10 (+0)
 Skills Perception +3, Stealth +5
 Senses passive Perception 13
@@ -237,7 +243,7 @@ Sprinter. The gazellean can take the Dash or Disengage action as a bonus action 
 Alert. The gazellean has advantage on Dexterity checks for initiative. Additionally, the gazellean can’t be surprised, and other creatures don't gain advantage on attack rolls against it as a result of being hidden from it.
 ACTIONS
 Multiattack. The gazellean makes two melee attacks or two ranged attacks.
-Javelin. Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage. 
+Javelin. Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft., or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage. 
 
 Gnoll Deathknight
 Medium humanoid (gnoll), chaotic evil
@@ -262,7 +268,7 @@ Large fiend, chaotic evil
 Armor Class 12 (natural armor)
 Hit Points 45 ( 6d10 + 12)
 Speed 50 ft.
-STR DEX CON INT WIS CHA 18 (+4) 13(+1) 15 (+2) 7 (-2) 12(+1) 10 (+O)
+STR DEX CON INT WIS CHA 18 (+4) 13 (+1) 15 (+2) 7 (-2) 12 (+1) 10 (+0)
 Skills Perception +3
 Damage Resistances cold, fire, lightning
 Damage Immunities poison
@@ -279,7 +285,7 @@ Medium humanoid (gnoll), chaotic evil
 Armor Class 12 (15 with mage armor)
 Hit Points 55(10d8+10)
 Speed 30 ft.
-STR DEX CON INT WIS CHA 10 (+O) 14 (+2) 12(+1) 17 (+3) 13 (+1) 12 (+1)
+STR DEX CON INT WIS CHA 10 (+0) 14 (+2) 12 (+1) 17 (+3) 13 (+1) 12 (+1)
 Skills Deception +4, Perception +4
 Senses darkvision 60 ft., passive Perception 10
 Languages Gnoll
@@ -300,7 +306,7 @@ Huge undead, neutral evil
 Armor Class 14 (natural armor)
 Hit Points 200 (16d12 + 96)
 Speed 40 ft.
-STR DEX CON INT WIS CHA 27 (+8) 10 (+0) 22 (+6) 3 (-4) 8 (-1) 12(+1)
+STR DEX CON INT WIS CHA 27 (+8) 10 (+0) 22 (+6) 3 (-4) 8 (-1) 12 (+1)
 Saving Throws Wisdom +3, Constitution +10
 Damage Immunities poison
 Condition Immunities poisoned
@@ -313,20 +319,22 @@ Multiattack. The grave titan makes two greatsword attacks.
 Greatsword. Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 29 (6d6 + 8) slashing damage.
 Hurl Zombies. Ranged Weapon Attack: +12 to hit, range 60/240 ft., one target. Hit: 30 (4d10 + 8) bludgeoning damage. After the attack hits or misses, 1d4 + 1 zombies arise adjacent to the target.
 ##;
-#h;Grave Titan
-A true success in the minds of necromancers across the world, Grave Titans are walking monoliths of the undead . Lumbering forward on its master's command, the Grave Titan leaves a trail of death and lurching zombies. The Grave Titan views the world as a wheat field - reaping and sowing death as it walks.
-#bs;Abominable Creation. Grave Titans form when powerful necromancers collect the bodies of numerous humanoids and a freshly slain giant. Amassing the corpses into a great mound atop the giant, the necromancers bind their energies to the mound, enriching it with a mass of negative energy. Rising from the mound, a Grave Titan begins to devour the corpses.
-Once the final body is consumed, the Grave Titan completes its metamorphosis. The bodies that reside in the Titan reanimate, seeking to escape their prison. The tom hole in the Titan's stomach quietly resonates with screams and cries as the restless zombies pull themselves free. Yet, any zombie that emerges from the Grave Titan are subject to the commands of the Titan's master.
-Following their reanimation, Grave Titan's have little memory of their former lives. They understand the language of their master, but beyond that they do not think or act directly for themselves.
-#bs;Master's Servant. The necromancers who summon the Titan hold complete control over the being. Grave Titans follow their master or masters without question, moving with menacing grace. If left with no command, Grave Titans will wander towards the next living thing they see, desiring to bring death to the world.
-Grave Titans are often employed as walking siege engines or guards to dark secrets. The Grave Titan's ability to continually spawn zombies, make them highly desired to those not opposed to bolstering their army's ranks.
+#h;Grave Titan:
+A true success in the minds of necromancers across the world, Grave Titans are walking monoliths of the undead. Lumbering forward on its master’s command, the Grave Titan leaves a trail of death and lurching zombies. The Grave Titan views the world as a wheat field – reaping and sowing death as it walks.
+#h;Abominable Creation:
+Grave Titans form when powerful necromancers collect the bodies of numerous humanoids and a freshly slain giant. Amassing the corpses into a great mound atop the giant, the necromancers bind their energies to the mound, enriching it with a mass of negative energy. Rising from the mound, a Grave Titan begins to devour the corpses.
+Once the final body is consumed, the Grave Titan completes its metamorphosis. The bodies that reside in the Titan reanimate, seeking to escape their prison. The torn hole in the Titan’s stomach quietly resonates with screams and cries as the restless zombies pull themselves free. Yet, any zombies that emerge from the Grave Titan are subject to the commands of the Titan’s master.
+Following their reanimation, Grave Titan’s have little memory of their former lives. They understand the language of their master, but beyond that they do not think or act directly for themselves.
+#h;Master’s Servant:
+The necromancers who summon the Titan hold complete control over the being. Grave Titans follow their master or masters without question, moving with menacing grace. If left with no command, Grave Titans will wander towards the next living thing they see, desiring to bring death to the world.
+Grave Titans are often employed as walking siege engines or guards to dark secrets. The Grave Titan’s ability to continually spawn zombies, make them highly desired to those not opposed to bolstering their army’s ranks.
 
 Herald Of Rot
 Large fiend (demon), chaotic evil
 Armor Class 15 (natural armor)
 Hit Points 104 (11d10 +44)
 Speed 40 ft., fly 60 ft.
-STR DEX CON INT WIS CHA 17 (+3) 15 (+2) 18 (+4) 8(-1) 13 (+1) 8(-1)
+STR DEX CON INT WIS CHA 17 (+3) 15 (+2) 18 (+4) 8 (-1) 13 (+1) 8(-1)
 Saving Throws Oex +5, Con +7. Wis +4
 Damage Resistances cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical weapons
 Damage Immunities poison, necrotic
@@ -342,8 +350,11 @@ Beak. Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit 10 (2d6 + 3) p
 Claws. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2dl 0 + 3) slashing damage.
 Fetid Cloud (Recharge 5-6). A 20-foot-radius cloud of disease extends out from the herald. The cloud spreads around corners. Each creature in that area must succeed on a DC 14 Constitution saving throw or become diseased. While diseased in this way, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. A target can repeat the saving throw at the end of each of its turns, ending the disease on a success. 
 ##;
-The living embodiment of disease and decay, a Herald of Rot looks like the abomination of humanoid, vulture and goat. Eyeless sockets stare at prey as a constant cloud of putrid offal hangs about the demon. If summoned, a Herald of Rot will fixate on a given or freely chosen target. Once fixated, the Herald will speak to its prey telepathically, detailing how it will bring decay and desolation to everything around the victim.
-Vanguard of demon armies, a Herald of Rot is a living chemical arsenal. Serving more powerful demon lords, they are often seen guarding important structures or enhancing torture by their mere presence. Heralds of Rot are most commonly found in the service of Demon Lord Juiblex, but their services expand far from the noxious lord's control.
+#h;Herald of Rot:
+“The smell would last for days, embedded in stone, water, cloth and skin, although if you waited long enough for the smell to be in your skin then you are as foolish as those who summoned the demon.” – From The Essence of Rot by Melcornus Bolel, Necromancer of Saldur
+The living embodiment of disease and decay, a Herald of Rot looks like the abomination of humanoid, vulture and goat. Eyeless sockets stare at prey as a constant cloud of putrid offal hangs about the demon.
+If summoned, a Herald of Rot will fixate on a given or freely chosen target. Once fixated, the Herald will speak to its prey telepathically, detailing how it will bring decay and desolation to everything around the victim.
+Vanguard of demon armies, a Herald of Rot is a living chemical arsenal. Serving more powerful demon lords, they are often seen guarding important structures or enhancing torture by their mere presence. Heralds of Rot are most commonly found in the service of Demon Lord Juiblex, but their services expand far from the noxious lord’s control.
 
 Leonin
 Medium humanoid (leonin), any alignment
@@ -368,7 +379,7 @@ Tiny dragon, unaligned
 Armor Class 12
 Hit Points 7 (2d4 + 2)
 Speed 15 ft., fly 60 ft.
-STR DEX CON INT WIS CHA 6 (-2) 15 (+2) 12 (+1) 10 (+O) 12(+1) 17(+3)
+STR DEX CON INT WIS CHA 6 (-2) 15 (+2) 12 (+1) 10 (+0) 12 (+1) 17 (+3)
 Skills Perception +3, Persuasion +5
 Damage Resistances bludgeoning, piercing, and slashing from nonmagical weapons
 Senses darkvision 60 ft., passive Perception 13
@@ -443,7 +454,7 @@ Huge monstrosity (titan), chaotic evil
 Armor Class 17 (natural armor)
 Hit Points 230 (20d12 + 100)
 Speed 30 ft., swim 50 ft.
-STR DEX CON INT WIS CHA 22 (+6) 11 (+O) 20 (+5) 18 (+4) 15 (+2) 17 (+3)
+STR DEX CON INT WIS CHA 22 (+6) 11 (+0) 20 (+5) 18 (+4) 15 (+2) 17 (+3)
 Saving Throws Str +10, Con +9, Wis +6
 Damage Immunities lightning
 Condition Immunities frightened, paralyzed
@@ -462,13 +473,25 @@ LEGENDARY ACTIONS
 The kraken can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The kraken regains spent legendary actions at the start of its turn. Tentacle Attack or Fling. The kraken makes one tentacle attack or uses its Fling.
 Release the Kraken (Costs 2 actions). The kraken removes any magical effects on itself that reduce its speed or cause it to be restrained, and escapes from any nonmagical restraints or being grappled.
 Water Surge (Costs 3 actions). A strong current surges from the kraken. Each creature within 30 feet of the kraken must succeed on a DC 17 Strength saving throw or be pushed up to 30 feet away from the kraken. On a success, the creature is pushed 10 feet away from the kraken.
+##;
+#h;Kraken Hatchling:
+Every horror starts small. Even young the name of this beast strikes terror into the hearts of sailors and townsfolk: Kraken. Slumbering for years after its creation, the Kraken Hatchling grows in size and strength, waiting for the time to wake and bring destruction upon the world.
+#h;Spawn of Legend:
+Created from the malicious thoughts of their mature kin, the Kraken Hatchling spawns into a massive shell, where it lies dormant at the bottom of the sea or in fresh water lakes. Coastal civilizations and river ports fall into chaos once a Kraken Hatchling appears - its destructive wake ceasing trade or leaving towns and villages mere shell-carved craters.
+Destined to grow into primeval forces of destruction, Kraken Hatchlings awake to drag themselves to or from the water, eating and destroying anything that stands in their way. Ominous portents mark the arrival of a #h;Kraken Hatchling. 
+Terrible thunderstorms, floods and tremors wrack the land and rivers, and oceans grow thick with mucus before the Kraken Hatchling appears.
+#h;Hibernating Destruction:
+Slowly maturing into their horrific adult forms, Kraken Hatchlings hibernate in their great shells. Once every century, a Kraken Hatchling will awaken, to eat and travel closer to the ocean. The creation of new lakes and fresh riverbeds are common results as the Kraken Hatchling carves through the earth.
+While dormant, Kraken Hatchlings will rarely react to the environment around it. Its malicious nature and presence, however, leaves a permanent mark the land. Large storms are common, nearby farmland fails due to mucus-saturated soil, and water close to the shell takes on an inky black hue.
+#h;Mortal Foe:
+Similar to their adult counterparts, the Kraken Hatchlings are often viewed as virtual gods. Coastal tribes, underwater communities or remote settlements deep in forests create cults and shrines for these beasts. If pleased, the Kraken Hatchling will becalm storms and remove its disease from the land. However, the mind the Kraken Hatchling quickly develops, planning the eventual demise of all things.
 
 Five Spire Initiate
 Medium humanoid (any race), any lawful alignment
 Armor Class 15
 Hit Points 55 (10d8 + 10)
 Speed 30 ft.
-STR DEX CON INT WIS CHA 12 (+1) 16 (+3) 12 (+1) 10 (+O) 15(+2) 10 (+O)
+STR DEX CON INT WIS CHA 12 (+1) 16 (+3) 12 (+1) 10 (+0) 15 (+2) 10 (+0)
 Saving Throws Dex +5, Wis +4
 Skills Insight +4, Perception +4
 Senses passive Perception 14
@@ -484,12 +507,14 @@ These conditions last until the end of the initiate's next turn.
 REACTIONS
 Block. The initiate adds 3 to its AC against one melee attack that would hit it. To do so, the initiate must see the attacker.
 ##;
-Monks of the Five Spires
+#h;Monks of the Five Spires
 A swift jab sent a jolt of pain through Kine’s body. He grimaced, imagining every bar fight he had ever been in. The figure before him crouched low, balancing lightly on a single foot as the other poised, ready to lash out. Kine felt the sore spot where the monk had punched him - it burned slightly. He hefted his hammer and prepared to strike. The area where the monk had punched him suddenly flared with pain, feeling as though a hot brand had been placed there. Kine doubled over, hammer falling from his hand as he realized his mistake. This was not a brawling fighter; his opponent was a Monk of the Five Spires.
 Trained to hone their magical Ki into dangerous burning attacks, the Monks of the Five Spires are well known for their martial brilliance. Capable of both taking and returning devastating blows, a Monk of the Five Spires practices asceticism and monastic values with fanatic fervor.
-Order of the Five. Unlike others who take the path of a monk, Monks of the Five Spires are extremely selective about those who are permitted to join their way of life. Believing in strict discipline, physical prowess and the acceptance of the volatile emotions that drive them, Monks of the Five Spires push their initiates close todeath, looking to ignite in them the spark of Ki that will give them their abilities.
+#h;Order of the Five.
+Unlike others who take the path of a monk, Monks of the Five Spires are extremely selective about those who are permitted to join their way of life. Believing in strict discipline, physical prowess and the acceptance of the volatile emotions that drive them, Monks of the Five Spires push their initiates close todeath, looking to ignite in them the spark of Ki that will give them their abilities.
 Located near volcanoes, the Five Spires are formidable towers of stone and obsidian. Rising high into the air, these towers serve as a proving ground for Five Spire Initiates and homes to the Masters of the Five Spires. Monks of the Five Spires view themselves as artisans of battle. In the face of other monastic paths, a Monk of the Five Spires understands that they may be inferior but when it comes to a fight, there is none better. Trained to accept radical emotions, Monks of the Five Spires often come off as explosive and extreme. These ranges of emotions are the key source of energy that drives the Monks of the Five Spires. They use these fiery emotions to enhance their Ki energies, manifesting them into searing pain.
-Initiation. With the desire to become a Monk of the Five Spires, initiates go to a small town known as Blackwrath. Nestled at the base of the Five Spires, initiates must climb up a tower to be accepted as an apprentice. Those who fall could not overcome the first challenge. Each day following, Initiates of the Five Spires must climb the tower. Here they train, work and follow their master’s missives. Each evening, initiates climb back down and sleep in Blackwrath. Only masters may live at the top of the Five Spires.
+#h;Initiation. 
+With the desire to become a Monk of the Five Spires, initiates go to a small town known as Blackwrath. Nestled at the base of the Five Spires, initiates must climb up a tower to be accepted as an apprentice. Those who fall could not overcome the first challenge. Each day following, Initiates of the Five Spires must climb the tower. Here they train, work and follow their master’s missives. Each evening, initiates climb back down and sleep in Blackwrath. Only masters may live at the top of the Five Spires.
 Initiates of the Five Spires often are sent on missions to expand their view of the world and uphold law. During this time, Initiates of the Five Spires are required to return half of their earnings to the Spires as well as new discoveries. Those who fail to do this are either rejected from the path or punished upon return.
 Those who survive eventually attempt to join their masters. In a dangerous trial, the initiate swallows a draught of living fire, harvested from the nearby volcanoes. Wracked with pain, the initiate fights one of their masters. If they land a single hit upon the master, they are accepted as a Master of the Five Spires.
 
@@ -498,7 +523,7 @@ Medium humanoid (any race), any lawful alignment
 Armor Class 17
 Hit Points 91 (14d8 + 28)
 Speed 30 ft.
-STR DEX CON INT WIS CHA 14 (+2) 19 (+4) 15 (+2) 12 (+1) 17 (+3) 13(+1)
+STR DEX CON INT WIS CHA 14 (+2) 19 (+4) 15 (+2) 12 (+1) 17 (+3) 13 (+1)
 Saving Throws Dex + 7, Wis +6
 Skills Insight +6, Perception +6
 Senses passive Perception 16
@@ -507,8 +532,8 @@ Challenge 8 (3,900 XP)
 Unarmored Defense. While the master is wearing no armor and wielding no shield, its AC includes its Wisdom modifier.
 ACTIONS
 Multiattack. The master makes three attacks: two with its unarmed strikes and one with its fire kick.
-Unarmed Strike. Melee Weapon Attack: + 7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.
-Fire Kick. Melee Weapon Attack: + 7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage plus 14 (4d6) fire damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.
+Unarmed Strike. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.
+Fire Kick. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage plus 14 (4d6) fire damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.
 Fury of the Five Spires (Recharge 5-6). The master makes five unarmed strike attacks against one target. The target must then make a DC 10 Constitution saving throw with a +1 DC for every attack that hit. On a failed save the target is knocked unconscious until the end of the master's next turn.
 REACTIONS
 Fiery Block. The master adds 5 to its AC against one melee attack that would hit it. To do so, the master must see the attacker. If the attack misses, the attacker takes 7 (2d6) fire damage.
@@ -527,7 +552,7 @@ Small aberration, chaotic evil
 Armor Class 14
 Hit Points 18 (4d6 + 4)
 Speed 40 ft., climb 40 ft.
-STR DEX CON INT WIS CHA 7 (-2) 18(+4) 12 (+1) 13 (+1) 11 (+0) 6 (-2)
+STR DEX CON INT WIS CHA 7 (-2) 18 (+4) 12 (+1) 13 (+1) 11 (+0) 6 (-2)
 Damage Resistances bludgeoning, piercing, and slashing from nonmagical weapons
 Senses darkvision 60 ft.
 Languages none
@@ -536,7 +561,16 @@ Shapechanger, The morphlit can use its bonus action to polymorph into a form wit
 Defensive Adaptation. The morphlit can use its bonus action to gain immunity to any single damage type. The damage immunity remains until the morphlit uses this ability again. The morphlit also deals an extra 4 (1d8) damage of the chosen type when it hits with its bite attack.
 ACTIONS
 Multiattack. The morphlit makes two bite attacks.
-Bite. Melee Weapon Attack;+6 to hit, reach 5 ft., one target. Hit: 6 (1d4+4) piercing damage plus 4 (1d8) damage of the type chosen by its defensive adaptation ability.
+Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4+4) piercing damage plus 4 (1d8) damage of the type chosen by its defensive adaptation ability.
+##;
+#h;Morphlit:
+A Morphlit is small, weak and above all resilient. Creations of forgotten experiments, Morphlits adapt perfectly with their environment. They are wild, cunning creatures notorious for never failing to reach their victim. They embody a sense of brilliance long forgotten.
+#h;Ever-changing packs:
+Smarter than their small size indicates, Morphlits often join together to hunt larger prey. An instinctual understanding allows Morphlits to switch into the form most needed for their environment as well as vary their forms while in a pack to gain the most success during a hunt.
+Large foreclaws or bat-like wings grow along Morphlits as they travel, granting them easy access to even the most difficult of terrain. Morphlits share a complex hivemind, which was given to them at their creation. Small hierarchies concerning shape and personality emerge from each form a Morphlit takes. Winged Morphlits take on an observer role in their society. Burrowing Morhplits are more aggressive, prone to competing against one another over a kill. Aquatic Morphits tend to be more passive unless provoked or agitated.
+#h;Spawn of Ancients:
+Long before the rise and fall of great empires, the upheaval of the earth and even before the pantheon of gods, Morphlits emerged as creations of great and mighty magic, formed to be durable test subjects to darker experiments. Seen as failures by their great masters, Morphlits were cast away, marked as inadequate.
+Throughout the dynamic changes of the world, Morphlits thrived; the great magic that formed them acting as a shield against change. Still products of a deep desire, Morphlits continue to act in accordance to long imbued commands from their former creators.
 
 Myr
 Small construct (myr), neutral
@@ -551,8 +585,8 @@ Languages understands the languages of its creator but can't speak
 Challenge 1/4 (50 XP)
 Defense Matrix. Attack rolls against the myr have disadvantage if at least one of the myr's allies is within 5 feet of it and isn't incapacitated.
 ACTIONS
-Beak. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) piercing damage.
-Electric Arc. Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit: 4 (1d4+2) lightning damage.
+Beak. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.
+Electric Arc. Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit: 4 (1d4 + 2) lightning damage.
 
 Myr Battlesphere
 Huge construct (myr), neutral
@@ -562,13 +596,13 @@ Speed 40 ft.
 STR DEX CON INT WIS CHA 20 (+5) 13 (+1) 12 (+1) 12 (+1) 10 (+0) 5 (-3)
 Damage Immunities poison
 Condition Immunities charmed, exhaustion, frightened, paralyzed, petrified, poisoned
-Senses darkvtsion 60 ft., passive Perception 10
+Senses darkvision 60 ft., passive Perception 10
 Languages understands the languages of its creator but can't speak
 Challenge 5 (1,800 XP)
 Disassemble. When the battlesphere dies, it splits into 2d4 myr.
 Reassemble. If the battlesphere moves through the space of an allied myr, it absorbs the myr and regains 7 (2d6) hit points.
 ACTIONS
-Crush. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (2d12 -t* 5) bludgeoning damage.
+Crush. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (2d12 + 5) bludgeoning damage.
 Overrun (Recharge 5-6). The battlesphere moves twice its speed and can move through the space of any creature that is Medium or smaller. Additionally, the battlesphere's movement doesn’t provoke opportunity attacks for the rest of the turn. When first entering a creature's space, the battlesphere can make a crush attack against that target. If the attack hits, that target must succeed on a DC 16 Strength saving throw or be knocked prone.
 
 Pact Devil
@@ -579,12 +613,12 @@ Speed 40 ft.
 STR DEX CON INT WIS CHA 18 (+4) 16 (+3) 18 (+4) 15 (+2) 14 (+2) 18 (+4)
 Saving Throws Int +6, Wis +6, Cha +8
 Skills Deception +8, Insight +6
-Damage Resistances cold, bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered
+Damage Resistances cold; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered
 Damage Immunities fire, poison
 Condition Immunities poisoned
 Senses darkvision 120 ft., passive Perception 12
 Languages Infernal, telepathy 120 ft.
-Challenge 9 (5000 XP)
+Challenge 9 (5,000 XP)
 Devil's Sight. Magical darkness doesn't impede the devil's darkvision.
 Magic Resistance. The devil has advantage on saving throws against spells and other magical effects.
 Infernal Pact. The devil can make an infernal pact with a willing creature, granting it special boons in exchange for its soul.
@@ -596,7 +630,7 @@ Horns. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4
 INFERNAL PACT
 A pact devil may convince a creatu re to exchange its soul for powerful infernal boons. Such boons may include but are not limited to: ability score improvements, new feats, or epic boons found in the Dungeon M aster's Guide (page 232). The pact lasts until the devil chooses to dismiss it or the devil dies. A wish spell can also end the pact.
 If a creature bound by such a pact dies, the devil claims its soul, forcing it into servitude for eternity. The creature can't be brought back to life after its soul has been claimed.
-Additionally, while bound by the infernal pact, the devil can communicate with the creature telepathically over any distance, even from another plane of existence. Once per month, the devil may charm the creature as if using the geas spell. The creature automatically fails the saving throw to resist the spell, and it can't be ended by any normal magic except for a wish spell, which also ends the pact.
+Additionally, while bound by the infernal pact, the devil can communicate with the creature telepathically over any distance, even from another plane of existence. Once per month, the devil may charm the creature as if using the geas spell. The creature automatically fails the saving throw to resist the spell, and it can't be ended by any normal magic except for a wish spell, which also ends t he pact.
 
 Priest Of Blight
 Medium humanoid (any race), chaotic evil
@@ -636,13 +670,17 @@ Death Burst. When the pustuloid dies, it explodes in a burst of foul pus. Each c
 ACTIONS
 Claws. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) slashing damage plus 5 (2d4) necrotic damage.
 Putrid Breath (Recharge 6). The pustuloid exhales a 15-foot cone of putrid gas. Each creature in that area must succeed on a DC 12 Dexterity saving throw, taking 10 (3d6) necrotic damage on a failed save, or half as much damage on a successful one.
+##;
+#h;Pustuloid
+Bulbous sacs of pustules and splitting skin make up this demon as it roams the Lower Planes. More powerful demons use Pustuloids as servants and living weapons, throwing them into battle with little regard to their survival.
+Pustuloids are easily traced by their smell and trail of ichor. Their presence remains in an area for days and living materials that they touch take on decayed, rotting blemishes. Physically and mentally weak, these demons use their necrotic breath and flesh eating claws, caring little about their own explosive death.
 
 Rat Hermit
 Medium humanoid (any race), any non-good alignment
 Armor Class 15 (natural armor)
 Hit Points 44 (8d8 + 8)
 Speed 30 ft. 
-STR DEX CON INT WIS CHA 10 (+O) 16(+3) 12(+1) 11 (+O) 10 (+O) 8 (-1)
+STR DEX CON INT WIS CHA 10 (+0) 16 (+3) 12 (+1) 11 (+0) 10 (+0) 8 (-1)
 Skills Perception +2, Stealth +5
 Senses darkvision 60 ft., passive Perception 12
 Languages Common
@@ -655,13 +693,17 @@ Multiattack. The rat herm it makes two attacks: one with its bite and one with i
 Bite . Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.
 Claws . Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.
 Call the Swarm (Recharge 5-6) . The rat hermit magically calls a swarm of rats. The called creatures arrive in 1 round, acting as allies of the rat hermit and obeying its commands.
+##;
+#h;Rat Hermit
+“The worse moment wasn’t when we found ourselves surrounded by rats…It was when we discovered that they were all thinking the same thing.”
+Rat Hermits find themselves as social outcasts. Exiled from normal civilization, they instead create their own world among the vermin they live close to. Rat Hermits dwell in sewers and cramped alleys, where they slowly build their small kingdom and seek revenge against those who shunned them. An individual who appeals to the Rat Hermit’s sense of revenge is more likely to be treated nicely, provided they can give the Rat Hermit what they want.
 
 Selachian
 Large humanoid (se/achian), any chaotic alignment
 Armor Class 15 (natural armor)
 Hit Points 133 (14d10 + 56)
 Speed 30 ft., swim 50 ft.
-STR DEX CON INT WIS CHA 20 (+5) 11 (+O) 18 (+4) 9 (-1) 12 (+1) 9 (-1)
+STR DEX CON INT WIS CHA 20 (+5) 11 (+0) 18 (+4) 9 (-1) 12 (+1) 9 (-1)
 Saving Throws Con +7
 Skills Perception +4
 Senses blindsight 60 ft. (only in water), passive Perception 14
@@ -674,14 +716,19 @@ Multiattack. The selachian makes two attacks: one with its bite and one with its
 Bite. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 27 (4d10 + 5) piercing damage.
 Harpoon. Melee or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 14 (2d8 + 5) piercing damage. If the target is a Huge or smaller creature, it must succeed on a Strength contest against the selachian or be pulled up to 20 feet toward the selachian. 
 ##;
-Selachian
-With the upper body of a shark and humanoid arms and legs, Selachians mark their bodies with scars, showing familial houses, honorable hunts or simply to make themselves more menacing. Selachian ruthlessness is well known among coastal and aquatic communities. Raiding parties wash like waves over sand castles, leaving destruction in their wake, before disappearing back into the sea.
-Selachian Settlements. Most commonly found in the cold northern regions of the world, Selachian settlements are built in coral reefs, rocky coasts or underwater cliffs bordering a deep abyss. Unlike the rival merfolk, Selachians care little for the passage of time, often living for years without interaction with the outside world. Selachians tend to delve into the darkest parts of the ocean, hunting in packs to track down and kill larger prey. They come to the surface to raid ships and nearby settlements to collect more materials for their homes. Selachians defend themselves with weapons taken from pirating or crafted from whatever materials were salvaged from shipwrecks, beaches, and dead undersea creatures.
-Hired Muscle. Often, pirating crews or desperate merchants will hire a pair of Selachians to work for them. Money does little to inspire a Selachian, but promise of fresh blood or an epic prize will keep a Selachian in check for a time. Bought more for their brawn than brain, Selachians find their place as bodyguards or thugs, their bulky forms not well suited for nimble work.
-Pirates who convince these beasts to ship with them employ their strength as living grappling lines and frontline warriors. Sent to board the enemy ship first, Selachians fall into bloody frenzies, leaving behind a wake of destruction until either alone or killed.
-Biggest Prize. Selachian communities believe in constantly outdoing one another. At birth, two Selachians are paired. For the rest of their lives, these Selachians wage a constant battle, heavily prompted by the community, to bring back the greatest prize. Often this prize is a kill or trophy but can also be feats of unlikely success. If a Selachian dies from this competition, their partner attempts to fulfill the pact for the other, marking it as the greatest prize they could achieve.
-Mortal Enemies. Selachians and merf olk are mortal enemies. Years of raiding, destruction and war have carved a rift between the two species. Selachians also cannot abide merrow, who remind them too much of their less abyssal kin.
- 
+#ip;“I never thought we would let one on the boat. Those black, doll-like eyes scare me as much as its ability to hunt.” – Jarod Kentworth, Second mate of Serena
+With an the upper body of a shark and humanoid arms and legs, Selachians mark their bodies with scars, showing familial houses, honorable hunts or simply to make themselves more menacing. Selachian ruthlessness is well known among coastal and aquatic communities. Raiding parties wash like waves over sand castles, leaving destruction in their wake, before disappearing back into the sea.
+#h;Selachian Settlements:
+Most commonly found in the cold northern regions of the world, Selachian settlements are built in coral reefs, rocky coasts or underwater cliffs bordering a deep abyss. Unlike the rival merfolk, Selachians care little for the passage of time, often living for years without interaction with the outside world. Selachians tend to delve into the darkest parts of the ocean, hunting in packs to track down and kill larger prey. They come to the surface to raid ships and nearby settlements to collect more materials for their homes.
+Selachians defend themselves with weapons taken from pirating or crafted from whatever materials were salvaged form shipwrecks, beaches, and dead undersea creatures.
+#h;Hired-Muscle:
+Often, pirating crews or desperate merchants will hire a pair of Selachians to work for them. Money does little to inspire a Selachian, but promise of fresh blood or an epic prize will keep a Selachian in check for a time. Bought more for their brawn than brain, Selachians find their place as bodyguards or thugs, their bulky forms not well suited for nimble work.
+Pirates who convince these beasts to ship with them employ their strength as living grappling lines and frontline warriors. Sent to the board the enemy ship first, Selachians fall into bloody frenzies, leaving behind a wake of destruction until either alone or killed.
+#h;The Biggest Prize:
+Selachian communities believe in constantly outdoing one another. At birth, two Selachians are paired. For the rest of their lives, these Selachians wage a constant battle, heavily prompted by the community, to bring back the greatest prize. Often this prize is a kill or trophy but can also be feats of unlikely success. If a Selachian dies from this competition, their partner attempts to fulfill the pact for the other, marking it as the greatest prize they could achieve.
+#h;Mortal Enemies:
+Selachians and merfolk are mortal enemies. Years of raiding, destruction and war have carved a rift between the two species. Selachians also cannot abide merrow, who remind them too much of their less abyssal kin.
+
 Sliver
 Medium monstrosity (sliver), neutral evil
 Armor Class 12
@@ -696,7 +743,7 @@ Hive Mind. All slivers within 100 miles of their queen are in constant communica
 ACTIONS
 Multiattack.The silver makes two claw attacks.
 Claw. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.
-  
+
 Sliver Queen
 Huge monstrosity (sliver), neutral evil
 Armor Class 17 (natural armor)
@@ -721,7 +768,7 @@ LEGENDARY ACTIONS
 The queen can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The queen regains spent legendary actions at the start of her turn.
 Tail Attack. The queen makes a tail attack. Sliver Spawn (Costs 2 actions). The queen spawns a sliver of challenge rating 1 /2 that appears in an unoccupied space within 5 feet of her.
 Nurture the Hive (Costs 3 actions). All slivers within 30 feet of the queen regain 12 (2d8 + 3) hit points.
-  
+ 
 Spirit
 Medium undead, any alignment
 Armor Class 11
@@ -746,10 +793,10 @@ Medium humanoid (any race), chaotic neutral
 Armor Class 14 (leather)
 Hit Points 44 (8d8 + 8)
 Speed 30 ft.
-STR DEX CON INT WIS CHA 12 (+1) 16 (+3) 12 (+1) 10 (+O) 11 (+O) 16 (+3)
+STR DEX CON INT WIS CHA 12 (+1) 16 (+3) 12 (+1) 10 (+0) 11 (+0) 16 (+3)
 Saving Throws Dex +5 
 Skills Acrobatics +5, Performance +5
-Senses passive Perception 10
+Senses passive Perception 1 O
 Languages Common
 Challenge 3 (700 XP)
 Nimble Action. On each of its turns, the dancer can use a bonus action to take the Dash or Disengage action.
@@ -766,17 +813,17 @@ Medium humanoid (any race), chaotic neutral
 Armor Class 16 (chain mail)
 Hit Points 91 (14d8 + 28)
 Speed 30 ft.
-STR DEX CON INT WIS CHA 16 (+3) 12 (+1) 14 (+2) 10 (+O) 12 (+1) 17 (+3)
+STR DEX CON INT WIS CHA 16 (+3) 12 (+1) 14 (+2) 10 (+0) 12 (+1) 17 (+3)
 Saving Throws Con +5, Cha +6
 Skills Intimidation +6, Performance +6
 Senses passive Perception 11
 Languages Common
-Challenge 5 (1800 XP)
+Challenge 5 (1,800 XP)
 Rhythmic Fighting. The dirge can play songs while wielding a melee weapon in one hand.
 ACTIONS
 Multiattack. The dirge makes two melee attacks.
 Warhammer. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) bludgeoning damage, or 8 (1d10 + 3) bludgeoning damage if used with two hands to make a melee attack.
-Heavy Crossbow. Melee Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit 6 (1d1O+1) piercing damage.
+Heavy Crossbow. Melee Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit 6 (1d10+1) piercing damage.
 Thunderous Crescendo. As a bonus action, the dirge begins to play a magical song. At the start of each of the dirge's turns, all enemy creatures within 30 feet of the dirge that can hear the song must succeed on a DC 14 Constitution saving throw or take 9 (2d8) thunder damage. Any creature that takes damage in this way loses concentration if it is concentrating. The dirge can maintain concentration to continue playing the song. If it loses concentration, the song ends.
 
 Tuskaloth
@@ -787,21 +834,21 @@ Speed 40 ft.
 STR DEX CON INT WIS CHA 28 (+9) 8 (-1) 22 (+6) 3 (-4) 11 (+0) 7 (-2)
 Saving Throws Con +10
 Senses passive Perception 10
-Languages -
+Languages Common
 Challenge 10 (5,900 XP)
-Siege Beast. The tuskaloth deals double damage to objects and structures.
+Siege. The tuskaloth deals double damage to objects and structures.
 Trampling Charge. If the tuskaloth moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 18 Strength saving throw or be knocked prone. If the target is prone, the tuskaloth can make one stomp attack against it as a bonus action.
 ACTIONS
 Gore. Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 22 (3d8 + 9) piercing damage.
 Stomp. Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 31 (4d10 + 9) piercing damage.
-Earthshake (Recharge 5-6). The tuskaloth pounds the ground with incredible force, causing a tremor. Each creature on the ground within 30 feet of the tuskaloth must succeed on a DC 18 Dexterity saving throw or be knocked prone. The tremor also deals 50 bludgeoning damage to any structure in contact with the ground in that area. A structure that drops to 0 hit points collapses.
+Earthshake. (Recharge 5-6). The tuskaloth pounds the ground with incredible force, causing a tremor. Each creature on the ground within 30 feet of the tuskaloth must succeed on a DC 18 Dexterity saving throw or be knocked prone. The tremor also deals 50 bludgeoning damage to any structure in contact with the ground in that area. A structure that drops to 0 hit points collapses.
 
 Winged Sliver
 Large monstrosity (sliver), neutral evil
 Armor Class 12
 Hit Points 60 (8d10 + 16)
 Speed 30 ft., fly 60 ft.
-STR DEX CON INT WIS CHA 18 (+4) 14 (+2) 14 (+2) 11 (+O) 12 (+1) 10 (+O)
+STR DEX CON INT WIS CHA 18 (+4) 14 (+2) 14 (+2) 11 (+0) 12 (+1) 10 (+0)
 Skills Perception +3
 Senses darkvision 60 ft., passive Perception 13
 Languages Sliver (see Hive Mind)
@@ -818,7 +865,7 @@ Large monstrosity (sliver), neutral evil
 Armor Class 12
 Hit Points 52 (7d10 + 14)
 Speed 30 ft.
-STR DEX CON INT WIS CHA 16 (+3) 14 (+2) 14 (+2) 11 (+O) 12 (+1) 10 (+O)
+STR DEX CON INT WIS CHA 16 (+3) 14 (+2) 14 (+2) 11 (+0) 12 (+1) 10 (+0)
 Skills Perception +3
 Senses darkvision 60 ft., passive Perception 13
 Languages Sliver (see Hive Mind)
@@ -835,18 +882,18 @@ Large construct, unaligned
 Armor Class 14 (natural armor)
 Hit Points 102 (12d10 + 36)
 Speed 30 ft.
-STR DEX CON INT WIS CHA 12 (+1) 14 (+2) 16 (+3) 5 (-3) 9(-1) 1 (-5)
+STR DEX CON INT WIS CHA 12 (+1) 14 (+2) 16 (+3) 5 (-3) 9 (-1) 1 (-5)
 Damage Immunities poison, psychic
 Condition Immunities charmed, exhaustion, frightened, paralyzed, petrified, poisoned
 Senses darkvision 60 ft., passive Perception 9
-Languages understands the languages of its creator but can't speak
+Languages understands the languages of its creator but can't speak.
 Challenge 5 (1,800 XP)
 Immutable Form. The spellskite is immune to any spell or effect that would alter its form.
 Magic Resistance. The spellskite has advantage on saving throws against spells and other magical effects.
-Magic Ward. The spellskite has resistance to damage from spells. 
-Redirect Spells. Whenever a spell is cast within 120 feet of the spellskite that targets only one creature and doesn’t have a range of self or touch, the spellskite magically redirects the spell and becomes the target. If the spell could not normally affect the spellskite, the spell fails. The creator of the spellskite can designate creatures that won’t be affected by this trait.
+Magic Ward. The spellskite has resistance to damage from spells.
+Redirect Spells. Whenever a spell is cast within 120 feet of the Spellskite that targets only one creature and doesn't have a range of self or touch, the Spellskite magically redirects the spell and becomes the target. If the spell could not normally affect the spellskite, the spell fails. The creator of the spellskite can designate creatures that won't be affected by this trait.
 ACTIONS
-Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 10 (2d8 + 1) piercing damage.
+Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 10 (2d8+1) piercing damage.
 
 Troll Boar
 Large monstrosity, chaotic evil
@@ -854,15 +901,15 @@ Armor Class 13 (natural armor)
 Hit Points 57 (6d10 + 24)
 Speed 40 ft.
 STR DEX CON INT WIS CHA 18 (+4) 10 (+0) 18 (+4) 2 (-4) 10 (+0) 3 (-4)
-Skills Perception +2
+Skills Perception +20
 Senses darkvision 60 ft., passive Perception 12
 Languages -
 Challenge 3 (700 XP)
-Keen Smell. The boar has advantage on Wisdom (Perception) checks that rely on smeil.
+Keen Smell. The boar has advantage on Wisdom (Perception) checks that rely on smell.
 Charge. If the boar moves at least 20 feet straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 9 (2d8) slashing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.
-Regeneration. The boar regains 10 hit points at the start of its turn. If the boar takes acid or fire damage, this trait doesn't function at the start of the boar's next turn. The boar dies only if it starts its turn with 0 hit points and doesn't regenerate.
+Regeneration. The boar regains 10 hit points at the start of its turn. If the boar takes acid or fire damage, this trait doesn't function at the start of the boar's next turn. The boar dies only is it starts its turn with 0 hit points and doesn't regenerate.
 ACTIONS
-Tusk. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 +4) slashing damage.
+Tusk. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage.
 
 Grove Guardian
 Large fey, neutral
@@ -871,20 +918,118 @@ Hit Points 71 (11d10 + 11)
 Speed 50 ft.
 STR DEX CON INT WIS CHA 16 (+3) 17 (+3) 12 (+1) 12 (+1) 18 (+4) 15 (+2)
 Saving Throws Dex +6, Wis +7
-Skills Perception +10, Stealth +6
-Senses darkvision 60 ft., passive Perception 20
+Skills Perception +10, Stealth +60Senses darkvision 60 ft., passive Perception 20
 Languages Sylvan
 Challenge 5 (1,800 XP)
-Innate Speflcasting. The guardian's innate spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). The guardian can innately cast the following spells, requiring no material components: 
-At will: druidcraft, thorn whip (11th level)
+Innate Spellcasting. The guardian's innate spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). The guardian can innately cast the following spells, requiring no material components:
+At will: Druidcraft, thorn whip (11th level)
 3/day each: spike growth, silence
 1/day each: conjure animals, plant growth
-Keen Hearing and Smell. The guardian has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+Keen hearing and Smell. The guardian has advantage on Wisdom (Perception) checks that rely on hearing or smell.
 Speak with Beasts and Plants. The guardian can communicate with beasts and plants as if they shared a language.
 Tree Stride. Once on its turn, the guardian can use 10 feet of its movement to step magically into one living tree within its reach and emerge from a second living tree within 60 feet of the first tree, appearing in an unoccupied space within 5 feet of the second tree. Both trees must be Large or bigger.
 ACTIONS
 Multiattack. The guardian makes two bite attacks.
-Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 10 (2d6 + 3) piercing damage.If the target is a  creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.
+Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 strength saving throw or be knocked prone.
+
+Burning Skeleton
+Medium undead, lawful evil
+Armor Class 15 (chain shirt)
+Hit Points 26 (4d8 + 8)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 10 (+0) 14 (+2) 14 (+2) 6 (-2) 8 (-1) 6 (-2)
+Damage Vulnerabilities bludgeoning, cold
+Damage Immunities fire, poison
+Condition Immunities exhaustion, poisoned
+Senses darkvision 60 ft., passive Perception 9
+Languages under stands all languages it knew in life but can't speak.
+Challenge 1 (200 XP)
+Heated Body. A creature that touches the skeleton or hits it with a melee attack while within 5 feet of it takes 3 (1d6) fire damage.
+Heated Weapons. Any weapon the skeleton wields deals an extra 3 (1d6) fire damage on a hit (included in the attack). 
+ACTIONS
+Multiattack. The skeleton makes two melee attacks.
+Shortsword. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 3 (1d6) fire damage.
+Shortbow. Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 3 (1d6) fire damage.
+
+Brood Monitor
+Huge aberration, chaotic ebil
+Armor Class 12
+Hit Points 126 (12d12 + 48)
+Speed 40 ft., climb 40 ft.
+STR DEX CON INT WIS CHA 21 (+5) 14 (+2) 18 (+4) 7 (-2) 14 (+2) 8 (-1)
+Saving Throws Wis +5
+Skills Perception +5
+Senses darkvision 60 ft., passive Perception 15
+Languages -
+Challenge 7 (2,900 XP)
+Alien Mind. The monitor has advantage on Wisdom saving throws.
+ACTIONS
+Multiattack. The monitor makes two fist attacks.
+Fist. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 21 (3d10 + 5) bludgeoning damage.
+Constrict. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (3d8 + 5)bludgeoning damage, and the target is grappled (escape DC 16). Until this grapple ends, the creature is restrained, and the monitor can't constrict another target.
+Spawn Scion (3/day). The monitor spawns an eldrazi scion that appears in an unoccupied space within 5 feet of it.
+
+Eldrazi Scion
+Large aberration, chaotic evil
+Armor Class 12
+Hit Points 45 (6d10 + 12)
+Speed 40 ft., burrow 10 ft.
+STR DEX CON INT WIS CHA 17 (+3) 14 (+2) 15 (+2) 6 (-2) 13 (+1) 4 (-3)
+Saving Throws Wis +3
+Skills Perception +5, Stealth +4
+Senses darkvision 60 ft., passive Perception 15
+Languages -
+Challenge 1 (200 XP)
+Alien Mind. The scion has advantage on Wisdom saving throws.
+ACTIONS
+Tentacles. Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage. If the target is a creature, it is grappled (escape DC 16). Until the grapple ends, the target is restrained, and the scion can't use its tentacles on another target.
+
+Coven Horror
+Large monstrosity, chaotic evil
+Armor Class 15 (natural armor)
+Hit Points 123 (13d10 + 52)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 20 (+5) 10 (+0) 18 (+4) 17 (+3) 15 (+2) 20 (+5)
+Saving Throws Con +8, Cha +9
+Skills Deception +9, Insight +6, Perception +10
+Damage Resistances cold, fire; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered
+Condition Immunities charmed, frightened
+Senses darkvision 120 ft., passive Perception 20
+Languages Abyssal, Common, Infernal, Primordial
+Challenge 9 (3,900 XP)
+Wails of the Unborn. Humanoids within 60 feet of the horror that can hear it have disadvantage on Constitution saving throws to maintain concentration.
+Magic Resistance. The horror has advantage on saving throws against spells and other magical effects.
+ACTIONS
+Multiattack. The horror can use its Gaze. It then makes two claw attacks.
+Claw. Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit: 14 (2d8 + 5) slashing damage.
+Gaze. The horror makes one gaze at random, choosing one target it can see within 60 feet of it 1. 
+1. Gaze of Agony. The target creature must make a DC 15 Charisma saving throw, taking 36 (8d8) psychic damage on a failed save, or half as much damage on a successful one.
+2. Gaze of Lethargy. The target creature must succeed on a DC 15 Charisma saving throw. On a failed save, the target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+3. Gaze of Despair. The target creature must succeed on a DC 15 Charisma saving throw. On a failed save, the target becomes overwhelmed with despair for 1 minute, and has disadvantage on attack rolls, saving throws, and ability checks. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+Dream Eater
+Large aberration, chaotic evil
+Armor Class 17 (natural armor)
+Hit Points 133 (14d10 + 56)
+Speed 0 ft., fly 40 ft,
+STR DEX CON INT WIS CHA 21 (+5) 20 (+5) 19 (+4) 13 (+1) 17 (+3) 18 (+4)
+Saving Throws Dex +9, Wis +7, Cha +8
+Skills Perception +7
+Damage Immunities poison, psychic
+Condition Immunities charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained
+Senses truesight 120 ft., passive Perception 17
+Languages all, telepathy 120 ft.
+Challenge 10 (5,900 XP)
+Legendary Resistance (2/Day). If the dream eater fails a saving throw, it can choose to succeed instead.
+ACTIONS
+Multiattack. The dream eater makes two claw attacks.
+Claw. Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (3d8) psychic damage, and the target must succeed on a DC 14 Constitution saving throw or gain one level of exhaustion.
+Terrorize (Recharge 5-6). The dream eater emits nightmarish visions. Each creature within 10 feet of the dream eater must succeed on a DC 14 Wisdom saving throw or become paralyzed untii the end of the dream eater's next turn.
+LEGENDARY ACTIONS
+The dream eater can take 2 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dream
+eater regains spent legendary actions at the start of its turn. 
+Dream Walk. The dream eater magically teleports up to 40 feet to an unoccupied space it can see.
+Deep Slumber (Costs 2 Actions). The dream eater targets one creature that it can see within 60 feet of it. The target must succeed on a DC 14 Wisdom saving throw or fall unconscious for 8 hours. The target wakes up if it takes damage or if another creature takes an action to shake it awake.
 
 Silverpaw Dog
 Medium fey, neutral
@@ -926,104 +1071,6 @@ Lay on Hands (1/ Day). The paladin can touch a creature to restore 25 hit points
 REACTIONS
 Parry. The paladin adds 3 to its AC against one melee attack that would hit it. To do so, the paladin must see the attacker and be wielding a melee weapon.
 
-Dream Eater
-Large aberration, chaotic evil
-Armor Class 17 (natural armor)
-Hit Points 133 (14d10 + 56)
-Speed 0 ft., fly 40 ft,
-STR DEX CON INT WIS CHA 21 (+5) 20 (+5) 19 (+4) 13 (+1) 17 (+3) 18 (+4)
-Saving Throws Dex +9, Wis +7, Cha +8
-Skills Perception +7
-Damage Immunities poison, psychic
-Condition Immunities charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained
-Senses truesight 120 ft., passive Perception 17
-Languages all, telepathy 120 ft.
-Challenge 10 (5,900 XP)
-Legendary Resistance (2/Day). If the dream eater fails a saving throw, it can choose to succeed instead.
-ACTIONS
-Multiattack. The dream eater makes two claw attacks.
-Claw. Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (3d8) psychic damage, and the target must succeed on a DC 14 Constitution saving throw or gain one level of exhaustion.
-Terrorize (Recharge 5-6). The dream eater emits nightmarish visions. Each creature within 10 feet of the dream eater must succeed on a DC 14 Wisdom saving throw or become paralyzed untii the end of the dream eater's next turn.
-LEGENDARY ACTIONS
-The dream eater can take 2 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dream eater regains spent legendary actions at the start of its turn. 
-Dream Walk. The dream eater magically teleports up to 40 feet to an unoccupied space it can see.
-Deep Slumber (Costs 2 Actions). The dream eater targets one creature that it can see within 60 feet of it. The target must succeed on a DC 14 Wisdom saving throw or fall unconscious for 8 hours. The target wakes up if it takes damage or if another creature takes an action to shake it awake.
-
-Coven Horror
-Large monstrosity, chaotic evil
-Armor Class 15 (natural armor)
-Hit Points 123 (13d10 + 52)
-Speed 30 ft.
-STR DEX CON INT WIS CHA 20 (+5) 10 (+0) 18 (+4) 17 (+3) 15 (+2) 20 (+5)
-Saving Throws Con +8, Cha +9
-Skills Deception +9, Insight +6, Perception +10
-Damage Resistances cold, fire; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered
-Condition Immunities charmed, frightened
-Senses darkvision 120 ft., passive Perception 20
-Languages Abyssal, Common, Infernal, Primordial
-Challenge 9 (3,900 XP)
-Wails of the Unborn. Humanoids within 60 feet of the horror that can hear it have disadvantage on Constitution saving throws to maintain concentration.
-Magic Resistance. The horror has advantage on saving throws against spells and other magical effects.
-ACTIONS
-Multiattack. The horror can use its Gaze. It then makes two claw attacks.
-Claw. Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit: 14 (2d8 + 5) slashing damage.
-Gaze. The horror makes one gaze at random, choosing one target it can see within 60 feet of it 1. 
-1 Gaze of Agony. The target creature must make a DC 15 Charisma saving throw, taking 36 (8d8) psychic damage on a failed save, or half as much damage on a successful one.
-2 Gaze of Lethargy. The target creature must succeed on a DC 15 Charisma saving throw. On a failed save, the target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-3 Gaze of Despair. The target creature must succeed on a DC 15 Charisma saving throw. On a failed save, the target becomes overwhelmed with despair for 1 minute, and has disadvantage on attack rolls, saving throws, and ability checks. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-
-Burning Skeleton
-Medium undead, lawful evil
-Armor Class 15 (chain shirt)
-Hit Points 26 (4d8 + 8)
-Speed 30 ft.
-STR DEX CON INT WIS CHA 10 (+0) 14 (+2) 14 (+2) 6 (-2) 8 (-1) 6 (-2)
-Damage Vulnerabilities bludgeoning, cold
-Damage Immunities fire, poison
-Condition Immunities exhaustion, poisoned
-Senses darkvision 60 ft., passive Perception 9
-Languages understands all languages it knew in life but cannot speak
-Challenge 1 (200 XP)
-Heated Body. A creature that touches the skeleton or hits it with a melee attack while within 5 feet of it takes 3 (1d6) fire damage.
-Heated Weapons. Any weapon the skeleton wields deals an extra 3 (1d6) fire damage on a hit (included in the attack).
-ACTIONS
-Multiattack. The skeleton makes two melee attacks.
-Shortsword. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:5 (1d6 + 2) piercing damage plus 3 (1d6) fire damage.
-Shortbow. Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:5 (1d6 + 2) piercing damage plus 3 (1d6) fire damage.
-
-Brood Monitor
-Huge aberration, chaotic evil
-Armor Class 12
-Hit Points 126 (12d12 + 48)
-Speed 40 ft., climb 40 ft.
-STR DEX CON INT WIS CHA 21 (+5) 14 (+2) 18 (+4) 7 (-2) 14 (+2) 8 (-1)
-Saving Throws Wis +5
-Skills Perception +5
-Senses darkvision 60 ft., passive Perception 15
-Languages -
-Challenge 7 (2900 XP)
-Alien Mind. The monitor has advantage on Wisdom saving throws.
-ACTIONS
-Multiattack. The monitor makes two fist attacks.
-Fist. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit 21 (3d10 + 5) bludgeoning damage.
-Constrict. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (3d8 + 5) bludgeoning damage, and the target is grappled (escape DC 16). Until this grapple ends, the creature is restrained, and the monitor can't constrict another target.
-Spawn Scion (3/Day). The monitor spawns an eldrazi scion that appears in an unoccupied space within 5 feet of it.
-
-Eldrazi Scion
-Large aberration, chaotic evil
-Armor Class 12
-Hit Points 45 (6d10 + 12)
-Speed 40 ft., burrow 10 ft.
-STR DEX CON INT WIS CHA 17 (+3) 14 (+2) 15 (+2) 6 (-2) 13 (+1) 4 (-3)
-Saving Throws Wis +3
-Skills Perception +5, Stealth +4
-Senses darkvision 60 ft., passive Perception 15
-Languages -
-Challenge 1 (200 XP)
-Alien Mind. The scion has advantage on Wisdom saving throws.
-ACTIONS
-Tentacles. Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage. If the target is a creature, it is grappled (escape DC 16). Until the grapple ends, the target is restrained, and the scion can't use its tentacles on another target.
-
 Brood Butcher
 Huge aberration, chaotic evil
 Armor Class 14 (natural armor)
@@ -1044,7 +1091,7 @@ Constrict. Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 19 (3d
 Consume (1/Day). The butcher targets one creature that it can see within 60 feet of it. The target must make a DC 16 Constitution saving throw, taking 28 (8d6) necrotic damage on a failed save, or half as much damage on a successful one. If this damage reduces the creature to O hit points, its body becomes a pile of white dust.
 
 Ulamog, The Ceaseless Hunger
-Gargantuan aberration (titan), chaotic evil
+Gargantuan Aberration (titan), chaotic evil
 Armor Class 25 (natural armor)
 Hit Points 717 (35d20 + 350)
 Speed 50 ft.
@@ -1056,7 +1103,7 @@ Damage Immunities psychic, bludgeoning, piercing, and slashing from nonmagical w
 Condition Immunities charmed, exhaustion, frightened
 Senses truesight 120 ft., passive Perception 24
 Languages Eldrazi, telepathy 500 ft.
-Challenge 30 (155000 XP)
+Challenge 30 (155,000 XP)
 Innate Spellcasting. Ulamog's innate spellcasting ability is Wisdom (spell save DC 22). It can innately cast the following spells, requiring no material components:
 At will: detect magic, dispel magic
 3/day each: confusion, counterspell (9th level spell slot), weird
@@ -1072,7 +1119,8 @@ Tentacle. Melee Weapon Attack: +19 to hit, reach 30 ft., one target. Hit: 28 (4d
 Maddening Presence. Each creature of Ulamog's choice within 120 feet of it and aware of it must succeed on a DC 18 Wisdom saving throw or become afflicted with short-term madness (Dungeon Master's Guide pg. 259). If a creature afflicted with short-term madness fails its saving throw, it becomes afflicted with long-term madness. If a creature afflicted with long-term madness fails its saving throw, it becomes afflicted with indefinite madness. If a creature afflicted with indefinite madness fails its saving throw, it dies from psychological trauma. If a creature's saving throw is successful, the creature is immune to Ulamog's Maddening Presence for the next 24 hours.
 LEGENDARY ACTIONS
 Ulamog can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Ulamog regains spent legendary actions at the start of its turn.
-Grip of Desolation. Ulamog makes a fist attack. If the attack hits, the target is grappled (escape DC 20) if it is a Huge or smaller creature and Ulamog doesn't have four other creatures grappled. Until this grapple ends, the target is restrained and takes 4d10 psychic damage at the start of each of its turns.
+Grip of Desolation. Ulamog makes a fist attack. If the attack hits, the target is grappled (escape DC 20) if it is a Huge or smaller creature and Ulamog doesn't have four other creatures grappled. Until this grapple ends, the target is restrained and takes 4d10
+psychic damage at the start of each of its turns.
 Transgress the Mind (Costs 2 actions). Ulamog casts phantasmal killer, no concentration required.
 Titan's Presence (Costs 3 actions). Ulamog casts banishment.
 
@@ -1088,7 +1136,7 @@ Damage Immunities psychic, bludgeoning, piercing, and slashing from nonmagical w
 Condition Immunities charmed, frightened
 Senses darkvision 120 ft., passive Perception 18
 Languages Eldrazi, telepathy 120 ft.
-Challenge 17 (18000 XP)
+Challenge 17 (18,000 XP)
 Alien Mind. The sire has advantage on Wisdom saving throws.
 Blighted Trail. Terrain that the sire passes over turns to white ash. Plants are destroyed in that area and cannot regrow for 1d10 days.
 Ingest Scion. As a bonus action, the sire can ingest an eldrazi scion within 15 feet of it, destroying the scion. The sire then regains 16 (3d10) hit points.
@@ -1096,7 +1144,7 @@ Scour from Existence. When the sire reduces a creature to 0 hit points, that cre
 ACTIONS
 Multiattack. The sire makes four fist attacks.
 Fist. Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 20 (2d12 + 7) bludgeoning damage.
-Maddening Roar (Recharge 6). The sire emits a mind-shattering roar. Each creature of the sire's choice within 100 feet of it and able to hear the roar must make a DC 18 Wisdom saving throw. On a failed save, a creature takes 44 (8d10) psychic damage and is afflicted with short-term madness (Dungeon Master's Guide pg. 259). On a successful save, the creature takes half as much damage and isn't afflicted with madness.
+Maddening Roar (Recharge 6). The sire emits a mind-shattering roar. Each creature of the sire's choice within 100 feet of it and able to hear the roar must make a DC 18 Wisdom saving throw. On a failed save, a creature takes 44 (8d10) psychic damage, or half as much damage on a successful one. A creature that fails the save is afflicted with short-term madness (Dungeon Master's Guide pg. 259). On a successful save, the creature isn't afflicted with madness.
 
 Tentaghoul
 Large Undead, Chaotic Evil
@@ -1132,7 +1180,7 @@ ACTIONS
 Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or become poisoned. While poisoned in this way, the target is incapacitated and takes 13 (3d8) poison damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 
 Screecher
-Large monstrosity, neutral
+Large Monstrosity, neutral
 Armor Class 13 (natural armor)
 Hit Points 45 (6d10 + 12)
 Speed 50 ft.
@@ -1144,7 +1192,7 @@ Challenge 2 (450 XP)
 Echolocation. The screecher can't use its blindsight while deafened.
 Keen Hearing. The screecher has advantage on Wisdom (Perception) checks that rely on hearing.
 ACTIONS
-Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage.
+Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 +4) piercing damage.
 Screech (Recharge 5-6). Each creature within 60 feet of the screecher that can hear it must succeed on a DC 12 Constitution saving throw or become stunned until the end of the screecher's next turn.
 
 Gladeborn Trapper
@@ -1399,3 +1447,18 @@ At will: minor illusion, silent image
 1/day each: mirror image, phantasmal force
 ACTIONS
 Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage.
+
+Owlbear Matron
+Large Monstrosity, Unaligned
+Armor Class 14 (natural armor)
+Hit Points 114 (12d10 + 48)
+Speed 40 ft.
+STR DEX CON INT WIS CHA 20 (+5) 14 (+2) 18 (+4) 4 (-3) 12 (+1) 9 (-1)
+Skills Perception +7
+Senses darkvision 60 ft., passive Perception 17
+Languages -
+Challenge 5 (1,800 XP)
+Keen Sight and Smell. The owlbear has advantage on Wisdom (Perception) checks that rely on sight or smell.
+Beak. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 10 (1d10 + 5) piercing damage.
+Claw. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.
+Piercing Screech (1/day). Each creature within 60 feet of the owlbear that can hear it must succeed on a DC 12 Constitution saving throw or become incapacitated for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
