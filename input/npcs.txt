@@ -1482,3 +1482,41 @@ Snow Camouflage. The spider has advantage on Dexterity (Stealth) checks made to 
 Spider Climb. The spider can climb difficult surfaces including upside down on ceiling, without needing to make an ability check.
 ACTIONS
 Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 18 (4d8) cold damge on a failed save, or half as much damage on a successful one. If cold damage reduces the target to 0 hit points, the target becomes frozen. A frozen creature is paralyzed, and can thaw by spending 1 hour in warm temperature or taking 15 fire damage.
+
+Winter Sprite
+Tiny Fey, Chaotic Neutral
+Armor Class 15
+Hit Points 7 (2d4 + 2)
+Speed 10 ft., fly 30 ft.
+STR DEX CON INT WIS CHA 2 (-4) 20 (+5) 12 (+1) 10 (+0) 14 (+2) 15 (+2)
+Skills Perception +4, Stealth +7
+Damage Immunities cold
+Senses passive Perception 14
+Languages Sylvan
+Challenge 1 (200 XP)
+Magic Resistance. The sprite has advantage on saving throws against spells and other magical effects.
+Innate Spellcasting. The sprite's innate spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It can innately cast the following spells, requiring no material components:
+At will: druidcraft, frostbite
+1/day each: blur, counterspell, fog cloud, ice knife, sleet storms, Snilloc's snowball swarm.
+ACTIONS
+Icesickle. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 1 slashing damage, and the target must must succeed on a DC 10 Constitution saving throw or take 3 (1d6) cold damage and then be paralyzed until the end of the sprite's next turn.
+
+Wight Walker
+Medium Undead, Neutral Evil
+Armor Class 14 (hide armor)
+Hit Points 112 (15d8 + 45)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 16 (+3) 15 (+2) 16 (+3) 10 (+0) 14 (+2) 16 (+3)
+Skills Perception +5, Stealth +5
+Damage Resistances cold, necrotic, bludgeoning, piercing, and slashing from non magical weapons that aren't silvered.
+Damage Immunities poison
+Condition Immunities exhausted, poisoned
+Senses darkvision 60 ft., passive Perception 15
+Langauges any language it knew in life
+Challenge 6 (2,300 XP)
+Chilled Body. A creature that touches the wight or hits it with a melee attack while within 5 feet of it takes 7 (2d6) cold damage.
+ACTIONS
+Multiattack. The wight makes two battleaxe attacks. It can use its Life Drain in place of one battleaxe attack.
+Battleaxe. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damamge plus 7 (2d6) cold damage, or 8 (1d10 + 3) slashing damage plus 7 (2d6) cold damage if used with two hands.
+Life Drain. Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 10 (2d6 + 3) necrotic damamge. The target must succeed on a DC 15 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain by this attack rises 24 hours later as a zombie under the wight's control, unless the humanoid is restored to life or its body destroyed. The wight can have no more than twelve zombies under its control at one time.
+Frost Breath (Recharge 5-6). The wight exhales a blast of frosty wind in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity Saving throw, taking 27 (6d8) cold damage on a failed save, or half as much damage on a successful one.
