@@ -1541,3 +1541,45 @@ Magic Resistance. The golem has advantage on saving throws against spells or oth
 ACTIONS
 Multiattack. The golem makes two slam attacks.
 Slam. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit:  18 (3d8 + 5) bludgeoning damage plus 4 (1d8) cold damage.
+
+Frost Giant Jarl
+Huge Giant, Neutral Evil
+Armor Class 16 (dragonscale armor)
+Hit Points 187 (15d12 + 90)
+Speed 40 ft.
+STR DEX CON INT WIS CHA 25 (+7) 10 (+0) 23 (+6) 11 (+0) 14 (+2) 16 (+3)
+Saving Throws Con +10, Wis +6, Cha +7
+Skills Athletics +11, Perception +6
+Damage Immunities cold
+Senses passive Perception 16
+Languages Giant
+Challenge 11 (7,200 XP)
+Legendary Resistance (3/day). If the Jarl fails a saving throw, it can choose to succeed instead.
+ACTIONS
+Multiattack. The jarl makes two greataxe attacks.
+Greataxe. Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 26 (3d12 + 7) slashing damage plus 4 (1d8) cold damage.
+Rock. Ranged Weapon Attack: 11 to hit, range 60/240 ft., one target. Hit: 29 (4d10 + 7) bludgeoning damage.
+Flash Freeze (Recharge 5-6). The jarl stomps the ground, creating a wave of intense cold in a line that is 60 feet long and 5 feet wide. Each creature in that line must make a DC 15 Dexterity saving throw, taking 45 (10d8) cold damage on a failed save, or half as much damage on a successful save. If a target fails the saving throw, it becomes restrained by ice. As an action, the restrained target can make a DC 15 Strength check, breaking free of the ice on the success. The ice can also be attacked and destroyed (AC 10; hp 15; vulnerability to fire damage; immunity to poison and psychic damage).
+LEGENDARY ACTIONS
+The jarl can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time, and only at the end of another creature's turn. The jarl regains spent legendary actions at the start of its turn.
+Shove. The jarl makes a shove attack.
+Charge. The jarl moves up to its speed.
+Battle Order. The jarl directs an allied creature to strike, so long as the creature can see or hear the jarl. That creature can immediately use its reaction to make one weapon attack.
+
+Rusalka
+Medium Fey Undead, Neutral Evil
+Armor Class 17 (natural armor)
+Hit Points 97 (13d8 + 39)
+Speed 30 ft., swim 50 ft.
+STR DEX CON INT WIS CHA 12 (+1) 18 (+4) 16 (+3) 10 (+0) 14 (+2) 20 (+5)
+Skills Deception +7, Perception +4, Stealth +6
+Senses darkvision 60 ft., passive Perception 14
+Languages Common, Sylvan
+Challenge 4 (1,100 XP)
+Slippery. The rusalka has advantage on ability checks and saving throws made to escape a grapple.
+Universal Beauty. The rusalka appears different and uniquely beautiful to match the tastes of each humanoid that perceives it. True sight reveals the rusalka's true undead form.
+Water Bound. The rusalka cannot willingly leave the body of water to which it is bound. If forcibly removed, the rusalka takes 11 (2d10) necrotic damage every minute until it returns.
+ACTIONS
+Charm. One humanoid the rusalka can see within 100 feet of it must succeed on a DC 15 Wisdom saving throw or be magically charmed for 1 hour. The charmed target must spend its turns trying to move as close to the rusalka as it can. The target can't take reactions, and for its action, it can use only the Dash action. If the target suffers any harm, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect ends, the target is immune to the rusalka's Charm for the next 24 hours. The rusalka can have only one target charmed at a time. If it charms another, the effect on the previous target ends.
+Tresses. Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) bludgeoning damamge and the target is grappled (escape DC 16) and pulled 5 feet toward the rusalka. Until this grapple ends, the target is restrained, the rusalka tries to drown it, and the rusalka can't use its tresses on another target.
+Tickle. One creature grappled by the rusalka must succeed on a DC 14 Constitution saving throw or be incapacitated with laughter for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success.
