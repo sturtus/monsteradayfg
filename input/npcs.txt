@@ -1584,3 +1584,17 @@ Charm. One humanoid the rusalka can see within 100 feet of it must succeed on a 
 Tresses. Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) bludgeoning damamge and the target is grappled (escape DC 16) and pulled 5 feet toward the rusalka. Until this grapple ends, the target is restrained, the rusalka tries to drown it, and the rusalka can't use its tresses on another target.
 Tickle. One creature grappled by the rusalka must succeed on a DC 14 Constitution saving throw or be incapacitated with laughter for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success.
 
+Clockwork Pest
+Tiny construct, unaligned
+Armor Class 14 (natural armor)
+Hit Points 7 (2d4 + 2)
+Speed 0 ft., fly 40 ft.
+STR DEX CON INT WIS CHA 4 (-3) 16 (+3) 12 (+1) 8 (-1) 11 (+0) 1 (-5)
+Damage Immunities poison
+Condition Immunities charmed, exhaustion, frightened, paralyzed, petrified, poisoned
+Senses darkvision 60 ft., passive Perception 10
+Languages understands the languages of its creator but can't speak
+Challenge 1/4 (50 XP)
+Potent Injection (1/Day). If the pest hits a creature with its stinger, it can inject a larger dose of poison. The target must succeed on a DC 12 Constitution saving throw or become poisoned for 1 hour.
+ACTIONS
+Stinger. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage, and the target must make a DC 10 Constitution saving throw, taking 5 (2d4) poison damage on a failed save, or half as much damage on a successful one.

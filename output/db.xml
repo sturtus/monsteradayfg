@@ -5403,6 +5403,220 @@
           </id-00002>
         </actions>
       </icegolem>
+      <frostgiantjarl>
+        <locked type="number">1</locked>
+        <name type="string">Frost Giant Jarl</name>
+        <type type="string">Giant</type>
+        <size type="string">Huge</size>
+        <ac type="number">16</ac>
+        <actext type="string">(dragonscale armor)</actext>
+        <hp type="number">187</hp>
+        <hd type="string">(15d12 + 90)</hd>
+        <speed type="string">40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">25</score>
+            <modifier type="string">+7</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">23</score>
+            <modifier type="string">+6</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Con +10, Wis +6, Cha +7</savingthrows>
+        <skills type="string">Athletics +11, Perception +6</skills>
+        <damageimmunities type="string">cold</damageimmunities>
+        <senses type="string">passive Perception 16</senses>
+        <alignment type="string">Neutral Evil</alignment>
+        <languages type="string">Giant</languages>
+        <cr type="string">11</cr>
+        <xp type="number">7200</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Legendary Resistance (3/day)</name>
+            <desc type="string">If the Jarl fails a saving throw, it can choose to succeed instead.</desc>
+          </id-00001>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The jarl makes two greataxe attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Greataxe</name>
+            <desc type="string">Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 26 (3d12 + 7) slashing damage plus 4 (1d8) cold damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Rock</name>
+            <desc type="string">Ranged Weapon Attack: 11 to hit, range 60/240 ft., one target. Hit: 29 (4d10 + 7) bludgeoning damage.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Flash Freeze (Recharge 5-6)</name>
+            <desc type="string">The jarl stomps the ground, creating a wave of intense cold in a line that is 60 feet long and 5 feet wide. Each creature in that line must make a DC 15 Dexterity saving throw, taking 45 (10d8) cold damage on a failed save, or half as much damage on a successful save. If a target fails the saving throw, it becomes restrained by ice. As an action, the restrained target can make a DC 15 Strength check, breaking free of the ice on the success. The ice can also be attacked and destroyed (AC 10; hp 15; vulnerability to fire damage; immunity to poison and psychic damage).</desc>
+          </id-00004>
+        </actions>
+        <legendaryactions>
+          <id-00001>
+            <name type="string">Flash Freeze (Recharge 5-6)</name>
+            <desc type="string"> The jarl can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time, and only at the end of another creature's turn. The jarl regains spent legendary actions at the start of its turn.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Shove</name>
+            <desc type="string">The jarl makes a shove attack.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Charge</name>
+            <desc type="string">The jarl moves up to its speed.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Battle Order</name>
+            <desc type="string">The jarl directs an allied creature to strike, so long as the creature can see or hear the jarl. That creature can immediately use its reaction to make one weapon attack.</desc>
+          </id-00004>
+        </legendaryactions>
+      </frostgiantjarl>
+      <rusalka>
+        <locked type="number">1</locked>
+        <name type="string">Rusalka</name>
+        <type type="string">Fey Undead</type>
+        <size type="string">Medium</size>
+        <ac type="number">17</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">97</hp>
+        <hd type="string">(13d8 + 39)</hd>
+        <speed type="string">30 ft., swim 50 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Deception +7, Perception +4, Stealth +6</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 14</senses>
+        <alignment type="string">Neutral Evil</alignment>
+        <languages type="string">Common, Sylvan</languages>
+        <cr type="string">4</cr>
+        <xp type="number">1100</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Slippery</name>
+            <desc type="string">The rusalka has advantage on ability checks and saving throws made to escape a grapple.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Universal Beauty</name>
+            <desc type="string">The rusalka appears different and uniquely beautiful to match the tastes of each humanoid that perceives it. True sight reveals the rusalka's true undead form.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Water Bound</name>
+            <desc type="string">The rusalka cannot willingly leave the body of water to which it is bound. If forcibly removed, the rusalka takes 11 (2d10) necrotic damage every minute until it returns.</desc>
+          </id-00003>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Charm</name>
+            <desc type="string">One humanoid the rusalka can see within 100 feet of it must succeed on a DC 15 Wisdom saving throw or be magically charmed for 1 hour. The charmed target must spend its turns trying to move as close to the rusalka as it can. The target can't take reactions, and for its action, it can use only the Dash action. If the target suffers any harm, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect ends, the target is immune to the rusalka's Charm for the next 24 hours. The rusalka can have only one target charmed at a time. If it charms another, the effect on the previous target ends.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Tresses</name>
+            <desc type="string">Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) bludgeoning damamge and the target is grappled (escape DC 16) and pulled 5 feet toward the rusalka. Until this grapple ends, the target is restrained, the rusalka tries to drown it, and the rusalka can't use its tresses on another target.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Tickle</name>
+            <desc type="string">One creature grappled by the rusalka must succeed on a DC 14 Constitution saving throw or be incapacitated with laughter for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success.</desc>
+          </id-00003>
+        </actions>
+      </rusalka>
+      <clockworkpest>
+        <locked type="number">1</locked>
+        <name type="string">Clockwork Pest</name>
+        <type type="string">construct</type>
+        <size type="string">Tiny</size>
+        <ac type="number">14</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">7</hp>
+        <hd type="string">(2d4 + 2)</hd>
+        <speed type="string">0 ft., fly 40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">4</score>
+            <modifier type="string">-3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">1</score>
+            <modifier type="string">-4</modifier>
+          </charisma>
+        </abilities>
+        <damageimmunities type="string">poison</damageimmunities>
+        <conditionimmunities type="string">charmed, exhaustion, frightened, paralyzed, petrified, poisoned</conditionimmunities>
+        <senses type="string">darkvision 60 ft., passive Perception 10</senses>
+        <alignment type="string">unaligned</alignment>
+        <languages type="string">understands the languages of its creator but can't speak</languages>
+        <cr type="string">1/4</cr>
+        <xp type="number">50</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Potent Injection (1/Day)</name>
+            <desc type="string">If the pest hits a creature with its stinger, it can inject a larger dose of poison. The target must succeed on a DC 12 Constitution saving throw or become poisoned for 1 hour.</desc>
+          </id-00001>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Stinger</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage, and the target must make a DC 10 Constitution saving throw, taking 5 (2d4) poison damage on a failed save, or half as much damage on a successful one.</desc>
+          </id-00001>
+        </actions>
+      </clockworkpest>
     </category>
   </npc>
   <lists>
@@ -5643,6 +5857,16 @@
                 </link>
                 <source type="string"/>
               </constrictingsliver>
+              <clockworkpest>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.clockworkpest@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </clockworkpest>
             </index>
           </typeletterc>
           <typeletters>
@@ -5853,6 +6077,16 @@
                 </link>
                 <source type="string"/>
               </finnedsliver>
+              <frostgiantjarl>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.frostgiantjarl@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </frostgiantjarl>
             </index>
           </typeletterf>
           <typeletterg>
@@ -6058,6 +6292,16 @@
                 </link>
                 <source type="string"/>
               </rathermit>
+              <rusalka>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.rusalka@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </rusalka>
             </index>
           </typeletterr>
           <typelettert>
@@ -11688,6 +11932,220 @@
           </id-00002>
         </actions>
       </icegolem>
+      <frostgiantjarl>
+        <locked type="number">1</locked>
+        <name type="string">Frost Giant Jarl</name>
+        <type type="string">Giant</type>
+        <size type="string">Huge</size>
+        <ac type="number">16</ac>
+        <actext type="string">(dragonscale armor)</actext>
+        <hp type="number">187</hp>
+        <hd type="string">(15d12 + 90)</hd>
+        <speed type="string">40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">25</score>
+            <modifier type="string">+7</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">23</score>
+            <modifier type="string">+6</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Con +10, Wis +6, Cha +7</savingthrows>
+        <skills type="string">Athletics +11, Perception +6</skills>
+        <damageimmunities type="string">cold</damageimmunities>
+        <senses type="string">passive Perception 16</senses>
+        <alignment type="string">Neutral Evil</alignment>
+        <languages type="string">Giant</languages>
+        <cr type="string">11</cr>
+        <xp type="number">7200</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Legendary Resistance (3/day)</name>
+            <desc type="string">If the Jarl fails a saving throw, it can choose to succeed instead.</desc>
+          </id-00001>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The jarl makes two greataxe attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Greataxe</name>
+            <desc type="string">Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 26 (3d12 + 7) slashing damage plus 4 (1d8) cold damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Rock</name>
+            <desc type="string">Ranged Weapon Attack: 11 to hit, range 60/240 ft., one target. Hit: 29 (4d10 + 7) bludgeoning damage.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Flash Freeze (Recharge 5-6)</name>
+            <desc type="string">The jarl stomps the ground, creating a wave of intense cold in a line that is 60 feet long and 5 feet wide. Each creature in that line must make a DC 15 Dexterity saving throw, taking 45 (10d8) cold damage on a failed save, or half as much damage on a successful save. If a target fails the saving throw, it becomes restrained by ice. As an action, the restrained target can make a DC 15 Strength check, breaking free of the ice on the success. The ice can also be attacked and destroyed (AC 10; hp 15; vulnerability to fire damage; immunity to poison and psychic damage).</desc>
+          </id-00004>
+        </actions>
+        <legendaryactions>
+          <id-00001>
+            <name type="string">Flash Freeze (Recharge 5-6)</name>
+            <desc type="string"> The jarl can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time, and only at the end of another creature's turn. The jarl regains spent legendary actions at the start of its turn.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Shove</name>
+            <desc type="string">The jarl makes a shove attack.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Charge</name>
+            <desc type="string">The jarl moves up to its speed.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Battle Order</name>
+            <desc type="string">The jarl directs an allied creature to strike, so long as the creature can see or hear the jarl. That creature can immediately use its reaction to make one weapon attack.</desc>
+          </id-00004>
+        </legendaryactions>
+      </frostgiantjarl>
+      <rusalka>
+        <locked type="number">1</locked>
+        <name type="string">Rusalka</name>
+        <type type="string">Fey Undead</type>
+        <size type="string">Medium</size>
+        <ac type="number">17</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">97</hp>
+        <hd type="string">(13d8 + 39)</hd>
+        <speed type="string">30 ft., swim 50 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Deception +7, Perception +4, Stealth +6</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 14</senses>
+        <alignment type="string">Neutral Evil</alignment>
+        <languages type="string">Common, Sylvan</languages>
+        <cr type="string">4</cr>
+        <xp type="number">1100</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Slippery</name>
+            <desc type="string">The rusalka has advantage on ability checks and saving throws made to escape a grapple.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Universal Beauty</name>
+            <desc type="string">The rusalka appears different and uniquely beautiful to match the tastes of each humanoid that perceives it. True sight reveals the rusalka's true undead form.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Water Bound</name>
+            <desc type="string">The rusalka cannot willingly leave the body of water to which it is bound. If forcibly removed, the rusalka takes 11 (2d10) necrotic damage every minute until it returns.</desc>
+          </id-00003>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Charm</name>
+            <desc type="string">One humanoid the rusalka can see within 100 feet of it must succeed on a DC 15 Wisdom saving throw or be magically charmed for 1 hour. The charmed target must spend its turns trying to move as close to the rusalka as it can. The target can't take reactions, and for its action, it can use only the Dash action. If the target suffers any harm, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect ends, the target is immune to the rusalka's Charm for the next 24 hours. The rusalka can have only one target charmed at a time. If it charms another, the effect on the previous target ends.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Tresses</name>
+            <desc type="string">Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) bludgeoning damamge and the target is grappled (escape DC 16) and pulled 5 feet toward the rusalka. Until this grapple ends, the target is restrained, the rusalka tries to drown it, and the rusalka can't use its tresses on another target.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Tickle</name>
+            <desc type="string">One creature grappled by the rusalka must succeed on a DC 14 Constitution saving throw or be incapacitated with laughter for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success.</desc>
+          </id-00003>
+        </actions>
+      </rusalka>
+      <clockworkpest>
+        <locked type="number">1</locked>
+        <name type="string">Clockwork Pest</name>
+        <type type="string">construct</type>
+        <size type="string">Tiny</size>
+        <ac type="number">14</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">7</hp>
+        <hd type="string">(2d4 + 2)</hd>
+        <speed type="string">0 ft., fly 40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">4</score>
+            <modifier type="string">-3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">1</score>
+            <modifier type="string">-4</modifier>
+          </charisma>
+        </abilities>
+        <damageimmunities type="string">poison</damageimmunities>
+        <conditionimmunities type="string">charmed, exhaustion, frightened, paralyzed, petrified, poisoned</conditionimmunities>
+        <senses type="string">darkvision 60 ft., passive Perception 10</senses>
+        <alignment type="string">unaligned</alignment>
+        <languages type="string">understands the languages of its creator but can't speak</languages>
+        <cr type="string">1/4</cr>
+        <xp type="number">50</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Potent Injection (1/Day)</name>
+            <desc type="string">If the pest hits a creature with its stinger, it can inject a larger dose of poison. The target must succeed on a DC 12 Constitution saving throw or become poisoned for 1 hour.</desc>
+          </id-00001>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Stinger</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage, and the target must make a DC 10 Constitution saving throw, taking 5 (2d4) poison damage on a failed save, or half as much damage on a successful one.</desc>
+          </id-00001>
+        </actions>
+      </clockworkpest>
     </npcdata>
     <npclists>
       <npcs>
@@ -11952,6 +12410,16 @@
                 </link>
                 <source type="number"/>
               </constrictingsliver>
+              <clockworkpest>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.clockworkpest@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </clockworkpest>
             </index>
           </typeletterC>
           <typeletterS>
@@ -12162,6 +12630,16 @@
                 </link>
                 <source type="number"/>
               </finnedsliver>
+              <frostgiantjarl>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.frostgiantjarl@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </frostgiantjarl>
             </index>
           </typeletterF>
           <typeletterG>
@@ -12367,6 +12845,16 @@
                 </link>
                 <source type="number"/>
               </rathermit>
+              <rusalka>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.rusalka@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </rusalka>
             </index>
           </typeletterR>
           <typeletterT>
@@ -13077,6 +13565,16 @@
                 </link>
                 <source type="number"/>
               </essencesliver>
+              <rusalka>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.rusalka@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </rusalka>
             </index>
           </level04>
           <level10>
@@ -13252,6 +13750,16 @@
                 </link>
                 <source type="number"/>
               </myr>
+              <clockworkpest>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.clockworkpest@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </clockworkpest>
             </index>
           </level1_4>
           <level12>
@@ -13459,6 +13967,21 @@
               </ginormoussquirrel>
             </index>
           </level16>
+          <level11>
+            <description type="string">11</description>
+            <index>
+              <frostgiantjarl>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.frostgiantjarl@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </frostgiantjarl>
+            </index>
+          </level11>
         </groups>
       </bylevel>
       <bytype>
@@ -13817,6 +14340,16 @@
                 </link>
                 <source>Construct</source>
               </icegolem>
+              <clockworkpest>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.clockworkpest@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>construct</source>
+              </clockworkpest>
             </index>
           </typeconstruct>
           <typecelestial>
@@ -14797,8 +15330,48 @@
                 </link>
                 <source>Construct</source>
               </icegolem>
+              <clockworkpest>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.clockworkpest@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>construct</source>
+              </clockworkpest>
             </index>
           </typeconstruct>
+          <typegiant>
+            <description type="string">Giant</description>
+            <index>
+              <frostgiantjarl>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.frostgiantjarl@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>Giant</source>
+              </frostgiantjarl>
+            </index>
+          </typegiant>
+          <typefeyundead>
+            <description type="string">Fey Undead</description>
+            <index>
+              <rusalka>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.rusalka@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>Fey Undead</source>
+              </rusalka>
+            </index>
+          </typefeyundead>
         </groups>
       </bytype>
     </npclists>
