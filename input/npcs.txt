@@ -197,7 +197,13 @@ Skills Perception +3, Stealth +4
 Senses darkvision 30 ft., passive Perception 13
 Languages none
 Challenge 1/2 (100 XP)
-False Appearance. While the lizard remains motionless, it is indistinguishable from a normal plant, such as a colorful fern. 
+False Appearance. While the lizard remains motionless, it is indistinguishable from a normal plant, such as a colorful fern
+##;
+#h;Fern Lizard
+Fern Lizards are quick land omnivores with the body of a lizard and the upper torso comprised of two small talons, a small fanged mouth and beady eyes. The entirety of a Fern Lizard's body appears as though it is made of a foliage. Capable of easily blending into its surroundings, Fern Lizards wait patiently for prey to come to them.
+#bs;Patient Hunter
+Capable of standing immobile for hours, Fern Lizards wait for meals to stumble before them rather than waste energy hunting them down. Insects and plant life inspire them to voracious appetites. Fern Lizards are often seen slowly burrowing into tree trunks, using their acidic spittle to bore small holes to devour insects.
+
 ACTIONS
 Tail. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.
 Venemous Spittle (Recharge 5-6). The lizard spits a glob of venom at a creature it can see within 15 feet of it. The target must succeed on a DC 12 Dexterity saving throw or be blinded until the end of the lizard's next turn.
@@ -1598,3 +1604,69 @@ Challenge 1/4 (50 XP)
 Potent Injection (1/Day). If the pest hits a creature with its stinger, it can inject a larger dose of poison. The target must succeed on a DC 12 Constitution saving throw or become poisoned for 1 hour.
 ACTIONS
 Stinger. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage, and the target must make a DC 10 Constitution saving throw, taking 5 (2d4) poison damage on a failed save, or half as much damage on a successful one.
+
+Froghoul
+Medium Undead, Chaotic Evil
+Armor Class 14 (natural armor)
+Hit Points 27 (5d8 + 5)
+Speed 30 ft., swim 30 ft.
+STR DEX CON INT WIS CHA 16 (+3) 16 (+3) 12 (+1) 4 (-3) 10 (+0) 5 (-3)
+Damage Resistances necrotic
+Damage Immunities poison
+Condition Immunities charmed, exhaustion, poisoned
+Senses darkvision 60 ft., passive Perception 10
+Languages -
+Challenge 2 (450 XP)
+Leap Attack. The froghoul doesn't provoke opportunity attacks when it moves out of an enemy's reach.
+ACTIONS
+Bite. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage. The froghoul has advantage on this attack if the target is grappled by it.
+Tongue. Melee Weapon Attack: +5 to hit, reach 15 ft., one creature. Hit: 7 (1d8 + 3) bludgeoning damage and the target is grappled (escape DC 13) and pulled 10 feet toward the froghoul. If the target is a creature other than an undead, it must succeed on a DC 10 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns ending the effect on itself on a success.
+
+Azure Enchanter
+Medium Humanoid (any race), any alignment
+Armor Class 12 (15 with mage armor)
+Hit Points 49 (9d8 + 9)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 9 (-1) 14 (+2) 13 (+1) 11 (+0) 12 (+1) 17 (+3)
+Saving Throws Wis +4, Cha +6
+Skills Perception +4, Persuasion +6
+Senses passive Perception 14
+Languages any two languages
+Challenge 7 (2,900 XP)
+Spellcasting. The enchanter is a 9th level spellcaster. Its spellcasting ability is Charisma (save DC 14, +6 to hit with spell attacks). The enchanter knows the following sorcerer spells: 
+Cantrips (at will): blade ward, light, mage hand, message, prestidigitation
+1st level (4 slots): charm person, mage armor, shield
+2nd level (3 slots): hold person, suggestion
+3rd level (3 slots): counterspell, dispel magic
+4th level (3 slots): confusion, dominate beast
+5th level (1 slots): dominate person
+ACTIONS
+Mind Lash. Ranged Spell Attack: +6 to hit, range 30/60 ft., one target. Hit: 11 (2d10) psychic damage and the creature has disadvantage on Wisdom saving throws until the end of the enchanter's next turn.
+REACTIONS
+Invoke Doubt. If the enchanter is the target of an attack and can see the attacker, it imposes disadvantage on the attack roll.
+
+Azure Mind Sculptor
+Medium Humanoid (any race), any alignment
+Armor Class 12 (15 with mage armor)
+Hit Points 84 (13d8 + 26)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 10 (+0) 14 (+2) 14 (+2) 14 (+2) 14 (+2) 20 (+5)
+Saving Throws Wis +6, Cha +9
+Skills Deception +9, Perception +6, Persuasion +9
+Senses passive Perception 16
+Languages any three languages
+Challenge 10 (5,900 XP)
+Enthralling Aura. Attack rolls against the mind sculptor have disadvantage.
+Spellcasting. The mind sculptor is a 13th level spellcaster. Its spellcasting ability is Charisma (save DC 17, +9 to hit with spell attacks). The mind sculptor knows the following sorcerer spells:
+Cantrips (at will): blade ward, light, mage, message, prestidigitation
+1st level (4 slots): charm person, mage armor, shield
+2nd level (3 slots): hold person, suggestion
+3rd level (3 slots): counterspell, dispel magic
+4th level (3 slots): confusion, dominate beast
+5th level (2 slots): dominate person, seeming
+6th level (1 slots): mass suggestion
+7th level (1 slots): prismatic spray
+ACTIONS
+Melt Mind. Ranged Spell Attack: +9 to hit, range 60/120 ft., one target. Hit: 16 (3d10) psychic damage and the creature must succeed on a DC 17 Wisdom saving throw or become stunned until the end of the mind sculptor's next turn.
+Pacify. The mind sculptor targets one creature that it can see within 60 feet of it. The target must succeed on a DC 17 Wisdom saving throw or be magically charmed. The charmed creature can't attack or otherwise harm another creature. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. The mind sculptor can have only one target charmed at a time in this way. If it charms another, the effect on the previous target ends.
+
