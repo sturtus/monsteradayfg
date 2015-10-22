@@ -683,7 +683,7 @@ If a creature bound by such a pact dies, the devil claims its soul, forcing it i
 Additionally, while bound by the infernal pact, the devil can communicate with the creature telepathically over any distance, even from another plane of existence. Once per month, the devil may charm the creature as if using the geas spell. The creature automatically fails the saving throw to resist the spell, and it can't be ended by any normal magic except for a wish spell, which also ends the pact.
 ##;
 #h;Pact Devil
-#ip;Its face was the mask of evil, every bone in my body told me to run, but I knew that there was power to be had and I was chosen to take it… the cost was too great. – The Great Kalemus’ last speech to his audience.
+#ip;Its face was the mask of evil, every bone in my body told me to run, but I knew that there was power to be had and I was chosen to take it... the cost was too great. – The Great Kalemus’ last speech to his audience.
 Malicious whisperers, Pact Devils love to watch the inevitable demise of greatness that their deals bring. Pact Devils observe their potential victims for a time, learning their desires and motivations before coming in contact with them. Appearing in dreams or a number of short interactions, Pact Devils acquaint themselves with their target slowly. When their victim is at their most vulnerable, Pact Devils appear to offer their dark bargain.
 Pact Devils are highly defensive of their powers. If the subject of their deal refuses an offer, the Pact Devil seeks to kill the individual, leaving behind no trace of the Pact Devil’s existence. Rarely will the Pact Devil be noticed by anyone other than the intended victim. In these cases, Pact Devils will stop at nothing to kill the bystanders, whether that is by their hands or the creature bound to them.
 
@@ -750,7 +750,7 @@ Claws . Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3
 Call the Swarm (Recharge 5-6) . The rat hermit magically calls a swarm of rats. The called creatures arrive in 1 round, acting as allies of the rat hermit and obeying its commands.
 ##;
 #h;Rat Hermit
-#is;“The worse moment wasn’t when we found ourselves surrounded by rats…It was when we discovered that they were all thinking the same thing.”
+#is;“The worse moment wasn’t when we found ourselves surrounded by rats...It was when we discovered that they were all thinking the same thing.”
 Rat Hermits find themselves as social outcasts. Exiled from normal civilization, they instead create their own world among the vermin they live close to.
 Rat Hermits dwell in sewers and cramped alleys, where they slowly build their small kingdom and seek revenge against those who shunned them. 
 An individual who appeals to the Rat Hermit’s sense of revenge is more likely to be treated nicely, provided they can give the Rat Hermit what they want.
