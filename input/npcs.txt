@@ -1669,3 +1669,45 @@ ACTIONS
 Melt Mind. Ranged Spell Attack: +9 to hit, range 60/120 ft., one target. Hit: 16 (3d10) psychic damage and the creature must succeed on a DC 17 Wisdom saving throw or become stunned until the end of the mind sculptor's next turn.
 Pacify. The mind sculptor targets one creature that it can see within 60 feet of it. The target must succeed on a DC 17 Wisdom saving throw or be magically charmed. The charmed creature can't attack or otherwise harm another creature. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. The mind sculptor can have only one target charmed at a time in this way. If it charms another, the effect on the previous target ends.
 
+Infestation Swarm
+Medium swarm of Tiny monstrosities, unaligned
+Armor Class 14
+Hit Points 44 (8d8 + 8)
+Speed 0 ft., fly 30 ft.
+STR DEX CON INT WIS CHA 9 (-1) 18 (+4) 12 (+1) 5 (-3) 12 (+1) 3 (-4)
+Damage Resistances bludgeoning, piercing, slashing
+Condition Immunities charmed, frightened, paralyzed, petrified, prone, restrained, stunned
+Senses passive Perception 11
+Languages -
+Challenge 4 (1,100 XP)
+Swarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a tiny insect. The swarm can't regain hit points or gain temporary hit points.
+ACTIONS
+Bites. Melee Weapon Attack: +6 to hit, reach Oft., one creature in the swarm's space. Hit: 21 (6d6) piercing damage, or 10 (3d6) piercing damage if the swarm has half of its hit points or fewer.
+Infest (Recharge 6). One creature in the swarm's space must succeed on a DC 14 Constitution saving throw or become infested by the swarm; the swarm then disappears inside the host, and the target is incapacitated and loses control of its body. The swarm now controls the body but doesn't deprive the target of awareness. The swarm can't be targeted by any attack, spell, or other effect, and it retains its Intelligence, Wisdom, and Charisma. It otherwise uses the infested target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies. The infestation lasts until the body drops to 0 hit points, the swarm ends it as a bonus action, or the swarm is forced out by an effect that removes disease like the lesser restoration spell. When the infestation ends, the swarm reappears in an unoccupied space within 5 feet of the body. The target is immune to this swarm's Infest for 24 hours after succeeding on the saving throw or after the infestation ends.
+
+Living Spellbook
+Large construct, unaligned
+Armor Class 14 (17 with mage armor)
+Hit Points 90 (12d10 + 24)
+Speed 30 ft., fly 30 ft. 
+STR DEX CON INT WIS CHA 12 (+1) 18 (+4) 14(+2) 18 (+4) 14 (+2) 1 (-5)
+Damage Vulnerabilities fire
+Damage Immunities poison; bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine
+Condition Immunities charmed, exhaustion, frightened, paralyzed, petrified, poisoned
+Senses blindsight 120 ft., passive Perception 12
+Languages telepathy 120 ft.
+Challenge 10 (5,900 XP)
+Immutable Form. The spellbook is immune to any spell or effect that would alter its form.
+Magic Resistance. The spellbook has advantage on saving throws against spells and other magical effects.
+Spellcasting. The spellbook is a 12th-level spellcaster. Its spellcasting ability is Intelligence (save DC 16, +8 to hit with spell attacks). The spellbook has the following wizard spells prepared:
+Cantrips (at will): blade ward, light, mage hand, message, prestidigitation
+1st level (4 slots): mage armor, magic missile, shield
+2nd level (3 slots): invisibility, mirror image
+3rd level (3 slots): glyph of warding, dispel magic
+4th level (3 slots): Otiluke's resilient sphere, polymorph
+5th level (2 slots): animate objects, Bigby's hand
+6th level (1 slots): globe of invulnerability
+Transpose Arcana. As a bonus action, the spell book can expend one spell slot, causing an allied spellcaster to regain a spell slot of that level or lower.
+ACTIONS
+Paper Cut. Ranged Weapon Attack: +8 to hit, range 30/60 ft., one creature. Hit: 13 (3d8) slashing damage.
+Mana Burn (Recharge 5-6). The spellbook can expend one spell slot to deal force damage to a target within 60 feet of it. The damage is 18 (4d8) for a 1st-level spell slot, plus 9 (2d8) for each spell level higher than 1st. The target must make a DC 16 Dexterity saving throw, taking full damage on a failed save, or half as much damage on a successful one.
