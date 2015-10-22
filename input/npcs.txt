@@ -197,15 +197,21 @@ Skills Perception +3, Stealth +4
 Senses darkvision 30 ft., passive Perception 13
 Languages none
 Challenge 1/2 (100 XP)
-False Appearance. While the lizard remains motionless, it is indistinguishable from a normal plant, such as a colorful fern
+False Appearance. While the lizard remains motionless, it is indistinguishable from a normal plant, such as a colorful fern. 
 ACTIONS
 Tail. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.
 Venemous Spittle (Recharge 5-6). The lizard spits a glob of venom at a creature it can see within 15 feet of it. The target must succeed on a DC 12 Dexterity saving throw or be blinded until the end of the lizard's next turn.
 ##;
 #h;Fern Lizard
 Fern Lizards are quick land omnivores with the body of a lizard and the upper torso comprised of two small talons, a small fanged mouth and beady eyes. The entirety of a Fern Lizard's body appears as though it is made of a foliage. Capable of easily blending into its surroundings, Fern Lizards wait patiently for prey to come to them.
-#bs;Patient Hunter
+#bp;Patient Hunter
 Capable of standing immobile for hours, Fern Lizards wait for meals to stumble before them rather than waste energy hunting them down. Insects and plant life inspire them to voracious appetites. Fern Lizards are often seen slowly burrowing into tree trunks, using their acidic spittle to bore small holes to devour insects.
+#bp;Prized Pet
+Whether caught young or raised from an egg, a Fern Lizard can be trained to serve as a companion. Considered good luck and useful spies for druids, Fern Lizards are often in their company. Nobility view these creatures as exotic additions to their home, investing large sums of money to acquire them.
+Once trained, a Fern Lizard is a loyal and useful companion. It bonds with one master for life and serves that master to the best of its abilities. A Fern Lizard requires satiation of its omnivorous appetite. Prone to capture or kidnapping, masters must be careful when bringing Fern Lizards in public as they immediately draw attention to both themselves and their owners.
+#bp;Small Stewards
+Fern Lizards make their nests in heavy growths of foliage, well away from the eyes of predators. Establishing their territory as a colony, Fern Lizards work as guardians of their surrounding area. Removing the region of pestilence and danger, these lizards become allies of druids and lovers of nature.
+Fern Lizards have been known to help those who support and care for their environment, acting as guides for lost travelers and providing sources of food to those in need. Alternatively, Fern Lizards are extremely aggressive and territorial to those who bring trouble to their environment. Fern Lizards harry travelers; steal food and lead wanderers astray until the traveler flees or dies.
 
 Fusion Elemental
 Huge elemental, neutral
@@ -267,6 +273,9 @@ ACTIONS
 Multiattack. The gnoll makes three attacks: one with its bite and two with its greatsword.
 Bite. Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit:1 (1d6 + 4) piercing damage, and the target must succeed on a DC 14 Constitution saving throw or take 14 (4d6) necrotic damage.
 Greatsword. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.
+##;
+#h;Gnoll Death Knight
+Yeenoghu chose gnoll Death Knights for his strength. Unlike fang’s that can turn hyenas into gnolls, Death Knights are imbued with Yeenoghu’s raw power. Champions of their god, Death Knights harness their demonic energies, becoming powerful tools of the fang. They serve as living weapons of their fang leaders or take their place as guards while fangs work their malice upon the land. Death Knights are unwavering in their obedience to Yeenoghu. The demonic powers in them exude a dark aura wherever they walk, leaving an odorous smell of offal in their wake.
 
 Fiendish Hyena
 Large fiend, chaotic evil
@@ -305,6 +314,9 @@ Cantrips (at will): acid splash, blade ward, chill touch, poison spray,
 ACTIONS
 Dagger. Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage plus 7 (2d6) poison damage.
 Conjure Fiends (1/Day). The gnoll magically summons 1d4 fiendish hyenas. The summoned fiends appear in unoccupied spaces within 60 feet of their summoner and act as allies of their summoner. They remain for 10 minutes, until they or their summoner dies, or until their summoner dismisses them as an action.
+##;
+#h;Gnoll Deathmage
+Yeenoghu chose gnoll Deathmages for his mind. Unlike fang’s that can turn hyenas into gnolls, Deathmages are imbued with Yeenoghu’s intelligence. The intellect of their god, a deathmage’s cunning is the embodiment of their demonic blessing. A Deathmage works to further their fang’s plots, acting as advisors and satellite leaders while fangs control the pack. Along with their enhanced intellect, Deathmages were granted the ability to call forth Yeenoghu’s fiendish pets. Cunning and subtle, a deathmage becomes another deadly mechanism in the pack, bringing to fruition a fang’s malicious will.
 
 Grave Titan
 Huge undead, neutral evil
@@ -378,6 +390,20 @@ ACTIONS
 Shortsword. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (ld6 + 2) piercing damage.
 Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.
 Javelin. Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.
+##;
+#h;Leonin
+#ip;“Pride forged us. Pride drives us. We are the pride!” – Leonin warchant during the War of the Braves.
+Leonin are tribal humanoids that reside in Great Plains and desert oasis. Their hut villages continually move, but are commonly found nearby watering holes, rivers or underneath massive trees.
+#bp;Terrotorial Nomads
+Leonin interact with other races on a strictly business like fashion. Fiercely territorial, their villages move throughout their domain, acting as scouts and defenders to any part that has been invaded. When unwelcome visitors are detected, the tribe sends an emissary to determine the nature of the visitors. If the visitor seems violent or malevolent the tribe will band together and drive them away. Traders are invited to speak with them, but never will they be allowed to enter the tribe itself.
+Leonin hold a strict sense of traditional morality and are heavily rooted in honor. The acts of an individual do much in the eyes of Leonin. Ritualistic rites are performed among the tribe and when trade is conducted to test the moral mettle of an individual.
+Leonin may leave the pride to become traveling merchants or hired guards. Still rooted in the spirituality of their pride, wandering Leonin often contend with those around them concerning personal thoughts and actions.
+Alliances made with Leonin are steadfast and unyielding. Fiercely loyal and driven to uphold their honor, Leonin tribes are almost never the ones to break or end an alliance. Traders who make initial deals with the Leonin will always have a trading partner.
+#bp;The Way of the Pride
+Working towards a sense of honor and traditional morality, Leonin base their understanding of others through individual acts. Tests are constructed to place young Leonin in difficult moral situations, testing both the ability to make decisions under pressure as well as to determine mindsets. Leonin who fail to follow the Way of the Pride are further trained or eventually sent into exile, a dangerous way of life being too destructive to the pride as a whole.
+#bp;Leonin Leaders
+Leonin respect their leaders with a religious awe. Elders are chosen for either great deeds done or eventual age. Those imbued with magic are sent into study, learning how to curb magic to the Way of the Pride.
+At times, a Leonin will be born into the pride afflicted by a Rakshasa spirit. These Leonin grow to be powerful spellcasters who hold within them the seed of evil. Cunning and patient, these Leonin wait and hide, passing through their pride’s tests. If these Leonin become leaders, they will drive their pride to war, chaos or ruin.
 
 Luck Dragon
 Tiny dragon, unaligned
@@ -415,6 +441,11 @@ Multiattack. The kobold makes two melee attacks.
 Short Spear. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.
 Sling. Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.
 Low Blow (Recharge 5-6). The kobold makes a cheap shot against a creature it can see within 5 feet of it. The target must succeed on a DC 12 Constitution saving throw or become incapacitated until the end of the kobold’s next turn.
+##;
+#h;Kobold Bully
+Thick sinuous muscle defines this Kobold, setting it apart from its wiry counterparts. Kobold Bullies stand with an air of confidence, bones of rivals hanging from their spears. Small black eyes glittering with malicious deviance show the harsh spirit that drives this creature.
+#bp;Brute of the Pack
+Born physically larger and stronger than others in the tribe, a Kobold Bully fights its way through the social hierarchy. A Kobold Bully works as muscle for the tribe, serving as guards and vanguards in battle. What a Kobold Bully lacks in cunning, it makes up for in brutal strength, tending to stab first and ask questions second. Kobold Bullies incite rage among their tribes, acting upon jealousy towards those who seem better off than them.
 
 Kobold Hero
 Small humanoid (kobold), lawful evil
@@ -435,6 +466,14 @@ The kobold can take 3 legendary actions, choosing from the options below. Only o
 Scurry. The kobold moves up to its speed without provoking opportunity attacks.
 Stabby. The kobold makes one melee weapon attack. 
 Pocket Sand (Costs 2 actions). The kobold throws sand at a creature it can see within 5 feet of it. The target must succeed on a DC 12 Dexterity saving throw or be blinded until the end of the kobold's next turn.
+##;
+#h;Kobold Hero
+#ip;“Heroes have many fine qualities. Some races, however, fall short in places.” – Termerus Dral A Study of Heroism
+Bearing a mark uncommon from the rest of its tribe a Kobold Hero acts with the knowledge of its eventual success. Trained beyond any other, equipped with the finest gear and fervent in the belief of destiny, these creatures are the face of kobold tribes. Worldly knowledge and years of adventure show upon their scaled face. A Kobold Hero can rally tribes together and bring upon the world a deadly and zealous foe. When a Kobold Hero emerges, the world is destined to change.
+#bp;Marked for Destiny:
+When a Kobold Hero is born, they are marked. This marking varies from hero to hero, often appearing as a change in skin color or alteration of the eyes. These markings are recognized in kobold tribes as blessings from the Dragon Queen Tiamat. Immediately, kobolds marked are treated as vessels of destiny; raised, trained and pushed to fulfill the will of Tiamat.
+#bp;Chosen of Tiamat:
+Unlike other kobolds, Kobold Heroes are above any social hierarchy. Their right to rule and command goes unquestioned by any tribe. At this command, squabbling tribes of kobold rally under their banner and go forth to aid the Kobold Hero in its task. When Kobold Heroes appear, cities and towns neighboring kobold tribes tremble in fear of the impending armies these heroes create.
 
 Kobold Shaman
 Small humanoid (kobold), lawful evil
@@ -453,6 +492,13 @@ Cantrips (at will): druidcraft, produceflame, shillelagh
 2nd level (3 slots):flaming sphere, heat metal
 ACTIONS
 Club. Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 -1) bludgeoning damage.
+##;
+#h;Kobold Shaman
+Scents of heavy herbs, the clattering of trinkets and the subtle whispering of a cunning mind mark the arrival of a Kobold Shaman. Imbued with the magic of their god Tiamat, Kobold Shamans rule their tribe of kobolds, using guile and deception to keep their place. Kobold Shamans are frail but agile, their lives pushing them more to avoiding combat than getting into it themselves.
+#bp;Rite of the Elements
+Kobold Shamans must display their connection to the dragon god Tiamat. Those chosen to become a shaman must undergo a ritual of elements, being subjected to searing heat, deathly cold and noxious acid. Those who emerge from the ritual alive are awakened to the arcane energies of Tiamat.
+#bp;Power of the Tribe:
+Wielding Tiamat’s magic, Kobold Shamans are the heart and mind of their tribe. Sitting on the top of the social hierarchy, Shamans delegate tasks in the tribe. Yet, their power is always tentative, as other kobolds grow agitated and envious. Kobold Shamans are quick to notice unrest in the tribe and are not above resorting to assassination or banishment to ensure their power remains intact.
 
 Kraken Hatchling
 Huge monstrosity (titan), chaotic evil
@@ -631,12 +677,15 @@ ACTIONS
 Multiattack. The devil makes three attacks: two with its claws and one with its horns.
 Claw. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage.
 Horns. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 14 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a successful DC 14 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.
-##;
-INFERNAL PACT
-A pact devil may convince a creatu re to exchange its soul for powerful infernal boons. Such boons may include but are not limited to: ability score improvements, new feats, or epic boons found in the Dungeon M aster's Guide (page 232). The pact lasts until the devil chooses to dismiss it or the devil dies. A wish spell can also end the pact.
-A pact devil may convince a creatu re to exchange its soul for powerful infernal boons. Such boons may include but are not limited to: ability score improvements, new feats, or epic boons found in the Dungeon M aster's Guide (page 232). The pact lasts until the devil chooses to dismiss it or the devil dies. A wish spell can also end the pact.
+Infernal Pact. A pact devil may convince a creatu re to exchange its soul for powerful infernal boons. Such boons may include but are not limited to: ability score improvements, new feats, or epic boons found in the Dungeon M aster's Guide (page 232). The pact lasts until the devil chooses to dismiss it or the devil dies. A wish spell can also end the pact.
+A pact devil may convince a creature to exchange its soul for powerful infernal boons. Such boons may include but are not limited to: ability score improvements, new feats, or epic boons found in the Dungeon M aster's Guide (page 232). The pact lasts until the devil chooses to dismiss it or the devil dies. A wish spell can also end the pact.
 If a creature bound by such a pact dies, the devil claims its soul, forcing it into servitude for eternity. The creature can't be brought back to life after its soul has been claimed.
 Additionally, while bound by the infernal pact, the devil can communicate with the creature telepathically over any distance, even from another plane of existence. Once per month, the devil may charm the creature as if using the geas spell. The creature automatically fails the saving throw to resist the spell, and it can't be ended by any normal magic except for a wish spell, which also ends the pact.
+##;
+#h;Pact Devil
+#ip;Its face was the mask of evil, every bone in my body told me to run, but I knew that there was power to be had and I was chosen to take it... the cost was too great. – The Great Kalemus’ last speech to his audience.
+Malicious whisperers, Pact Devils love to watch the inevitable demise of greatness that their deals bring. Pact Devils observe their potential victims for a time, learning their desires and motivations before coming in contact with them. Appearing in dreams or a number of short interactions, Pact Devils acquaint themselves with their target slowly. When their victim is at their most vulnerable, Pact Devils appear to offer their dark bargain.
+Pact Devils are highly defensive of their powers. If the subject of their deal refuses an offer, the Pact Devil seeks to kill the individual, leaving behind no trace of the Pact Devil’s existence. Rarely will the Pact Devil be noticed by anyone other than the intended victim. In these cases, Pact Devils will stop at nothing to kill the bystanders, whether that is by their hands or the creature bound to them.
 
 Priest Of Blight
 Medium humanoid (any race), chaotic evil
@@ -701,7 +750,7 @@ Claws . Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3
 Call the Swarm (Recharge 5-6) . The rat hermit magically calls a swarm of rats. The called creatures arrive in 1 round, acting as allies of the rat hermit and obeying its commands.
 ##;
 #h;Rat Hermit
-#is;“The worse moment wasn’t when we found ourselves surrounded by rats…It was when we discovered that they were all thinking the same thing.”
+#is;“The worse moment wasn’t when we found ourselves surrounded by rats...It was when we discovered that they were all thinking the same thing.”
 Rat Hermits find themselves as social outcasts. Exiled from normal civilization, they instead create their own world among the vermin they live close to.
 Rat Hermits dwell in sewers and cramped alleys, where they slowly build their small kingdom and seek revenge against those who shunned them. 
 An individual who appeals to the Rat Hermit’s sense of revenge is more likely to be treated nicely, provided they can give the Rat Hermit what they want.
@@ -795,7 +844,16 @@ ACTIONS
 Withering Touch. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) necrotic damage.
 Etherealness. The spirit enters the Ethereal Plane from the Material Plane, or vice versa.It is visible on the Materia! Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane.
 Scare (1/Day). One creature of the spirit's choice within 20 feet of it must succeed on a DC 10 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, with disadvantage if the spirit is within line of sight, ending the effect on itself on a success.
- 
+##;
+#h;Spirit
+A spirit is the torn remnants of a once-living creature, bound to a specific location, creature or object. Like their close counter-parts, Ghosts, spirits haunt their location however they have been forced into manifesting, their essence split between the Ethereal and Material Plane.
+#bp;Tasked to Remember.
+A spirit serves as a living reminder of the past. Created from horrific circumstances, a spirit often acts as though they still lived, going about their daily lives and interacting with living beings by questioning or ignoring them. If the spirit was created by a horrific event like the desolation of a city or horrific act done upon them, the spirit harbors the ill will or fear of that moment, reacting violently or fearfully to those it comes in contact with.
+#bp;Ghostly Manifestations.
+Sensations of profound sadness, loneliness, and unfulfilled yearning emanate from places where spirits can be found. Quite whispers, odd sounds or unnatural silences create an ominous atmosphere.
+#bp;Undead Nature.
+A spirit doesn’t require air, food, drink, or sleep.
+
 Truesong Dancer
 Medium humanoid (any race), chaotic neutral
 Armor Class 14 (leather)
@@ -1035,8 +1093,7 @@ Multiattack. The dream eater makes two claw attacks.
 Claw. Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (3d8) psychic damage, and the target must succeed on a DC 14 Constitution saving throw or gain one level of exhaustion.
 Terrorize (Recharge 5-6). The dream eater emits nightmarish visions. Each creature within 10 feet of the dream eater must succeed on a DC 14 Wisdom saving throw or become paralyzed untii the end of the dream eater's next turn.
 LEGENDARY ACTIONS
-The dream eater can take 2 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dream
-eater regains spent legendary actions at the start of its turn. 
+The dream eater can take 2 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dream eater regains spent legendary actions at the start of its turn. 
 Dream Walk. The dream eater magically teleports up to 40 feet to an unoccupied space it can see.
 Deep Slumber (Costs 2 Actions). The dream eater targets one creature that it can see within 60 feet of it. The target must succeed on a DC 14 Wisdom saving throw or fall unconscious for 8 hours. The target wakes up if it takes damage or if another creature takes an action to shake it awake.
 
@@ -1668,6 +1725,21 @@ Cantrips (at will): blade ward, light, mage, message, prestidigitation
 ACTIONS
 Melt Mind. Ranged Spell Attack: +9 to hit, range 60/120 ft., one target. Hit: 16 (3d10) psychic damage and the creature must succeed on a DC 17 Wisdom saving throw or become stunned until the end of the mind sculptor's next turn.
 Pacify. The mind sculptor targets one creature that it can see within 60 feet of it. The target must succeed on a DC 17 Wisdom saving throw or be magically charmed. The charmed creature can't attack or otherwise harm another creature. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. The mind sculptor can have only one target charmed at a time in this way. If it charms another, the effect on the previous target ends.
+
+Kobold Commander
+Small Humanoid (kobold), lawful evil
+Armor Class 18 (chain mail, shield)
+Hit Points 11 (2d8 + 2)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 13 (+1) 12 (+1) 12 (+1) 10 (+0) 10 (+0) 9 (-1)
+Senses darkvision 60 ft., passive Perception 10
+Languages Common, Draconic
+Challenge 1/2 (100 XP)
+Sunlight Sensitivity. While in sunlight, the kobold commander has disadvantage on attack rolles, as well as on Wisdom (Perception) checks that rely on sight.
+Pack Tactics. The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated.
+ACTIONS
+Longsword. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage.
+Longbow. Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.
 
 Infestation Swarm
 Medium swarm of Tiny monstrosities, unaligned
