@@ -204,12 +204,12 @@ Venemous Spittle (Recharge 5-6). The lizard spits a glob of venom at a creature 
 ##;
 #h;Fern Lizard
 Fern Lizards are quick land omnivores with the body of a lizard and the upper torso comprised of two small talons, a small fanged mouth and beady eyes. The entirety of a Fern Lizard's body appears as though it is made of a foliage. Capable of easily blending into its surroundings, Fern Lizards wait patiently for prey to come to them.
-#bs;Patient Hunter
+#bp;Patient Hunter
 Capable of standing immobile for hours, Fern Lizards wait for meals to stumble before them rather than waste energy hunting them down. Insects and plant life inspire them to voracious appetites. Fern Lizards are often seen slowly burrowing into tree trunks, using their acidic spittle to bore small holes to devour insects.
-#bs;Prized Pet
+#bp;Prized Pet
 Whether caught young or raised from an egg, a Fern Lizard can be trained to serve as a companion. Considered good luck and useful spies for druids, Fern Lizards are often in their company. Nobility view these creatures as exotic additions to their home, investing large sums of money to acquire them.
 Once trained, a Fern Lizard is a loyal and useful companion. It bonds with one master for life and serves that master to the best of its abilities. A Fern Lizard requires satiation of its omnivorous appetite. Prone to capture or kidnapping, masters must be careful when bringing Fern Lizards in public as they immediately draw attention to both themselves and their owners.
-#bs;Small Stewards
+#bp;Small Stewards
 Fern Lizards make their nests in heavy growths of foliage, well away from the eyes of predators. Establishing their territory as a colony, Fern Lizards work as guardians of their surrounding area. Removing the region of pestilence and danger, these lizards become allies of druids and lovers of nature.
 Fern Lizards have been known to help those who support and care for their environment, acting as guides for lost travelers and providing sources of food to those in need. Alternatively, Fern Lizards are extremely aggressive and territorial to those who bring trouble to their environment. Fern Lizards harry travelers; steal food and lead wanderers astray until the traveler flees or dies.
 
@@ -220,8 +220,8 @@ Hit Points 250 (20d12+120)
 Speed 50 ft.
 STR DEX CON INT WIS CHA 29 (+9) 11 (+0) 20 (+5) 7 (-2) 10 (+0) 9 (-1)
 Saving Throws Str +14, Wis +5
-Damage Immunities acid,cold,fire,lightning,poison,bludgeoning,piercing,and slashing from nonmagical weapons
-Condition Immunities exhaustion,grappled,paralyzed,petrified,poisoned,restrained,unconscious
+Damage Immunities acid, cold, fire, lightning, poison, bludgeoning, piercing, and slashing from nonmagical weapons
+Condition Immunities exhaustion, grappled, paralyzed, petrified, poisoned, restrained, unconscious
 Senses darkvision 120 ft., passive Perception 10
 Languages Auran, Terran, Ignan, Aquan, Primordial
 Challenge 15 (13,000 XP)
@@ -394,14 +394,14 @@ Javelin. Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 f
 #h;Leonin
 #ip;“Pride forged us. Pride drives us. We are the pride!” – Leonin warchant during the War of the Braves.
 Leonin are tribal humanoids that reside in Great Plains and desert oasis. Their hut villages continually move, but are commonly found nearby watering holes, rivers or underneath massive trees.
-#bs;Terrotorial Nomads
+#bp;Terrotorial Nomads
 Leonin interact with other races on a strictly business like fashion. Fiercely territorial, their villages move throughout their domain, acting as scouts and defenders to any part that has been invaded. When unwelcome visitors are detected, the tribe sends an emissary to determine the nature of the visitors. If the visitor seems violent or malevolent the tribe will band together and drive them away. Traders are invited to speak with them, but never will they be allowed to enter the tribe itself.
 Leonin hold a strict sense of traditional morality and are heavily rooted in honor. The acts of an individual do much in the eyes of Leonin. Ritualistic rites are performed among the tribe and when trade is conducted to test the moral mettle of an individual.
 Leonin may leave the pride to become traveling merchants or hired guards. Still rooted in the spirituality of their pride, wandering Leonin often contend with those around them concerning personal thoughts and actions.
 Alliances made with Leonin are steadfast and unyielding. Fiercely loyal and driven to uphold their honor, Leonin tribes are almost never the ones to break or end an alliance. Traders who make initial deals with the Leonin will always have a trading partner.
-#bs;The Way of the Pride
+#bp;The Way of the Pride
 Working towards a sense of honor and traditional morality, Leonin base their understanding of others through individual acts. Tests are constructed to place young Leonin in difficult moral situations, testing both the ability to make decisions under pressure as well as to determine mindsets. Leonin who fail to follow the Way of the Pride are further trained or eventually sent into exile, a dangerous way of life being too destructive to the pride as a whole.
-#bs;Leonin Leaders
+#bp;Leonin Leaders
 Leonin respect their leaders with a religious awe. Elders are chosen for either great deeds done or eventual age. Those imbued with magic are sent into study, learning how to curb magic to the Way of the Pride.
 At times, a Leonin will be born into the pride afflicted by a Rakshasa spirit. These Leonin grow to be powerful spellcasters who hold within them the seed of evil. Cunning and patient, these Leonin wait and hide, passing through their pride’s tests. If these Leonin become leaders, they will drive their pride to war, chaos or ruin.
 
@@ -444,7 +444,7 @@ Low Blow (Recharge 5-6). The kobold makes a cheap shot against a creature it can
 ##;
 #h;Kobold Bully
 Thick sinuous muscle defines this Kobold, setting it apart from its wiry counterparts. Kobold Bullies stand with an air of confidence, bones of rivals hanging from their spears. Small black eyes glittering with malicious deviance show the harsh spirit that drives this creature.
-#bs;Brute of the Pack
+#bp;Brute of the Pack
 Born physically larger and stronger than others in the tribe, a Kobold Bully fights its way through the social hierarchy. A Kobold Bully works as muscle for the tribe, serving as guards and vanguards in battle. What a Kobold Bully lacks in cunning, it makes up for in brutal strength, tending to stab first and ask questions second. Kobold Bullies incite rage among their tribes, acting upon jealousy towards those who seem better off than them.
 
 Kobold Hero
@@ -470,9 +470,9 @@ Pocket Sand (Costs 2 actions). The kobold throws sand at a creature it can see w
 #h;Kobold Hero
 #ip;“Heroes have many fine qualities. Some races, however, fall short in places.” – Termerus Dral A Study of Heroism
 Bearing a mark uncommon from the rest of its tribe a Kobold Hero acts with the knowledge of its eventual success. Trained beyond any other, equipped with the finest gear and fervent in the belief of destiny, these creatures are the face of kobold tribes. Worldly knowledge and years of adventure show upon their scaled face. A Kobold Hero can rally tribes together and bring upon the world a deadly and zealous foe. When a Kobold Hero emerges, the world is destined to change.
-#bs;Marked for Destiny:
+#bp;Marked for Destiny:
 When a Kobold Hero is born, they are marked. This marking varies from hero to hero, often appearing as a change in skin color or alteration of the eyes. These markings are recognized in kobold tribes as blessings from the Dragon Queen Tiamat. Immediately, kobolds marked are treated as vessels of destiny; raised, trained and pushed to fulfill the will of Tiamat.
-#bs;Chosen of Tiamat:
+#bp;Chosen of Tiamat:
 Unlike other kobolds, Kobold Heroes are above any social hierarchy. Their right to rule and command goes unquestioned by any tribe. At this command, squabbling tribes of kobold rally under their banner and go forth to aid the Kobold Hero in its task. When Kobold Heroes appear, cities and towns neighboring kobold tribes tremble in fear of the impending armies these heroes create.
 
 Kobold Shaman
@@ -495,9 +495,9 @@ Club. Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 -1) b
 ##;
 #h;Kobold Shaman
 Scents of heavy herbs, the clattering of trinkets and the subtle whispering of a cunning mind mark the arrival of a Kobold Shaman. Imbued with the magic of their god Tiamat, Kobold Shamans rule their tribe of kobolds, using guile and deception to keep their place. Kobold Shamans are frail but agile, their lives pushing them more to avoiding combat than getting into it themselves.
-#bs;Rite of the Elements
+#bp;Rite of the Elements
 Kobold Shamans must display their connection to the dragon god Tiamat. Those chosen to become a shaman must undergo a ritual of elements, being subjected to searing heat, deathly cold and noxious acid. Those who emerge from the ritual alive are awakened to the arcane energies of Tiamat.
-#bs;Power of the Tribe:
+#bp;Power of the Tribe:
 Wielding Tiamat’s magic, Kobold Shamans are the heart and mind of their tribe. Sitting on the top of the social hierarchy, Shamans delegate tasks in the tribe. Yet, their power is always tentative, as other kobolds grow agitated and envious. Kobold Shamans are quick to notice unrest in the tribe and are not above resorting to assassination or banishment to ensure their power remains intact.
 
 Kraken Hatchling
@@ -847,11 +847,11 @@ Scare (1/Day). One creature of the spirit's choice within 20 feet of it must suc
 ##;
 #h;Spirit
 A spirit is the torn remnants of a once-living creature, bound to a specific location, creature or object. Like their close counter-parts, Ghosts, spirits haunt their location however they have been forced into manifesting, their essence split between the Ethereal and Material Plane.
-#bs;Tasked to Remember.
+#bp;Tasked to Remember.
 A spirit serves as a living reminder of the past. Created from horrific circumstances, a spirit often acts as though they still lived, going about their daily lives and interacting with living beings by questioning or ignoring them. If the spirit was created by a horrific event like the desolation of a city or horrific act done upon them, the spirit harbors the ill will or fear of that moment, reacting violently or fearfully to those it comes in contact with.
-#bs;Ghostly Manifestations.
+#bp;Ghostly Manifestations.
 Sensations of profound sadness, loneliness, and unfulfilled yearning emanate from places where spirits can be found. Quite whispers, odd sounds or unnatural silences create an ominous atmosphere.
-#bs;Undead Nature.
+#bp;Undead Nature.
 A spirit doesn’t require air, food, drink, or sleep.
 
 Truesong Dancer
