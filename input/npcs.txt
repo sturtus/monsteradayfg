@@ -1783,3 +1783,31 @@ Transpose Arcana. As a bonus action, the spell book can expend one spell slot, c
 ACTIONS
 Paper Cut. Ranged Weapon Attack: +8 to hit, range 30/60 ft., one creature. Hit: 13 (3d8) slashing damage.
 Mana Burn (Recharge 5-6). The spellbook can expend one spell slot to deal force damage to a target within 60 feet of it. The damage is 18 (4d8) for a 1st-level spell slot, plus 9 (2d8) for each spell level higher than 1st. The target must make a DC 16 Dexterity saving throw, taking full damage on a failed save, or half as much damage on a successful one.
+
+War Titan
+Huge Fiend (Titan), chaotic (any)
+Armor Class 18 (natural armor)
+Hit Points 207 (18d12 + 90)
+Speed 40 ft.
+STR DEX CON INT WIS CHA 25 (+7) 10 (+0) 20 (+5) 7 (-2) 10 (+0) 16 (+3)
+Saving Throws Str +12, Con +10
+Damage Resistances bludgeoning, piercing, slashing from nonmagical weapons
+Condition Immunities exhaustion, frightened, stunned
+Senses darkvision 120 ft., passive Perception 10
+Languages Celestial, Infernal, Abyssal
+Challenge 16 (15,000 XP)
+Legendary Resistance (3/day). If the titan fails a saving throw, it can choose to succeed instead.
+Magic Resistance. The titan has advantage on saving throws against spells and other magical effects.
+Magic Weapons. The titan's weapon attacks are magical.
+Well-Armed. The titan can take one reaction on every turn in a combat.
+ACTIONS
+Multiattack. The titan makes two melee weapon attacks.
+Longsword. Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7) slashing damage.
+Blade Storm (Recharge 5-6). The titan swings its weapons in a whirlwind of steel. Each creature within 10 feet of the titan must make a DC 20 Dexterity saving throw, taking 18 (4d8) bludgeoning damage, and 18 (4d8) piercing damage, and 18 (4d8) slashing damage on a failed save, or half as much damage on a successful save.
+REACTIONS
+Parry. The titan gains +5 AC against one melee attack that would hit it. To do so, the titan must see the attacker and be wielding a melee weapon.
+LEGENDARY ACTIONS
+The titan can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The titan regains spent legendary actions at the start of its turn.
+Attack. The titan makes one attack.
+War Cry (costs 2 actions). Each creature within 120 feet of the titan that can hear it must succeed on a DC 16 Wisdom saving throw or take 10 (4d4) psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn.
+Hold the Line (Costs 2 actions). The titan gains 26 (4d12) temporary hit points.
