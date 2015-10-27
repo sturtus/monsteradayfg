@@ -998,6 +998,12 @@ Tree Stride. Once on its turn, the guardian can use 10 feet of its movement to s
 ACTIONS
 Multiattack. The guardian makes two bite attacks.
 Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 strength saving throw or be knocked prone.
+##;
+#h;Grove Guardian
+A manifestation of nature's own self-defense, the Grove Guardian travels through the wilderness, protecting the land and its inhabitants. Taking the shape of a wolf, the Grove Guardian uses its fangs and powerful magic to drive away anything that threatens its land.
+#bs;Neutral Guardians. Grove Guardians do not think of things in terms of right or wrong, nor do they care for law. Emerging to protect the land it has been bound to, a Grove Guardian attacks all with zealous animosity. Only those who can convince it of their desire to protect the land are left alone. Druids are recognized by Grove Guardians but not exempted from their judgment, having to prove their loyalty to nature before a Guardian will ignore them.
+#bs;Silent Sentinels. Prior to attacking, Grove Guardians will make their presence known to outsiders. If outsiders do not demonstrate proper respect to the land or fail to acknowledge Grove Guardians in communication, the Guardians will attack.
+#bs;Force of Nature. The land calls Grove Guardians to its aid. Their numbers increase according to the danger of the situation. Often only one Guardian will be called in defense against wandering outsiders, but a whole pack may appear in the wake of cataclysmic events.
 
 Burning Skeleton
 Medium undead, lawful evil
@@ -1847,3 +1853,45 @@ Caustic Fumes. Any creature that starts its turn within 10 feet of the crawler m
 ACTIONS
 Claws. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) slashing damage plus 7 (2d6) acid damage.
 Acid Spray (Recharge 6). The crawler spits acid in a line that is 30 feet long and 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking 28 (8d6) acid damage on a failed save, or half as much damage on a successful one.
+
+Evil Doll
+Tiny construct fiend, lawful evil
+Armor Class 14 (natural armor)
+Hit Points 21 (6d4 + 6)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 3 (-4) 16 (+3) 12 (+1) 10 (+0) 14 (+2) 18 (+4)
+Skills Deception +6, Perception +4, Persuasion +6, Stealth + 7
+Damage Resistances bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered
+Damage Immunities fire, poison
+Condition Immunities charmed, exhaustion, frightened, paralyzed, petrified, poisoned
+Senses darkvision 120 ft., passive Perception 14
+Languages Infernal, Common, telepathy 60 ft.
+Challenge 2 (450 XP)
+Devil's Sight. Magical darkness doesn't impede the doll's darkvision.
+Inanimate. While the doll remains motionless, it is indistinguishable from an ordinary doll.
+Innate Spellcasting. The doll's spellcasting ability is Charisma (spell save DC 14). The doll can innately cast the following spells, requiring only verbal components:
+At will: suggestion
+1/day each: dominate person, modify memory
+Undying Evil. If the doll is destroyed, it regains all its hitpoints and reappears at a nearby location in 24 hours unless a remove curse spell is cast on its remains.
+ACTIONS
+Giggle. One creature of the doll's choice within 30 feet of it must succeed on a DC 14 Wisdom saving throw or take 7 (2d6) psychic damage and become frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, with disadvantage if the doll is within line of sight, ending the effect on itself on a success.
+
+Gill-man
+Medium monstrosity, neutral
+Armor Class 16 (natural armor)
+Hit Points 102 (12d8 + 48)
+Speed 30 ft., swim 50 ft.
+STR DEX CON INT WIS CHA 20 (+5) 16 (+3) 18 (+4) 10 (+0) 14 (+2) 7 (-2)
+Skills Perception +5, Stealth +6
+Damage Vulnerabilities poison
+Senses darkvision 120 ft., passive Perception 15
+Languages Gill-man
+Challenge 6 (2,300 XP)
+Amphibious. The gill-man can breathe air and water.
+Regeneration. The gill-man regains 10 hit points at the start of its turn. If the gill-man is poisoned, this trait doesn't function. If the gill-man takes poison damage, this trait doesn't function at the start of the gill-man's next turn. The gi ll-man dies only if it starts its turn with O hit points and doesn 't regenerate. Swimby. The gill-man doesn't provoke opportunity attacks when it swims out of an enemy's reach.
+Torpedo Attack. If the gill-man swims at least 30 feet straight toward a target and then hits it with a melee weapon attack, the attack deals an extra 9 (2d8) damage to the target.
+ACTIONS
+Multiattack. The gill-man makes two attacks with its claws.
+Claw. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.
+
+

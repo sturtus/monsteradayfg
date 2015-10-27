@@ -62,6 +62,18 @@
             <desc type="string">Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 -1) bludgeoning damage.</desc>
           </id-00001>
         </actions>
+        <text type="formattedtext">
+          <h>Kobold Shaman</h>
+          <p>Scents of heavy herbs, the clattering of trinkets and the subtle whispering of a cunning mind mark the arrival of a Kobold Shaman. Imbued with the magic of their god Tiamat, Kobold Shamans rule their tribe of kobolds, using guile and deception to keep their place. Kobold Shamans are frail but agile, their lives pushing them more to avoiding combat than getting into it themselves.</p>
+          <p>
+            <b>Rite of the Elements</b>
+          </p>
+          <p>Kobold Shamans must display their connection to the dragon god Tiamat. Those chosen to become a shaman must undergo a ritual of elements, being subjected to searing heat, deathly cold and noxious acid. Those who emerge from the ritual alive are awakened to the arcane energies of Tiamat.</p>
+          <p>
+            <b>Power of the Tribe:</b>
+          </p>
+          <p>Wielding Tiamat's magic, Kobold Shamans are the heart and mind of their tribe. Sitting on the top of the social hierarchy, Shamans delegate tasks in the tribe. Yet, their power is always tentative, as other kobolds grow agitated and envious. Kobold Shamans are quick to notice unrest in the tribe and are not above resorting to assassination or banishment to ensure their power remains intact.</p>
+        </text>
       </koboldshaman>
       <arcanamite>
         <locked type="number">1</locked>
@@ -753,7 +765,7 @@
         <traits>
           <id-00001>
             <name type="string">False Appearance</name>
-            <desc type="string">While the lizard remains motionless, it is indistinguishable from a normal plant, such as a colorful fern</desc>
+            <desc type="string">While the lizard remains motionless, it is indistinguishable from a normal plant, such as a colorful fern.</desc>
           </id-00001>
         </traits>
         <actions>
@@ -769,8 +781,20 @@
         <text type="formattedtext">
           <h>Fern Lizard</h>
           <p>Fern Lizards are quick land omnivores with the body of a lizard and the upper torso comprised of two small talons, a small fanged mouth and beady eyes. The entirety of a Fern Lizard's body appears as though it is made of a foliage. Capable of easily blending into its surroundings, Fern Lizards wait patiently for prey to come to them.</p>
-          <p>#bs;Patient Hunter</p>
+          <p>
+            <b>Patient Hunter</b>
+          </p>
           <p>Capable of standing immobile for hours, Fern Lizards wait for meals to stumble before them rather than waste energy hunting them down. Insects and plant life inspire them to voracious appetites. Fern Lizards are often seen slowly burrowing into tree trunks, using their acidic spittle to bore small holes to devour insects.</p>
+          <p>
+            <b>Prized Pet</b>
+          </p>
+          <p>Whether caught young or raised from an egg, a Fern Lizard can be trained to serve as a companion. Considered good luck and useful spies for druids, Fern Lizards are often in their company. Nobility view these creatures as exotic additions to their home, investing large sums of money to acquire them.</p>
+          <p>Once trained, a Fern Lizard is a loyal and useful companion. It bonds with one master for life and serves that master to the best of its abilities. A Fern Lizard requires satiation of its omnivorous appetite. Prone to capture or kidnapping, masters must be careful when bringing Fern Lizards in public as they immediately draw attention to both themselves and their owners.</p>
+          <p>
+            <b>Small Stewards</b>
+          </p>
+          <p>Fern Lizards make their nests in heavy growths of foliage, well away from the eyes of predators. Establishing their territory as a colony, Fern Lizards work as guardians of their surrounding area. Removing the region of pestilence and danger, these lizards become allies of druids and lovers of nature.</p>
+          <p>Fern Lizards have been known to help those who support and care for their environment, acting as guides for lost travelers and providing sources of food to those in need. Alternatively, Fern Lizards are extremely aggressive and territorial to those who bring trouble to their environment. Fern Lizards harry travelers; steal food and lead wanderers astray until the traveler flees or dies.</p>
         </text>
       </fernlizard>
       <fusionelemental>
@@ -1002,6 +1026,10 @@
             <desc type="string">Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.</desc>
           </id-00003>
         </actions>
+        <text type="formattedtext">
+          <h>Gnoll Death Knight</h>
+          <p>Yeenoghu chose gnoll Death Knights for his strength. Unlike fang's that can turn hyenas into gnolls, Death Knights are imbued with Yeenoghu's raw power. Champions of their god, Death Knights harness their demonic energies, becoming powerful tools of the fang. They serve as living weapons of their fang leaders or take their place as guards while fangs work their malice upon the land. Death Knights are unwavering in their obedience to Yeenoghu. The demonic powers in them exude a dark aura wherever they walk, leaving an odorous smell of offal in their wake.</p>
+        </text>
       </gnolldeathknight>
       <fiendishhyena>
         <locked type="number">1</locked>
@@ -1119,6 +1147,10 @@
             <desc type="string">The gnoll magically summons 1d4 fiendish hyenas. The summoned fiends appear in unoccupied spaces within 60 feet of their summoner and act as allies of their summoner. They remain for 10 minutes, until they or their summoner dies, or until their summoner dismisses them as an action.</desc>
           </id-00002>
         </actions>
+        <text type="formattedtext">
+          <h>Gnoll Deathmage</h>
+          <p>Yeenoghu chose gnoll Deathmages for his mind. Unlike fang's that can turn hyenas into gnolls, Deathmages are imbued with Yeenoghu's intelligence. The intellect of their god, a deathmage's cunning is the embodiment of their demonic blessing. A Deathmage works to further their fang's plots, acting as advisors and satellite leaders while fangs control the pack. Along with their enhanced intellect, Deathmages were granted the ability to call forth Yeenoghu's fiendish pets. Cunning and subtle, a deathmage becomes another deadly mechanism in the pack, bringing to fruition a fang's malicious will.</p>
+        </text>
       </gnolldeathmage>
       <gravetitan>
         <locked type="number">1</locked>
@@ -1343,6 +1375,29 @@
             <desc type="string">Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</desc>
           </id-00003>
         </actions>
+        <text type="formattedtext">
+          <h>Leonin</h>
+          <p>
+            <i>"Pride forged us. Pride drives us. We are the pride!" - Leonin warchant during the War of the Braves.</i>
+          </p>
+          <p>Leonin are tribal humanoids that reside in Great Plains and desert oasis. Their hut villages continually move, but are commonly found nearby watering holes, rivers or underneath massive trees.</p>
+          <p>
+            <b>Terrotorial Nomads</b>
+          </p>
+          <p>Leonin interact with other races on a strictly business like fashion. Fiercely territorial, their villages move throughout their domain, acting as scouts and defenders to any part that has been invaded. When unwelcome visitors are detected, the tribe sends an emissary to determine the nature of the visitors. If the visitor seems violent or malevolent the tribe will band together and drive them away. Traders are invited to speak with them, but never will they be allowed to enter the tribe itself.</p>
+          <p>Leonin hold a strict sense of traditional morality and are heavily rooted in honor. The acts of an individual do much in the eyes of Leonin. Ritualistic rites are performed among the tribe and when trade is conducted to test the moral mettle of an individual.</p>
+          <p>Leonin may leave the pride to become traveling merchants or hired guards. Still rooted in the spirituality of their pride, wandering Leonin often contend with those around them concerning personal thoughts and actions.</p>
+          <p>Alliances made with Leonin are steadfast and unyielding. Fiercely loyal and driven to uphold their honor, Leonin tribes are almost never the ones to break or end an alliance. Traders who make initial deals with the Leonin will always have a trading partner.</p>
+          <p>
+            <b>The Way of the Pride</b>
+          </p>
+          <p>Working towards a sense of honor and traditional morality, Leonin base their understanding of others through individual acts. Tests are constructed to place young Leonin in difficult moral situations, testing both the ability to make decisions under pressure as well as to determine mindsets. Leonin who fail to follow the Way of the Pride are further trained or eventually sent into exile, a dangerous way of life being too destructive to the pride as a whole.</p>
+          <p>
+            <b>Leonin Leaders</b>
+          </p>
+          <p>Leonin respect their leaders with a religious awe. Elders are chosen for either great deeds done or eventual age. Those imbued with magic are sent into study, learning how to curb magic to the Way of the Pride.</p>
+          <p>At times, a Leonin will be born into the pride afflicted by a Rakshasa spirit. These Leonin grow to be powerful spellcasters who hold within them the seed of evil. Cunning and patient, these Leonin wait and hide, passing through their pride's tests. If these Leonin become leaders, they will drive their pride to war, chaos or ruin.</p>
+        </text>
       </leonin>
       <luckdragon>
         <locked type="number">1</locked>
@@ -1478,6 +1533,14 @@
             <desc type="string">The kobold makes a cheap shot against a creature it can see within 5 feet of it. The target must succeed on a DC 12 Constitution saving throw or become incapacitated until the end of the kobold's next turn.</desc>
           </id-00004>
         </actions>
+        <text type="formattedtext">
+          <h>Kobold Bully</h>
+          <p>Thick sinuous muscle defines this Kobold, setting it apart from its wiry counterparts. Kobold Bullies stand with an air of confidence, bones of rivals hanging from their spears. Small black eyes glittering with malicious deviance show the harsh spirit that drives this creature.</p>
+          <p>
+            <b>Brute of the Pack</b>
+          </p>
+          <p>Born physically larger and stronger than others in the tribe, a Kobold Bully fights its way through the social hierarchy. A Kobold Bully works as muscle for the tribe, serving as guards and vanguards in battle. What a Kobold Bully lacks in cunning, it makes up for in brutal strength, tending to stab first and ask questions second. Kobold Bullies incite rage among their tribes, acting upon jealousy towards those who seem better off than them.</p>
+        </text>
       </koboldbully>
       <koboldhero>
         <locked type="number">1</locked>
@@ -1554,6 +1617,21 @@
             <desc type="string">The kobold throws sand at a creature it can see within 5 feet of it. The target must succeed on a DC 12 Dexterity saving throw or be blinded until the end of the kobold's next turn.</desc>
           </id-00004>
         </legendaryactions>
+        <text type="formattedtext">
+          <h>Kobold Hero</h>
+          <p>
+            <i>"Heroes have many fine qualities. Some races, however, fall short in places." - Termerus Dral A Study of Heroism</i>
+          </p>
+          <p>Bearing a mark uncommon from the rest of its tribe a Kobold Hero acts with the knowledge of its eventual success. Trained beyond any other, equipped with the finest gear and fervent in the belief of destiny, these creatures are the face of kobold tribes. Worldly knowledge and years of adventure show upon their scaled face. A Kobold Hero can rally tribes together and bring upon the world a deadly and zealous foe. When a Kobold Hero emerges, the world is destined to change.</p>
+          <p>
+            <b>Marked for Destiny:</b>
+          </p>
+          <p>When a Kobold Hero is born, they are marked. This marking varies from hero to hero, often appearing as a change in skin color or alteration of the eyes. These markings are recognized in kobold tribes as blessings from the Dragon Queen Tiamat. Immediately, kobolds marked are treated as vessels of destiny; raised, trained and pushed to fulfill the will of Tiamat.</p>
+          <p>
+            <b>Chosen of Tiamat:</b>
+          </p>
+          <p>Unlike other kobolds, Kobold Heroes are above any social hierarchy. Their right to rule and command goes unquestioned by any tribe. At this command, squabbling tribes of kobold rally under their banner and go forth to aid the Kobold Hero in its task. When Kobold Heroes appear, cities and towns neighboring kobold tribes tremble in fear of the impending armies these heroes create.</p>
+        </text>
       </koboldhero>
       <krakenhatchling>
         <locked type="number">1</locked>
@@ -2095,13 +2173,22 @@
             <name type="string">Horns</name>
             <desc type="string">Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 14 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a successful DC 14 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.</desc>
           </id-00003>
+          <id-00004>
+            <name type="string">Infernal Pact</name>
+            <desc type="string">A pact devil may convince a creatu re to exchange its soul for powerful infernal boons. Such boons may include but are not limited to: ability score improvements, new feats, or epic boons found in the Dungeon M aster's Guide (page 232). The pact lasts until the devil chooses to dismiss it or the devil dies. A wish spell can also end the pact.</desc>
+          </id-00004>
+          <id-00005>
+            <name type="string">A pact devil may convince a creature to exchange its soul for powerful infernal boons</name>
+            <desc type="string">Such boons may include but are not limited to: ability score improvements, new feats, or epic boons found in the Dungeon M aster's Guide (page 232). The pact lasts until the devil chooses to dismiss it or the devil dies. A wish spell can also end the pact. If a creature bound by such a pact dies, the devil claims its soul, forcing it into servitude for eternity. The creature can't be brought back to life after its soul has been claimed. Additionally, while bound by the infernal pact, the devil can communicate with the creature telepathically over any distance, even from another plane of existence. Once per month, the devil may charm the creature as if using the geas spell. The creature automatically fails the saving throw to resist the spell, and it can't be ended by any normal magic except for a wish spell, which also ends the pact.</desc>
+          </id-00005>
         </actions>
         <text type="formattedtext">
-          <p>INFERNAL PACT</p>
-          <p>A pact devil may convince a creatu re to exchange its soul for powerful infernal boons. Such boons may include but are not limited to: ability score improvements, new feats, or epic boons found in the Dungeon M aster's Guide (page 232). The pact lasts until the devil chooses to dismiss it or the devil dies. A wish spell can also end the pact.</p>
-          <p>A pact devil may convince a creatu re to exchange its soul for powerful infernal boons. Such boons may include but are not limited to: ability score improvements, new feats, or epic boons found in the Dungeon M aster's Guide (page 232). The pact lasts until the devil chooses to dismiss it or the devil dies. A wish spell can also end the pact.</p>
-          <p>If a creature bound by such a pact dies, the devil claims its soul, forcing it into servitude for eternity. The creature can't be brought back to life after its soul has been claimed.</p>
-          <p>Additionally, while bound by the infernal pact, the devil can communicate with the creature telepathically over any distance, even from another plane of existence. Once per month, the devil may charm the creature as if using the geas spell. The creature automatically fails the saving throw to resist the spell, and it can't be ended by any normal magic except for a wish spell, which also ends the pact.</p>
+          <h>Pact Devil</h>
+          <p>
+            <i>Its face was the mask of evil, every bone in my body told me to run, but I knew that there was power to be had and I was chosen to take it... the cost was too great. - The Great Kalemus' last speech to his audience.</i>
+          </p>
+          <p>Malicious whisperers, Pact Devils love to watch the inevitable demise of greatness that their deals bring. Pact Devils observe their potential victims for a time, learning their desires and motivations before coming in contact with them. Appearing in dreams or a number of short interactions, Pact Devils acquaint themselves with their target slowly. When their victim is at their most vulnerable, Pact Devils appear to offer their dark bargain.</p>
+          <p>Pact Devils are highly defensive of their powers. If the subject of their deal refuses an offer, the Pact Devil seeks to kill the individual, leaving behind no trace of the Pact Devil's existence. Rarely will the Pact Devil be noticed by anyone other than the intended victim. In these cases, Pact Devils will stop at nothing to kill the bystanders, whether that is by their hands or the creature bound to them.</p>
         </text>
       </pactdevil>
       <priestofblight>
@@ -2307,7 +2394,7 @@
         <text type="formattedtext">
           <h>Rat Hermit</h>
           <p>
-            <i>"The worse moment wasn't when we found ourselves surrounded by rats\u2026It was when we discovered that they were all thinking the same thing.</i>"</p>
+            <i>"The worse moment wasn't when we found ourselves surrounded by rats.</i>..It was when we discovered that they were all thinking the same thing."</p>
           <p>Rat Hermits find themselves as social outcasts. Exiled from normal civilization, they instead create their own world among the vermin they live close to.</p>
           <p>Rat Hermits dwell in sewers and cramped alleys, where they slowly build their small kingdom and seek revenge against those who shunned them.</p>
           <p>An individual who appeals to the Rat Hermit's sense of revenge is more likely to be treated nicely, provided they can give the Rat Hermit what they want.</p>
@@ -2615,6 +2702,22 @@
             <desc type="string">One creature of the spirit's choice within 20 feet of it must succeed on a DC 10 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, with disadvantage if the spirit is within line of sight, ending the effect on itself on a success.</desc>
           </id-00003>
         </actions>
+        <text type="formattedtext">
+          <h>Spirit</h>
+          <p>A spirit is the torn remnants of a once-living creature, bound to a specific location, creature or object. Like their close counter-parts, Ghosts, spirits haunt their location however they have been forced into manifesting, their essence split between the Ethereal and Material Plane.</p>
+          <p>
+            <b>Tasked to Remember.</b>
+          </p>
+          <p>A spirit serves as a living reminder of the past. Created from horrific circumstances, a spirit often acts as though they still lived, going about their daily lives and interacting with living beings by questioning or ignoring them. If the spirit was created by a horrific event like the desolation of a city or horrific act done upon them, the spirit harbors the ill will or fear of that moment, reacting violently or fearfully to those it comes in contact with.</p>
+          <p>
+            <b>Ghostly Manifestations.</b>
+          </p>
+          <p>Sensations of profound sadness, loneliness, and unfulfilled yearning emanate from places where spirits can be found. Quite whispers, odd sounds or unnatural silences create an ominous atmosphere.</p>
+          <p>
+            <b>Undead Nature.</b>
+          </p>
+          <p>A spirit doesn't require air, food, drink, or sleep.</p>
+        </text>
       </spirit>
       <truesongdancer>
         <locked type="number">1</locked>
@@ -3505,20 +3608,16 @@
         <legendaryactions>
           <id-00001>
             <name type="string">Terrorize (Recharge 5-6)</name>
-            <desc type="string"> The dream eater can take 2 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dream</desc>
+            <desc type="string"> The dream eater can take 2 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dream eater regains spent legendary actions at the start of its turn.</desc>
           </id-00001>
           <id-00002>
-            <name type="string">eater regains spent legendary actions at the start of its turn</name>
-            <desc type="string"/>
-          </id-00002>
-          <id-00003>
             <name type="string">Dream Walk</name>
             <desc type="string">The dream eater magically teleports up to 40 feet to an unoccupied space it can see.</desc>
-          </id-00003>
-          <id-00004>
+          </id-00002>
+          <id-00003>
             <name type="string">Deep Slumber (Costs 2 Actions)</name>
             <desc type="string">The dream eater targets one creature that it can see within 60 feet of it. The target must succeed on a DC 14 Wisdom saving throw or fall unconscious for 8 hours. The target wakes up if it takes damage or if another creature takes an action to shake it awake.</desc>
-          </id-00004>
+          </id-00003>
         </legendaryactions>
       </dreameater>
       <silverpawdog>
@@ -5810,6 +5909,68 @@
           </id-00002>
         </actions>
       </azuremindsculptor>
+      <koboldcommander>
+        <locked type="number">1</locked>
+        <name type="string">Kobold Commander</name>
+        <type type="string">Humanoid (kobold)</type>
+        <size type="string">Small</size>
+        <ac type="number">18</ac>
+        <actext type="string">(chain mail, shield)</actext>
+        <hp type="number">11</hp>
+        <hd type="string">(2d8 + 2)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">13</score>
+            <modifier type="string">+1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">9</score>
+            <modifier type="string">0</modifier>
+          </charisma>
+        </abilities>
+        <senses type="string">darkvision 60 ft., passive Perception 10</senses>
+        <alignment type="string">lawful evil</alignment>
+        <languages type="string">Common, Draconic</languages>
+        <cr type="string">1/2</cr>
+        <xp type="number">100</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Sunlight Sensitivity</name>
+            <desc type="string">While in sunlight, the kobold commander has disadvantage on attack rolles, as well as on Wisdom (Perception) checks that rely on sight.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Pack Tactics</name>
+            <desc type="string">The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Longsword</name>
+            <desc type="string">Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Longbow</name>
+            <desc type="string">Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</desc>
+          </id-00002>
+        </actions>
+      </koboldcommander>
       <infestationswarm>
         <locked type="number">1</locked>
         <name type="string">Infestation Swarm</name>
@@ -5939,6 +6100,240 @@
           </id-00002>
         </actions>
       </livingspellbook>
+      <wartitan>
+        <locked type="number">1</locked>
+        <name type="string">War Titan</name>
+        <type type="string">Fiend (Titan)</type>
+        <size type="string">Huge</size>
+        <ac type="number">18</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">207</hp>
+        <hd type="string">(18d12 + 90)</hd>
+        <speed type="string">40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">25</score>
+            <modifier type="string">+7</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">7</score>
+            <modifier type="string">-1</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Str +12, Con +10</savingthrows>
+        <damageresistances type="string">bludgeoning, piercing, slashing from nonmagical weapons</damageresistances>
+        <conditionimmunities type="string">exhaustion, frightened, stunned</conditionimmunities>
+        <senses type="string">darkvision 120 ft., passive Perception 10</senses>
+        <alignment type="string">chaotic (any)</alignment>
+        <languages type="string">Celestial, Infernal, Abyssal</languages>
+        <cr type="string">16</cr>
+        <xp type="number">15000</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Legendary Resistance (3/day)</name>
+            <desc type="string">If the titan fails a saving throw, it can choose to succeed instead.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Magic Resistance</name>
+            <desc type="string">The titan has advantage on saving throws against spells and other magical effects.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Magic Weapons</name>
+            <desc type="string">The titan's weapon attacks are magical.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Well-Armed</name>
+            <desc type="string">The titan can take one reaction on every turn in a combat.</desc>
+          </id-00004>
+        </traits>
+        <reactions>
+          <id-00001>
+            <name type="string">Parry</name>
+            <desc type="string">The titan gains +5 AC against one melee attack that would hit it. To do so, the titan must see the attacker and be wielding a melee weapon.</desc>
+          </id-00001>
+        </reactions>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The titan makes two melee weapon attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Longsword</name>
+            <desc type="string">Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7) slashing damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Blade Storm (Recharge 5-6)</name>
+            <desc type="string">The titan swings its weapons in a whirlwind of steel. Each creature within 10 feet of the titan must make a DC 20 Dexterity saving throw, taking 18 (4d8) bludgeoning damage, and 18 (4d8) piercing damage, and 18 (4d8) slashing damage on a failed save, or half as much damage on a successful save.</desc>
+          </id-00003>
+        </actions>
+        <legendaryactions>
+          <id-00001>
+            <name type="string">Parry</name>
+            <desc type="string"> The titan can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The titan regains spent legendary actions at the start of its turn.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Attack</name>
+            <desc type="string">The titan makes one attack.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">War Cry (costs 2 actions)</name>
+            <desc type="string">Each creature within 120 feet of the titan that can hear it must succeed on a DC 16 Wisdom saving throw or take 10 (4d4) psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Hold the Line (Costs 2 actions)</name>
+            <desc type="string">The titan gains 26 (4d12) temporary hit points.</desc>
+          </id-00004>
+        </legendaryactions>
+      </wartitan>
+      <magmabear>
+        <locked type="number">1</locked>
+        <name type="string">Magma Bear</name>
+        <type type="string">Elemental</type>
+        <size type="string">Large</size>
+        <ac type="number">13</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">75</hp>
+        <hd type="string">(10d10 + 20)</hd>
+        <speed type="string">40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">4</score>
+            <modifier type="string">-3</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </charisma>
+        </abilities>
+        <damagevulnerabilities type="string">cold</damagevulnerabilities>
+        <damageimmunities type="string">fire, poison</damageimmunities>
+        <conditionimmunities type="string">exhaustion, poisoned</conditionimmunities>
+        <senses type="string">darkvision 60 ft., passive Perception 11</senses>
+        <alignment type="string">Neutral</alignment>
+        <languages type="string">Ignan</languages>
+        <cr type="string">3</cr>
+        <xp type="number">700</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Water Susceptibility</name>
+            <desc type="string">For ever 5 feet the bear moves in water, or for every gallon of water splashed on it, it takes 1 cold damge.</desc>
+          </id-00001>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The bear makes two attacks: One with its bite and one with its claws.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Bite</name>
+            <desc type="string">Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) piercing damage plus 3 (1d6) fire damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Claws</name>
+            <desc type="string">Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Fire Breath (Recharge 5-6)</name>
+            <desc type="string">The bear exhales a blast of flames in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 17 (5d6) fire damage on a failed save, or half as much damage on a successful one.</desc>
+          </id-00004>
+        </actions>
+      </magmabear>
+      <causticcrawler>
+        <locked type="number">1</locked>
+        <name type="string">Caustic Crawler</name>
+        <type type="string">Monstrosity</type>
+        <size type="string">Medium</size>
+        <ac type="number">14</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">102</hp>
+        <hd type="string">(12d8 + 48)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">2</score>
+            <modifier type="string">-4</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">6</score>
+            <modifier type="string">-2</modifier>
+          </charisma>
+        </abilities>
+        <damageimmunities type="string">acid, poison</damageimmunities>
+        <conditionimmunities type="string">poisoned</conditionimmunities>
+        <senses type="string">darkvision 60 ft., passive Perception 11</senses>
+        <alignment type="string">unaligned</alignment>
+        <languages type="string">-</languages>
+        <cr type="string">4</cr>
+        <xp type="number">1100</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Acidic Blood</name>
+            <desc type="string">A creature that hits the crawler with a melee attack while within 5 ft of it takes 7 (2d6) acid damage.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Caustic Fumes</name>
+            <desc type="string">Any creature that starts its turn within 10 feet of the crawler must succeed on a DC 12 Constitution saving throw or be poisoned until the start of its next turn. On a successful saving throw, the creature is immune to the crawler's fumes for 24 hours.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Claws</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) slashing damage plus 7 (2d6) acid damage.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Acid Spray (Recharge 6)</name>
+            <desc type="string">The crawler spits acid in a line that is 30 feet long and 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking 28 (8d6) acid damage on a failed save, or half as much damage on a successful one.</desc>
+          </id-00002>
+        </actions>
+      </causticcrawler>
     </category>
   </npc>
   <lists>
@@ -5989,6 +6384,16 @@
                 </link>
                 <source type="string"/>
               </krakenhatchling>
+              <koboldcommander>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.koboldcommander@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </koboldcommander>
             </index>
           </typeletterk>
           <typelettera>
@@ -6089,6 +6494,16 @@
                 </link>
                 <source type="string"/>
               </myrbattlesphere>
+              <magmabear>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.magmabear@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </magmabear>
             </index>
           </typeletterm>
           <typeletterb>
@@ -6209,6 +6624,16 @@
                 </link>
                 <source type="string"/>
               </clockworkpest>
+              <causticcrawler>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.causticcrawler@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </causticcrawler>
             </index>
           </typeletterc>
           <typeletters>
@@ -6764,6 +7189,16 @@
                 </link>
                 <source type="string"/>
               </wightwalker>
+              <wartitan>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.wartitan@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </wartitan>
             </index>
           </typeletterw>
           <typeletterv>
@@ -6963,6 +7398,18 @@
             <desc type="string">Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 -1) bludgeoning damage.</desc>
           </id-00001>
         </actions>
+        <text type="formattedtext">
+          <h>Kobold Shaman</h>
+          <p>Scents of heavy herbs, the clattering of trinkets and the subtle whispering of a cunning mind mark the arrival of a Kobold Shaman. Imbued with the magic of their god Tiamat, Kobold Shamans rule their tribe of kobolds, using guile and deception to keep their place. Kobold Shamans are frail but agile, their lives pushing them more to avoiding combat than getting into it themselves.</p>
+          <p>
+            <b>Rite of the Elements</b>
+          </p>
+          <p>Kobold Shamans must display their connection to the dragon god Tiamat. Those chosen to become a shaman must undergo a ritual of elements, being subjected to searing heat, deathly cold and noxious acid. Those who emerge from the ritual alive are awakened to the arcane energies of Tiamat.</p>
+          <p>
+            <b>Power of the Tribe:</b>
+          </p>
+          <p>Wielding Tiamat's magic, Kobold Shamans are the heart and mind of their tribe. Sitting on the top of the social hierarchy, Shamans delegate tasks in the tribe. Yet, their power is always tentative, as other kobolds grow agitated and envious. Kobold Shamans are quick to notice unrest in the tribe and are not above resorting to assassination or banishment to ensure their power remains intact.</p>
+        </text>
       </koboldshaman>
       <arcanamite>
         <locked type="number">1</locked>
@@ -7654,7 +8101,7 @@
         <traits>
           <id-00001>
             <name type="string">False Appearance</name>
-            <desc type="string">While the lizard remains motionless, it is indistinguishable from a normal plant, such as a colorful fern</desc>
+            <desc type="string">While the lizard remains motionless, it is indistinguishable from a normal plant, such as a colorful fern.</desc>
           </id-00001>
         </traits>
         <actions>
@@ -7670,8 +8117,20 @@
         <text type="formattedtext">
           <h>Fern Lizard</h>
           <p>Fern Lizards are quick land omnivores with the body of a lizard and the upper torso comprised of two small talons, a small fanged mouth and beady eyes. The entirety of a Fern Lizard's body appears as though it is made of a foliage. Capable of easily blending into its surroundings, Fern Lizards wait patiently for prey to come to them.</p>
-          <p>#bs;Patient Hunter</p>
+          <p>
+            <b>Patient Hunter</b>
+          </p>
           <p>Capable of standing immobile for hours, Fern Lizards wait for meals to stumble before them rather than waste energy hunting them down. Insects and plant life inspire them to voracious appetites. Fern Lizards are often seen slowly burrowing into tree trunks, using their acidic spittle to bore small holes to devour insects.</p>
+          <p>
+            <b>Prized Pet</b>
+          </p>
+          <p>Whether caught young or raised from an egg, a Fern Lizard can be trained to serve as a companion. Considered good luck and useful spies for druids, Fern Lizards are often in their company. Nobility view these creatures as exotic additions to their home, investing large sums of money to acquire them.</p>
+          <p>Once trained, a Fern Lizard is a loyal and useful companion. It bonds with one master for life and serves that master to the best of its abilities. A Fern Lizard requires satiation of its omnivorous appetite. Prone to capture or kidnapping, masters must be careful when bringing Fern Lizards in public as they immediately draw attention to both themselves and their owners.</p>
+          <p>
+            <b>Small Stewards</b>
+          </p>
+          <p>Fern Lizards make their nests in heavy growths of foliage, well away from the eyes of predators. Establishing their territory as a colony, Fern Lizards work as guardians of their surrounding area. Removing the region of pestilence and danger, these lizards become allies of druids and lovers of nature.</p>
+          <p>Fern Lizards have been known to help those who support and care for their environment, acting as guides for lost travelers and providing sources of food to those in need. Alternatively, Fern Lizards are extremely aggressive and territorial to those who bring trouble to their environment. Fern Lizards harry travelers; steal food and lead wanderers astray until the traveler flees or dies.</p>
         </text>
       </fernlizard>
       <fusionelemental>
@@ -7903,6 +8362,10 @@
             <desc type="string">Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.</desc>
           </id-00003>
         </actions>
+        <text type="formattedtext">
+          <h>Gnoll Death Knight</h>
+          <p>Yeenoghu chose gnoll Death Knights for his strength. Unlike fang's that can turn hyenas into gnolls, Death Knights are imbued with Yeenoghu's raw power. Champions of their god, Death Knights harness their demonic energies, becoming powerful tools of the fang. They serve as living weapons of their fang leaders or take their place as guards while fangs work their malice upon the land. Death Knights are unwavering in their obedience to Yeenoghu. The demonic powers in them exude a dark aura wherever they walk, leaving an odorous smell of offal in their wake.</p>
+        </text>
       </gnolldeathknight>
       <fiendishhyena>
         <locked type="number">1</locked>
@@ -8020,6 +8483,10 @@
             <desc type="string">The gnoll magically summons 1d4 fiendish hyenas. The summoned fiends appear in unoccupied spaces within 60 feet of their summoner and act as allies of their summoner. They remain for 10 minutes, until they or their summoner dies, or until their summoner dismisses them as an action.</desc>
           </id-00002>
         </actions>
+        <text type="formattedtext">
+          <h>Gnoll Deathmage</h>
+          <p>Yeenoghu chose gnoll Deathmages for his mind. Unlike fang's that can turn hyenas into gnolls, Deathmages are imbued with Yeenoghu's intelligence. The intellect of their god, a deathmage's cunning is the embodiment of their demonic blessing. A Deathmage works to further their fang's plots, acting as advisors and satellite leaders while fangs control the pack. Along with their enhanced intellect, Deathmages were granted the ability to call forth Yeenoghu's fiendish pets. Cunning and subtle, a deathmage becomes another deadly mechanism in the pack, bringing to fruition a fang's malicious will.</p>
+        </text>
       </gnolldeathmage>
       <gravetitan>
         <locked type="number">1</locked>
@@ -8244,6 +8711,29 @@
             <desc type="string">Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</desc>
           </id-00003>
         </actions>
+        <text type="formattedtext">
+          <h>Leonin</h>
+          <p>
+            <i>"Pride forged us. Pride drives us. We are the pride!" - Leonin warchant during the War of the Braves.</i>
+          </p>
+          <p>Leonin are tribal humanoids that reside in Great Plains and desert oasis. Their hut villages continually move, but are commonly found nearby watering holes, rivers or underneath massive trees.</p>
+          <p>
+            <b>Terrotorial Nomads</b>
+          </p>
+          <p>Leonin interact with other races on a strictly business like fashion. Fiercely territorial, their villages move throughout their domain, acting as scouts and defenders to any part that has been invaded. When unwelcome visitors are detected, the tribe sends an emissary to determine the nature of the visitors. If the visitor seems violent or malevolent the tribe will band together and drive them away. Traders are invited to speak with them, but never will they be allowed to enter the tribe itself.</p>
+          <p>Leonin hold a strict sense of traditional morality and are heavily rooted in honor. The acts of an individual do much in the eyes of Leonin. Ritualistic rites are performed among the tribe and when trade is conducted to test the moral mettle of an individual.</p>
+          <p>Leonin may leave the pride to become traveling merchants or hired guards. Still rooted in the spirituality of their pride, wandering Leonin often contend with those around them concerning personal thoughts and actions.</p>
+          <p>Alliances made with Leonin are steadfast and unyielding. Fiercely loyal and driven to uphold their honor, Leonin tribes are almost never the ones to break or end an alliance. Traders who make initial deals with the Leonin will always have a trading partner.</p>
+          <p>
+            <b>The Way of the Pride</b>
+          </p>
+          <p>Working towards a sense of honor and traditional morality, Leonin base their understanding of others through individual acts. Tests are constructed to place young Leonin in difficult moral situations, testing both the ability to make decisions under pressure as well as to determine mindsets. Leonin who fail to follow the Way of the Pride are further trained or eventually sent into exile, a dangerous way of life being too destructive to the pride as a whole.</p>
+          <p>
+            <b>Leonin Leaders</b>
+          </p>
+          <p>Leonin respect their leaders with a religious awe. Elders are chosen for either great deeds done or eventual age. Those imbued with magic are sent into study, learning how to curb magic to the Way of the Pride.</p>
+          <p>At times, a Leonin will be born into the pride afflicted by a Rakshasa spirit. These Leonin grow to be powerful spellcasters who hold within them the seed of evil. Cunning and patient, these Leonin wait and hide, passing through their pride's tests. If these Leonin become leaders, they will drive their pride to war, chaos or ruin.</p>
+        </text>
       </leonin>
       <luckdragon>
         <locked type="number">1</locked>
@@ -8379,6 +8869,14 @@
             <desc type="string">The kobold makes a cheap shot against a creature it can see within 5 feet of it. The target must succeed on a DC 12 Constitution saving throw or become incapacitated until the end of the kobold's next turn.</desc>
           </id-00004>
         </actions>
+        <text type="formattedtext">
+          <h>Kobold Bully</h>
+          <p>Thick sinuous muscle defines this Kobold, setting it apart from its wiry counterparts. Kobold Bullies stand with an air of confidence, bones of rivals hanging from their spears. Small black eyes glittering with malicious deviance show the harsh spirit that drives this creature.</p>
+          <p>
+            <b>Brute of the Pack</b>
+          </p>
+          <p>Born physically larger and stronger than others in the tribe, a Kobold Bully fights its way through the social hierarchy. A Kobold Bully works as muscle for the tribe, serving as guards and vanguards in battle. What a Kobold Bully lacks in cunning, it makes up for in brutal strength, tending to stab first and ask questions second. Kobold Bullies incite rage among their tribes, acting upon jealousy towards those who seem better off than them.</p>
+        </text>
       </koboldbully>
       <koboldhero>
         <locked type="number">1</locked>
@@ -8455,6 +8953,21 @@
             <desc type="string">The kobold throws sand at a creature it can see within 5 feet of it. The target must succeed on a DC 12 Dexterity saving throw or be blinded until the end of the kobold's next turn.</desc>
           </id-00004>
         </legendaryactions>
+        <text type="formattedtext">
+          <h>Kobold Hero</h>
+          <p>
+            <i>"Heroes have many fine qualities. Some races, however, fall short in places." - Termerus Dral A Study of Heroism</i>
+          </p>
+          <p>Bearing a mark uncommon from the rest of its tribe a Kobold Hero acts with the knowledge of its eventual success. Trained beyond any other, equipped with the finest gear and fervent in the belief of destiny, these creatures are the face of kobold tribes. Worldly knowledge and years of adventure show upon their scaled face. A Kobold Hero can rally tribes together and bring upon the world a deadly and zealous foe. When a Kobold Hero emerges, the world is destined to change.</p>
+          <p>
+            <b>Marked for Destiny:</b>
+          </p>
+          <p>When a Kobold Hero is born, they are marked. This marking varies from hero to hero, often appearing as a change in skin color or alteration of the eyes. These markings are recognized in kobold tribes as blessings from the Dragon Queen Tiamat. Immediately, kobolds marked are treated as vessels of destiny; raised, trained and pushed to fulfill the will of Tiamat.</p>
+          <p>
+            <b>Chosen of Tiamat:</b>
+          </p>
+          <p>Unlike other kobolds, Kobold Heroes are above any social hierarchy. Their right to rule and command goes unquestioned by any tribe. At this command, squabbling tribes of kobold rally under their banner and go forth to aid the Kobold Hero in its task. When Kobold Heroes appear, cities and towns neighboring kobold tribes tremble in fear of the impending armies these heroes create.</p>
+        </text>
       </koboldhero>
       <krakenhatchling>
         <locked type="number">1</locked>
@@ -8996,13 +9509,22 @@
             <name type="string">Horns</name>
             <desc type="string">Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 14 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a successful DC 14 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.</desc>
           </id-00003>
+          <id-00004>
+            <name type="string">Infernal Pact</name>
+            <desc type="string">A pact devil may convince a creatu re to exchange its soul for powerful infernal boons. Such boons may include but are not limited to: ability score improvements, new feats, or epic boons found in the Dungeon M aster's Guide (page 232). The pact lasts until the devil chooses to dismiss it or the devil dies. A wish spell can also end the pact.</desc>
+          </id-00004>
+          <id-00005>
+            <name type="string">A pact devil may convince a creature to exchange its soul for powerful infernal boons</name>
+            <desc type="string">Such boons may include but are not limited to: ability score improvements, new feats, or epic boons found in the Dungeon M aster's Guide (page 232). The pact lasts until the devil chooses to dismiss it or the devil dies. A wish spell can also end the pact. If a creature bound by such a pact dies, the devil claims its soul, forcing it into servitude for eternity. The creature can't be brought back to life after its soul has been claimed. Additionally, while bound by the infernal pact, the devil can communicate with the creature telepathically over any distance, even from another plane of existence. Once per month, the devil may charm the creature as if using the geas spell. The creature automatically fails the saving throw to resist the spell, and it can't be ended by any normal magic except for a wish spell, which also ends the pact.</desc>
+          </id-00005>
         </actions>
         <text type="formattedtext">
-          <p>INFERNAL PACT</p>
-          <p>A pact devil may convince a creatu re to exchange its soul for powerful infernal boons. Such boons may include but are not limited to: ability score improvements, new feats, or epic boons found in the Dungeon M aster's Guide (page 232). The pact lasts until the devil chooses to dismiss it or the devil dies. A wish spell can also end the pact.</p>
-          <p>A pact devil may convince a creatu re to exchange its soul for powerful infernal boons. Such boons may include but are not limited to: ability score improvements, new feats, or epic boons found in the Dungeon M aster's Guide (page 232). The pact lasts until the devil chooses to dismiss it or the devil dies. A wish spell can also end the pact.</p>
-          <p>If a creature bound by such a pact dies, the devil claims its soul, forcing it into servitude for eternity. The creature can't be brought back to life after its soul has been claimed.</p>
-          <p>Additionally, while bound by the infernal pact, the devil can communicate with the creature telepathically over any distance, even from another plane of existence. Once per month, the devil may charm the creature as if using the geas spell. The creature automatically fails the saving throw to resist the spell, and it can't be ended by any normal magic except for a wish spell, which also ends the pact.</p>
+          <h>Pact Devil</h>
+          <p>
+            <i>Its face was the mask of evil, every bone in my body told me to run, but I knew that there was power to be had and I was chosen to take it... the cost was too great. - The Great Kalemus' last speech to his audience.</i>
+          </p>
+          <p>Malicious whisperers, Pact Devils love to watch the inevitable demise of greatness that their deals bring. Pact Devils observe their potential victims for a time, learning their desires and motivations before coming in contact with them. Appearing in dreams or a number of short interactions, Pact Devils acquaint themselves with their target slowly. When their victim is at their most vulnerable, Pact Devils appear to offer their dark bargain.</p>
+          <p>Pact Devils are highly defensive of their powers. If the subject of their deal refuses an offer, the Pact Devil seeks to kill the individual, leaving behind no trace of the Pact Devil's existence. Rarely will the Pact Devil be noticed by anyone other than the intended victim. In these cases, Pact Devils will stop at nothing to kill the bystanders, whether that is by their hands or the creature bound to them.</p>
         </text>
       </pactdevil>
       <priestofblight>
@@ -9208,7 +9730,7 @@
         <text type="formattedtext">
           <h>Rat Hermit</h>
           <p>
-            <i>"The worse moment wasn't when we found ourselves surrounded by rats\u2026It was when we discovered that they were all thinking the same thing.</i>"</p>
+            <i>"The worse moment wasn't when we found ourselves surrounded by rats.</i>..It was when we discovered that they were all thinking the same thing."</p>
           <p>Rat Hermits find themselves as social outcasts. Exiled from normal civilization, they instead create their own world among the vermin they live close to.</p>
           <p>Rat Hermits dwell in sewers and cramped alleys, where they slowly build their small kingdom and seek revenge against those who shunned them.</p>
           <p>An individual who appeals to the Rat Hermit's sense of revenge is more likely to be treated nicely, provided they can give the Rat Hermit what they want.</p>
@@ -9516,6 +10038,22 @@
             <desc type="string">One creature of the spirit's choice within 20 feet of it must succeed on a DC 10 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, with disadvantage if the spirit is within line of sight, ending the effect on itself on a success.</desc>
           </id-00003>
         </actions>
+        <text type="formattedtext">
+          <h>Spirit</h>
+          <p>A spirit is the torn remnants of a once-living creature, bound to a specific location, creature or object. Like their close counter-parts, Ghosts, spirits haunt their location however they have been forced into manifesting, their essence split between the Ethereal and Material Plane.</p>
+          <p>
+            <b>Tasked to Remember.</b>
+          </p>
+          <p>A spirit serves as a living reminder of the past. Created from horrific circumstances, a spirit often acts as though they still lived, going about their daily lives and interacting with living beings by questioning or ignoring them. If the spirit was created by a horrific event like the desolation of a city or horrific act done upon them, the spirit harbors the ill will or fear of that moment, reacting violently or fearfully to those it comes in contact with.</p>
+          <p>
+            <b>Ghostly Manifestations.</b>
+          </p>
+          <p>Sensations of profound sadness, loneliness, and unfulfilled yearning emanate from places where spirits can be found. Quite whispers, odd sounds or unnatural silences create an ominous atmosphere.</p>
+          <p>
+            <b>Undead Nature.</b>
+          </p>
+          <p>A spirit doesn't require air, food, drink, or sleep.</p>
+        </text>
       </spirit>
       <truesongdancer>
         <locked type="number">1</locked>
@@ -10406,20 +10944,16 @@
         <legendaryactions>
           <id-00001>
             <name type="string">Terrorize (Recharge 5-6)</name>
-            <desc type="string"> The dream eater can take 2 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dream</desc>
+            <desc type="string"> The dream eater can take 2 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dream eater regains spent legendary actions at the start of its turn.</desc>
           </id-00001>
           <id-00002>
-            <name type="string">eater regains spent legendary actions at the start of its turn</name>
-            <desc type="string"/>
-          </id-00002>
-          <id-00003>
             <name type="string">Dream Walk</name>
             <desc type="string">The dream eater magically teleports up to 40 feet to an unoccupied space it can see.</desc>
-          </id-00003>
-          <id-00004>
+          </id-00002>
+          <id-00003>
             <name type="string">Deep Slumber (Costs 2 Actions)</name>
             <desc type="string">The dream eater targets one creature that it can see within 60 feet of it. The target must succeed on a DC 14 Wisdom saving throw or fall unconscious for 8 hours. The target wakes up if it takes damage or if another creature takes an action to shake it awake.</desc>
-          </id-00004>
+          </id-00003>
         </legendaryactions>
       </dreameater>
       <silverpawdog>
@@ -12711,6 +13245,68 @@
           </id-00002>
         </actions>
       </azuremindsculptor>
+      <koboldcommander>
+        <locked type="number">1</locked>
+        <name type="string">Kobold Commander</name>
+        <type type="string">Humanoid (kobold)</type>
+        <size type="string">Small</size>
+        <ac type="number">18</ac>
+        <actext type="string">(chain mail, shield)</actext>
+        <hp type="number">11</hp>
+        <hd type="string">(2d8 + 2)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">13</score>
+            <modifier type="string">+1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">9</score>
+            <modifier type="string">0</modifier>
+          </charisma>
+        </abilities>
+        <senses type="string">darkvision 60 ft., passive Perception 10</senses>
+        <alignment type="string">lawful evil</alignment>
+        <languages type="string">Common, Draconic</languages>
+        <cr type="string">1/2</cr>
+        <xp type="number">100</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Sunlight Sensitivity</name>
+            <desc type="string">While in sunlight, the kobold commander has disadvantage on attack rolles, as well as on Wisdom (Perception) checks that rely on sight.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Pack Tactics</name>
+            <desc type="string">The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Longsword</name>
+            <desc type="string">Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Longbow</name>
+            <desc type="string">Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</desc>
+          </id-00002>
+        </actions>
+      </koboldcommander>
       <infestationswarm>
         <locked type="number">1</locked>
         <name type="string">Infestation Swarm</name>
@@ -12840,6 +13436,240 @@
           </id-00002>
         </actions>
       </livingspellbook>
+      <wartitan>
+        <locked type="number">1</locked>
+        <name type="string">War Titan</name>
+        <type type="string">Fiend (Titan)</type>
+        <size type="string">Huge</size>
+        <ac type="number">18</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">207</hp>
+        <hd type="string">(18d12 + 90)</hd>
+        <speed type="string">40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">25</score>
+            <modifier type="string">+7</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">7</score>
+            <modifier type="string">-1</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Str +12, Con +10</savingthrows>
+        <damageresistances type="string">bludgeoning, piercing, slashing from nonmagical weapons</damageresistances>
+        <conditionimmunities type="string">exhaustion, frightened, stunned</conditionimmunities>
+        <senses type="string">darkvision 120 ft., passive Perception 10</senses>
+        <alignment type="string">chaotic (any)</alignment>
+        <languages type="string">Celestial, Infernal, Abyssal</languages>
+        <cr type="string">16</cr>
+        <xp type="number">15000</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Legendary Resistance (3/day)</name>
+            <desc type="string">If the titan fails a saving throw, it can choose to succeed instead.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Magic Resistance</name>
+            <desc type="string">The titan has advantage on saving throws against spells and other magical effects.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Magic Weapons</name>
+            <desc type="string">The titan's weapon attacks are magical.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Well-Armed</name>
+            <desc type="string">The titan can take one reaction on every turn in a combat.</desc>
+          </id-00004>
+        </traits>
+        <reactions>
+          <id-00001>
+            <name type="string">Parry</name>
+            <desc type="string">The titan gains +5 AC against one melee attack that would hit it. To do so, the titan must see the attacker and be wielding a melee weapon.</desc>
+          </id-00001>
+        </reactions>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The titan makes two melee weapon attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Longsword</name>
+            <desc type="string">Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7) slashing damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Blade Storm (Recharge 5-6)</name>
+            <desc type="string">The titan swings its weapons in a whirlwind of steel. Each creature within 10 feet of the titan must make a DC 20 Dexterity saving throw, taking 18 (4d8) bludgeoning damage, and 18 (4d8) piercing damage, and 18 (4d8) slashing damage on a failed save, or half as much damage on a successful save.</desc>
+          </id-00003>
+        </actions>
+        <legendaryactions>
+          <id-00001>
+            <name type="string">Parry</name>
+            <desc type="string"> The titan can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The titan regains spent legendary actions at the start of its turn.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Attack</name>
+            <desc type="string">The titan makes one attack.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">War Cry (costs 2 actions)</name>
+            <desc type="string">Each creature within 120 feet of the titan that can hear it must succeed on a DC 16 Wisdom saving throw or take 10 (4d4) psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Hold the Line (Costs 2 actions)</name>
+            <desc type="string">The titan gains 26 (4d12) temporary hit points.</desc>
+          </id-00004>
+        </legendaryactions>
+      </wartitan>
+      <magmabear>
+        <locked type="number">1</locked>
+        <name type="string">Magma Bear</name>
+        <type type="string">Elemental</type>
+        <size type="string">Large</size>
+        <ac type="number">13</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">75</hp>
+        <hd type="string">(10d10 + 20)</hd>
+        <speed type="string">40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">4</score>
+            <modifier type="string">-3</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </charisma>
+        </abilities>
+        <damagevulnerabilities type="string">cold</damagevulnerabilities>
+        <damageimmunities type="string">fire, poison</damageimmunities>
+        <conditionimmunities type="string">exhaustion, poisoned</conditionimmunities>
+        <senses type="string">darkvision 60 ft., passive Perception 11</senses>
+        <alignment type="string">Neutral</alignment>
+        <languages type="string">Ignan</languages>
+        <cr type="string">3</cr>
+        <xp type="number">700</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Water Susceptibility</name>
+            <desc type="string">For ever 5 feet the bear moves in water, or for every gallon of water splashed on it, it takes 1 cold damge.</desc>
+          </id-00001>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The bear makes two attacks: One with its bite and one with its claws.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Bite</name>
+            <desc type="string">Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) piercing damage plus 3 (1d6) fire damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Claws</name>
+            <desc type="string">Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Fire Breath (Recharge 5-6)</name>
+            <desc type="string">The bear exhales a blast of flames in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 17 (5d6) fire damage on a failed save, or half as much damage on a successful one.</desc>
+          </id-00004>
+        </actions>
+      </magmabear>
+      <causticcrawler>
+        <locked type="number">1</locked>
+        <name type="string">Caustic Crawler</name>
+        <type type="string">Monstrosity</type>
+        <size type="string">Medium</size>
+        <ac type="number">14</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">102</hp>
+        <hd type="string">(12d8 + 48)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">2</score>
+            <modifier type="string">-4</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">6</score>
+            <modifier type="string">-2</modifier>
+          </charisma>
+        </abilities>
+        <damageimmunities type="string">acid, poison</damageimmunities>
+        <conditionimmunities type="string">poisoned</conditionimmunities>
+        <senses type="string">darkvision 60 ft., passive Perception 11</senses>
+        <alignment type="string">unaligned</alignment>
+        <languages type="string">-</languages>
+        <cr type="string">4</cr>
+        <xp type="number">1100</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Acidic Blood</name>
+            <desc type="string">A creature that hits the crawler with a melee attack while within 5 ft of it takes 7 (2d6) acid damage.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Caustic Fumes</name>
+            <desc type="string">Any creature that starts its turn within 10 feet of the crawler must succeed on a DC 12 Constitution saving throw or be poisoned until the start of its next turn. On a successful saving throw, the creature is immune to the crawler's fumes for 24 hours.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Claws</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) slashing damage plus 7 (2d6) acid damage.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Acid Spray (Recharge 6)</name>
+            <desc type="string">The crawler spits acid in a line that is 30 feet long and 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking 28 (8d6) acid damage on a failed save, or half as much damage on a successful one.</desc>
+          </id-00002>
+        </actions>
+      </causticcrawler>
     </npcdata>
     <npclists>
       <npcs>
@@ -12914,6 +13744,16 @@
                 </link>
                 <source type="number"/>
               </krakenhatchling>
+              <koboldcommander>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.koboldcommander@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </koboldcommander>
             </index>
           </typeletterK>
           <typeletterA>
@@ -13014,6 +13854,16 @@
                 </link>
                 <source type="number"/>
               </myrbattlesphere>
+              <magmabear>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.magmabear@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </magmabear>
             </index>
           </typeletterM>
           <typeletterB>
@@ -13134,6 +13984,16 @@
                 </link>
                 <source type="number"/>
               </clockworkpest>
+              <causticcrawler>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.causticcrawler@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </causticcrawler>
             </index>
           </typeletterC>
           <typeletterS>
@@ -13689,6 +14549,16 @@
                 </link>
                 <source type="number"/>
               </wightwalker>
+              <wartitan>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.wartitan@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </wartitan>
             </index>
           </typeletterW>
           <typeletterV>
@@ -14129,6 +14999,16 @@
                 </link>
                 <source type="number"/>
               </snowspider>
+              <magmabear>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.magmabear@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </magmabear>
             </index>
           </level03>
           <level1_2>
@@ -14204,6 +15084,16 @@
                 </link>
                 <source type="number"/>
               </verdalin>
+              <koboldcommander>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.koboldcommander@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </koboldcommander>
             </index>
           </level1_2>
           <level09>
@@ -14339,6 +15229,16 @@
                 </link>
                 <source type="number"/>
               </infestationswarm>
+              <causticcrawler>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.causticcrawler@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </causticcrawler>
             </index>
           </level04>
           <level10>
@@ -14759,6 +15659,16 @@
                 </link>
                 <source type="number"/>
               </ginormoussquirrel>
+              <wartitan>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.wartitan@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </wartitan>
             </index>
           </level16>
           <level11>
@@ -14814,6 +15724,16 @@
                 </link>
                 <source>humanoid (kobold)</source>
               </koboldhero>
+              <koboldcommander>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.koboldcommander@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>Humanoid (kobold)</source>
+              </koboldcommander>
             </index>
           </typehumanoid_kobold_>
           <typemonstrosity>
@@ -14879,6 +15799,16 @@
                 </link>
                 <source>Monstrosity</source>
               </owlbearmatron>
+              <causticcrawler>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.causticcrawler@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>Monstrosity</source>
+              </causticcrawler>
             </index>
           </typemonstrosity>
           <typemonstrosity_sliver_>
@@ -15229,6 +16159,16 @@
                 </link>
                 <source>elemental</source>
               </fusionelemental>
+              <magmabear>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.magmabear@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>Elemental</source>
+              </magmabear>
             </index>
           </typeelemental>
           <typehumanoid_gazellean_>
@@ -15849,6 +16789,16 @@
                 </link>
                 <source>Monstrosity</source>
               </owlbearmatron>
+              <causticcrawler>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.causticcrawler@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>Monstrosity</source>
+              </causticcrawler>
             </index>
           </typemonstrosity>
           <typemonstrosity_sliver_>
@@ -16331,6 +17281,51 @@
               </azuremindsculptor>
             </index>
           </typehumanoid_anyrace_>
+          <typehumanoid_kobold_>
+            <description type="string">Humanoid (kobold)</description>
+            <index>
+              <koboldshaman>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.koboldshaman@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>humanoid (kobold)</source>
+              </koboldshaman>
+              <koboldbully>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.koboldbully@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>humanoid (kobold)</source>
+              </koboldbully>
+              <koboldhero>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.koboldhero@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>humanoid (kobold)</source>
+              </koboldhero>
+              <koboldcommander>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.koboldcommander@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>Humanoid (kobold)</source>
+              </koboldcommander>
+            </index>
+          </typehumanoid_kobold_>
           <typeswarmoftinymonstrosities>
             <description type="string">Swarm Of Tiny Monstrosities</description>
             <index>
@@ -16346,6 +17341,46 @@
               </infestationswarm>
             </index>
           </typeswarmoftinymonstrosities>
+          <typefiend_titan_>
+            <description type="string">Fiend (titan)</description>
+            <index>
+              <wartitan>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.wartitan@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>Fiend (Titan)</source>
+              </wartitan>
+            </index>
+          </typefiend_titan_>
+          <typeelemental>
+            <description type="string">Elemental</description>
+            <index>
+              <fusionelemental>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.fusionelemental@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>elemental</source>
+              </fusionelemental>
+              <magmabear>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.magmabear@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>Elemental</source>
+              </magmabear>
+            </index>
+          </typeelemental>
         </groups>
       </bytype>
     </npclists>
