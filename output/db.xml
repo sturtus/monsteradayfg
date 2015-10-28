@@ -138,6 +138,19 @@
             <desc type="string">If the arcanamite is attached to a creature with spell slots, roll a d4. The target loses a spell slot of that level, or the next highest level if it has no spell slots of that level. If the arcanamite has leeched a number of spell slots with a combined level of 8 or more, it detaches from the creature.</desc>
           </id-00002>
         </actions>
+        <text type="formattedtext">
+          <h>Arcanamite</h>
+          <p>Beautiful to look at, horrific to come across, Arcanamites scuttle through the deep places of the world, creating massive hive networks that stretch for miles. Drawn to magical energy, they nest closely to areas rich in arcane power, draining the region dry. Magic bounces harmlessly from Arcanamites as they swarm around their targets, burrowing into</p>
+          <p>them with razor-sharp pincers and needle beaks.</p>
+          <p>
+            <b>Prized Possession.</b> Partially made of arcane-infused gem, an Arcanamite's carapace is valuable to spellcasters and rare jewel crafters. Expeditions to Arcanamite hives, while dangerous, can provide a fortuitous haul. Spellcasters will sometimes attempt to capture an Arcanamite alive, using it as a defender or to harry other arcane-users.</p>
+          <p>
+            <b>Swarm Fighters.</b> Arcanamites sense arcane energy, moving to the most potent source first. They use needle-like barbs to latch onto their target, draining arcane energy. Arcanamites are rarely alone, living and fighting in large swarms. Once they sense magic energy, Arcanamites rush toward their target, ignoring the attacks and magic that bounce off of their resistant shell.</p>
+          <p>
+            <b>Dangerous Friends.</b> Arcanamites that are kept by lords and spellcasters are not trustworthy pets. Unless an adequate amount of arcane energy is given, Arcanamites will attempt to kill their captors, draining them of their magic or return to their hive.</p>
+          <p>
+            <b>Addictive Qualities.</b> The sensation left by Arcanamite draining is both painful but highly stimulating. Occasionally, spellcasters who experience this effect grow dependent of it. Aracanamites will remain latched on a target for years, draining arcane energy from their host while the victim is lost in the experience.</p>
+        </text>
       </arcanamite>
       <armorsliver>
         <locked type="number">1</locked>
@@ -6482,6 +6495,78 @@
           </id-00002>
         </actions>
       </gill_man>
+      <maskedkiller>
+        <locked type="number">1</locked>
+        <name type="string">Masked Killer</name>
+        <type type="string">humanoid (any race)</type>
+        <size type="string">Medium</size>
+        <ac type="number">15</ac>
+        <actext type="string">(studded leather)</actext>
+        <hp type="number">97</hp>
+        <hd type="string">(13d8 + 39)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Con +6, Wis +5</savingthrows>
+        <skills type="string">Athletics +7, Intimidation +5, Perception +5, Stealth +6</skills>
+        <senses type="string">passive Perception 15</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">any two languages</languages>
+        <cr type="string">5</cr>
+        <xp type="number">1800</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Aggressive</name>
+            <desc type="string">As a bonus action, the killer can move up to its speed toward a hostile creature that it can see.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Ambusher</name>
+            <desc type="string">The killer has advantage on attack rolls against any creature it has surprised.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Relentless (Recharges after a Short or Long Rest)</name>
+            <desc type="string">If the killer takes 20 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Surprise Attack</name>
+            <desc type="string">If the killer surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 14 (4d6) damage from the attack.</desc>
+          </id-00004>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The killer makes three melee attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Shortsword</name>
+            <desc type="string">Melee Weapon Attack: + 7 to hit, reach 5 ft., one target. Hit: 7 ( 1d6+4) piercing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 14 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to a bleeding wound. Each time the killer hits the wounded target with this attack, the damage dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a successful DC 14 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.</desc>
+          </id-00002>
+        </actions>
+      </maskedkiller>
     </category>
   </npc>
   <lists>
@@ -6652,6 +6737,16 @@
                 </link>
                 <source type="string"/>
               </magmabear>
+              <maskedkiller>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.maskedkiller@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </maskedkiller>
             </index>
           </typeletterm>
           <typeletterb>
@@ -7642,6 +7737,19 @@
             <desc type="string">If the arcanamite is attached to a creature with spell slots, roll a d4. The target loses a spell slot of that level, or the next highest level if it has no spell slots of that level. If the arcanamite has leeched a number of spell slots with a combined level of 8 or more, it detaches from the creature.</desc>
           </id-00002>
         </actions>
+        <text type="formattedtext">
+          <h>Arcanamite</h>
+          <p>Beautiful to look at, horrific to come across, Arcanamites scuttle through the deep places of the world, creating massive hive networks that stretch for miles. Drawn to magical energy, they nest closely to areas rich in arcane power, draining the region dry. Magic bounces harmlessly from Arcanamites as they swarm around their targets, burrowing into</p>
+          <p>them with razor-sharp pincers and needle beaks.</p>
+          <p>
+            <b>Prized Possession.</b> Partially made of arcane-infused gem, an Arcanamite's carapace is valuable to spellcasters and rare jewel crafters. Expeditions to Arcanamite hives, while dangerous, can provide a fortuitous haul. Spellcasters will sometimes attempt to capture an Arcanamite alive, using it as a defender or to harry other arcane-users.</p>
+          <p>
+            <b>Swarm Fighters.</b> Arcanamites sense arcane energy, moving to the most potent source first. They use needle-like barbs to latch onto their target, draining arcane energy. Arcanamites are rarely alone, living and fighting in large swarms. Once they sense magic energy, Arcanamites rush toward their target, ignoring the attacks and magic that bounce off of their resistant shell.</p>
+          <p>
+            <b>Dangerous Friends.</b> Arcanamites that are kept by lords and spellcasters are not trustworthy pets. Unless an adequate amount of arcane energy is given, Arcanamites will attempt to kill their captors, draining them of their magic or return to their hive.</p>
+          <p>
+            <b>Addictive Qualities.</b> The sensation left by Arcanamite draining is both painful but highly stimulating. Occasionally, spellcasters who experience this effect grow dependent of it. Aracanamites will remain latched on a target for years, draining arcane energy from their host while the victim is lost in the experience.</p>
+        </text>
       </arcanamite>
       <armorsliver>
         <locked type="number">1</locked>
@@ -13986,6 +14094,78 @@
           </id-00002>
         </actions>
       </gill_man>
+      <maskedkiller>
+        <locked type="number">1</locked>
+        <name type="string">Masked Killer</name>
+        <type type="string">humanoid (any race)</type>
+        <size type="string">Medium</size>
+        <ac type="number">15</ac>
+        <actext type="string">(studded leather)</actext>
+        <hp type="number">97</hp>
+        <hd type="string">(13d8 + 39)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Con +6, Wis +5</savingthrows>
+        <skills type="string">Athletics +7, Intimidation +5, Perception +5, Stealth +6</skills>
+        <senses type="string">passive Perception 15</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">any two languages</languages>
+        <cr type="string">5</cr>
+        <xp type="number">1800</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Aggressive</name>
+            <desc type="string">As a bonus action, the killer can move up to its speed toward a hostile creature that it can see.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Ambusher</name>
+            <desc type="string">The killer has advantage on attack rolls against any creature it has surprised.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Relentless (Recharges after a Short or Long Rest)</name>
+            <desc type="string">If the killer takes 20 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Surprise Attack</name>
+            <desc type="string">If the killer surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 14 (4d6) damage from the attack.</desc>
+          </id-00004>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The killer makes three melee attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Shortsword</name>
+            <desc type="string">Melee Weapon Attack: + 7 to hit, reach 5 ft., one target. Hit: 7 ( 1d6+4) piercing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 14 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to a bleeding wound. Each time the killer hits the wounded target with this attack, the damage dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a successful DC 14 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.</desc>
+          </id-00002>
+        </actions>
+      </maskedkiller>
     </npcdata>
     <npclists>
       <npcs>
@@ -14180,6 +14360,16 @@
                 </link>
                 <source type="number"/>
               </magmabear>
+              <maskedkiller>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.maskedkiller@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </maskedkiller>
             </index>
           </typeletterM>
           <typeletterB>
@@ -15955,6 +16145,16 @@
                 </link>
                 <source type="number"/>
               </owlbearmatron>
+              <maskedkiller>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.maskedkiller@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </maskedkiller>
             </index>
           </level05>
           <level13>
@@ -16815,6 +17015,16 @@
                 </link>
                 <source>Humanoid (any race)</source>
               </azuremindsculptor>
+              <maskedkiller>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.maskedkiller@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>humanoid (any race)</source>
+              </maskedkiller>
             </index>
           </typehumanoid_anyrace_>
           <typeforeclawsorbat_likewingsgrowalongmorphlitsastheytravel_grantingthemeasyaccesstoeventhemostdifficultofterrain_morphlitsshareacomplexhivemind_whichwasgiventothemattheircreation_smallhierarchiesconcerningshapeandpersonalityemergefromeachformamorphlittakes_wingedmorphlitstakeonanobserverroleintheirsociety_burrowingmorhplitsaremoreaggressive>
@@ -17655,6 +17865,16 @@
                 </link>
                 <source>Humanoid (any race)</source>
               </azuremindsculptor>
+              <maskedkiller>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.maskedkiller@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>humanoid (any race)</source>
+              </maskedkiller>
             </index>
           </typehumanoid_anyrace_>
           <typehumanoid_kobold_>

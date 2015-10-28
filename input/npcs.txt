@@ -1902,4 +1902,21 @@ ACTIONS
 Multiattack. The gill-man makes two attacks with its claws.
 Claw. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.
 
-
+Masked Killer
+Medium humanoid (any race), chaotic evil
+Armor Class 15 (studded leather)
+Hit Points 97 (13d8 + 39)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 18 (+4) 16 (+3) 16 (+3) 11 (+0) 14 (+2) 14 (+2)
+Saving Throws Con +6, Wis +5
+Skills Athletics +7, Intimidation +5, Perception +5, Stealth +6
+Senses passive Perception 15
+Languages any two languages
+Challenge 5 (1,800 XP)
+Aggressive. As a bonus action, the killer can move up to its speed toward a hostile creature that it can see.
+Ambusher. The killer has advantage on attack rolls against any creature it has surprised.
+Relentless (Recharges after a Short or Long Rest). If the killer takes 20 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.
+Surprise Attack. If the killer surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 14 (4d6) damage from the attack.
+ACTIONS
+Multiattack. The killer makes three melee attacks.
+Shortsword. Melee Weapon Attack: + 7 to hit, reach 5 ft., one target. Hit: 7 ( 1d6+4) piercing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 14 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to a bleeding wound. Each time the killer hits the wounded target with this attack, the damage dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a successful DC 14 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.
