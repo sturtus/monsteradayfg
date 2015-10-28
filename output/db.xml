@@ -3264,6 +3264,16 @@
             <desc type="string">Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 strength saving throw or be knocked prone.</desc>
           </id-00002>
         </actions>
+        <text type="formattedtext">
+          <h>Grove Guardian</h>
+          <p>A manifestation of nature's own self-defense, the Grove Guardian travels through the wilderness, protecting the land and its inhabitants. Taking the shape of a wolf, the Grove Guardian uses its fangs and powerful magic to drive away anything that threatens its land.</p>
+          <p>
+            <b>Neutral Guardians.</b> Grove Guardians do not think of things in terms of right or wrong, nor do they care for law. Emerging to protect the land it has been bound to, a Grove Guardian attacks all with zealous animosity. Only those who can convince it of their desire to protect the land are left alone. Druids are recognized by Grove Guardians but not exempted from their judgment, having to prove their loyalty to nature before a Guardian will ignore them.</p>
+          <p>
+            <b>Silent Sentinels.</b> Prior to attacking, Grove Guardians will make their presence known to outsiders. If outsiders do not demonstrate proper respect to the land or fail to acknowledge Grove Guardians in communication, the Guardians will attack.</p>
+          <p>
+            <b>Force of Nature.</b> The land calls Grove Guardians to its aid. Their numbers increase according to the danger of the situation. Often only one Guardian will be called in defense against wandering outsiders, but a whole pack may appear in the wake of cataclysmic events.</p>
+        </text>
       </groveguardian>
       <burningskeleton>
         <locked type="number">1</locked>
@@ -6334,6 +6344,144 @@
           </id-00002>
         </actions>
       </causticcrawler>
+      <evildoll>
+        <locked type="number">1</locked>
+        <name type="string">Evil Doll</name>
+        <type type="string">construct fiend</type>
+        <size type="string">Tiny</size>
+        <ac type="number">14</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">21</hp>
+        <hd type="string">(6d4 + 6)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">3</score>
+            <modifier type="string">-3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Deception +6, Perception +4, Persuasion +6, Stealth + 7</skills>
+        <damageresistances type="string">bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered</damageresistances>
+        <damageimmunities type="string">fire, poison</damageimmunities>
+        <conditionimmunities type="string">charmed, exhaustion, frightened, paralyzed, petrified, poisoned</conditionimmunities>
+        <senses type="string">darkvision 120 ft., passive Perception 14</senses>
+        <alignment type="string">lawful evil</alignment>
+        <languages type="string">Infernal, Common, telepathy 60 ft.</languages>
+        <cr type="string">2</cr>
+        <xp type="number">450</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Acid Spray (Recharge 6)</name>
+            <desc type="string"> Devil's Sight. Magical darkness doesn't impede the doll's darkvision.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Inanimate</name>
+            <desc type="string">While the doll remains motionless, it is indistinguishable from an ordinary doll.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Innate Spellcasting</name>
+            <desc type="string">The doll's spellcasting ability is Charisma (spell save DC 14). The doll can innately cast the following spells, requiring only verbal components: At will: suggestion 1/day each: dominate person, modify memory</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Undying Evil</name>
+            <desc type="string">If the doll is destroyed, it regains all its hitpoints and reappears at a nearby location in 24 hours unless a remove curse spell is cast on its remains.</desc>
+          </id-00004>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Giggle</name>
+            <desc type="string">One creature of the doll's choice within 30 feet of it must succeed on a DC 14 Wisdom saving throw or take 7 (2d6) psychic damage and become frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, with disadvantage if the doll is within line of sight, ending the effect on itself on a success.</desc>
+          </id-00001>
+        </actions>
+      </evildoll>
+      <gill_man>
+        <locked type="number">1</locked>
+        <name type="string">Gill-man</name>
+        <type type="string">monstrosity</type>
+        <size type="string">Medium</size>
+        <ac type="number">16</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">102</hp>
+        <hd type="string">(12d8 + 48)</hd>
+        <speed type="string">30 ft., swim 50 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">7</score>
+            <modifier type="string">-1</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Perception +5, Stealth +6</skills>
+        <damagevulnerabilities type="string">poison</damagevulnerabilities>
+        <senses type="string">darkvision 120 ft., passive Perception 15</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">Gill-man</languages>
+        <cr type="string">6</cr>
+        <xp type="number">2300</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Amphibious</name>
+            <desc type="string">The gill-man can breathe air and water.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Regeneration</name>
+            <desc type="string">The gill-man regains 10 hit points at the start of its turn. If the gill-man is poisoned, this trait doesn't function. If the gill-man takes poison damage, this trait doesn't function at the start of the gill-man's next turn. The gi ll-man dies only if it starts its turn with O hit points and doesn 't regenerate. Swimby. The gill-man doesn't provoke opportunity attacks when it swims out of an enemy's reach.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Torpedo Attack</name>
+            <desc type="string">If the gill-man swims at least 30 feet straight toward a target and then hits it with a melee weapon attack, the attack deals an extra 9 (2d8) damage to the target.</desc>
+          </id-00003>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The gill-man makes two attacks with its claws.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Claw</name>
+            <desc type="string">Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.</desc>
+          </id-00002>
+        </actions>
+      </gill_man>
     </category>
   </npc>
   <lists>
@@ -6949,6 +7097,16 @@
                 </link>
                 <source type="string"/>
               </ginormoussquirrel>
+              <gill_man>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.gill_man@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </gill_man>
             </index>
           </typeletterg>
           <typeletterh>
@@ -7249,6 +7407,16 @@
                 </link>
                 <source type="string"/>
               </essencesliver>
+              <evildoll>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.evildoll@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </evildoll>
             </index>
           </typelettere>
           <typeletterd>
@@ -10600,6 +10768,16 @@
             <desc type="string">Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 strength saving throw or be knocked prone.</desc>
           </id-00002>
         </actions>
+        <text type="formattedtext">
+          <h>Grove Guardian</h>
+          <p>A manifestation of nature's own self-defense, the Grove Guardian travels through the wilderness, protecting the land and its inhabitants. Taking the shape of a wolf, the Grove Guardian uses its fangs and powerful magic to drive away anything that threatens its land.</p>
+          <p>
+            <b>Neutral Guardians.</b> Grove Guardians do not think of things in terms of right or wrong, nor do they care for law. Emerging to protect the land it has been bound to, a Grove Guardian attacks all with zealous animosity. Only those who can convince it of their desire to protect the land are left alone. Druids are recognized by Grove Guardians but not exempted from their judgment, having to prove their loyalty to nature before a Guardian will ignore them.</p>
+          <p>
+            <b>Silent Sentinels.</b> Prior to attacking, Grove Guardians will make their presence known to outsiders. If outsiders do not demonstrate proper respect to the land or fail to acknowledge Grove Guardians in communication, the Guardians will attack.</p>
+          <p>
+            <b>Force of Nature.</b> The land calls Grove Guardians to its aid. Their numbers increase according to the danger of the situation. Often only one Guardian will be called in defense against wandering outsiders, but a whole pack may appear in the wake of cataclysmic events.</p>
+        </text>
       </groveguardian>
       <burningskeleton>
         <locked type="number">1</locked>
@@ -13670,6 +13848,144 @@
           </id-00002>
         </actions>
       </causticcrawler>
+      <evildoll>
+        <locked type="number">1</locked>
+        <name type="string">Evil Doll</name>
+        <type type="string">construct fiend</type>
+        <size type="string">Tiny</size>
+        <ac type="number">14</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">21</hp>
+        <hd type="string">(6d4 + 6)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">3</score>
+            <modifier type="string">-3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Deception +6, Perception +4, Persuasion +6, Stealth + 7</skills>
+        <damageresistances type="string">bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered</damageresistances>
+        <damageimmunities type="string">fire, poison</damageimmunities>
+        <conditionimmunities type="string">charmed, exhaustion, frightened, paralyzed, petrified, poisoned</conditionimmunities>
+        <senses type="string">darkvision 120 ft., passive Perception 14</senses>
+        <alignment type="string">lawful evil</alignment>
+        <languages type="string">Infernal, Common, telepathy 60 ft.</languages>
+        <cr type="string">2</cr>
+        <xp type="number">450</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Acid Spray (Recharge 6)</name>
+            <desc type="string"> Devil's Sight. Magical darkness doesn't impede the doll's darkvision.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Inanimate</name>
+            <desc type="string">While the doll remains motionless, it is indistinguishable from an ordinary doll.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Innate Spellcasting</name>
+            <desc type="string">The doll's spellcasting ability is Charisma (spell save DC 14). The doll can innately cast the following spells, requiring only verbal components: At will: suggestion 1/day each: dominate person, modify memory</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Undying Evil</name>
+            <desc type="string">If the doll is destroyed, it regains all its hitpoints and reappears at a nearby location in 24 hours unless a remove curse spell is cast on its remains.</desc>
+          </id-00004>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Giggle</name>
+            <desc type="string">One creature of the doll's choice within 30 feet of it must succeed on a DC 14 Wisdom saving throw or take 7 (2d6) psychic damage and become frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, with disadvantage if the doll is within line of sight, ending the effect on itself on a success.</desc>
+          </id-00001>
+        </actions>
+      </evildoll>
+      <gill_man>
+        <locked type="number">1</locked>
+        <name type="string">Gill-man</name>
+        <type type="string">monstrosity</type>
+        <size type="string">Medium</size>
+        <ac type="number">16</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">102</hp>
+        <hd type="string">(12d8 + 48)</hd>
+        <speed type="string">30 ft., swim 50 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">7</score>
+            <modifier type="string">-1</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Perception +5, Stealth +6</skills>
+        <damagevulnerabilities type="string">poison</damagevulnerabilities>
+        <senses type="string">darkvision 120 ft., passive Perception 15</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">Gill-man</languages>
+        <cr type="string">6</cr>
+        <xp type="number">2300</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Amphibious</name>
+            <desc type="string">The gill-man can breathe air and water.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Regeneration</name>
+            <desc type="string">The gill-man regains 10 hit points at the start of its turn. If the gill-man is poisoned, this trait doesn't function. If the gill-man takes poison damage, this trait doesn't function at the start of the gill-man's next turn. The gi ll-man dies only if it starts its turn with O hit points and doesn 't regenerate. Swimby. The gill-man doesn't provoke opportunity attacks when it swims out of an enemy's reach.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Torpedo Attack</name>
+            <desc type="string">If the gill-man swims at least 30 feet straight toward a target and then hits it with a melee weapon attack, the attack deals an extra 9 (2d8) damage to the target.</desc>
+          </id-00003>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The gill-man makes two attacks with its claws.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Claw</name>
+            <desc type="string">Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.</desc>
+          </id-00002>
+        </actions>
+      </gill_man>
     </npcdata>
     <npclists>
       <npcs>
@@ -14309,6 +14625,16 @@
                 </link>
                 <source type="number"/>
               </ginormoussquirrel>
+              <gill_man>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.gill_man@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </gill_man>
             </index>
           </typeletterG>
           <typeletterH>
@@ -14609,6 +14935,16 @@
                 </link>
                 <source type="number"/>
               </essencesliver>
+              <evildoll>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.evildoll@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </evildoll>
             </index>
           </typeletterE>
           <typeletterD>
@@ -14799,6 +15135,16 @@
                 </link>
                 <source type="number"/>
               </froghoul>
+              <evildoll>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.evildoll@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </evildoll>
             </index>
           </level02>
           <level01>
@@ -15374,6 +15720,16 @@
                 </link>
                 <source type="number"/>
               </wightwalker>
+              <gill_man>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.gill_man@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </gill_man>
             </index>
           </level06>
           <level07>
@@ -15809,6 +16165,16 @@
                 </link>
                 <source>Monstrosity</source>
               </causticcrawler>
+              <gill_man>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.gill_man@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>monstrosity</source>
+              </gill_man>
             </index>
           </typemonstrosity>
           <typemonstrosity_sliver_>
@@ -16799,6 +17165,16 @@
                 </link>
                 <source>Monstrosity</source>
               </causticcrawler>
+              <gill_man>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.gill_man@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>monstrosity</source>
+              </gill_man>
             </index>
           </typemonstrosity>
           <typemonstrosity_sliver_>
@@ -17381,6 +17757,21 @@
               </magmabear>
             </index>
           </typeelemental>
+          <typeconstructfiend>
+            <description type="string">Construct Fiend</description>
+            <index>
+              <evildoll>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.evildoll@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>construct fiend</source>
+              </evildoll>
+            </index>
+          </typeconstructfiend>
         </groups>
       </bytype>
     </npclists>

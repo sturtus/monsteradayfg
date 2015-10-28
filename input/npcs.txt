@@ -29,6 +29,14 @@ Reflective Carapace. Any time the arcanamite is targeted by a magic missile spel
 ACTIONS
 Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:4 (1d4 + 2) piercing damage, and the arcanamite can attach itself to the target. The arcanamite can be removed if a creature takes an action and succeeds on a DC 15 Strength check against it.The arcanamite detaches if it takes fire damage. Until the arcanamite detaches, it can't bite another target.
 Leech Magic. If the arcanamite is attached to a creature with spell slots, roll a d4. The target loses a spell slot of that level, or the next highest level if it has no spell slots of that level. If the arcanamite has leeched a number of spell slots with a combined level of 8 or more, it detaches from the creature.
+##;
+#h;Arcanamite
+Beautiful to look at, horrific to come across, Arcanamites scuttle through the deep places of the world, creating massive hive networks that stretch for miles. Drawn to magical energy, they nest closely to areas rich in arcane power, draining the region dry. Magic bounces harmlessly from Arcanamites as they swarm around their targets, burrowing into
+them with razor-sharp pincers and needle beaks.
+#bs;Prized Possession. Partially made of arcane-infused gem, an Arcanamite's carapace is valuable to spellcasters and rare jewel crafters. Expeditions to Arcanamite hives, while dangerous, can provide a fortuitous haul. Spellcasters will sometimes attempt to capture an Arcanamite alive, using it as a defender or to harry other arcane-users.
+#bs;Swarm Fighters. Arcanamites sense arcane energy, moving to the most potent source first. They use needle-like barbs to latch onto their target, draining arcane energy. Arcanamites are rarely alone, living and fighting in large swarms. Once they sense magic energy, Arcanamites rush toward their target, ignoring the attacks and magic that bounce off of their resistant shell. 
+#bs;Dangerous Friends. Arcanamites that are kept by lords and spellcasters are not trustworthy pets. Unless an adequate amount of arcane energy is given, Arcanamites will attempt to kill their captors, draining them of their magic or return to their hive.
+#bs;Addictive Qualities. The sensation left by Arcanamite draining is both painful but highly stimulating. Occasionally, spellcasters who experience this effect grow dependent of it. Aracanamites will remain latched on a target for years, draining arcane energy from their host while the victim is lost in the experience.
 
 Armor Sliver
 Large monstrosity (sliver), neutral evil
