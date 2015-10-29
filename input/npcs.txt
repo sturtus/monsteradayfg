@@ -212,13 +212,10 @@ Venemous Spittle (Recharge 5-6). The lizard spits a glob of venom at a creature 
 ##;
 #h;Fern Lizard
 Fern Lizards are quick land omnivores with the body of a lizard and the upper torso comprised of two small talons, a small fanged mouth and beady eyes. The entirety of a Fern Lizard's body appears as though it is made of a foliage. Capable of easily blending into its surroundings, Fern Lizards wait patiently for prey to come to them.
-#bp;Patient Hunter
-Capable of standing immobile for hours, Fern Lizards wait for meals to stumble before them rather than waste energy hunting them down. Insects and plant life inspire them to voracious appetites. Fern Lizards are often seen slowly burrowing into tree trunks, using their acidic spittle to bore small holes to devour insects.
-#bp;Prized Pet
-Whether caught young or raised from an egg, a Fern Lizard can be trained to serve as a companion. Considered good luck and useful spies for druids, Fern Lizards are often in their company. Nobility view these creatures as exotic additions to their home, investing large sums of money to acquire them.
+#bs;Patient Hunter. Capable of standing immobile for hours, Fern Lizards wait for meals to stumble before them rather than waste energy hunting them down. Insects and plant life inspire them to voracious appetites. Fern Lizards are often seen slowly burrowing into tree trunks, using their acidic spittle to bore small holes to devour insects.
+#bs;Prized Pet. Whether caught young or raised from an egg, a Fern Lizard can be trained to serve as a companion. Considered good luck and useful spies for druids, Fern Lizards are often in their company. Nobility view these creatures as exotic additions to their home, investing large sums of money to acquire them.
 Once trained, a Fern Lizard is a loyal and useful companion. It bonds with one master for life and serves that master to the best of its abilities. A Fern Lizard requires satiation of its omnivorous appetite. Prone to capture or kidnapping, masters must be careful when bringing Fern Lizards in public as they immediately draw attention to both themselves and their owners.
-#bp;Small Stewards
-Fern Lizards make their nests in heavy growths of foliage, well away from the eyes of predators. Establishing their territory as a colony, Fern Lizards work as guardians of their surrounding area. Removing the region of pestilence and danger, these lizards become allies of druids and lovers of nature.
+#bs;Small Stewards. Fern Lizards make their nests in heavy growths of foliage, well away from the eyes of predators. Establishing their territory as a colony, Fern Lizards work as guardians of their surrounding area. Removing the region of pestilence and danger, these lizards become allies of druids and lovers of nature.
 Fern Lizards have been known to help those who support and care for their environment, acting as guides for lost travelers and providing sources of food to those in need. Alternatively, Fern Lizards are extremely aggressive and territorial to those who bring trouble to their environment. Fern Lizards harry travelers; steal food and lead wanderers astray until the traveler flees or dies.
 
 Fusion Elemental
@@ -346,12 +343,10 @@ Hurl Zombies. Ranged Weapon Attack: +12 to hit, range 60/240 ft., one target. Hi
 ##;
 #h;Grave Titan:
 A true success in the minds of necromancers across the world, Grave Titans are walking monoliths of the undead. Lumbering forward on its master’s command, the Grave Titan leaves a trail of death and lurching zombies. The Grave Titan views the world as a wheat field – reaping and sowing death as it walks.
-#h;Abominable Creation:
-Grave Titans form when powerful necromancers collect the bodies of numerous humanoids and a freshly slain giant. Amassing the corpses into a great mound atop the giant, the necromancers bind their energies to the mound, enriching it with a mass of negative energy. Rising from the mound, a Grave Titan begins to devour the corpses.
+#bs;Abominable Creation. Grave Titans form when powerful necromancers collect the bodies of numerous humanoids and a freshly slain giant. Amassing the corpses into a great mound atop the giant, the necromancers bind their energies to the mound, enriching it with a mass of negative energy. Rising from the mound, a Grave Titan begins to devour the corpses.
 Once the final body is consumed, the Grave Titan completes its metamorphosis. The bodies that reside in the Titan reanimate, seeking to escape their prison. The torn hole in the Titan’s stomach quietly resonates with screams and cries as the restless zombies pull themselves free. Yet, any zombies that emerge from the Grave Titan are subject to the commands of the Titan’s master.
 Following their reanimation, Grave Titan’s have little memory of their former lives. They understand the language of their master, but beyond that they do not think or act directly for themselves.
-#h;Master’s Servant:
-The necromancers who summon the Titan hold complete control over the being. Grave Titans follow their master or masters without question, moving with menacing grace. If left with no command, Grave Titans will wander towards the next living thing they see, desiring to bring death to the world.
+#bs;Master’s Servant. The necromancers who summon the Titan hold complete control over the being. Grave Titans follow their master or masters without question, moving with menacing grace. If left with no command, Grave Titans will wander towards the next living thing they see, desiring to bring death to the world.
 Grave Titans are often employed as walking siege engines or guards to dark secrets. The Grave Titan’s ability to continually spawn zombies, make them highly desired to those not opposed to bolstering their army’s ranks.
 
 Herald Of Rot
@@ -376,7 +371,7 @@ Claws. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2dl 0 +
 Fetid Cloud (Recharge 5-6). A 20-foot-radius cloud of disease extends out from the herald. The cloud spreads around corners. Each creature in that area must succeed on a DC 14 Constitution saving throw or become diseased. While diseased in this way, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. A target can repeat the saving throw at the end of each of its turns, ending the disease on a success. 
 ##;
 #h;Herald of Rot:
-“The smell would last for days, embedded in stone, water, cloth and skin, although if you waited long enough for the smell to be in your skin then you are as foolish as those who summoned the demon.” – From The Essence of Rot by Melcornus Bolel, Necromancer of Saldur
+#ip;“The smell would last for days, embedded in stone, water, cloth and skin, although if you waited long enough for the smell to be in your skin then you are as foolish as those who summoned the demon.” – From The Essence of Rot by Melcornus Bolel, Necromancer of Saldur
 The living embodiment of disease and decay, a Herald of Rot looks like the abomination of humanoid, vulture and goat. Eyeless sockets stare at prey as a constant cloud of putrid offal hangs about the demon.
 If summoned, a Herald of Rot will fixate on a given or freely chosen target. Once fixated, the Herald will speak to its prey telepathically, detailing how it will bring decay and desolation to everything around the victim.
 Vanguard of demon armies, a Herald of Rot is a living chemical arsenal. Serving more powerful demon lords, they are often seen guarding important structures or enhancing torture by their mere presence. Heralds of Rot are most commonly found in the service of Demon Lord Juiblex, but their services expand far from the noxious lord’s control.
@@ -402,15 +397,12 @@ Javelin. Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 f
 #h;Leonin
 #ip;“Pride forged us. Pride drives us. We are the pride!” – Leonin warchant during the War of the Braves.
 Leonin are tribal humanoids that reside in Great Plains and desert oasis. Their hut villages continually move, but are commonly found nearby watering holes, rivers or underneath massive trees.
-#bp;Terrotorial Nomads
-Leonin interact with other races on a strictly business like fashion. Fiercely territorial, their villages move throughout their domain, acting as scouts and defenders to any part that has been invaded. When unwelcome visitors are detected, the tribe sends an emissary to determine the nature of the visitors. If the visitor seems violent or malevolent the tribe will band together and drive them away. Traders are invited to speak with them, but never will they be allowed to enter the tribe itself.
+#bs;Terrotorial Nomads. Leonin interact with other races on a strictly business like fashion. Fiercely territorial, their villages move throughout their domain, acting as scouts and defenders to any part that has been invaded. When unwelcome visitors are detected, the tribe sends an emissary to determine the nature of the visitors. If the visitor seems violent or malevolent the tribe will band together and drive them away. Traders are invited to speak with them, but never will they be allowed to enter the tribe itself.
 Leonin hold a strict sense of traditional morality and are heavily rooted in honor. The acts of an individual do much in the eyes of Leonin. Ritualistic rites are performed among the tribe and when trade is conducted to test the moral mettle of an individual.
 Leonin may leave the pride to become traveling merchants or hired guards. Still rooted in the spirituality of their pride, wandering Leonin often contend with those around them concerning personal thoughts and actions.
 Alliances made with Leonin are steadfast and unyielding. Fiercely loyal and driven to uphold their honor, Leonin tribes are almost never the ones to break or end an alliance. Traders who make initial deals with the Leonin will always have a trading partner.
-#bp;The Way of the Pride
-Working towards a sense of honor and traditional morality, Leonin base their understanding of others through individual acts. Tests are constructed to place young Leonin in difficult moral situations, testing both the ability to make decisions under pressure as well as to determine mindsets. Leonin who fail to follow the Way of the Pride are further trained or eventually sent into exile, a dangerous way of life being too destructive to the pride as a whole.
-#bp;Leonin Leaders
-Leonin respect their leaders with a religious awe. Elders are chosen for either great deeds done or eventual age. Those imbued with magic are sent into study, learning how to curb magic to the Way of the Pride.
+#bs;The Way of the Pride. Working towards a sense of honor and traditional morality, Leonin base their understanding of others through individual acts. Tests are constructed to place young Leonin in difficult moral situations, testing both the ability to make decisions under pressure as well as to determine mindsets. Leonin who fail to follow the Way of the Pride are further trained or eventually sent into exile, a dangerous way of life being too destructive to the pride as a whole.
+#bs;Leonin Leaders. Leonin respect their leaders with a religious awe. Elders are chosen for either great deeds done or eventual age. Those imbued with magic are sent into study, learning how to curb magic to the Way of the Pride.
 At times, a Leonin will be born into the pride afflicted by a Rakshasa spirit. These Leonin grow to be powerful spellcasters who hold within them the seed of evil. Cunning and patient, these Leonin wait and hide, passing through their pride’s tests. If these Leonin become leaders, they will drive their pride to war, chaos or ruin.
 
 Luck Dragon
@@ -452,8 +444,7 @@ Low Blow (Recharge 5-6). The kobold makes a cheap shot against a creature it can
 ##;
 #h;Kobold Bully
 Thick sinuous muscle defines this Kobold, setting it apart from its wiry counterparts. Kobold Bullies stand with an air of confidence, bones of rivals hanging from their spears. Small black eyes glittering with malicious deviance show the harsh spirit that drives this creature.
-#bp;Brute of the Pack
-Born physically larger and stronger than others in the tribe, a Kobold Bully fights its way through the social hierarchy. A Kobold Bully works as muscle for the tribe, serving as guards and vanguards in battle. What a Kobold Bully lacks in cunning, it makes up for in brutal strength, tending to stab first and ask questions second. Kobold Bullies incite rage among their tribes, acting upon jealousy towards those who seem better off than them.
+#bs;Brute of the Pack.  Born physically larger and stronger than others in the tribe, a Kobold Bully fights its way through the social hierarchy. A Kobold Bully works as muscle for the tribe, serving as guards and vanguards in battle. What a Kobold Bully lacks in cunning, it makes up for in brutal strength, tending to stab first and ask questions second. Kobold Bullies incite rage among their tribes, acting upon jealousy towards those who seem better off than them.
 
 Kobold Hero
 Small humanoid (kobold), lawful evil
@@ -478,10 +469,8 @@ Pocket Sand (Costs 2 actions). The kobold throws sand at a creature it can see w
 #h;Kobold Hero
 #ip;“Heroes have many fine qualities. Some races, however, fall short in places.” – Termerus Dral A Study of Heroism
 Bearing a mark uncommon from the rest of its tribe a Kobold Hero acts with the knowledge of its eventual success. Trained beyond any other, equipped with the finest gear and fervent in the belief of destiny, these creatures are the face of kobold tribes. Worldly knowledge and years of adventure show upon their scaled face. A Kobold Hero can rally tribes together and bring upon the world a deadly and zealous foe. When a Kobold Hero emerges, the world is destined to change.
-#bp;Marked for Destiny:
-When a Kobold Hero is born, they are marked. This marking varies from hero to hero, often appearing as a change in skin color or alteration of the eyes. These markings are recognized in kobold tribes as blessings from the Dragon Queen Tiamat. Immediately, kobolds marked are treated as vessels of destiny; raised, trained and pushed to fulfill the will of Tiamat.
-#bp;Chosen of Tiamat:
-Unlike other kobolds, Kobold Heroes are above any social hierarchy. Their right to rule and command goes unquestioned by any tribe. At this command, squabbling tribes of kobold rally under their banner and go forth to aid the Kobold Hero in its task. When Kobold Heroes appear, cities and towns neighboring kobold tribes tremble in fear of the impending armies these heroes create.
+#bs;Marked for Destiny. When a Kobold Hero is born, they are marked. This marking varies from hero to hero, often appearing as a change in skin color or alteration of the eyes. These markings are recognized in kobold tribes as blessings from the Dragon Queen Tiamat. Immediately, kobolds marked are treated as vessels of destiny; raised, trained and pushed to fulfill the will of Tiamat.
+#bs;Chosen of Tiamat. Unlike other kobolds, Kobold Heroes are above any social hierarchy. Their right to rule and command goes unquestioned by any tribe. At this command, squabbling tribes of kobold rally under their banner and go forth to aid the Kobold Hero in its task. When Kobold Heroes appear, cities and towns neighboring kobold tribes tremble in fear of the impending armies these heroes create.
 
 Kobold Shaman
 Small humanoid (kobold), lawful evil
@@ -503,10 +492,8 @@ Club. Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 -1) b
 ##;
 #h;Kobold Shaman
 Scents of heavy herbs, the clattering of trinkets and the subtle whispering of a cunning mind mark the arrival of a Kobold Shaman. Imbued with the magic of their god Tiamat, Kobold Shamans rule their tribe of kobolds, using guile and deception to keep their place. Kobold Shamans are frail but agile, their lives pushing them more to avoiding combat than getting into it themselves.
-#bp;Rite of the Elements
-Kobold Shamans must display their connection to the dragon god Tiamat. Those chosen to become a shaman must undergo a ritual of elements, being subjected to searing heat, deathly cold and noxious acid. Those who emerge from the ritual alive are awakened to the arcane energies of Tiamat.
-#bp;Power of the Tribe:
-Wielding Tiamat’s magic, Kobold Shamans are the heart and mind of their tribe. Sitting on the top of the social hierarchy, Shamans delegate tasks in the tribe. Yet, their power is always tentative, as other kobolds grow agitated and envious. Kobold Shamans are quick to notice unrest in the tribe and are not above resorting to assassination or banishment to ensure their power remains intact.
+#bs;Rite of the Elements. Kobold Shamans must display their connection to the dragon god Tiamat. Those chosen to become a shaman must undergo a ritual of elements, being subjected to searing heat, deathly cold and noxious acid. Those who emerge from the ritual alive are awakened to the arcane energies of Tiamat.
+#bs;Power of the Tribe. Wielding Tiamat’s magic, Kobold Shamans are the heart and mind of their tribe. Sitting on the top of the social hierarchy, Shamans delegate tasks in the tribe. Yet, their power is always tentative, as other kobolds grow agitated and envious. Kobold Shamans are quick to notice unrest in the tribe and are not above resorting to assassination or banishment to ensure their power remains intact.
 
 Kraken Hatchling
 Huge monstrosity (titan), chaotic evil
@@ -533,17 +520,14 @@ The kraken can take 3 legendary actions, choosing from the options below. Only o
 Release the Kraken (Costs 2 actions). The kraken removes any magical effects on itself that reduce its speed or cause it to be restrained, and escapes from any nonmagical restraints or being grappled.
 Water Surge (Costs 3 actions). A strong current surges from the kraken. Each creature within 30 feet of the kraken must succeed on a DC 17 Strength saving throw or be pushed up to 30 feet away from the kraken. On a success, the creature is pushed 10 feet away from the kraken.
 ##;
-#h;Kraken Hatchling:
+#h;Kraken Hatchling
 Every horror starts small. Even young the name of this beast strikes terror into the hearts of sailors and townsfolk: Kraken. Slumbering for years after its creation, the Kraken Hatchling grows in size and strength, waiting for the time to wake and bring destruction upon the world.
-#h;Spawn of Legend:
-Created from the malicious thoughts of their mature kin, the Kraken Hatchling spawns into a massive shell, where it lies dormant at the bottom of the sea or in fresh water lakes. Coastal civilizations and river ports fall into chaos once a Kraken Hatchling appears - its destructive wake ceasing trade or leaving towns and villages mere shell-carved craters.
+#bs;Spawn of Legend. Created from the malicious thoughts of their mature kin, the Kraken Hatchling spawns into a massive shell, where it lies dormant at the bottom of the sea or in fresh water lakes. Coastal civilizations and river ports fall into chaos once a Kraken Hatchling appears - its destructive wake ceasing trade or leaving towns and villages mere shell-carved craters.
 Destined to grow into primeval forces of destruction, Kraken Hatchlings awake to drag themselves to or from the water, eating and destroying anything that stands in their way. Ominous portents mark the arrival of a #h;Kraken Hatchling. 
 Terrible thunderstorms, floods and tremors wrack the land and rivers, and oceans grow thick with mucus before the Kraken Hatchling appears.
-#h;Hibernating Destruction:
-Slowly maturing into their horrific adult forms, Kraken Hatchlings hibernate in their great shells. Once every century, a Kraken Hatchling will awaken, to eat and travel closer to the ocean. The creation of new lakes and fresh riverbeds are common results as the Kraken Hatchling carves through the earth.
+#bs;Hibernating Destruction. Slowly maturing into their horrific adult forms, Kraken Hatchlings hibernate in their great shells. Once every century, a Kraken Hatchling will awaken, to eat and travel closer to the ocean. The creation of new lakes and fresh riverbeds are common results as the Kraken Hatchling carves through the earth.
 While dormant, Kraken Hatchlings will rarely react to the environment around it. Its malicious nature and presence, however, leaves a permanent mark the land. Large storms are common, nearby farmland fails due to mucus-saturated soil, and water close to the shell takes on an inky black hue.
-#h;Mortal Foe:
-Similar to their adult counterparts, the Kraken Hatchlings are often viewed as virtual gods. Coastal tribes, underwater communities or remote settlements deep in forests create cults and shrines for these beasts. If pleased, the Kraken Hatchling will becalm storms and remove its disease from the land. However, the mind the Kraken Hatchling quickly develops, planning the eventual demise of all things.
+#bs;Mortal Foe. Similar to their adult counterparts, the Kraken Hatchlings are often viewed as virtual gods. Coastal tribes, underwater communities or remote settlements deep in forests create cults and shrines for these beasts. If pleased, the Kraken Hatchling will becalm storms and remove its disease from the land. However, the mind the Kraken Hatchling quickly develops, planning the eventual demise of all things.
 
 Five Spire Initiate
 Medium humanoid (any race), any lawful alignment
@@ -569,11 +553,9 @@ Block. The initiate adds 3 to its AC against one melee attack that would hit it.
 #h;Monks of the Five Spires
 A swift jab sent a jolt of pain through Kine’s body. He grimaced, imagining every bar fight he had ever been in. The figure before him crouched low, balancing lightly on a single foot as the other poised, ready to lash out. Kine felt the sore spot where the monk had punched him - it burned slightly. He hefted his hammer and prepared to strike. The area where the monk had punched him suddenly flared with pain, feeling as though a hot brand had been placed there. Kine doubled over, hammer falling from his hand as he realized his mistake. This was not a brawling fighter; his opponent was a Monk of the Five Spires.
 Trained to hone their magical Ki into dangerous burning attacks, the Monks of the Five Spires are well known for their martial brilliance. Capable of both taking and returning devastating blows, a Monk of the Five Spires practices asceticism and monastic values with fanatic fervor.
-#h;Order of the Five.
-Unlike others who take the path of a monk, Monks of the Five Spires are extremely selective about those who are permitted to join their way of life. Believing in strict discipline, physical prowess and the acceptance of the volatile emotions that drive them, Monks of the Five Spires push their initiates close todeath, looking to ignite in them the spark of Ki that will give them their abilities.
+#bs;Order of the Five. Unlike others who take the path of a monk, Monks of the Five Spires are extremely selective about those who are permitted to join their way of life. Believing in strict discipline, physical prowess and the acceptance of the volatile emotions that drive them, Monks of the Five Spires push their initiates close todeath, looking to ignite in them the spark of Ki that will give them their abilities.
 Located near volcanoes, the Five Spires are formidable towers of stone and obsidian. Rising high into the air, these towers serve as a proving ground for Five Spire Initiates and homes to the Masters of the Five Spires. Monks of the Five Spires view themselves as artisans of battle. In the face of other monastic paths, a Monk of the Five Spires understands that they may be inferior but when it comes to a fight, there is none better. Trained to accept radical emotions, Monks of the Five Spires often come off as explosive and extreme. These ranges of emotions are the key source of energy that drives the Monks of the Five Spires. They use these fiery emotions to enhance their Ki energies, manifesting them into searing pain.
-#h;Initiation. 
-With the desire to become a Monk of the Five Spires, initiates go to a small town known as Blackwrath. Nestled at the base of the Five Spires, initiates must climb up a tower to be accepted as an apprentice. Those who fall could not overcome the first challenge. Each day following, Initiates of the Five Spires must climb the tower. Here they train, work and follow their master’s missives. Each evening, initiates climb back down and sleep in Blackwrath. Only masters may live at the top of the Five Spires.
+#bs;Initiation. With the desire to become a Monk of the Five Spires, initiates go to a small town known as Blackwrath. Nestled at the base of the Five Spires, initiates must climb up a tower to be accepted as an apprentice. Those who fall could not overcome the first challenge. Each day following, Initiates of the Five Spires must climb the tower. Here they train, work and follow their master’s missives. Each evening, initiates climb back down and sleep in Blackwrath. Only masters may live at the top of the Five Spires.
 Initiates of the Five Spires often are sent on missions to expand their view of the world and uphold law. During this time, Initiates of the Five Spires are required to return half of their earnings to the Spires as well as new discoveries. Those who fail to do this are either rejected from the path or punished upon return.
 Those who survive eventually attempt to join their masters. In a dangerous trial, the initiate swallows a draught of living fire, harvested from the nearby volcanoes. Wracked with pain, the initiate fights one of their masters. If they land a single hit upon the master, they are accepted as a Master of the Five Spires.
 
@@ -597,12 +579,12 @@ Fury of the Five Spires (Recharge 5-6). The master makes five unarmed strike att
 REACTIONS
 Fiery Block. The master adds 5 to its AC against one melee attack that would hit it. To do so, the master must see the attacker. If the attack misses, the attacker takes 7 (2d6) fire damage.
 ##;
-Monks of the Five Spires
+#h;Monks of the Five Spires
 A swift jab sent a jolt of pain through Kine’s body. He grimaced, imagining every bar fight he had ever been in. The figure before him crouched low, balancing lightly on a single foot as the other poised, ready to lash out. Kine felt the sore spot where the monk had punched him - it burned slightly. He hefted his hammer and prepared to strike. The area where the monk had punched him suddenly flared with pain, feeling as though a hot brand had been placed there. Kine doubled over, hammer falling from his hand as he realized his mistake. This was not a brawling fighter; his opponent was a Monk of the Five Spires.
 Trained to hone their magical Ki into dangerous burning attacks, the Monks of the Five Spires are well known for their martial brilliance. Capable of both taking and returning devastating blows, a Monk of the Five Spires practices asceticism and monastic values with fanatic fervor.
-Order of the Five. Unlike others who take the path of a monk, Monks of the Five Spires are extremely selective about those who are permitted to join their way of life. Believing in strict discipline, physical prowess and the acceptance of the volatile emotions that drive them, Monks of the Five Spires push their initiates close todeath, looking to ignite in them the spark of Ki that will give them their abilities.
+#bs;Order of the Five. Unlike others who take the path of a monk, Monks of the Five Spires are extremely selective about those who are permitted to join their way of life. Believing in strict discipline, physical prowess and the acceptance of the volatile emotions that drive them, Monks of the Five Spires push their initiates close todeath, looking to ignite in them the spark of Ki that will give them their abilities.
 Located near volcanoes, the Five Spires are formidable towers of stone and obsidian. Rising high into the air, these towers serve as a proving ground for Five Spire Initiates and homes to the Masters of the Five Spires. Monks of the Five Spires view themselves as artisans of battle. In the face of other monastic paths, a Monk of the Five Spires understands that they may be inferior but when it comes to a fight, there is none better. Trained to accept radical emotions, Monks of the Five Spires often come off as explosive and extreme. These ranges of emotions are the key source of energy that drives the Monks of the Five Spires. They use these fiery emotions to enhance their Ki energies, manifesting them into searing pain.
-Initiation. With the desire to become a Monk of the Five Spires, initiates go to a small town known as Blackwrath. Nestled at the base of the Five Spires, initiates must climb up a tower to be accepted as an apprentice. Those who fall could not overcome the first challenge. Each day following, Initiates of the Five Spires must climb the tower. Here they train, work and follow their master’s missives. Each evening, initiates climb back down and sleep in Blackwrath. Only masters may live at the top of the Five Spires.
+#bs;Initiation. With the desire to become a Monk of the Five Spires, initiates go to a small town known as Blackwrath. Nestled at the base of the Five Spires, initiates must climb up a tower to be accepted as an apprentice. Those who fall could not overcome the first challenge. Each day following, Initiates of the Five Spires must climb the tower. Here they train, work and follow their master’s missives. Each evening, initiates climb back down and sleep in Blackwrath. Only masters may live at the top of the Five Spires.
 Initiates of the Five Spires often are sent on missions to expand their view of the world and uphold law. During this time, Initiates of the Five Spires are required to return half of their earnings to the Spires as well as new discoveries. Those who fail to do this are either rejected from the path or punished upon return.
 Those who survive eventually attempt to join their masters. In a dangerous trial, the initiate swallows a draught of living fire, harvested from the nearby volcanoes. Wracked with pain, the initiate fights one of their masters. If they land a single hit upon the master, they are accepted as a Master of the Five Spires.
 
@@ -624,11 +606,9 @@ Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4+4) pi
 ##;
 #h;Morphlit:
 A Morphlit is small, weak and above all resilient. Creations of forgotten experiments, Morphlits adapt perfectly with their environment. They are wild, cunning creatures notorious for never failing to reach their victim. They embody a sense of brilliance long forgotten.
-#h;Ever-changing packs:
-Smarter than their small size indicates, Morphlits often join together to hunt larger prey. An instinctual understanding allows Morphlits to switch into the form most needed for their environment as well as vary their forms while in a pack to gain the most success during a hunt.
+#bs;Ever-changing packs. Smarter than their small size indicates, Morphlits often join together to hunt larger prey. An instinctual understanding allows Morphlits to switch into the form most needed for their environment as well as vary their forms while in a pack to gain the most success during a hunt.
 Large foreclaws or bat-like wings grow along Morphlits as they travel, granting them easy access to even the most difficult of terrain. Morphlits share a complex hivemind, which was given to them at their creation. Small hierarchies concerning shape and personality emerge from each form a Morphlit takes. Winged Morphlits take on an observer role in their society. Burrowing Morhplits are more aggressive, prone to competing against one another over a kill. Aquatic Morphits tend to be more passive unless provoked or agitated.
-#h;Spawn of Ancients:
-Long before the rise and fall of great empires, the upheaval of the earth and even before the pantheon of gods, Morphlits emerged as creations of great and mighty magic, formed to be durable test subjects to darker experiments. Seen as failures by their great masters, Morphlits were cast away, marked as inadequate.
+#bs;Spawn of Ancients. Long before the rise and fall of great empires, the upheaval of the earth and even before the pantheon of gods, Morphlits emerged as creations of great and mighty magic, formed to be durable test subjects to darker experiments. Seen as failures by their great masters, Morphlits were cast away, marked as inadequate.
 Throughout the dynamic changes of the world, Morphlits thrived; the great magic that formed them acting as a shield against change. Still products of a deep desire, Morphlits continue to act in accordance to long imbued commands from their former creators.
 
 Myr
@@ -758,7 +738,7 @@ Claws . Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3
 Call the Swarm (Recharge 5-6) . The rat hermit magically calls a swarm of rats. The called creatures arrive in 1 round, acting as allies of the rat hermit and obeying its commands.
 ##;
 #h;Rat Hermit
-#is;“The worse moment wasn’t when we found ourselves surrounded by rats...It was when we discovered that they were all thinking the same thing.”
+#ip;“The worse moment wasn’t when we found ourselves surrounded by rats...It was when we discovered that they were all thinking the same thing.”
 Rat Hermits find themselves as social outcasts. Exiled from normal civilization, they instead create their own world among the vermin they live close to.
 Rat Hermits dwell in sewers and cramped alleys, where they slowly build their small kingdom and seek revenge against those who shunned them. 
 An individual who appeals to the Rat Hermit’s sense of revenge is more likely to be treated nicely, provided they can give the Rat Hermit what they want.
@@ -783,16 +763,12 @@ Harpoon. Melee or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 20/60 ft
 ##;
 #ip;“I never thought we would let one on the boat. Those black, doll-like eyes scare me as much as its ability to hunt.” – Jarod Kentworth, Second mate of Serena
 With an the upper body of a shark and humanoid arms and legs, Selachians mark their bodies with scars, showing familial houses, honorable hunts or simply to make themselves more menacing. Selachian ruthlessness is well known among coastal and aquatic communities. Raiding parties wash like waves over sand castles, leaving destruction in their wake, before disappearing back into the sea.
-#h;Selachian Settlements:
-Most commonly found in the cold northern regions of the world, Selachian settlements are built in coral reefs, rocky coasts or underwater cliffs bordering a deep abyss. Unlike the rival merfolk, Selachians care little for the passage of time, often living for years without interaction with the outside world. Selachians tend to delve into the darkest parts of the ocean, hunting in packs to track down and kill larger prey. They come to the surface to raid ships and nearby settlements to collect more materials for their homes.
+#bs;Selachian Settlements. Most commonly found in the cold northern regions of the world, Selachian settlements are built in coral reefs, rocky coasts or underwater cliffs bordering a deep abyss. Unlike the rival merfolk, Selachians care little for the passage of time, often living for years without interaction with the outside world. Selachians tend to delve into the darkest parts of the ocean, hunting in packs to track down and kill larger prey. They come to the surface to raid ships and nearby settlements to collect more materials for their homes.
 Selachians defend themselves with weapons taken from pirating or crafted from whatever materials were salvaged form shipwrecks, beaches, and dead undersea creatures.
-#h;Hired-Muscle:
-Often, pirating crews or desperate merchants will hire a pair of Selachians to work for them. Money does little to inspire a Selachian, but promise of fresh blood or an epic prize will keep a Selachian in check for a time. Bought more for their brawn than brain, Selachians find their place as bodyguards or thugs, their bulky forms not well suited for nimble work.
+#bs;Hired-Muscle. Often, pirating crews or desperate merchants will hire a pair of Selachians to work for them. Money does little to inspire a Selachian, but promise of fresh blood or an epic prize will keep a Selachian in check for a time. Bought more for their brawn than brain, Selachians find their place as bodyguards or thugs, their bulky forms not well suited for nimble work.
 Pirates who convince these beasts to ship with them employ their strength as living grappling lines and frontline warriors. Sent to the board the enemy ship first, Selachians fall into bloody frenzies, leaving behind a wake of destruction until either alone or killed.
-#h;The Biggest Prize:
-Selachian communities believe in constantly outdoing one another. At birth, two Selachians are paired. For the rest of their lives, these Selachians wage a constant battle, heavily prompted by the community, to bring back the greatest prize. Often this prize is a kill or trophy but can also be feats of unlikely success. If a Selachian dies from this competition, their partner attempts to fulfill the pact for the other, marking it as the greatest prize they could achieve.
-#h;Mortal Enemies:
-Selachians and merfolk are mortal enemies. Years of raiding, destruction and war have carved a rift between the two species. Selachians also cannot abide merrow, who remind them too much of their less abyssal kin.
+#bs;The Biggest Prize. Selachian communities believe in constantly outdoing one another. At birth, two Selachians are paired. For the rest of their lives, these Selachians wage a constant battle, heavily prompted by the community, to bring back the greatest prize. Often this prize is a kill or trophy but can also be feats of unlikely success. If a Selachian dies from this competition, their partner attempts to fulfill the pact for the other, marking it as the greatest prize they could achieve.
+#bs;Mortal Enemies. Selachians and merfolk are mortal enemies. Years of raiding, destruction and war have carved a rift between the two species. Selachians also cannot abide merrow, who remind them too much of their less abyssal kin.
 
 Sliver
 Medium monstrosity (sliver), neutral evil
@@ -855,12 +831,9 @@ Scare (1/Day). One creature of the spirit's choice within 20 feet of it must suc
 ##;
 #h;Spirit
 A spirit is the torn remnants of a once-living creature, bound to a specific location, creature or object. Like their close counter-parts, Ghosts, spirits haunt their location however they have been forced into manifesting, their essence split between the Ethereal and Material Plane.
-#bp;Tasked to Remember.
-A spirit serves as a living reminder of the past. Created from horrific circumstances, a spirit often acts as though they still lived, going about their daily lives and interacting with living beings by questioning or ignoring them. If the spirit was created by a horrific event like the desolation of a city or horrific act done upon them, the spirit harbors the ill will or fear of that moment, reacting violently or fearfully to those it comes in contact with.
-#bp;Ghostly Manifestations.
-Sensations of profound sadness, loneliness, and unfulfilled yearning emanate from places where spirits can be found. Quite whispers, odd sounds or unnatural silences create an ominous atmosphere.
-#bp;Undead Nature.
-A spirit doesn’t require air, food, drink, or sleep.
+#bs;Tasked to Remember. A spirit serves as a living reminder of the past. Created from horrific circumstances, a spirit often acts as though they still lived, going about their daily lives and interacting with living beings by questioning or ignoring them. If the spirit was created by a horrific event like the desolation of a city or horrific act done upon them, the spirit harbors the ill will or fear of that moment, reacting violently or fearfully to those it comes in contact with.
+#bs;Ghostly Manifestations. Sensations of profound sadness, loneliness, and unfulfilled yearning emanate from places where spirits can be found. Quite whispers, odd sounds or unnatural silences create an ominous atmosphere.
+#bs;Undead Nature. A spirit doesn’t require air, food, drink, or sleep.
 
 Truesong Dancer
 Medium humanoid (any race), chaotic neutral
@@ -1920,3 +1893,24 @@ Surprise Attack. If the killer surprises a creature and hits it with an attack d
 ACTIONS
 Multiattack. The killer makes three melee attacks.
 Shortsword. Melee Weapon Attack: + 7 to hit, reach 5 ft., one target. Hit: 7 ( 1d6+4) piercing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 14 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to a bleeding wound. Each time the killer hits the wounded target with this attack, the damage dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a successful DC 14 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.
+
+Headless Horseman
+Medium fiend, lawful evil
+Armor Class 15 (chain shirt)
+Hit Points 153 (18d8 + 72)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 18 (+4) 16 (+3) 18 (+4) 10 (+0) 14 (+2) 17 (+3)
+Saving Throws Con + 7, Cha +6
+Skills Animal Handling +5, Perception +5
+Senses darkvision 120 ft., passive Perception 15
+Languages understands Common, Abyssal, and Infernal but can't speak
+Challenge 8 (3,900 XP)
+Mounted Combatant. The horseman can force an attack targeted at its mount to target itself instead.
+Ride-By. While mounted, the horseman and its mount don't provoke opportunity attacks when they move out of an enemy's reach.
+ACTIONS
+Multiattack. The horseman makes two melee attacks.
+Vorpal Longsword. Melee Weapon Attack:+ 7 to hit, reach 5 ft., one target. Hit: 17 (3d8 + 4) slashing damage. When the horseman rolls a 20 on the attack roll, if the damage would reduce the creature to 0 hit points, the horseman cuts off the creature's head.
+Jack-o'-lantern (Recharge 6). Ranged Weapon Attack:+ 7 to hit, range 30/60 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage plus 14 (4d6) fire damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or become stunned until the end of the horseman's next turn.
+##;
+#h;DREAD STEED
+A headless horseman always hunts for heads while riding its mount. Some may be found riding a living or skeletal warhorse. Particularly powerful horsemen ride dread steeds, hellish mounts that invoke as much fear as their riders. A dread steed uses the statistics of a nightmare, except that it has no fly speed.
