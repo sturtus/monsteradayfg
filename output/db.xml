@@ -136,8 +136,7 @@
         </actions>
         <text type="formattedtext">
           <h>Arcanamite</h>
-          <p>Beautiful to look at, horrific to come across, Arcanamites scuttle through the deep places of the world, creating massive hive networks that stretch for miles. Drawn to magical energy, they nest closely to areas rich in arcane power, draining the region dry. Magic bounces harmlessly from Arcanamites as they swarm around their targets, burrowing into</p>
-          <p>them with razor-sharp pincers and needle beaks.</p>
+          <p>Beautiful to look at, horrific to come across, Arcanamites scuttle through the deep places of the world, creating massive hive networks that stretch for miles. Drawn to magical energy, they nest closely to areas rich in arcane power, draining the region dry. Magic bounces harmlessly from Arcanamites as they swarm around their targets, burrowing into them with razor-sharp pincers and needle beaks.</p>
           <p>
             <b>Prized Possession.</b> Partially made of arcane-infused gem, an Arcanamite's carapace is valuable to spellcasters and rare jewel crafters. Expeditions to Arcanamite hives, while dangerous, can provide a fortuitous haul. Spellcasters will sometimes attempt to capture an Arcanamite alive, using it as a defender or to harry other arcane-users.</p>
           <p>
@@ -3539,6 +3538,18 @@
             <desc type="string">Gaze of Despair. The target creature must succeed on a DC 15 Charisma saving throw. On a failed save, the target becomes overwhelmed with despair for 1 minute, and has disadvantage on attack rolls, saving throws, and ability checks. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</desc>
           </id-00006>
         </actions>
+        <text type="formattedtext">
+          <h>Coven Horror</h>
+          <p>
+            <i>"I shuddered at their wailing and cackling. This was true evil, all three heads bickering on the best way to kill my friends as I cried behind the rock." - Camus, Former Caravan Guard</i>
+          </p>
+          <p>Hags represent all that is evil and cruel. A Coven Horror is evil and cruelty magnified. A wandering, agonized wretch, the Coven Horror seeks to ruin everything around it, believing that it may free itself from the horrid body it has been bound in.</p>
+          <p>
+            <b>Vile Origins.</b> The Coven Horror is the result of multiple witches who had made pacts with a demon and failed to live up to their end of the agreement. The witches were fused along with the wailing bodies of children that they had sacrificed in the name of that demon in order to constantly remind them of their failure. Each head of the horror is in control of the main trunk, but they will frequ ently snap at either of the two heads if they feel that the other is too close to their own head.</p>
+          <p>The horror is left to wander the Abyssal realm, spreading agony and despair throughout. They will take any chance to escape to the prime material plane so that they can to spread terror and dea th, believing that fulfilling their original pact by killing anyone they come across will release them from their torment.</p>
+          <p>
+            <b>Foe of Demons.</b> The witches that make up this monstrosity will always remember the demon that bound them together. While prone to quickly attacking the firs t thing they see in hopes that it will release their bond, the three witches will occasionally listen and help those who promise to show them to their demonic lord. Coven Horrors are fickle, each of the heads continually coming up with a way to free themselves, the most common choice being to kill those nearest to them in order to gain favor with their demonic binding. Demons fear these abominations, tending to steer clear of them throughout the Abyssal plane.</p>
+        </text>
       </covenhorror>
       <dreameater>
         <locked type="number">1</locked>
@@ -6612,6 +6623,97 @@
           <p>A headless horseman always hunts for heads while riding its mount. Some may be found riding a living or skeletal warhorse. Particularly powerful horsemen ride dread steeds, hellish mounts that invoke as much fear as their riders. A dread steed uses the statistics of a nightmare, except that it has no fly speed.</p>
         </text>
       </headlesshorseman>
+      <pumpkinking>
+        <locked type="number">1</locked>
+        <name type="string">Pumpkin King</name>
+        <type type="string">plant</type>
+        <size type="string">Huge</size>
+        <ac type="number">17</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">225</hp>
+        <hd type="string">(18d12+108)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">23</score>
+            <modifier type="string">+6</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">22</score>
+            <modifier type="string">+6</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">9</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Str + 11, Con + 11, Wis + 7</savingthrows>
+        <damagevulnerabilities type="string">slashing</damagevulnerabilities>
+        <damageresistances type="string">cold, fire, lightning</damageresistances>
+        <senses type="string">darkvision 120 ft., passive Perception 17</senses>
+        <alignment type="string">unaligned</alignment>
+        <languages type="string">Common, Sylvan</languages>
+        <cr type="string">13</cr>
+        <xp type="number">10000</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Legendary Resistance (3/day)</name>
+            <desc type="string">If the king fails a saving throw, it can choose to succeed instead.</desc>
+          </id-00001>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The king makes two slam attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Slam</name>
+            <desc type="string">Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) bludgeoning damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Squash</name>
+            <desc type="string">Melee Weapon Attack:+ 11 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage. The target must succeed on a DC 19 Strength saving throw or be knocked prone.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Gourd</name>
+            <desc type="string">Ranged Weapon Attack: +11 to hit, range 60/240 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage.</desc>
+          </id-00004>
+          <id-00005>
+            <name type="string">Seed Spit (Recharge 5-6)</name>
+            <desc type="string">The king spits pumpkin seeds in a 60-foot cone. Each creature in that area must make a DC 19 Dexterity saving throw, taking 45 (1 Od8) piercing damage on a failed save, or half as much damage on a successful one.</desc>
+          </id-00005>
+        </actions>
+        <legendaryactions>
+          <id-00001>
+            <name type="string">Seed Spit (Recharge 5-6)</name>
+            <desc type="string"> The king can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The king regains spent legendary actions at the start of its turn.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Squash</name>
+            <desc type="string">The king makes a squash attack.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Vine Lash (Costs 2 Actions)</name>
+            <desc type="string">The king lashes out with entangling vines. Each enemy creature within 20 feet of the king must succeed on a DC 19 Dexterity saving throw or become restrained. A creature restrained by the vines can use its action to make a DC 19 Strength check, freeing itself on a success. The vines can also be attacked and destroyed (AC 12; hp 20; vulnerability to slashing damage).</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Trick or Treat (Costs 3 Actions)</name>
+            <desc type="string">The king scatters up to three pumpkins, which fall in unoccupied spaces within 20 feet of the king. Each pumpkin then polymorphs into any kind of creature whose challenge rating is 4 or less, and acts as an ally of its king. The creatures revert to ordinary pumpkins when destroyed. The king can't control more than three polymorphed pumpkins at a time.</desc>
+          </id-00004>
+        </legendaryactions>
+      </pumpkinking>
     </category>
   </npc>
   <lists>
@@ -7372,6 +7474,16 @@
                 </link>
                 <source type="string"/>
               </platedsliver>
+              <pumpkinking>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.pumpkinking@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </pumpkinking>
             </index>
           </typeletterp>
           <typeletterr>
@@ -7790,8 +7902,7 @@
         </actions>
         <text type="formattedtext">
           <h>Arcanamite</h>
-          <p>Beautiful to look at, horrific to come across, Arcanamites scuttle through the deep places of the world, creating massive hive networks that stretch for miles. Drawn to magical energy, they nest closely to areas rich in arcane power, draining the region dry. Magic bounces harmlessly from Arcanamites as they swarm around their targets, burrowing into</p>
-          <p>them with razor-sharp pincers and needle beaks.</p>
+          <p>Beautiful to look at, horrific to come across, Arcanamites scuttle through the deep places of the world, creating massive hive networks that stretch for miles. Drawn to magical energy, they nest closely to areas rich in arcane power, draining the region dry. Magic bounces harmlessly from Arcanamites as they swarm around their targets, burrowing into them with razor-sharp pincers and needle beaks.</p>
           <p>
             <b>Prized Possession.</b> Partially made of arcane-infused gem, an Arcanamite's carapace is valuable to spellcasters and rare jewel crafters. Expeditions to Arcanamite hives, while dangerous, can provide a fortuitous haul. Spellcasters will sometimes attempt to capture an Arcanamite alive, using it as a defender or to harry other arcane-users.</p>
           <p>
@@ -11193,6 +11304,18 @@
             <desc type="string">Gaze of Despair. The target creature must succeed on a DC 15 Charisma saving throw. On a failed save, the target becomes overwhelmed with despair for 1 minute, and has disadvantage on attack rolls, saving throws, and ability checks. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</desc>
           </id-00006>
         </actions>
+        <text type="formattedtext">
+          <h>Coven Horror</h>
+          <p>
+            <i>"I shuddered at their wailing and cackling. This was true evil, all three heads bickering on the best way to kill my friends as I cried behind the rock." - Camus, Former Caravan Guard</i>
+          </p>
+          <p>Hags represent all that is evil and cruel. A Coven Horror is evil and cruelty magnified. A wandering, agonized wretch, the Coven Horror seeks to ruin everything around it, believing that it may free itself from the horrid body it has been bound in.</p>
+          <p>
+            <b>Vile Origins.</b> The Coven Horror is the result of multiple witches who had made pacts with a demon and failed to live up to their end of the agreement. The witches were fused along with the wailing bodies of children that they had sacrificed in the name of that demon in order to constantly remind them of their failure. Each head of the horror is in control of the main trunk, but they will frequ ently snap at either of the two heads if they feel that the other is too close to their own head.</p>
+          <p>The horror is left to wander the Abyssal realm, spreading agony and despair throughout. They will take any chance to escape to the prime material plane so that they can to spread terror and dea th, believing that fulfilling their original pact by killing anyone they come across will release them from their torment.</p>
+          <p>
+            <b>Foe of Demons.</b> The witches that make up this monstrosity will always remember the demon that bound them together. While prone to quickly attacking the firs t thing they see in hopes that it will release their bond, the three witches will occasionally listen and help those who promise to show them to their demonic lord. Coven Horrors are fickle, each of the heads continually coming up with a way to free themselves, the most common choice being to kill those nearest to them in order to gain favor with their demonic binding. Demons fear these abominations, tending to steer clear of them throughout the Abyssal plane.</p>
+        </text>
       </covenhorror>
       <dreameater>
         <locked type="number">1</locked>
@@ -14266,6 +14389,97 @@
           <p>A headless horseman always hunts for heads while riding its mount. Some may be found riding a living or skeletal warhorse. Particularly powerful horsemen ride dread steeds, hellish mounts that invoke as much fear as their riders. A dread steed uses the statistics of a nightmare, except that it has no fly speed.</p>
         </text>
       </headlesshorseman>
+      <pumpkinking>
+        <locked type="number">1</locked>
+        <name type="string">Pumpkin King</name>
+        <type type="string">plant</type>
+        <size type="string">Huge</size>
+        <ac type="number">17</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">225</hp>
+        <hd type="string">(18d12+108)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">23</score>
+            <modifier type="string">+6</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">22</score>
+            <modifier type="string">+6</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">9</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Str + 11, Con + 11, Wis + 7</savingthrows>
+        <damagevulnerabilities type="string">slashing</damagevulnerabilities>
+        <damageresistances type="string">cold, fire, lightning</damageresistances>
+        <senses type="string">darkvision 120 ft., passive Perception 17</senses>
+        <alignment type="string">unaligned</alignment>
+        <languages type="string">Common, Sylvan</languages>
+        <cr type="string">13</cr>
+        <xp type="number">10000</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Legendary Resistance (3/day)</name>
+            <desc type="string">If the king fails a saving throw, it can choose to succeed instead.</desc>
+          </id-00001>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The king makes two slam attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Slam</name>
+            <desc type="string">Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) bludgeoning damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Squash</name>
+            <desc type="string">Melee Weapon Attack:+ 11 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage. The target must succeed on a DC 19 Strength saving throw or be knocked prone.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Gourd</name>
+            <desc type="string">Ranged Weapon Attack: +11 to hit, range 60/240 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage.</desc>
+          </id-00004>
+          <id-00005>
+            <name type="string">Seed Spit (Recharge 5-6)</name>
+            <desc type="string">The king spits pumpkin seeds in a 60-foot cone. Each creature in that area must make a DC 19 Dexterity saving throw, taking 45 (1 Od8) piercing damage on a failed save, or half as much damage on a successful one.</desc>
+          </id-00005>
+        </actions>
+        <legendaryactions>
+          <id-00001>
+            <name type="string">Seed Spit (Recharge 5-6)</name>
+            <desc type="string"> The king can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The king regains spent legendary actions at the start of its turn.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Squash</name>
+            <desc type="string">The king makes a squash attack.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Vine Lash (Costs 2 Actions)</name>
+            <desc type="string">The king lashes out with entangling vines. Each enemy creature within 20 feet of the king must succeed on a DC 19 Dexterity saving throw or become restrained. A creature restrained by the vines can use its action to make a DC 19 Strength check, freeing itself on a success. The vines can also be attacked and destroyed (AC 12; hp 20; vulnerability to slashing damage).</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Trick or Treat (Costs 3 Actions)</name>
+            <desc type="string">The king scatters up to three pumpkins, which fall in unoccupied spaces within 20 feet of the king. Each pumpkin then polymorphs into any kind of creature whose challenge rating is 4 or less, and acts as an ally of its king. The creatures revert to ordinary pumpkins when destroyed. The king can't control more than three polymorphed pumpkins at a time.</desc>
+          </id-00004>
+        </legendaryactions>
+      </pumpkinking>
     </npcdata>
     <npclists>
       <npcs>
@@ -15050,6 +15264,16 @@
                 </link>
                 <source type="number"/>
               </platedsliver>
+              <pumpkinking>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.pumpkinking@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </pumpkinking>
             </index>
           </typeletterP>
           <typeletterR>
@@ -16290,6 +16514,16 @@
                 </link>
                 <source type="number"/>
               </sliverqueen>
+              <pumpkinking>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.pumpkinking@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </pumpkinking>
             </index>
           </level13>
           <level30>
@@ -18122,6 +18356,21 @@
               </evildoll>
             </index>
           </typeconstructfiend>
+          <typeplant>
+            <description type="string">Plant</description>
+            <index>
+              <pumpkinking>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.pumpkinking@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>plant</source>
+              </pumpkinking>
+            </index>
+          </typeplant>
         </groups>
       </bytype>
     </npclists>
