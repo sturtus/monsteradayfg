@@ -1921,7 +1921,6 @@ Jack-o'-lantern (Recharge 6). Ranged Weapon Attack:+ 7 to hit, range 30/60 ft., 
 #h;DREAD STEED
 A headless horseman always hunts for heads while riding its mount. Some may be found riding a living or skeletal warhorse. Particularly powerful horsemen ride dread steeds, hellish mounts that invoke as much fear as their riders. A dread steed uses the statistics of a nightmare, except that it has no fly speed.
 
-
 Pumpkin King
 Huge plant, unaligned
 Armor Class 17 (natural armor)
