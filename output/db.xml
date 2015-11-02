@@ -6714,6 +6714,136 @@
           </id-00004>
         </legendaryactions>
       </pumpkinking>
+      <wingedape>
+        <locked type="number">1</locked>
+        <name type="string">Winged Ape</name>
+        <type type="string">monstrosity</type>
+        <size type="string">Medium</size>
+        <ac type="number">13</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">39</hp>
+        <hd type="string">(6d8 + 12)</hd>
+        <speed type="string">30 ft., climb 30 ft., fly 50 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <intelligence>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">9</score>
+            <modifier type="string">0</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Athletics +5, Perception +3</skills>
+        <senses type="string">passive Perception 13</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">Common</languages>
+        <cr type="string">2</cr>
+        <xp type="number">450</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Dive Attack</name>
+            <desc type="string">If the ape is flying and dives at least 30 feet straight toward a target and then hits it with a melee weapon attack, the attack deals an extra 7 (2d6) damage to the target.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Monkey Grip</name>
+            <desc type="string">The ape can wield a two-handed weapon in one hand.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The ape makes two attacks: one with its fist and one with its greatsword.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Fist</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) bludgeoning damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Greatsword</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) slashing damage.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Rock</name>
+            <desc type="string">Ranged Weapon Attack: +5 to hit, range 25/50 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</desc>
+          </id-00004>
+        </actions>
+      </wingedape>
+      <feyote>
+        <locked type="number">1</locked>
+        <name type="string">Feyote</name>
+        <type type="string">fey</type>
+        <size type="string">Medium</size>
+        <ac type="number">12</ac>
+        <actext type="string"/>
+        <hp type="number">11</hp>
+        <hd type="string">(2d8 + 2)</hd>
+        <speed type="string">40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">13</score>
+            <modifier type="string">+1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">6</score>
+            <modifier type="string">-2</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Perception +4, Stealth +4</skills>
+        <senses type="string">darkvision 30 ft., passive Perception 14</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">understands Sylvan but can't speak</languages>
+        <cr type="string">1/4</cr>
+        <xp type="number">50</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Innate Spellcasting</name>
+            <desc type="string">The feyote's innate spellcasting ability is Wisdom. The feyote can innately cast the following spells, requiring no components: At will: druidcraft 1/day: enhance ability 1/week: divination</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Keen Hearing and Smell</name>
+            <desc type="string">The feyote has advantage on Wisdom (Perception) checks that rely on hearing or smell.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Magic Resistance</name>
+            <desc type="string">The feyote has advantage on saving throws against spells and other magical effects.</desc>
+          </id-00003>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Bite</name>
+            <desc type="string">Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</desc>
+          </id-00001>
+        </actions>
+      </feyote>
     </category>
   </npc>
   <lists>
@@ -7254,6 +7384,16 @@
                 </link>
                 <source type="string"/>
               </froghoul>
+              <feyote>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.feyote@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </feyote>
             </index>
           </typeletterf>
           <typeletterg>
@@ -7619,6 +7759,16 @@
                 </link>
                 <source type="string"/>
               </wartitan>
+              <wingedape>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.wingedape@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </wingedape>
             </index>
           </typeletterw>
           <typeletterv>
@@ -14480,6 +14630,136 @@
           </id-00004>
         </legendaryactions>
       </pumpkinking>
+      <wingedape>
+        <locked type="number">1</locked>
+        <name type="string">Winged Ape</name>
+        <type type="string">monstrosity</type>
+        <size type="string">Medium</size>
+        <ac type="number">13</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">39</hp>
+        <hd type="string">(6d8 + 12)</hd>
+        <speed type="string">30 ft., climb 30 ft., fly 50 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <intelligence>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">9</score>
+            <modifier type="string">0</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Athletics +5, Perception +3</skills>
+        <senses type="string">passive Perception 13</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">Common</languages>
+        <cr type="string">2</cr>
+        <xp type="number">450</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Dive Attack</name>
+            <desc type="string">If the ape is flying and dives at least 30 feet straight toward a target and then hits it with a melee weapon attack, the attack deals an extra 7 (2d6) damage to the target.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Monkey Grip</name>
+            <desc type="string">The ape can wield a two-handed weapon in one hand.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The ape makes two attacks: one with its fist and one with its greatsword.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Fist</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) bludgeoning damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Greatsword</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) slashing damage.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Rock</name>
+            <desc type="string">Ranged Weapon Attack: +5 to hit, range 25/50 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</desc>
+          </id-00004>
+        </actions>
+      </wingedape>
+      <feyote>
+        <locked type="number">1</locked>
+        <name type="string">Feyote</name>
+        <type type="string">fey</type>
+        <size type="string">Medium</size>
+        <ac type="number">12</ac>
+        <actext type="string"/>
+        <hp type="number">11</hp>
+        <hd type="string">(2d8 + 2)</hd>
+        <speed type="string">40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">13</score>
+            <modifier type="string">+1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">6</score>
+            <modifier type="string">-2</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Perception +4, Stealth +4</skills>
+        <senses type="string">darkvision 30 ft., passive Perception 14</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">understands Sylvan but can't speak</languages>
+        <cr type="string">1/4</cr>
+        <xp type="number">50</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Innate Spellcasting</name>
+            <desc type="string">The feyote's innate spellcasting ability is Wisdom. The feyote can innately cast the following spells, requiring no components: At will: druidcraft 1/day: enhance ability 1/week: divination</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Keen Hearing and Smell</name>
+            <desc type="string">The feyote has advantage on Wisdom (Perception) checks that rely on hearing or smell.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Magic Resistance</name>
+            <desc type="string">The feyote has advantage on saving throws against spells and other magical effects.</desc>
+          </id-00003>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Bite</name>
+            <desc type="string">Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</desc>
+          </id-00001>
+        </actions>
+      </feyote>
     </npcdata>
     <npclists>
       <npcs>
@@ -15044,6 +15324,16 @@
                 </link>
                 <source type="number"/>
               </froghoul>
+              <feyote>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.feyote@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </feyote>
             </index>
           </typeletterF>
           <typeletterG>
@@ -15409,6 +15699,16 @@
                 </link>
                 <source type="number"/>
               </wartitan>
+              <wingedape>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.wingedape@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </wingedape>
             </index>
           </typeletterW>
           <typeletterV>
@@ -15669,6 +15969,16 @@
                 </link>
                 <source type="number"/>
               </evildoll>
+              <wingedape>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.wingedape@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </wingedape>
             </index>
           </level02>
           <level01>
@@ -16334,6 +16644,16 @@
                 </link>
                 <source type="number"/>
               </clockworkpest>
+              <feyote>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.feyote@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </feyote>
             </index>
           </level1_4>
           <level12>
@@ -16729,6 +17049,16 @@
                 </link>
                 <source>monstrosity</source>
               </gill_man>
+              <wingedape>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.wingedape@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>monstrosity</source>
+              </wingedape>
             </index>
           </typemonstrosity>
           <typemonstrosity_sliver_>
@@ -17504,6 +17834,16 @@
                 </link>
                 <source>Fey</source>
               </wintersprite>
+              <feyote>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.feyote@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>fey</source>
+              </feyote>
             </index>
           </typefey>
           <typeaberration>
@@ -17749,6 +18089,16 @@
                 </link>
                 <source>monstrosity</source>
               </gill_man>
+              <wingedape>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.wingedape@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>monstrosity</source>
+              </wingedape>
             </index>
           </typemonstrosity>
           <typemonstrosity_sliver_>
@@ -17984,6 +18334,16 @@
                 </link>
                 <source>Fey</source>
               </wintersprite>
+              <feyote>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.feyote@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>fey</source>
+              </feyote>
             </index>
           </typefey>
           <typebeast>
