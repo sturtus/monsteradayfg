@@ -9,9 +9,32 @@ Languages Common, Draconic
 Challenge 2 (450 XP)
 Sunlight Sensitivity. While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 Pack Tactics. The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated.
-Spellcasting. The kobold is a 4th-level spellcaster. Its spellcasting ability is Wisdom (save DC 12, +4 to hit with spell attacks). The kobold has the following spells prepared: Cantrips (at will): druidcraft, produceflame, shillelagh 1st level (4 slots): cure wounds,fog cloud, healing word 2nd level (3 slots):flaming sphere, heat metal
+Spellcasting. The kobold is a 4th-level spellcaster. Its spellcasting ability is Wisdom (save DC 12, +4 to hit with spell attacks). The kobold has the following spells prepared: 
+Cantrips (at will): druidcraft, produceflame, shillelagh 
+1st level (4 slots): cure wounds,fog cloud, healing word 
+2nd level (3 slots):flaming sphere, heat metal
 ACTIONS
 Club. Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 -1) bludgeoning damage.
+##;
+#h;Spellcasting. 
+The kobold is a 4th-level spellcaster. Its spellcasting ability is Wisdom (save DC 12, +4 to hit with spell attacks). The kobold has the following spells prepared: 
+#bp;Cantrips (at will): 
+#zls;
+#zal;spell;Druidcraft
+#zal;spell;Produce Flame
+#zal;spell;Shillelagh
+#zle;
+#bp;1st level (4 slots):
+#zls;
+#zal;spell;Cure Wounds
+#zal;spell;Fog Cloud
+#zal;spell;Healing Word 
+#zle;
+#bp;2nd level (3 slots):
+#zls;
+#zal;spell;Flaming Sphere
+#zal;spell;Heat Metal
+#zle;
 
 Arcanamite
 Small monstrosity, unaligned
@@ -1983,3 +2006,39 @@ Keen Hearing and Smell. The feyote has advantage on Wisdom (Perception) checks t
 Magic Resistance. The feyote has advantage on saving throws against spells and other magical effects.
 ACTIONS
 Bite. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.
+##;
+#h;Spellcasting
+#bs;Innate Spellcasting. The feyote's innate spellcasting ability is Wisdom. The feyote can innately cast the following spells, requiring no components:
+#bp;At will: 
+#zls;
+#zal;spell;Druidcraft;druidcraft
+#zle;
+#bp;1/day: 
+#zls;
+#zal;spell;Enhance Ability
+#zle;
+#bp;1/week: 
+#zls;
+#zal;spell;Divination
+#zle;
+
+Scorpikis
+Large monstrosity, chaotic evil
+Armor Class 17 (natural armor)
+Hit Points 123 (13d10 + 52)
+Speed 40 ft.
+STR DEX CON INT WIS CHA 18 (+4) 16 (+3) 18 (+4) 10 (+0) 12 (+1) 9 (-1)
+Skills Perception +4, Stealth +6
+Damage Immunities poison
+Condition Immunities poisoned
+Senses blindsight 60 ft., passive Perception 14
+Languages Common
+Challenge 6 (2,300 XP)
+Sure-Footed. The scorpikis has advantage on Strength and Dexterity saving th rows made against effects that would knock it prone.
+ACTIONS
+Multiattack. The scorpikis makes three attacks: two with its claws and one with its sting. It can make a glaive attack in place of a claw attack.
+Claw. Melee Weapon Attack: + 7 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) bludgeoning damage, and the target is grappled (escape DC 14). The scorpikis has two claws, each of which can grapple only one target.
+Glaive. Melee Weapon Attack: + 7 to hit, reach 10ft., one target. Hit: 9 (1d10 + 4) slashing damage.
+Sting. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage, and the target must make a DC 14 Constitution saving throw, taking 22 (4d10) poison damage on a failed save, or half as much damage on a successful one.
+REACTIONS
+Parry. The scorpikis adds 3 to its AC against one melee attack that would hit it. To do so, the scorpikis must see the attacker.
