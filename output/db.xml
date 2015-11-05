@@ -3752,6 +3752,20 @@
             <desc type="string">The paladin can touch a creature to restore 25 hit points to that creature. Additionally, the touch cures the target of one disease or neutralizes one poison affecting it.</desc>
           </id-00004>
         </actions>
+        <text type="formattedtext">
+          <h>Silverpaw Paladins</h>
+          <p>
+            <i>"I can't tell who is more loyal: the Paladin to their casue or the dog to their Paladin" - Camus, Former Caravan Guard</i>
+          </p>
+          <p>The Silverpaw guild works to maintain order and justice. Their initiates and veterans are well armed. Their dangerous animal companions trained to undertake any situation. The Silverpaw guild works as the symbol of loyalty and stoicism. Guild paladins show themselves as implacable stewards but rumor has told of wild and dangerous emotions stirring beneath a Silverpaw's stare.</p>
+          <p>
+            <b>The Legend of the Fey.</b> The founders of the Silverpaw were halflings who, alongside their riding dog companions, stumbled into the Feywild. Suffering the harsh lessons of natural law, the paladins returned, vowing to never'allow the world to transform into the dangerous Feywild. Their dog companions also took fey influences, becoming stronger and larger than normal canines. Every Silverpaw dog's linage can be traced to those original companions and carry the legacy of the fey in their blood.</p>
+          <p>
+            <b>Initiation.</b> New recruits to the Silverpaw guild are given a dog. While the dogs may vary in size and breed, most are riding dogs or large mastiffs. Expected to raise and protect their animal companion, Silverpaw initiates are then sent to fulfill the requests of the guild. If, at any time, an initiate's dog is Jost during combat the new recruit is expelled.</p>
+          <p>Eventually, the initiate and their companion will take on a final challenge, being offered a chance to enter the Feywild for three days. If both the initiate and their companion emerge from the experience alive, they are promoted to champions of the Silverpaw guild.</p>
+          <p>
+            <b>Organization.</b> The Silverpaw guild believes the world is teetering on the brink of chaos. Having seen first hand the influences of the Feywild, Silverpaw champions work to maintain order. Some Silverpaw members return from the Feywild influencea by the chaos of the plane. These members are employed as subtle shock troopers, working to enact Silverpaw desires without drawing attention to the Silverpaw themselves.</p>
+        </text>
       </silverpawpaladin>
       <broodbutcher>
         <locked type="number">1</locked>
@@ -6843,7 +6857,434 @@
             <desc type="string">Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</desc>
           </id-00001>
         </actions>
+        <text type="formattedtext">
+          <h>Spellcasting</h>
+          <p>
+            <b>Innate Spellcasting.</b> The feyote's innate spellcasting ability is Wisdom. The feyote can innately cast the following spells, requiring no components:</p>
+          <p>
+            <b>At will:</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.druidcraft@*">druidcraft</link>
+          </listlink>
+          <p>
+            <b>1/day:</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.enhanceability@*">Enhance Ability</link>
+          </listlink>
+          <p>
+            <b>1/week:</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.divination@*">Divination</link>
+          </listlink>
+        </text>
       </feyote>
+      <scorpikis>
+        <locked type="number">1</locked>
+        <name type="string">Scorpikis</name>
+        <type type="string">monstrosity</type>
+        <size type="string">Large</size>
+        <ac type="number">17</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">123</hp>
+        <hd type="string">(13d10 + 52)</hd>
+        <speed type="string">40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">9</score>
+            <modifier type="string">0</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Perception +4, Stealth +6</skills>
+        <damageimmunities type="string">poison</damageimmunities>
+        <conditionimmunities type="string">poisoned</conditionimmunities>
+        <senses type="string">blindsight 60 ft., passive Perception 14</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">Common</languages>
+        <cr type="string">6</cr>
+        <xp type="number">2300</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Sure-Footed</name>
+            <desc type="string">The scorpikis has advantage on Strength and Dexterity saving th rows made against effects that would knock it prone.</desc>
+          </id-00001>
+        </traits>
+        <reactions>
+          <id-00001>
+            <name type="string">Parry</name>
+            <desc type="string">The scorpikis adds 3 to its AC against one melee attack that would hit it. To do so, the scorpikis must see the attacker.</desc>
+          </id-00001>
+        </reactions>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The scorpikis makes three attacks: two with its claws and one with its sting. It can make a glaive attack in place of a claw attack.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Claw</name>
+            <desc type="string">Melee Weapon Attack: + 7 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) bludgeoning damage, and the target is grappled (escape DC 14). The scorpikis has two claws, each of which can grapple only one target.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Glaive</name>
+            <desc type="string">Melee Weapon Attack: + 7 to hit, reach 10ft., one target. Hit: 9 (1d10 + 4) slashing damage.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Sting</name>
+            <desc type="string">Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage, and the target must make a DC 14 Constitution saving throw, taking 22 (4d10) poison damage on a failed save, or half as much damage on a successful one.</desc>
+          </id-00004>
+        </actions>
+      </scorpikis>
+      <ancientchronomancer>
+        <locked type="number">1</locked>
+        <name type="string">Ancient Chronomancer</name>
+        <type type="string">humanoid construct</type>
+        <size type="string">Medium</size>
+        <ac type="number">16</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">67</hp>
+        <hd type="string">(9d8 + 27)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <intelligence>
+            <score type="number">17</score>
+            <modifier type="string">+3</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Int+ 6, Wis +5</savingthrows>
+        <skills type="string">Arcane +6, History +6</skills>
+        <damageimmunities type="string">poison</damageimmunities>
+        <conditionimmunities type="string">exhaustion, paralyzed, petrified, poisoned</conditionimmunities>
+        <senses type="string">darkvision 60 ft., passive Perception 12</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">any four languages</languages>
+        <cr type="string">7</cr>
+        <xp type="number">2900</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Spellcasting</name>
+            <desc type="string">The chronomancer is a 9th-level spellcaster. Its spellcasting ability is Intelligence (save DC 14, +6 to hit with spell attacks). The chronomancer has the following wizard sells prepared: Cantrips (at will): blade ward, mage hand, ray of frost, prestidigitation 1st level (4 slots): detect magic, expeditious retreat, magic missile, shield 2nd level (3 slots): hold person, misty step 3rd level (3 slots): blink, haste, slow 4th level (3 slots): banishment, dimension door 5th level (1 slot): cone of cold</desc>
+          </id-00001>
+        </traits>
+        <reactions>
+          <id-00001>
+            <name type="string">Slow Projectile</name>
+            <desc type="string">If the chronomancer is targeted by a ranged attack, it can alter the flow of time nearby, causing incoming projectiles to slow down. Until the start of its next turn, the chronomancer has a +10 bonus to AC against ranged attacks.</desc>
+          </id-00001>
+        </reactions>
+        <actions>
+          <id-00001>
+            <name type="string">Unmake</name>
+            <desc type="string">The chronomancer choses one creature it can see within 60 feet of it, causing the target's flesh to rapidly age and decompose. The target must make a DC 14 Constitution saving throw, taking 16 (3d10) necrotic damage on a fai led save, or half as much damage on a successful one.</desc>
+          </id-00001>
+        </actions>
+        <text type="formattedtext">
+          <h>Spellcasting</h>
+          <p>The chronomancer is a 9th-level spellcaster. Its spellcasting ability is Intelligence (save DC 14, +6 to hit with spell attacks). The chronomancer has the following wizard sells prepared:</p>
+          <p>
+            <b>Cantrips (at Will):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.bladeward@*">Blade Ward</link>
+            <link class="reference_spell" recordname="reference.spelldata.magehand@*">Mage Hand</link>
+            <link class="reference_spell" recordname="reference.spelldata.rayoffrost@*">Ray Of Frost</link>
+            <link class="reference_spell" recordname="reference.spelldata.prestidigitation@*">Prestidigitation</link>
+          </listlink>
+          <p>
+            <b>1st Level (4 Slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.detectmagic@*">Detect Magic</link>
+            <link class="reference_spell" recordname="reference.spelldata.expeditiousretreat@*">Expeditious Retreat</link>
+            <link class="reference_spell" recordname="reference.spelldata.magicmissile@*">Magic Missile</link>
+            <link class="reference_spell" recordname="reference.spelldata.shield@*">Shield</link>
+          </listlink>
+          <p>
+            <b>2nd Level (3 Slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.holdperson@*">Hold Person</link>
+            <link class="reference_spell" recordname="reference.spelldata.mistystep@*">Misty Step</link>
+          </listlink>
+          <p>
+            <b>3rd Level (3 Slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.blink@*">Blink</link>
+            <link class="reference_spell" recordname="reference.spelldata.haste@*">Haste</link>
+            <link class="reference_spell" recordname="reference.spelldata.slow@*">Slow</link>
+          </listlink>
+          <p>
+            <b>4th Level (3 Slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.banishment@*">Banishment</link>
+            <link class="reference_spell" recordname="reference.spelldata.dimensiondoor@*">Dimension Door</link>
+          </listlink>
+          <p>
+            <b>5th Level (1 Slot):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.coneofcold@*">Cone Of Cold</link>
+          </listlink>
+        </text>
+      </ancientchronomancer>
+      <timelesschronomancer>
+        <locked type="number">1</locked>
+        <name type="string">Timeless Chronomancer</name>
+        <type type="string">humanoid construct</type>
+        <size type="string">Medium</size>
+        <ac type="number">18</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">150</hp>
+        <hd type="string">(20d8 + 60)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Int +10, Wis +7</savingthrows>
+        <skills type="string">Arcane +15, History +15</skills>
+        <damageresistances type="string">damage from spells</damageresistances>
+        <damageimmunities type="string">poison</damageimmunities>
+        <conditionimmunities type="string">exhaustion, paralyzed, petrified, poisoned</conditionimmunities>
+        <senses type="string">darkvision 60 ft., passive Perception 12</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">all</languages>
+        <cr type="string">14</cr>
+        <xp type="number">11500</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Magic Resistance</name>
+            <desc type="string">The chronomancer has advantage on saving throws against spells and other magical effects.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Spellcasting</name>
+            <desc type="string">The chronomancer is a 20th-level spellcaster. Its spellcasting ability is Intelligence (save DC 18, +10 to hit with spell attacks). The chronomancer has the following wizard sells prepared: Cantrips (at will): blade ward, mage hand, ray of frost, prestidigitation 1st level (4 slots): detect magic, expeditious retreat, magic missile, shield 2nd level (3 slots): hold person, misty step 3rd level (3 slots): blink, haste, slow 4th level (3 slots): banishment, dimension door 5th level (3 slots): cone of cold, wall of force 6th level (1 slot): globe of invulnerability 7th level (1 slot): teleport 8th level (1 slot): maze 9th level (1 slot): time stop</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Stretch Time (Recharge 5-6)</name>
+            <desc type="string">The chronomancer can take one additional action on its turn.</desc>
+          </id-00003>
+        </traits>
+        <reactions>
+          <id-00001>
+            <name type="string">Rewind</name>
+            <desc type="string">When the chronomancer or another creature makes an attack roll, saving throw, or ability check, it must remake the roll and use the new result.</desc>
+          </id-00001>
+        </reactions>
+        <actions>
+          <id-00001>
+            <name type="string">Expose Paradox (Recharge 5-6)</name>
+            <desc type="string">The chronomancer choses one creature it can see within 60 feet of it, revealing to it a paradox in the space-time continuum. The target must make a DC 18 Wisdom saving throw, taking 42 (12d6) psychic damage on a failed save, or half as much damage on a successful one.</desc>
+          </id-00001>
+        </actions>
+        <text type="formattedtext">
+          <h>Spellcasting</h>
+          <p>The chronomancer is a 20th-level spellcaster. Its spellcasting ability is Intelligence (save DC 18, +10 to hit with spell attacks). The chronomancer has the following wizard sells prepared:</p>
+          <p>
+            <b>Cantrips (at Will)</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.bladeward@*">Blade Ward</link>
+            <link class="reference_spell" recordname="reference.spelldata.magehand@*">Mage Hand</link>
+            <link class="reference_spell" recordname="reference.spelldata.rayoffrost@*">Ray Of Frost</link>
+            <link class="reference_spell" recordname="reference.spelldata.prestidigitation@*">Prestidigitation</link>
+          </listlink>
+          <p>
+            <b>1st Level (4 Slots)</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.detectmagic@*">Detect Magic</link>
+            <link class="reference_spell" recordname="reference.spelldata.expeditiousretreat@*">Expeditious Retreat</link>
+            <link class="reference_spell" recordname="reference.spelldata.magicmissile@*">Magic Missile</link>
+            <link class="reference_spell" recordname="reference.spelldata.shield@*">Shield</link>
+          </listlink>
+          <p>
+            <b>2nd Level (3 Slots)</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.holdperson@*">Hold Person</link>
+            <link class="reference_spell" recordname="reference.spelldata.mistystep@*">Misty Step</link>
+          </listlink>
+          <p>
+            <b>3rd Level (3 Slots)</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.blink@*">Blink</link>
+            <link class="reference_spell" recordname="reference.spelldata.haste@*">Haste</link>
+            <link class="reference_spell" recordname="reference.spelldata.slow@*">Slow</link>
+          </listlink>
+          <p>
+            <b>4th Level (3 Slots)</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.banishment@*">Banishment</link>
+            <link class="reference_spell" recordname="reference.spelldata.dimensiondoor@*">Dimension Door</link>
+          </listlink>
+          <p>
+            <b>5th Level (3 Slots)</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.coneofcold@*">Cone Of Cold</link>
+            <link class="reference_spell" recordname="reference.spelldata.wallofforce@*">Wall Of Force</link>
+          </listlink>
+          <p>
+            <b>6th Level (1 Slot)</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.globeofinvulnerability@*">Globe Of Invulnerability</link>
+          </listlink>
+          <p>
+            <b>7th Level (1 Slot)</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.teleport@*">Teleport</link>
+          </listlink>
+          <p>
+            <b>8th Level (1 Slot)</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.maze@*">Maze</link>
+          </listlink>
+          <p>
+            <b>9th Level (1 Slot)</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.timestop@*">Time Stop</link>
+          </listlink>
+        </text>
+      </timelesschronomancer>
+      <hawkfox>
+        <locked type="number">1</locked>
+        <name type="string">Hawkfox</name>
+        <type type="string">monstrosity</type>
+        <size type="string">Medium</size>
+        <ac type="number">13</ac>
+        <actext type="string"/>
+        <hp type="number">38</hp>
+        <hd type="string">(7d8 + 7)</hd>
+        <speed type="string">30 ft., fly 60 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">3</score>
+            <modifier type="string">-3</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">7</score>
+            <modifier type="string">-1</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Perception +6, Stealth +5</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 16</senses>
+        <alignment type="string">unaligned</alignment>
+        <languages type="string">-</languages>
+        <cr type="string">2</cr>
+        <xp type="number">450</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Dive Attack</name>
+            <desc type="string">If the hawkfox is flying and dives at least 30 feet straight toward a target and then hits it with a melee weapon attack, the attack deals an extra 9 (2d8) damage to the target.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Keen Sight and Smell</name>
+            <desc type="string">The hawkfox has advantage on Wisdom (Perception) checks that rely on sight or smell.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Nimble Action</name>
+            <desc type="string">On each of its turns, the hawkfox can use a bonus action to take the Dash or Disengage action.</desc>
+          </id-00003>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The hawkfox makes one bite attack and one talon attack.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Bite</name>
+            <desc type="string">Me/ee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Talons</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) piercing damage.</desc>
+          </id-00003>
+        </actions>
+      </hawkfox>
     </category>
   </npc>
   <lists>
@@ -6949,6 +7390,16 @@
                 </link>
                 <source type="string"/>
               </azuremindsculptor>
+              <ancientchronomancer>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.ancientchronomancer@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </ancientchronomancer>
             </index>
           </typelettera>
           <typeletterm>
@@ -7299,6 +7750,16 @@
                 </link>
                 <source type="string"/>
               </snowspider>
+              <scorpikis>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.scorpikis@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </scorpikis>
             </index>
           </typeletters>
           <typeletterf>
@@ -7534,6 +7995,16 @@
                 </link>
                 <source type="string"/>
               </headlesshorseman>
+              <hawkfox>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.hawkfox@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </hawkfox>
             </index>
           </typeletterh>
           <typeletterl>
@@ -7714,6 +8185,16 @@
                 </link>
                 <source type="string"/>
               </telekineticsliver>
+              <timelesschronomancer>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.timelesschronomancer@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </timelesschronomancer>
             </index>
           </typelettert>
           <typeletterw>
@@ -11668,6 +12149,20 @@
             <desc type="string">The paladin can touch a creature to restore 25 hit points to that creature. Additionally, the touch cures the target of one disease or neutralizes one poison affecting it.</desc>
           </id-00004>
         </actions>
+        <text type="formattedtext">
+          <h>Silverpaw Paladins</h>
+          <p>
+            <i>"I can't tell who is more loyal: the Paladin to their casue or the dog to their Paladin" - Camus, Former Caravan Guard</i>
+          </p>
+          <p>The Silverpaw guild works to maintain order and justice. Their initiates and veterans are well armed. Their dangerous animal companions trained to undertake any situation. The Silverpaw guild works as the symbol of loyalty and stoicism. Guild paladins show themselves as implacable stewards but rumor has told of wild and dangerous emotions stirring beneath a Silverpaw's stare.</p>
+          <p>
+            <b>The Legend of the Fey.</b> The founders of the Silverpaw were halflings who, alongside their riding dog companions, stumbled into the Feywild. Suffering the harsh lessons of natural law, the paladins returned, vowing to never'allow the world to transform into the dangerous Feywild. Their dog companions also took fey influences, becoming stronger and larger than normal canines. Every Silverpaw dog's linage can be traced to those original companions and carry the legacy of the fey in their blood.</p>
+          <p>
+            <b>Initiation.</b> New recruits to the Silverpaw guild are given a dog. While the dogs may vary in size and breed, most are riding dogs or large mastiffs. Expected to raise and protect their animal companion, Silverpaw initiates are then sent to fulfill the requests of the guild. If, at any time, an initiate's dog is Jost during combat the new recruit is expelled.</p>
+          <p>Eventually, the initiate and their companion will take on a final challenge, being offered a chance to enter the Feywild for three days. If both the initiate and their companion emerge from the experience alive, they are promoted to champions of the Silverpaw guild.</p>
+          <p>
+            <b>Organization.</b> The Silverpaw guild believes the world is teetering on the brink of chaos. Having seen first hand the influences of the Feywild, Silverpaw champions work to maintain order. Some Silverpaw members return from the Feywild influencea by the chaos of the plane. These members are employed as subtle shock troopers, working to enact Silverpaw desires without drawing attention to the Silverpaw themselves.</p>
+        </text>
       </silverpawpaladin>
       <broodbutcher>
         <locked type="number">1</locked>
@@ -14759,7 +15254,434 @@
             <desc type="string">Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</desc>
           </id-00001>
         </actions>
+        <text type="formattedtext">
+          <h>Spellcasting</h>
+          <p>
+            <b>Innate Spellcasting.</b> The feyote's innate spellcasting ability is Wisdom. The feyote can innately cast the following spells, requiring no components:</p>
+          <p>
+            <b>At will:</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.druidcraft@*">druidcraft</link>
+          </listlink>
+          <p>
+            <b>1/day:</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.enhanceability@*">Enhance Ability</link>
+          </listlink>
+          <p>
+            <b>1/week:</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.divination@*">Divination</link>
+          </listlink>
+        </text>
       </feyote>
+      <scorpikis>
+        <locked type="number">1</locked>
+        <name type="string">Scorpikis</name>
+        <type type="string">monstrosity</type>
+        <size type="string">Large</size>
+        <ac type="number">17</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">123</hp>
+        <hd type="string">(13d10 + 52)</hd>
+        <speed type="string">40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">9</score>
+            <modifier type="string">0</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Perception +4, Stealth +6</skills>
+        <damageimmunities type="string">poison</damageimmunities>
+        <conditionimmunities type="string">poisoned</conditionimmunities>
+        <senses type="string">blindsight 60 ft., passive Perception 14</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">Common</languages>
+        <cr type="string">6</cr>
+        <xp type="number">2300</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Sure-Footed</name>
+            <desc type="string">The scorpikis has advantage on Strength and Dexterity saving th rows made against effects that would knock it prone.</desc>
+          </id-00001>
+        </traits>
+        <reactions>
+          <id-00001>
+            <name type="string">Parry</name>
+            <desc type="string">The scorpikis adds 3 to its AC against one melee attack that would hit it. To do so, the scorpikis must see the attacker.</desc>
+          </id-00001>
+        </reactions>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The scorpikis makes three attacks: two with its claws and one with its sting. It can make a glaive attack in place of a claw attack.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Claw</name>
+            <desc type="string">Melee Weapon Attack: + 7 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) bludgeoning damage, and the target is grappled (escape DC 14). The scorpikis has two claws, each of which can grapple only one target.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Glaive</name>
+            <desc type="string">Melee Weapon Attack: + 7 to hit, reach 10ft., one target. Hit: 9 (1d10 + 4) slashing damage.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Sting</name>
+            <desc type="string">Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage, and the target must make a DC 14 Constitution saving throw, taking 22 (4d10) poison damage on a failed save, or half as much damage on a successful one.</desc>
+          </id-00004>
+        </actions>
+      </scorpikis>
+      <ancientchronomancer>
+        <locked type="number">1</locked>
+        <name type="string">Ancient Chronomancer</name>
+        <type type="string">humanoid construct</type>
+        <size type="string">Medium</size>
+        <ac type="number">16</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">67</hp>
+        <hd type="string">(9d8 + 27)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <intelligence>
+            <score type="number">17</score>
+            <modifier type="string">+3</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Int+ 6, Wis +5</savingthrows>
+        <skills type="string">Arcane +6, History +6</skills>
+        <damageimmunities type="string">poison</damageimmunities>
+        <conditionimmunities type="string">exhaustion, paralyzed, petrified, poisoned</conditionimmunities>
+        <senses type="string">darkvision 60 ft., passive Perception 12</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">any four languages</languages>
+        <cr type="string">7</cr>
+        <xp type="number">2900</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Spellcasting</name>
+            <desc type="string">The chronomancer is a 9th-level spellcaster. Its spellcasting ability is Intelligence (save DC 14, +6 to hit with spell attacks). The chronomancer has the following wizard sells prepared: Cantrips (at will): blade ward, mage hand, ray of frost, prestidigitation 1st level (4 slots): detect magic, expeditious retreat, magic missile, shield 2nd level (3 slots): hold person, misty step 3rd level (3 slots): blink, haste, slow 4th level (3 slots): banishment, dimension door 5th level (1 slot): cone of cold</desc>
+          </id-00001>
+        </traits>
+        <reactions>
+          <id-00001>
+            <name type="string">Slow Projectile</name>
+            <desc type="string">If the chronomancer is targeted by a ranged attack, it can alter the flow of time nearby, causing incoming projectiles to slow down. Until the start of its next turn, the chronomancer has a +10 bonus to AC against ranged attacks.</desc>
+          </id-00001>
+        </reactions>
+        <actions>
+          <id-00001>
+            <name type="string">Unmake</name>
+            <desc type="string">The chronomancer choses one creature it can see within 60 feet of it, causing the target's flesh to rapidly age and decompose. The target must make a DC 14 Constitution saving throw, taking 16 (3d10) necrotic damage on a fai led save, or half as much damage on a successful one.</desc>
+          </id-00001>
+        </actions>
+        <text type="formattedtext">
+          <h>Spellcasting</h>
+          <p>The chronomancer is a 9th-level spellcaster. Its spellcasting ability is Intelligence (save DC 14, +6 to hit with spell attacks). The chronomancer has the following wizard sells prepared:</p>
+          <p>
+            <b>Cantrips (at Will):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.bladeward@*">Blade Ward</link>
+            <link class="reference_spell" recordname="reference.spelldata.magehand@*">Mage Hand</link>
+            <link class="reference_spell" recordname="reference.spelldata.rayoffrost@*">Ray Of Frost</link>
+            <link class="reference_spell" recordname="reference.spelldata.prestidigitation@*">Prestidigitation</link>
+          </listlink>
+          <p>
+            <b>1st Level (4 Slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.detectmagic@*">Detect Magic</link>
+            <link class="reference_spell" recordname="reference.spelldata.expeditiousretreat@*">Expeditious Retreat</link>
+            <link class="reference_spell" recordname="reference.spelldata.magicmissile@*">Magic Missile</link>
+            <link class="reference_spell" recordname="reference.spelldata.shield@*">Shield</link>
+          </listlink>
+          <p>
+            <b>2nd Level (3 Slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.holdperson@*">Hold Person</link>
+            <link class="reference_spell" recordname="reference.spelldata.mistystep@*">Misty Step</link>
+          </listlink>
+          <p>
+            <b>3rd Level (3 Slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.blink@*">Blink</link>
+            <link class="reference_spell" recordname="reference.spelldata.haste@*">Haste</link>
+            <link class="reference_spell" recordname="reference.spelldata.slow@*">Slow</link>
+          </listlink>
+          <p>
+            <b>4th Level (3 Slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.banishment@*">Banishment</link>
+            <link class="reference_spell" recordname="reference.spelldata.dimensiondoor@*">Dimension Door</link>
+          </listlink>
+          <p>
+            <b>5th Level (1 Slot):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.coneofcold@*">Cone Of Cold</link>
+          </listlink>
+        </text>
+      </ancientchronomancer>
+      <timelesschronomancer>
+        <locked type="number">1</locked>
+        <name type="string">Timeless Chronomancer</name>
+        <type type="string">humanoid construct</type>
+        <size type="string">Medium</size>
+        <ac type="number">18</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">150</hp>
+        <hd type="string">(20d8 + 60)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Int +10, Wis +7</savingthrows>
+        <skills type="string">Arcane +15, History +15</skills>
+        <damageresistances type="string">damage from spells</damageresistances>
+        <damageimmunities type="string">poison</damageimmunities>
+        <conditionimmunities type="string">exhaustion, paralyzed, petrified, poisoned</conditionimmunities>
+        <senses type="string">darkvision 60 ft., passive Perception 12</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">all</languages>
+        <cr type="string">14</cr>
+        <xp type="number">11500</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Magic Resistance</name>
+            <desc type="string">The chronomancer has advantage on saving throws against spells and other magical effects.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Spellcasting</name>
+            <desc type="string">The chronomancer is a 20th-level spellcaster. Its spellcasting ability is Intelligence (save DC 18, +10 to hit with spell attacks). The chronomancer has the following wizard sells prepared: Cantrips (at will): blade ward, mage hand, ray of frost, prestidigitation 1st level (4 slots): detect magic, expeditious retreat, magic missile, shield 2nd level (3 slots): hold person, misty step 3rd level (3 slots): blink, haste, slow 4th level (3 slots): banishment, dimension door 5th level (3 slots): cone of cold, wall of force 6th level (1 slot): globe of invulnerability 7th level (1 slot): teleport 8th level (1 slot): maze 9th level (1 slot): time stop</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Stretch Time (Recharge 5-6)</name>
+            <desc type="string">The chronomancer can take one additional action on its turn.</desc>
+          </id-00003>
+        </traits>
+        <reactions>
+          <id-00001>
+            <name type="string">Rewind</name>
+            <desc type="string">When the chronomancer or another creature makes an attack roll, saving throw, or ability check, it must remake the roll and use the new result.</desc>
+          </id-00001>
+        </reactions>
+        <actions>
+          <id-00001>
+            <name type="string">Expose Paradox (Recharge 5-6)</name>
+            <desc type="string">The chronomancer choses one creature it can see within 60 feet of it, revealing to it a paradox in the space-time continuum. The target must make a DC 18 Wisdom saving throw, taking 42 (12d6) psychic damage on a failed save, or half as much damage on a successful one.</desc>
+          </id-00001>
+        </actions>
+        <text type="formattedtext">
+          <h>Spellcasting</h>
+          <p>The chronomancer is a 20th-level spellcaster. Its spellcasting ability is Intelligence (save DC 18, +10 to hit with spell attacks). The chronomancer has the following wizard sells prepared:</p>
+          <p>
+            <b>Cantrips (at Will)</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.bladeward@*">Blade Ward</link>
+            <link class="reference_spell" recordname="reference.spelldata.magehand@*">Mage Hand</link>
+            <link class="reference_spell" recordname="reference.spelldata.rayoffrost@*">Ray Of Frost</link>
+            <link class="reference_spell" recordname="reference.spelldata.prestidigitation@*">Prestidigitation</link>
+          </listlink>
+          <p>
+            <b>1st Level (4 Slots)</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.detectmagic@*">Detect Magic</link>
+            <link class="reference_spell" recordname="reference.spelldata.expeditiousretreat@*">Expeditious Retreat</link>
+            <link class="reference_spell" recordname="reference.spelldata.magicmissile@*">Magic Missile</link>
+            <link class="reference_spell" recordname="reference.spelldata.shield@*">Shield</link>
+          </listlink>
+          <p>
+            <b>2nd Level (3 Slots)</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.holdperson@*">Hold Person</link>
+            <link class="reference_spell" recordname="reference.spelldata.mistystep@*">Misty Step</link>
+          </listlink>
+          <p>
+            <b>3rd Level (3 Slots)</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.blink@*">Blink</link>
+            <link class="reference_spell" recordname="reference.spelldata.haste@*">Haste</link>
+            <link class="reference_spell" recordname="reference.spelldata.slow@*">Slow</link>
+          </listlink>
+          <p>
+            <b>4th Level (3 Slots)</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.banishment@*">Banishment</link>
+            <link class="reference_spell" recordname="reference.spelldata.dimensiondoor@*">Dimension Door</link>
+          </listlink>
+          <p>
+            <b>5th Level (3 Slots)</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.coneofcold@*">Cone Of Cold</link>
+            <link class="reference_spell" recordname="reference.spelldata.wallofforce@*">Wall Of Force</link>
+          </listlink>
+          <p>
+            <b>6th Level (1 Slot)</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.globeofinvulnerability@*">Globe Of Invulnerability</link>
+          </listlink>
+          <p>
+            <b>7th Level (1 Slot)</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.teleport@*">Teleport</link>
+          </listlink>
+          <p>
+            <b>8th Level (1 Slot)</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.maze@*">Maze</link>
+          </listlink>
+          <p>
+            <b>9th Level (1 Slot)</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.timestop@*">Time Stop</link>
+          </listlink>
+        </text>
+      </timelesschronomancer>
+      <hawkfox>
+        <locked type="number">1</locked>
+        <name type="string">Hawkfox</name>
+        <type type="string">monstrosity</type>
+        <size type="string">Medium</size>
+        <ac type="number">13</ac>
+        <actext type="string"/>
+        <hp type="number">38</hp>
+        <hd type="string">(7d8 + 7)</hd>
+        <speed type="string">30 ft., fly 60 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">3</score>
+            <modifier type="string">-3</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">7</score>
+            <modifier type="string">-1</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Perception +6, Stealth +5</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 16</senses>
+        <alignment type="string">unaligned</alignment>
+        <languages type="string">-</languages>
+        <cr type="string">2</cr>
+        <xp type="number">450</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Dive Attack</name>
+            <desc type="string">If the hawkfox is flying and dives at least 30 feet straight toward a target and then hits it with a melee weapon attack, the attack deals an extra 9 (2d8) damage to the target.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Keen Sight and Smell</name>
+            <desc type="string">The hawkfox has advantage on Wisdom (Perception) checks that rely on sight or smell.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Nimble Action</name>
+            <desc type="string">On each of its turns, the hawkfox can use a bonus action to take the Dash or Disengage action.</desc>
+          </id-00003>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The hawkfox makes one bite attack and one talon attack.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Bite</name>
+            <desc type="string">Me/ee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Talons</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) piercing damage.</desc>
+          </id-00003>
+        </actions>
+      </hawkfox>
     </npcdata>
     <npclists>
       <npcs>
@@ -14889,6 +15811,16 @@
                 </link>
                 <source type="number"/>
               </azuremindsculptor>
+              <ancientchronomancer>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.ancientchronomancer@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </ancientchronomancer>
             </index>
           </typeletterA>
           <typeletterM>
@@ -15239,6 +16171,16 @@
                 </link>
                 <source type="number"/>
               </snowspider>
+              <scorpikis>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.scorpikis@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </scorpikis>
             </index>
           </typeletterS>
           <typeletterF>
@@ -15474,6 +16416,16 @@
                 </link>
                 <source type="number"/>
               </headlesshorseman>
+              <hawkfox>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.hawkfox@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </hawkfox>
             </index>
           </typeletterH>
           <typeletterL>
@@ -15654,6 +16606,16 @@
                 </link>
                 <source type="number"/>
               </telekineticsliver>
+              <timelesschronomancer>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.timelesschronomancer@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </timelesschronomancer>
             </index>
           </typeletterT>
           <typeletterW>
@@ -15979,6 +16941,16 @@
                 </link>
                 <source type="number"/>
               </wingedape>
+              <hawkfox>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.hawkfox@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </hawkfox>
             </index>
           </level02>
           <level01>
@@ -16334,6 +17306,16 @@
                 </link>
                 <source type="number"/>
               </clockworkdragon>
+              <timelesschronomancer>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.timelesschronomancer@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </timelesschronomancer>
             </index>
           </level14>
           <level04>
@@ -16564,6 +17546,16 @@
                 </link>
                 <source type="number"/>
               </gill_man>
+              <scorpikis>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.scorpikis@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </scorpikis>
             </index>
           </level06>
           <level07>
@@ -16599,6 +17591,16 @@
                 </link>
                 <source type="number"/>
               </azureenchanter>
+              <ancientchronomancer>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.ancientchronomancer@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </ancientchronomancer>
             </index>
           </level07>
           <level1_4>
@@ -17059,6 +18061,26 @@
                 </link>
                 <source>monstrosity</source>
               </wingedape>
+              <scorpikis>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.scorpikis@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>monstrosity</source>
+              </scorpikis>
+              <hawkfox>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.hawkfox@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>monstrosity</source>
+              </hawkfox>
             </index>
           </typemonstrosity>
           <typemonstrosity_sliver_>
@@ -18099,6 +19121,26 @@
                 </link>
                 <source>monstrosity</source>
               </wingedape>
+              <scorpikis>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.scorpikis@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>monstrosity</source>
+              </scorpikis>
+              <hawkfox>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.hawkfox@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>monstrosity</source>
+              </hawkfox>
             </index>
           </typemonstrosity>
           <typemonstrosity_sliver_>
@@ -18731,6 +19773,31 @@
               </pumpkinking>
             </index>
           </typeplant>
+          <typehumanoidconstruct>
+            <description type="string">Humanoid Construct</description>
+            <index>
+              <ancientchronomancer>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.ancientchronomancer@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>humanoid construct</source>
+              </ancientchronomancer>
+              <timelesschronomancer>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.timelesschronomancer@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>humanoid construct</source>
+              </timelesschronomancer>
+            </index>
+          </typehumanoidconstruct>
         </groups>
       </bytype>
     </npclists>

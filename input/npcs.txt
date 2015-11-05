@@ -1152,6 +1152,14 @@ Sling. Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. Hit: 5 (1 
 Lay on Hands (1/ Day). The paladin can touch a creature to restore 25 hit points to that creature. Additionally, the touch cures the target of one disease or neutralizes one poison affecting it.
 REACTIONS
 Parry. The paladin adds 3 to its AC against one melee attack that would hit it. To do so, the paladin must see the attacker and be wielding a melee weapon.
+##;
+#h;Silverpaw Paladins
+#ip;"I can't tell who is more loyal: the Paladin to their casue or the dog to their Paladin" - Camus, Former Caravan Guard
+The Silverpaw guild works to maintain order and justice. Their initiates and veterans are well armed. Their dangerous animal companions trained to undertake any situation. The Silverpaw guild works as the symbol of loyalty and stoicism. Guild paladins show themselves as implacable stewards but rumor has told of wild and dangerous emotions stirring beneath a Silverpaw's stare.
+#bs;The Legend of the Fey. The founders of the Silverpaw were halflings who, alongside their riding dog companions, stumbled into the Feywild. Suffering the harsh lessons of natural law, the paladins returned, vowing to never'allow the world to transform into the dangerous Feywild. Their dog companions also took fey influences, becoming stronger and larger than normal canines. Every Silverpaw dog's linage can be traced to those original companions and carry the legacy of the fey in their blood.
+#bs;Initiation. New recruits to the Silverpaw guild are given a dog. While the dogs may vary in size and breed, most are riding dogs or large mastiffs. Expected to raise and protect their animal companion, Silverpaw initiates are then sent to fulfill the requests of the guild. If, at any time, an initiate's dog is Jost during combat the new recruit is expelled.
+Eventually, the initiate and their companion will take on a final challenge, being offered a chance to enter the Feywild for three days. If both the initiate and their companion emerge from the experience alive, they are promoted to champions of the Silverpaw guild.
+#bs;Organization. The Silverpaw guild believes the world is teetering on the brink of chaos. Having seen first hand the influences of the Feywild, Silverpaw champions work to maintain order. Some Silverpaw members return from the Feywild influencea by the chaos of the plane. These members are employed as subtle shock troopers, working to enact Silverpaw desires without drawing attention to the Silverpaw themselves.
 
 Brood Butcher
 Huge aberration, chaotic evil
@@ -2042,3 +2050,170 @@ Glaive. Melee Weapon Attack: + 7 to hit, reach 10ft., one target. Hit: 9 (1d10 +
 Sting. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage, and the target must make a DC 14 Constitution saving throw, taking 22 (4d10) poison damage on a failed save, or half as much damage on a successful one.
 REACTIONS
 Parry. The scorpikis adds 3 to its AC against one melee attack that would hit it. To do so, the scorpikis must see the attacker.
+
+Ancient Chronomancer
+Medium humanoid construct, neutral
+Armor Class 16 (natural armor)
+Hit Points 67 (9d8 + 27)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 12 (+1) 14 (+2) 16(+3) 17 (+3) 14 (+2) 11 (+0)
+Saving Throws Int+ 6, Wis +5
+Skills Arcane +6, History +6
+Damage Immunities poison
+Condition Immunities exhaustion, paralyzed, petrified, poisoned
+Senses darkvision 60 ft., passive Perception 12
+Languages any four languages
+Challenge 7 (2,900 XP)
+Spellcasting. The chronomancer is a 9th-level spellcaster. Its spellcasting ability is Intelligence (save DC 14, +6 to hit with spell attacks). The chronomancer has the following wizard sells prepared:
+Cantrips (at will): blade ward, mage hand, ray of frost, prestidigitation
+1st level (4 slots): detect magic, expeditious retreat, magic missile, shield
+2nd level (3 slots): hold person, misty step
+3rd level (3 slots): blink, haste, slow
+4th level (3 slots): banishment, dimension door
+5th level (1 slot): cone of cold
+ACTIONS
+Unmake. The chronomancer choses one creature it can see within 60 feet of it, causing the target's flesh to rapidly age and decompose. The target must make a DC 14 Constitution saving throw, taking 16 (3d10) necrotic damage on a fai led save, or half as much damage on a successful one.
+REACTIONS
+Slow Projectile. If the chronomancer is targeted by a ranged attack, it can alter the flow of time nearby, causing incoming projectiles to slow down. Until the start of its next turn, the chronomancer has a +10 bonus to AC against ranged attacks.
+##;
+#h;Spellcasting
+The chronomancer is a 9th-level spellcaster. Its spellcasting ability is Intelligence (save DC 14, +6 to hit with spell attacks). The chronomancer has the following wizard sells prepared:
+#bp;Cantrips (at Will): 
+#zls;
+#zal;spell;Blade Ward
+#zal;spell;Mage Hand
+#zal;spell;Ray Of Frost
+#zal;spell;Prestidigitation
+#zle;
+#bp;1st Level (4 Slots): 
+#zls;
+#zal;spell;Detect Magic
+#zal;spell;Expeditious Retreat
+#zal;spell;Magic Missile
+#zal;spell;Shield
+#zle;
+#bp;2nd Level (3 Slots): 
+#zls;
+#zal;spell;Hold Person
+#zal;spell;Misty Step
+#zle;
+#bp;3rd Level (3 Slots): 
+#zls;
+#zal;spell;Blink
+#zal;spell;Haste
+#zal;spell;Slow
+#zle;
+#bp;4th Level (3 Slots): 
+#zls;
+#zal;spell;Banishment
+#zal;spell;Dimension Door
+#zle;
+#bp;5th Level (1 Slot): 
+#zls;
+#zal;spell;Cone Of Cold
+#zle;
+
+Timeless Chronomancer
+Medium humanoid construct, neutral
+Armor Class 18 (natural armor)
+Hit Points 150 (20d8 + 60)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 12 (+1) 14 (+2) 16 (+3) 20 (+5) 14 (+2) 14 (+2)
+Saving Throws Int +10, Wis +7
+Skills Arcane +15, History +15
+Damage Resistances damage from spells
+Damage Immunities poison
+Condition Immunities exhaustion, paralyzed, petrified, poisoned
+Senses darkvision 60 ft., passive Perception 12
+Languages all
+Challenge 14 (11,500 XP)
+Magic Resistance. The chronomancer has advantage on saving throws against spells and other magical effects.
+Spellcasting. The chronomancer is a 20th-level spellcaster. Its spellcasting ability is Intelligence (save DC 18, +10 to hit with spell attacks). The chronomancer has the following wizard sells prepared:
+Cantrips (at will): blade ward, mage hand, ray of frost, prestidigitation
+1st level (4 slots): detect magic, expeditious retreat, magic missile, shield
+2nd level (3 slots): hold person, misty step
+3rd level (3 slots): blink, haste, slow
+4th level (3 slots): banishment, dimension door
+5th level (3 slots): cone of cold, wall of force
+6th level (1 slot): globe of invulnerability
+7th level (1 slot): teleport
+8th level (1 slot): maze
+9th level (1 slot): time stop
+Stretch Time (Recharge 5-6). The chronomancer can take one additional action on its turn.
+ACTIONS
+Expose Paradox (Recharge 5-6). The chronomancer choses one creature it can see within 60 feet of it, revealing to it a paradox in the space-time continuum. The target must make a DC 18 Wisdom saving throw, taking 42 (12d6) psychic damage on a failed save, or half as much damage on a successful one.
+REACTIONS
+Rewind. When the chronomancer or another creature makes an attack roll, saving throw, or ability check, it must remake the roll and use the new result.
+##;
+#h;Spellcasting
+The chronomancer is a 20th-level spellcaster. Its spellcasting ability is Intelligence (save DC 18, +10 to hit with spell attacks). The chronomancer has the following wizard sells prepared:
+#bp;Cantrips (at Will)
+#zls;
+#zal;spell;Blade Ward
+#zal;spell;Mage Hand
+#zal;spell;Ray Of Frost
+#zal;spell;Prestidigitation
+#zle;
+#bp;1st Level (4 Slots)
+#zls;
+#zal;spell;Detect Magic
+#zal;spell;Expeditious Retreat
+#zal;spell;Magic Missile
+#zal;spell;Shield
+#zle;
+#bp;2nd Level (3 Slots)
+#zls;
+#zal;spell;Hold Person
+#zal;spell;Misty Step
+#zle;
+#bp;3rd Level (3 Slots)
+#zls;
+#zal;spell;Blink
+#zal;spell;Haste
+#zal;spell;Slow
+#zle;
+#bp;4th Level (3 Slots)
+#zls;
+#zal;spell;Banishment
+#zal;spell;Dimension Door
+#zle;
+#bp;5th Level (3 Slots)
+#zls;
+#zal;spell;Cone Of Cold
+#zal;spell;Wall Of Force
+#zle;
+#bp;6th Level (1 Slot)
+#zls;
+#zal;spell;Globe Of Invulnerability
+#zle;
+#bp;7th Level (1 Slot)
+#zls;
+#zal;spell;Teleport
+#zle;
+#bp;8th Level (1 Slot)
+#zls;
+#zal;spell;Maze
+#zle;
+#bp;9th Level (1 Slot)
+#zls;
+#zal;spell;Time Stop
+#zle;
+
+Hawkfox
+Medium monstrosity, unaligned
+Armor Class 13
+Hit Points 38 (7d8 + 7)
+Speed 30 ft., fly 60 ft.
+STR DEX CON INT WIS CHA 12 (+1) 16 (+3) 12 (+1) 3 (-4) 14 (+2) 7 (-2)
+Skills Perception +6, Stealth +5
+Senses darkvision 60 ft., passive Perception 16
+Languages -
+Challenge 2 (450 XP)
+Dive Attack. If the hawkfox is flying and dives at least 30 feet straight toward a target and then hits it with a melee weapon attack, the attack deals an extra 9 (2d8) damage to the target.
+Keen Sight and Smell. The hawkfox has advantage on Wisdom (Perception) checks that rely on sight or smell.
+Nimble Action. On each of its turns, the hawkfox can use a bonus action to take the Dash or Disengage action.
+ACTIONS
+Multiattack. The hawkfox makes one bite attack and one talon attack.
+Bite. Me/ee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.
+Talons. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) piercing damage.
+
