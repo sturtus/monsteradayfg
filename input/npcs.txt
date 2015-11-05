@@ -2217,3 +2217,22 @@ Multiattack. The hawkfox makes one bite attack and one talon attack.
 Bite. Me/ee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.
 Talons. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) piercing damage.
 
+Sylvan Stalker
+Medium plant humanoid, neutral
+Armor Class 15 (natural armor)
+Hit Points 78 (12d8 + 24)
+Speed 30 ft., climb 30 ft.
+STR DEX CON INT WIS CHA 12 (+1) 18 (+4) 15 (+2) 11 (+0) 14 (+2) 10 (+0)
+Saving Throws Dex+ 7, Wis +5
+Skills Acrobatics+ 7, Perception +8, Stealth +10, Survival +5
+Damage Resistances bludgeoning, piercing
+Damage Vulnerabilities fire
+Senses passive Perception 18
+Languages Common, Druidic, Elvish, Sylvan
+Challenge 8 (3,900 XP)
+Cunning Action. On each of its turns, the stalker can use a bonus action to take the Dash, Disengage, or Hide action.
+Deadly Aim. The stalker deals an extra 9 (2d8) damage when it hits with a ranged weapon attack (included in the attack). Additionally, its ranged attacks ignore half cover and threequarters cover.
+Silent Sniper. When the stalker is hidden from a creature, making a ranged weapon attack doesn't reveal its position.
+ACTIONS
+Multiattack. The stalker makes three ranged attacks.
+Longbow. Ranged Weapon Attack: + 7 to hit, range 150/600 ft., one target. Hit: 17 (3d8 + 4) piercing damage.
