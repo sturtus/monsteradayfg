@@ -1302,6 +1302,13 @@ Multiattack. The trapper makes two melee attacks or two ranged attacks.
 Shortsword. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 +3) piercing damage.
 Heavy Crossbow. Ranged Weapon Attack: +5 to hit, range 100/400 ft., one target. Hit: 8 (1d10 + 3) piercing damage plus 3 (1d6) poison damage.
 Conjure Bolas (Recharge 5-6). Ranged Weapon Attack: +5 to hit, range 30/60 ft., one target. Hit: 5 (1d3 + 3) bludgeoning damage and the target is restrained for 1 minute (escape DC 13)
+##;
+#h;Gladeborn Rangers
+#ip;"His breathing was like a snarling beast. Her eyes flitted like a leaf. I knew these folks to be of the glade, born and raised." -Kima Fathe Emissary of Aalom
+The Gladeborn are a volatile guild, comprised more of sects and individuals rather than a united community. Capable of living exclusively in the wild and often more dangerous than any animal, Gladeborn care little for civilized worlds. Believing in a predator or prey mentality, Gladeborn come across as harsh, cold individuals, prone to leaving for hours simply to get away from their present company.
+#bs;Circle of Nine. The origin of the Gladeborn, nine druids came together to create a future for their community. Each agreeing that the wilderness honed the perfect person, the Nine require their initiates to grow up in the wild. The Nine view society as a blight upon the land, looking to eventually return the world to the wild.
+#bs;Scarred Childhood. As children, Gladeborn are taken from cities and villages and placed into the wild. Here, they are forced to grow and survive according the to the desires of their druid mentor. This experience hardens a Gladeborn, making them distrusting and disconnected towards others. Out of place in civilized areas, Gladeborn react with violent outbursts when faced with difficult social situations.
+#bs;Survival of the Fittest. Gladeborn take on a ritualistic belief of how the world works as they grow in the wild. Gladeborn members work to disrupt civilized communities, using anything in their power to promote a wild existence. Willing to sacrifice the natural world in order to fulfi.11 this desire, Gladeborn are known as cold ' reckless fanatics.
 
 Gladeborn Hunter
 Medium humanoid (any race), neutral
@@ -1321,6 +1328,13 @@ Multiattack. The hunter makes two melee attacks or three ranged attacks
 Handaxe. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.
 Longbow. Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 8 (1d8 + 4) piercing damage plus 3 (1d6) force damage.
 Multishot (Recharge 5-6). The hunter unleashes a magical volley of arrows in a 90-foot cone. The hunter can make a longbow attack against each creature in that area, dealing an extra 14 (4d6) force damage on a hit. A creature hit by an attack in this way must succeed on a DC 14 Constitution saving throw or be stunned until the end of the hunter's next turn.
+##;
+#h;Gladeborn Rangers
+#ip;"His breathing was like a snarling beast. Her eyes flitted like a leaf. I knew these folks to be of the glade, born and raised." -Kima Fathe Emissary of Aalom
+The Gladeborn are a volatile guild, comprised more of sects and individuals rather than a united community. Capable of living exclusively in the wild and often more dangerous than any animal, Gladeborn care little for civilized worlds. Believing in a predator or prey mentality, Gladeborn come across as harsh, cold individuals, prone to leaving for hours simply to get away from their present company.
+#bs;Circle of Nine. The origin of the Gladeborn, nine druids came together to create a future for their community. Each agreeing that the wilderness honed the perfect person, the Nine require their initiates to grow up in the wild. The Nine view society as a blight upon the land, looking to eventually return the world to the wild.
+#bs;Scarred Childhood. As children, Gladeborn are taken from cities and villages and placed into the wild. Here, they are forced to grow and survive according the to the desires of their druid mentor. This experience hardens a Gladeborn, making them distrusting and disconnected towards others. Out of place in civilized areas, Gladeborn react with violent outbursts when faced with difficult social situations.
+#bs;Survival of the Fittest. Gladeborn take on a ritualistic belief of how the world works as they grow in the wild. Gladeborn members work to disrupt civilized communities, using anything in their power to promote a wild existence. Willing to sacrifice the natural world in order to fulfi.11 this desire, Gladeborn are known as cold ' reckless fanatics.
 
 Harmonic Sliver
 Large Monstrosity (sliver), Neutral Evil
@@ -2236,3 +2250,29 @@ Silent Sniper. When the stalker is hidden from a creature, making a ranged weapo
 ACTIONS
 Multiattack. The stalker makes three ranged attacks.
 Longbow. Ranged Weapon Attack: + 7 to hit, range 150/600 ft., one target. Hit: 17 (3d8 + 4) piercing damage.
+
+Werewolf Alpha
+Medium humanoid (human, shapechanger), chaotic evil
+Armor Class 14 (armor scraps) in humanoid form, 16 (natural armor) in wolf or hybrid form
+Hit Points 119 (14d8+56)
+Speed 30 ft. (40 ft. in wolf form)
+STR DEX CON INT WIS CHA 20 (+5) 15 (+2) 18 (+4) 11 (+0) 14 (+2) 15(+2)
+Saving Throws Str +9, Con +8, Wis +6
+Skills Athletics +9, Perception +6
+Damage Immunities bludgeoning, piercing, and slashing damage from nonmagica l weapons that aren't silvered
+Senses passive Perception 16
+Languages Common (can 't speak in wolf form)
+Challenge 9 (5,000 XP)
+Legendary Resistance (3/Day). If the werewolf fails a saving throw, it can choose to succeed instead.
+Keen Hearing and Smell. The werewolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+Pack Leader. The werewolf's allies have advantage on melee attack rolls against any hostile creature within 5 feet of the werewolf.
+Shapechanger. The werewolf can use its action to polymorph into a wolf-humanoid hybrid or into a wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
+ACTIONS
+Multiattack (Hybrid Form Only). The werewolf makes three attacks: one with its bite and two with its claws.
+Bite (Wolf or Hybrid Form Only). Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage. If the target is a humanoid, it must succeed on a DC 14 Constitution saving throw or be cursed with werewolf lycanthropy.
+Claws (Hybrid Form Only). Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 16 (2d1 O + 5) slashing damage.
+LEGENDARY ACTIONS
+The werewolf can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The werewolf regains spent legendary actions at the start of its turn.
+Leap. The werewolf moves up to its speed without provoking opportunity attacks.
+Bark Orders. The werewolf chooses a friendly creature who can see or hear it. That creature can use its reaction to move up to its speed without provoking opportunity attacks.
+Frenzy (Costs 2 Actions). The werewolf can make one claw attack against each creature within 5 feet of it.

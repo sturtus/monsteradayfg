@@ -4272,6 +4272,19 @@
             <desc type="string">Ranged Weapon Attack: +5 to hit, range 30/60 ft., one target. Hit: 5 (1d3 + 3) bludgeoning damage and the target is restrained for 1 minute (escape DC 13)</desc>
           </id-00004>
         </actions>
+        <text type="formattedtext">
+          <h>Gladeborn Rangers</h>
+          <p>
+            <i>"His breathing was like a snarling beast. Her eyes flitted like a leaf. I knew these folks to be of the glade, born and raised." -Kima Fathe Emissary of Aalom</i>
+          </p>
+          <p>The Gladeborn are a volatile guild, comprised more of sects and individuals rather than a united community. Capable of living exclusively in the wild and often more dangerous than any animal, Gladeborn care little for civilized worlds. Believing in a predator or prey mentality, Gladeborn come across as harsh, cold individuals, prone to leaving for hours simply to get away from their present company.</p>
+          <p>
+            <b>Circle of Nine.</b> The origin of the Gladeborn, nine druids came together to create a future for their community. Each agreeing that the wilderness honed the perfect person, the Nine require their initiates to grow up in the wild. The Nine view society as a blight upon the land, looking to eventually return the world to the wild.</p>
+          <p>
+            <b>Scarred Childhood.</b> As children, Gladeborn are taken from cities and villages and placed into the wild. Here, they are forced to grow and survive according the to the desires of their druid mentor. This experience hardens a Gladeborn, making them distrusting and disconnected towards others. Out of place in civilized areas, Gladeborn react with violent outbursts when faced with difficult social situations.</p>
+          <p>
+            <b>Survival of the Fittest.</b> Gladeborn take on a ritualistic belief of how the world works as they grow in the wild. Gladeborn members work to disrupt civilized communities, using anything in their power to promote a wild existence. Willing to sacrifice the natural world in order to fulfi.11 this desire, Gladeborn are known as cold ' reckless fanatics.</p>
+        </text>
       </gladeborntrapper>
       <gladebornhunter>
         <locked type="number">1</locked>
@@ -4344,6 +4357,19 @@
             <desc type="string">The hunter unleashes a magical volley of arrows in a 90-foot cone. The hunter can make a longbow attack against each creature in that area, dealing an extra 14 (4d6) force damage on a hit. A creature hit by an attack in this way must succeed on a DC 14 Constitution saving throw or be stunned until the end of the hunter's next turn.</desc>
           </id-00004>
         </actions>
+        <text type="formattedtext">
+          <h>Gladeborn Rangers</h>
+          <p>
+            <i>"His breathing was like a snarling beast. Her eyes flitted like a leaf. I knew these folks to be of the glade, born and raised." -Kima Fathe Emissary of Aalom</i>
+          </p>
+          <p>The Gladeborn are a volatile guild, comprised more of sects and individuals rather than a united community. Capable of living exclusively in the wild and often more dangerous than any animal, Gladeborn care little for civilized worlds. Believing in a predator or prey mentality, Gladeborn come across as harsh, cold individuals, prone to leaving for hours simply to get away from their present company.</p>
+          <p>
+            <b>Circle of Nine.</b> The origin of the Gladeborn, nine druids came together to create a future for their community. Each agreeing that the wilderness honed the perfect person, the Nine require their initiates to grow up in the wild. The Nine view society as a blight upon the land, looking to eventually return the world to the wild.</p>
+          <p>
+            <b>Scarred Childhood.</b> As children, Gladeborn are taken from cities and villages and placed into the wild. Here, they are forced to grow and survive according the to the desires of their druid mentor. This experience hardens a Gladeborn, making them distrusting and disconnected towards others. Out of place in civilized areas, Gladeborn react with violent outbursts when faced with difficult social situations.</p>
+          <p>
+            <b>Survival of the Fittest.</b> Gladeborn take on a ritualistic belief of how the world works as they grow in the wild. Gladeborn members work to disrupt civilized communities, using anything in their power to promote a wild existence. Willing to sacrifice the natural world in order to fulfi.11 this desire, Gladeborn are known as cold ' reckless fanatics.</p>
+        </text>
       </gladebornhunter>
       <harmonicsliver>
         <locked type="number">1</locked>
@@ -7285,6 +7311,167 @@
           </id-00003>
         </actions>
       </hawkfox>
+      <sylvanstalker>
+        <locked type="number">1</locked>
+        <name type="string">Sylvan Stalker</name>
+        <type type="string">plant humanoid</type>
+        <size type="string">Medium</size>
+        <ac type="number">15</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">78</hp>
+        <hd type="string">(12d8 + 24)</hd>
+        <speed type="string">30 ft., climb 30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Dex+ 7, Wis +5</savingthrows>
+        <skills type="string">Acrobatics+ 7, Perception +8, Stealth +10, Survival +5</skills>
+        <damagevulnerabilities type="string">fire</damagevulnerabilities>
+        <damageresistances type="string">bludgeoning, piercing</damageresistances>
+        <senses type="string">passive Perception 18</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">Common, Druidic, Elvish, Sylvan</languages>
+        <cr type="string">8</cr>
+        <xp type="number">3900</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Cunning Action</name>
+            <desc type="string">On each of its turns, the stalker can use a bonus action to take the Dash, Disengage, or Hide action.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Deadly Aim</name>
+            <desc type="string">The stalker deals an extra 9 (2d8) damage when it hits with a ranged weapon attack (included in the attack). Additionally, its ranged attacks ignore half cover and threequarters cover.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Silent Sniper</name>
+            <desc type="string">When the stalker is hidden from a creature, making a ranged weapon attack doesn't reveal its position.</desc>
+          </id-00003>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The stalker makes three ranged attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Longbow</name>
+            <desc type="string">Ranged Weapon Attack: + 7 to hit, range 150/600 ft., one target. Hit: 17 (3d8 + 4) piercing damage.</desc>
+          </id-00002>
+        </actions>
+      </sylvanstalker>
+      <werewolfalpha>
+        <locked type="number">1</locked>
+        <name type="string">Werewolf Alpha</name>
+        <type type="string">humanoid (human, shapechanger)</type>
+        <size type="string">Medium</size>
+        <ac type="number">14</ac>
+        <actext type="string">(armor scraps) in humanoid form, 16 (natural armor) in wolf or hybrid form</actext>
+        <hp type="number">119</hp>
+        <hd type="string">(14d8+56)</hd>
+        <speed type="string">30 ft. (40 ft. in wolf form)</speed>
+        <abilities>
+          <strength>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+        </abilities>
+        <savingthrows type="string">Str +9, Con +8, Wis +6</savingthrows>
+        <skills type="string">Athletics +9, Perception +6</skills>
+        <damageimmunities type="string">bludgeoning, piercing, and slashing damage from nonmagica l weapons that aren't silvered</damageimmunities>
+        <senses type="string">passive Perception 16</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">Common (can 't speak in wolf form)</languages>
+        <cr type="string">9</cr>
+        <xp type="number">5000</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Legendary Resistance (3/Day)</name>
+            <desc type="string">If the werewolf fails a saving throw, it can choose to succeed instead.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Keen Hearing and Smell</name>
+            <desc type="string">The werewolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Pack Leader</name>
+            <desc type="string">The werewolf's allies have advantage on melee attack rolls against any hostile creature within 5 feet of the werewolf.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Shapechanger</name>
+            <desc type="string">The werewolf can use its action to polymorph into a wolf-humanoid hybrid or into a wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</desc>
+          </id-00004>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack (Hybrid Form Only)</name>
+            <desc type="string">The werewolf makes three attacks: one with its bite and two with its claws.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Bite (Wolf or Hybrid Form Only)</name>
+            <desc type="string">Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage. If the target is a humanoid, it must succeed on a DC 14 Constitution saving throw or be cursed with werewolf lycanthropy.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Claws (Hybrid Form Only)</name>
+            <desc type="string">Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 16 (2d1 O + 5) slashing damage.</desc>
+          </id-00003>
+        </actions>
+        <legendaryactions>
+          <id-00001>
+            <name type="string">Claws (Hybrid Form Only)</name>
+            <desc type="string"> The werewolf can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The werewolf regains spent legendary actions at the start of its turn.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Leap</name>
+            <desc type="string">The werewolf moves up to its speed without provoking opportunity attacks.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Bark Orders</name>
+            <desc type="string">The werewolf chooses a friendly creature who can see or hear it. That creature can use its reaction to move up to its speed without provoking opportunity attacks.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Frenzy (Costs 2 Actions)</name>
+            <desc type="string">The werewolf can make one claw attack against each creature within 5 feet of it.</desc>
+          </id-00004>
+        </legendaryactions>
+      </werewolfalpha>
     </category>
   </npc>
   <lists>
@@ -7760,6 +7947,16 @@
                 </link>
                 <source type="string"/>
               </scorpikis>
+              <sylvanstalker>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.sylvanstalker@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </sylvanstalker>
             </index>
           </typeletters>
           <typeletterf>
@@ -8250,6 +8447,16 @@
                 </link>
                 <source type="string"/>
               </wingedape>
+              <werewolfalpha>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.werewolfalpha@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </werewolfalpha>
             </index>
           </typeletterw>
           <typeletterv>
@@ -12669,6 +12876,19 @@
             <desc type="string">Ranged Weapon Attack: +5 to hit, range 30/60 ft., one target. Hit: 5 (1d3 + 3) bludgeoning damage and the target is restrained for 1 minute (escape DC 13)</desc>
           </id-00004>
         </actions>
+        <text type="formattedtext">
+          <h>Gladeborn Rangers</h>
+          <p>
+            <i>"His breathing was like a snarling beast. Her eyes flitted like a leaf. I knew these folks to be of the glade, born and raised." -Kima Fathe Emissary of Aalom</i>
+          </p>
+          <p>The Gladeborn are a volatile guild, comprised more of sects and individuals rather than a united community. Capable of living exclusively in the wild and often more dangerous than any animal, Gladeborn care little for civilized worlds. Believing in a predator or prey mentality, Gladeborn come across as harsh, cold individuals, prone to leaving for hours simply to get away from their present company.</p>
+          <p>
+            <b>Circle of Nine.</b> The origin of the Gladeborn, nine druids came together to create a future for their community. Each agreeing that the wilderness honed the perfect person, the Nine require their initiates to grow up in the wild. The Nine view society as a blight upon the land, looking to eventually return the world to the wild.</p>
+          <p>
+            <b>Scarred Childhood.</b> As children, Gladeborn are taken from cities and villages and placed into the wild. Here, they are forced to grow and survive according the to the desires of their druid mentor. This experience hardens a Gladeborn, making them distrusting and disconnected towards others. Out of place in civilized areas, Gladeborn react with violent outbursts when faced with difficult social situations.</p>
+          <p>
+            <b>Survival of the Fittest.</b> Gladeborn take on a ritualistic belief of how the world works as they grow in the wild. Gladeborn members work to disrupt civilized communities, using anything in their power to promote a wild existence. Willing to sacrifice the natural world in order to fulfi.11 this desire, Gladeborn are known as cold ' reckless fanatics.</p>
+        </text>
       </gladeborntrapper>
       <gladebornhunter>
         <locked type="number">1</locked>
@@ -12741,6 +12961,19 @@
             <desc type="string">The hunter unleashes a magical volley of arrows in a 90-foot cone. The hunter can make a longbow attack against each creature in that area, dealing an extra 14 (4d6) force damage on a hit. A creature hit by an attack in this way must succeed on a DC 14 Constitution saving throw or be stunned until the end of the hunter's next turn.</desc>
           </id-00004>
         </actions>
+        <text type="formattedtext">
+          <h>Gladeborn Rangers</h>
+          <p>
+            <i>"His breathing was like a snarling beast. Her eyes flitted like a leaf. I knew these folks to be of the glade, born and raised." -Kima Fathe Emissary of Aalom</i>
+          </p>
+          <p>The Gladeborn are a volatile guild, comprised more of sects and individuals rather than a united community. Capable of living exclusively in the wild and often more dangerous than any animal, Gladeborn care little for civilized worlds. Believing in a predator or prey mentality, Gladeborn come across as harsh, cold individuals, prone to leaving for hours simply to get away from their present company.</p>
+          <p>
+            <b>Circle of Nine.</b> The origin of the Gladeborn, nine druids came together to create a future for their community. Each agreeing that the wilderness honed the perfect person, the Nine require their initiates to grow up in the wild. The Nine view society as a blight upon the land, looking to eventually return the world to the wild.</p>
+          <p>
+            <b>Scarred Childhood.</b> As children, Gladeborn are taken from cities and villages and placed into the wild. Here, they are forced to grow and survive according the to the desires of their druid mentor. This experience hardens a Gladeborn, making them distrusting and disconnected towards others. Out of place in civilized areas, Gladeborn react with violent outbursts when faced with difficult social situations.</p>
+          <p>
+            <b>Survival of the Fittest.</b> Gladeborn take on a ritualistic belief of how the world works as they grow in the wild. Gladeborn members work to disrupt civilized communities, using anything in their power to promote a wild existence. Willing to sacrifice the natural world in order to fulfi.11 this desire, Gladeborn are known as cold ' reckless fanatics.</p>
+        </text>
       </gladebornhunter>
       <harmonicsliver>
         <locked type="number">1</locked>
@@ -15682,6 +15915,167 @@
           </id-00003>
         </actions>
       </hawkfox>
+      <sylvanstalker>
+        <locked type="number">1</locked>
+        <name type="string">Sylvan Stalker</name>
+        <type type="string">plant humanoid</type>
+        <size type="string">Medium</size>
+        <ac type="number">15</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">78</hp>
+        <hd type="string">(12d8 + 24)</hd>
+        <speed type="string">30 ft., climb 30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </charisma>
+        </abilities>
+        <savingthrows type="string">Dex+ 7, Wis +5</savingthrows>
+        <skills type="string">Acrobatics+ 7, Perception +8, Stealth +10, Survival +5</skills>
+        <damagevulnerabilities type="string">fire</damagevulnerabilities>
+        <damageresistances type="string">bludgeoning, piercing</damageresistances>
+        <senses type="string">passive Perception 18</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">Common, Druidic, Elvish, Sylvan</languages>
+        <cr type="string">8</cr>
+        <xp type="number">3900</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Cunning Action</name>
+            <desc type="string">On each of its turns, the stalker can use a bonus action to take the Dash, Disengage, or Hide action.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Deadly Aim</name>
+            <desc type="string">The stalker deals an extra 9 (2d8) damage when it hits with a ranged weapon attack (included in the attack). Additionally, its ranged attacks ignore half cover and threequarters cover.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Silent Sniper</name>
+            <desc type="string">When the stalker is hidden from a creature, making a ranged weapon attack doesn't reveal its position.</desc>
+          </id-00003>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The stalker makes three ranged attacks.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Longbow</name>
+            <desc type="string">Ranged Weapon Attack: + 7 to hit, range 150/600 ft., one target. Hit: 17 (3d8 + 4) piercing damage.</desc>
+          </id-00002>
+        </actions>
+      </sylvanstalker>
+      <werewolfalpha>
+        <locked type="number">1</locked>
+        <name type="string">Werewolf Alpha</name>
+        <type type="string">humanoid (human, shapechanger)</type>
+        <size type="string">Medium</size>
+        <ac type="number">14</ac>
+        <actext type="string">(armor scraps) in humanoid form, 16 (natural armor) in wolf or hybrid form</actext>
+        <hp type="number">119</hp>
+        <hd type="string">(14d8+56)</hd>
+        <speed type="string">30 ft. (40 ft. in wolf form)</speed>
+        <abilities>
+          <strength>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+        </abilities>
+        <savingthrows type="string">Str +9, Con +8, Wis +6</savingthrows>
+        <skills type="string">Athletics +9, Perception +6</skills>
+        <damageimmunities type="string">bludgeoning, piercing, and slashing damage from nonmagica l weapons that aren't silvered</damageimmunities>
+        <senses type="string">passive Perception 16</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">Common (can 't speak in wolf form)</languages>
+        <cr type="string">9</cr>
+        <xp type="number">5000</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Legendary Resistance (3/Day)</name>
+            <desc type="string">If the werewolf fails a saving throw, it can choose to succeed instead.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Keen Hearing and Smell</name>
+            <desc type="string">The werewolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Pack Leader</name>
+            <desc type="string">The werewolf's allies have advantage on melee attack rolls against any hostile creature within 5 feet of the werewolf.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Shapechanger</name>
+            <desc type="string">The werewolf can use its action to polymorph into a wolf-humanoid hybrid or into a wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</desc>
+          </id-00004>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack (Hybrid Form Only)</name>
+            <desc type="string">The werewolf makes three attacks: one with its bite and two with its claws.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Bite (Wolf or Hybrid Form Only)</name>
+            <desc type="string">Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage. If the target is a humanoid, it must succeed on a DC 14 Constitution saving throw or be cursed with werewolf lycanthropy.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Claws (Hybrid Form Only)</name>
+            <desc type="string">Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 16 (2d1 O + 5) slashing damage.</desc>
+          </id-00003>
+        </actions>
+        <legendaryactions>
+          <id-00001>
+            <name type="string">Claws (Hybrid Form Only)</name>
+            <desc type="string"> The werewolf can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The werewolf regains spent legendary actions at the start of its turn.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Leap</name>
+            <desc type="string">The werewolf moves up to its speed without provoking opportunity attacks.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Bark Orders</name>
+            <desc type="string">The werewolf chooses a friendly creature who can see or hear it. That creature can use its reaction to move up to its speed without provoking opportunity attacks.</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Frenzy (Costs 2 Actions)</name>
+            <desc type="string">The werewolf can make one claw attack against each creature within 5 feet of it.</desc>
+          </id-00004>
+        </legendaryactions>
+      </werewolfalpha>
     </npcdata>
     <npclists>
       <npcs>
@@ -16181,6 +16575,16 @@
                 </link>
                 <source type="number"/>
               </scorpikis>
+              <sylvanstalker>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.sylvanstalker@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </sylvanstalker>
             </index>
           </typeletterS>
           <typeletterF>
@@ -16671,6 +17075,16 @@
                 </link>
                 <source type="number"/>
               </wingedape>
+              <werewolfalpha>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.werewolfalpha@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </werewolfalpha>
             </index>
           </typeletterW>
           <typeletterV>
@@ -17291,6 +17705,16 @@
                 </link>
                 <source type="number"/>
               </broodbutcher>
+              <werewolfalpha>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.werewolfalpha@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </werewolfalpha>
             </index>
           </level09>
           <level14>
@@ -17726,6 +18150,16 @@
                 </link>
                 <source type="number"/>
               </headlesshorseman>
+              <sylvanstalker>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.sylvanstalker@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </sylvanstalker>
             </index>
           </level08>
           <level05>
@@ -19798,6 +20232,36 @@
               </timelesschronomancer>
             </index>
           </typehumanoidconstruct>
+          <typeplanthumanoid>
+            <description type="string">Plant Humanoid</description>
+            <index>
+              <sylvanstalker>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.sylvanstalker@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>plant humanoid</source>
+              </sylvanstalker>
+            </index>
+          </typeplanthumanoid>
+          <typehumanoid_human_shapechanger_>
+            <description type="string">Humanoid (human, Shapechanger)</description>
+            <index>
+              <werewolfalpha>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.werewolfalpha@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>humanoid (human, shapechanger)</source>
+              </werewolfalpha>
+            </index>
+          </typehumanoid_human_shapechanger_>
         </groups>
       </bytype>
     </npclists>
