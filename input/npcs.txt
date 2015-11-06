@@ -2237,8 +2237,8 @@ Armor Class 15 (natural armor)
 Hit Points 78 (12d8 + 24)
 Speed 30 ft., climb 30 ft.
 STR DEX CON INT WIS CHA 12 (+1) 18 (+4) 15 (+2) 11 (+0) 14 (+2) 10 (+0)
-Saving Throws Dex+ 7, Wis +5
-Skills Acrobatics+ 7, Perception +8, Stealth +10, Survival +5
+Saving Throws Dex +7, Wis +5
+Skills Acrobatics +7, Perception +8, Stealth +10, Survival +5
 Damage Resistances bludgeoning, piercing
 Damage Vulnerabilities fire
 Senses passive Perception 18
