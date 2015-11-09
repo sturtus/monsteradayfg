@@ -2297,16 +2297,58 @@ Chain. Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 10 (2d6 + 
 Etherealness. The gesit enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect, or be affected by anything on the other plane.
 
 Technothug
-Medium Humanoid (any race), chaotic neutral
+Medium humanoid (any race), chaotic neutral
 Armor Class 16 (breastplate)
 Hit Points 19 (3d8 + 6)
-Speed 30ft
+Speed 30 ft.
 STR DEX CON INT WIS CHA 14 (+2) 14 (+2) 15 (+2) 13 (+1) 11 (+0) 10 (+0)
-Senses passive Perception 10
-Lanuages any two languages
+Senses passive Perception 1 O
+Languages any two languages
 Challenge 1/2 (100 XP)
 ACTIONS
 Pistol Whip. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.
 Laser Pistol. Ranged Weapon Attack: +4 to hit, range 40/120 ft., one target. Hit: 9 (2d6 + 2) radiant damage.
 REACTIONS
 Force Field (Recharge 5-6). The technothug adds 4 to its AC against one attack that would hit it. To do so, the technothug must see the attacker.
+
+Chainer Geist
+Medium undead, chaotic evil
+Armor Class 11
+Hit Points 45 (10d8)
+Speed 0 ft., fly 40 ft.
+STR DEX CON INT WIS CHA 16 (+3) 13 (+1) 10 (+0) 10 (+0) 12 (+1) 14 (+2)
+Damage Resistances acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons
+Damage Immunities cold, necrotic, poison
+Condition Immunities charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained
+Senses darkvision 60 ft ., passive Perception 11
+Languages any languages it knew in life
+Challenge 4 (1,100 XP)
+Ethereal Sight. The geist can see 60 feet into the Ethereal Plane when it is on the Material plane, and vice versa.
+Incorporeal Movement. The geist can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.
+ACTIONS
+Multiattack. The geist makes two attacks with its chains.
+Chain. Melee Weapon Attack: +5 to hit, reach 1 Oft., one target. Hit: 10 (2d6 + 3) bludgeoning damage. The target is grappled (escape DC 13) if the geist isn't already grappling a creature. Until this grapple ends, the target is restra ined and takes 3 (1d6) necrotic damage at the start of each of its turns.
+Etherealness. The geist enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane.
+
+Bullywug Shaman
+Medium humanoid (bullywug), neutral evil
+Armor Class 14 (hide armor)
+Hit Points 27 (5d8 + 5)
+Speed 20 ft., swim 40 ft.
+STR DEX CON INT WIS CHA 12 (+1) 14 (+2) 12 (+1) 9 (-1) 15 (+2) 10 (+0)
+Skills Perception +4, Stealth +4
+Senses darkvision 60 ft., passive Perception 14
+Languages Bullywug
+Challenge 2 (450 XP)
+Amphibious. The bullywug can breathe air and water.
+Speak with Frogs and Toads. The bullywug can communicate simple concepts to frogs and toads when it speaks in Bullywug.
+Spellcasting (Bullywug Form Only). The bullywug is a 5th-level spellcaster. Its spellcasting ability is Wisdom (save DC 12, +4 to hit with spell attacks). The bullywug has the following druid spells prepared:
+Cantrips (at will): druidcraft, shape water, shillelagh
+1st level (4 slots): fog cloud, create or destroy water, cure wounds
+2nd level (3 slots): invisibility, misty step
+3rd level (2 slots): tidal wave, wall of water
+Swamp Camouflage. The bullywug has advantage on Dexterity (Stealth) checks made to hide in swampy terrain.
+Standing Leap. The bullywug's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start.
+ACTIONS
+Mace. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) bludgeoning damage.
+Change Shape (Recharges after a Short or Long Rest). The bullywug magically polymorphs into a giant toad, remaining in that form for up to 1 hour. It can revert to its true form as a bonus action. Its statistics are replaced by the statistics of a giant toad, but it retains its Intelligence, Wisdom, and Charisma scores. Any equipment it is wearing merges into the new form. It reverts to its true form if it dies.

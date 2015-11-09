@@ -7347,8 +7347,8 @@
             <modifier type="string">0</modifier>
           </charisma>
         </abilities>
-        <savingthrows type="string">Dex+ 7, Wis +5</savingthrows>
-        <skills type="string">Acrobatics+ 7, Perception +8, Stealth +10, Survival +5</skills>
+        <savingthrows type="string">Dex +7, Wis +5</savingthrows>
+        <skills type="string">Acrobatics +7, Perception +8, Stealth +10, Survival +5</skills>
         <damagevulnerabilities type="string">fire</damagevulnerabilities>
         <damageresistances type="string">bludgeoning, piercing</damageresistances>
         <senses type="string">passive Perception 18</senses>
@@ -7472,6 +7472,208 @@
           </id-00004>
         </legendaryactions>
       </werewolfalpha>
+      <chainergeist>
+        <locked type="number">1</locked>
+        <name type="string">Chainer Geist</name>
+        <type type="string">undead</type>
+        <size type="string">Medium</size>
+        <ac type="number">11</ac>
+        <actext type="string"/>
+        <hp type="number">45</hp>
+        <hd type="string">(10d8)</hd>
+        <speed type="string">0 ft., fly 40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">13</score>
+            <modifier type="string">+1</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </charisma>
+        </abilities>
+        <damageresistances type="string">acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons</damageresistances>
+        <damageimmunities type="string">cold, necrotic, poison</damageimmunities>
+        <conditionimmunities type="string">charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained</conditionimmunities>
+        <senses type="string">darkvision 60 ft ., passive Perception 11</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">any languages it knew in life</languages>
+        <cr type="string">4</cr>
+        <xp type="number">1100</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Ethereal Sight</name>
+            <desc type="string">The geist can see 60 feet into the Ethereal Plane when it is on the Material plane, and vice versa.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Incorporeal Movement</name>
+            <desc type="string">The geist can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The geist makes two attacks with its chains.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Chain</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 1 Oft., one target. Hit: 10 (2d6 + 3) bludgeoning damage. The target is grappled (escape DC 13) if the geist isn't already grappling a creature. Until this grapple ends, the target is restra ined and takes 3 (1d6) necrotic damage at the start of each of its turns.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Etherealness</name>
+            <desc type="string">The geist enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane.</desc>
+          </id-00003>
+        </actions>
+      </chainergeist>
+      <technothug>
+        <locked type="number">1</locked>
+        <name type="string">Technothug</name>
+        <type type="string">humanoid (any race)</type>
+        <size type="string">Medium</size>
+        <ac type="number">16</ac>
+        <actext type="string">(breastplate)</actext>
+        <hp type="number">19</hp>
+        <hd type="string">(3d8 + 6)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">13</score>
+            <modifier type="string">+1</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </charisma>
+        </abilities>
+        <senses type="string">passive Perception 1 O</senses>
+        <alignment type="string">chaotic neutral</alignment>
+        <languages type="string">any two languages</languages>
+        <cr type="string">1/2</cr>
+        <xp type="number">100</xp>
+        <reactions>
+          <id-00001>
+            <name type="string">Force Field (Recharge 5-6)</name>
+            <desc type="string">The technothug adds 4 to its AC against one attack that would hit it. To do so, the technothug must see the attacker.</desc>
+          </id-00001>
+        </reactions>
+        <actions>
+          <id-00001>
+            <name type="string">Pistol Whip</name>
+            <desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Laser Pistol</name>
+            <desc type="string">Ranged Weapon Attack: +4 to hit, range 40/120 ft., one target. Hit: 9 (2d6 + 2) radiant damage.</desc>
+          </id-00002>
+        </actions>
+      </technothug>
+      <bullywugshaman>
+        <locked type="number">1</locked>
+        <name type="string">Bullywug Shaman</name>
+        <type type="string">humanoid (bullywug)</type>
+        <size type="string">Medium</size>
+        <ac type="number">14</ac>
+        <actext type="string">(hide armor)</actext>
+        <hp type="number">27</hp>
+        <hd type="string">(5d8 + 5)</hd>
+        <speed type="string">20 ft., swim 40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">9</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Perception +4, Stealth +4</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 14</senses>
+        <alignment type="string">neutral evil</alignment>
+        <languages type="string">Bullywug</languages>
+        <cr type="string">2</cr>
+        <xp type="number">450</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Amphibious</name>
+            <desc type="string">The bullywug can breathe air and water.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Speak with Frogs and Toads</name>
+            <desc type="string">The bullywug can communicate simple concepts to frogs and toads when it speaks in Bullywug.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Spellcasting (Bullywug Form Only)</name>
+            <desc type="string">The bullywug is a 5th-level spellcaster. Its spellcasting ability is Wisdom (save DC 12, +4 to hit with spell attacks). The bullywug has the following druid spells prepared: Cantrips (at will): druidcraft, shape water, shillelagh 1st level (4 slots): fog cloud, create or destroy water, cure wounds 2nd level (3 slots): invisibility, misty step 3rd level (2 slots): tidal wave, wall of water</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Swamp Camouflage</name>
+            <desc type="string">The bullywug has advantage on Dexterity (Stealth) checks made to hide in swampy terrain.</desc>
+          </id-00004>
+          <id-00005>
+            <name type="string">Standing Leap</name>
+            <desc type="string">The bullywug's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start.</desc>
+          </id-00005>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Mace</name>
+            <desc type="string">Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) bludgeoning damage.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Change Shape (Recharges after a Short or Long Rest)</name>
+            <desc type="string">The bullywug magically polymorphs into a giant toad, remaining in that form for up to 1 hour. It can revert to its true form as a bonus action. Its statistics are replaced by the statistics of a giant toad, but it retains its Intelligence, Wisdom, and Charisma scores. Any equipment it is wearing merges into the new form. It reverts to its true form if it dies.</desc>
+          </id-00002>
+        </actions>
+      </bullywugshaman>
     </category>
   </npc>
   <lists>
@@ -7727,6 +7929,16 @@
                 </link>
                 <source type="string"/>
               </bonescythesliver>
+              <bullywugshaman>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.bullywugshaman@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </bullywugshaman>
             </index>
           </typeletterb>
           <typeletterc>
@@ -7792,6 +8004,16 @@
                 </link>
                 <source type="string"/>
               </causticcrawler>
+              <chainergeist>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.chainergeist@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </chainergeist>
             </index>
           </typeletterc>
           <typeletters>
@@ -8392,6 +8614,16 @@
                 </link>
                 <source type="string"/>
               </timelesschronomancer>
+              <technothug>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.technothug@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </technothug>
             </index>
           </typelettert>
           <typeletterw>
@@ -15951,8 +16183,8 @@
             <modifier type="string">0</modifier>
           </charisma>
         </abilities>
-        <savingthrows type="string">Dex+ 7, Wis +5</savingthrows>
-        <skills type="string">Acrobatics+ 7, Perception +8, Stealth +10, Survival +5</skills>
+        <savingthrows type="string">Dex +7, Wis +5</savingthrows>
+        <skills type="string">Acrobatics +7, Perception +8, Stealth +10, Survival +5</skills>
         <damagevulnerabilities type="string">fire</damagevulnerabilities>
         <damageresistances type="string">bludgeoning, piercing</damageresistances>
         <senses type="string">passive Perception 18</senses>
@@ -16076,6 +16308,208 @@
           </id-00004>
         </legendaryactions>
       </werewolfalpha>
+      <chainergeist>
+        <locked type="number">1</locked>
+        <name type="string">Chainer Geist</name>
+        <type type="string">undead</type>
+        <size type="string">Medium</size>
+        <ac type="number">11</ac>
+        <actext type="string"/>
+        <hp type="number">45</hp>
+        <hd type="string">(10d8)</hd>
+        <speed type="string">0 ft., fly 40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">13</score>
+            <modifier type="string">+1</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </charisma>
+        </abilities>
+        <damageresistances type="string">acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons</damageresistances>
+        <damageimmunities type="string">cold, necrotic, poison</damageimmunities>
+        <conditionimmunities type="string">charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained</conditionimmunities>
+        <senses type="string">darkvision 60 ft ., passive Perception 11</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">any languages it knew in life</languages>
+        <cr type="string">4</cr>
+        <xp type="number">1100</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Ethereal Sight</name>
+            <desc type="string">The geist can see 60 feet into the Ethereal Plane when it is on the Material plane, and vice versa.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Incorporeal Movement</name>
+            <desc type="string">The geist can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The geist makes two attacks with its chains.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Chain</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 1 Oft., one target. Hit: 10 (2d6 + 3) bludgeoning damage. The target is grappled (escape DC 13) if the geist isn't already grappling a creature. Until this grapple ends, the target is restra ined and takes 3 (1d6) necrotic damage at the start of each of its turns.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Etherealness</name>
+            <desc type="string">The geist enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane.</desc>
+          </id-00003>
+        </actions>
+      </chainergeist>
+      <technothug>
+        <locked type="number">1</locked>
+        <name type="string">Technothug</name>
+        <type type="string">humanoid (any race)</type>
+        <size type="string">Medium</size>
+        <ac type="number">16</ac>
+        <actext type="string">(breastplate)</actext>
+        <hp type="number">19</hp>
+        <hd type="string">(3d8 + 6)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">13</score>
+            <modifier type="string">+1</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </charisma>
+        </abilities>
+        <senses type="string">passive Perception 1 O</senses>
+        <alignment type="string">chaotic neutral</alignment>
+        <languages type="string">any two languages</languages>
+        <cr type="string">1/2</cr>
+        <xp type="number">100</xp>
+        <reactions>
+          <id-00001>
+            <name type="string">Force Field (Recharge 5-6)</name>
+            <desc type="string">The technothug adds 4 to its AC against one attack that would hit it. To do so, the technothug must see the attacker.</desc>
+          </id-00001>
+        </reactions>
+        <actions>
+          <id-00001>
+            <name type="string">Pistol Whip</name>
+            <desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Laser Pistol</name>
+            <desc type="string">Ranged Weapon Attack: +4 to hit, range 40/120 ft., one target. Hit: 9 (2d6 + 2) radiant damage.</desc>
+          </id-00002>
+        </actions>
+      </technothug>
+      <bullywugshaman>
+        <locked type="number">1</locked>
+        <name type="string">Bullywug Shaman</name>
+        <type type="string">humanoid (bullywug)</type>
+        <size type="string">Medium</size>
+        <ac type="number">14</ac>
+        <actext type="string">(hide armor)</actext>
+        <hp type="number">27</hp>
+        <hd type="string">(5d8 + 5)</hd>
+        <speed type="string">20 ft., swim 40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">9</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Perception +4, Stealth +4</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 14</senses>
+        <alignment type="string">neutral evil</alignment>
+        <languages type="string">Bullywug</languages>
+        <cr type="string">2</cr>
+        <xp type="number">450</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Amphibious</name>
+            <desc type="string">The bullywug can breathe air and water.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Speak with Frogs and Toads</name>
+            <desc type="string">The bullywug can communicate simple concepts to frogs and toads when it speaks in Bullywug.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Spellcasting (Bullywug Form Only)</name>
+            <desc type="string">The bullywug is a 5th-level spellcaster. Its spellcasting ability is Wisdom (save DC 12, +4 to hit with spell attacks). The bullywug has the following druid spells prepared: Cantrips (at will): druidcraft, shape water, shillelagh 1st level (4 slots): fog cloud, create or destroy water, cure wounds 2nd level (3 slots): invisibility, misty step 3rd level (2 slots): tidal wave, wall of water</desc>
+          </id-00003>
+          <id-00004>
+            <name type="string">Swamp Camouflage</name>
+            <desc type="string">The bullywug has advantage on Dexterity (Stealth) checks made to hide in swampy terrain.</desc>
+          </id-00004>
+          <id-00005>
+            <name type="string">Standing Leap</name>
+            <desc type="string">The bullywug's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start.</desc>
+          </id-00005>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Mace</name>
+            <desc type="string">Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) bludgeoning damage.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Change Shape (Recharges after a Short or Long Rest)</name>
+            <desc type="string">The bullywug magically polymorphs into a giant toad, remaining in that form for up to 1 hour. It can revert to its true form as a bonus action. Its statistics are replaced by the statistics of a giant toad, but it retains its Intelligence, Wisdom, and Charisma scores. Any equipment it is wearing merges into the new form. It reverts to its true form if it dies.</desc>
+          </id-00002>
+        </actions>
+      </bullywugshaman>
     </npcdata>
     <npclists>
       <npcs>
@@ -16355,6 +16789,16 @@
                 </link>
                 <source type="number"/>
               </bonescythesliver>
+              <bullywugshaman>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.bullywugshaman@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </bullywugshaman>
             </index>
           </typeletterB>
           <typeletterC>
@@ -16420,6 +16864,16 @@
                 </link>
                 <source type="number"/>
               </causticcrawler>
+              <chainergeist>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.chainergeist@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </chainergeist>
             </index>
           </typeletterC>
           <typeletterS>
@@ -17020,6 +17474,16 @@
                 </link>
                 <source type="number"/>
               </timelesschronomancer>
+              <technothug>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.technothug@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </technothug>
             </index>
           </typeletterT>
           <typeletterW>
@@ -17365,6 +17829,16 @@
                 </link>
                 <source type="number"/>
               </hawkfox>
+              <bullywugshaman>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.bullywugshaman@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </bullywugshaman>
             </index>
           </level02>
           <level01>
@@ -17660,6 +18134,16 @@
                 </link>
                 <source type="number"/>
               </koboldcommander>
+              <technothug>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.technothug@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </technothug>
             </index>
           </level1_2>
           <level09>
@@ -17825,6 +18309,16 @@
                 </link>
                 <source type="number"/>
               </causticcrawler>
+              <chainergeist>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.chainergeist@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </chainergeist>
             </index>
           </level04>
           <level10>
@@ -19015,6 +19509,16 @@
                 </link>
                 <source>Undead</source>
               </froghoul>
+              <chainergeist>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.chainergeist@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>undead</source>
+              </chainergeist>
             </index>
           </typeundead>
           <typehumanoid_leonin_>
@@ -19175,6 +19679,16 @@
                 </link>
                 <source>humanoid (any race)</source>
               </maskedkiller>
+              <technothug>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.technothug@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>humanoid (any race)</source>
+              </technothug>
             </index>
           </typehumanoid_anyrace_>
           <typeforeclawsorbat_likewingsgrowalongmorphlitsastheytravel_grantingthemeasyaccesstoeventhemostdifficultofterrain_morphlitsshareacomplexhivemind_whichwasgiventothemattheircreation_smallhierarchiesconcerningshapeandpersonalityemergefromeachformamorphlittakes_wingedmorphlitstakeonanobserverroleintheirsociety_burrowingmorhplitsaremoreaggressive>
@@ -19460,6 +19974,16 @@
                 </link>
                 <source>Undead</source>
               </froghoul>
+              <chainergeist>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.chainergeist@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>undead</source>
+              </chainergeist>
             </index>
           </typeundead>
           <typemonstrosity>
@@ -20075,6 +20599,16 @@
                 </link>
                 <source>humanoid (any race)</source>
               </maskedkiller>
+              <technothug>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.technothug@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>humanoid (any race)</source>
+              </technothug>
             </index>
           </typehumanoid_anyrace_>
           <typehumanoid_kobold_>
@@ -20262,6 +20796,21 @@
               </werewolfalpha>
             </index>
           </typehumanoid_human_shapechanger_>
+          <typehumanoid_bullywug_>
+            <description type="string">Humanoid (bullywug)</description>
+            <index>
+              <bullywugshaman>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.bullywugshaman@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>humanoid (bullywug)</source>
+              </bullywugshaman>
+            </index>
+          </typehumanoid_bullywug_>
         </groups>
       </bytype>
     </npclists>
