@@ -876,6 +876,14 @@ Whip. Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 5 (1d4 + 3)
 Hymn of Battle. As an action, the dancer begins to sing a song that magically boosts its attacks. Whenever the dancer makes an attack roll while singing, it can add a d4 to its roll. The dancer can maintain concentration to continue singing the song. If it loses concentration, the song ends.
 REACTIONS
 Parry. The dancer adds 2 to its AC against one melee attack that would hit it. To do so, the dancer must see the attacker and be wielding a melee weapon.
+##;
+#h;Truesong Guild
+Individualistic at heart and neutral to the world around them, the Tru esong guild is fickle and cunning, working as informants and turn coats. Maste rs of the arts and battle, Truesong guild m embe rs are as dange rous with their performances as they are with their weapons.
+#bs;Guild Rites. Truesong guild members must becom e masters of their craft, centering their focus on professions of entertainment. Working as spies, humble positions that can easy work their way into courts or among common folk are a priority for Truesong members.
+To enter the guild, performers must complete three tasks. The first is creating a song, dance or act that incites a crowd to act. The second is to acquire the service of a patron. Finally, initiates to the Truesong guild must defeat a master of the guild in single combat. Fighting to the master's chosen song, the two combatants follow th e rhythm of the song. Those who miss a step fail to pass the test and must wait a month and a day to try again.
+#bs;Organization. The Truesong guild operates with the desire for information and subtlety. Working as court bards or tavern performers, Truesong members embed themselves into society, gathering secrets and rumors.
+Being individualistic, Truesong members rarely share their information, using it instead for personal needs or to propel their influence and bargaining power. Throughout the guild, members train in guile and subterfuge. Powerful lords will often enlist Truesong members as personal assassins or as spies, yet Truesong help comes with a heavy and often unreliable price.
+#bs;Fickle Allies, Dire Foes. Truesong guild members are extremely cautious about their influence in the world. Working to gain influence while remaining anonymous, many Truesong members will find powerful patrons to sponsor them. Enraging a Truesong guild member has dire consequences as they may call upon the might of their patrons. Those who befriend a Truesong member may discover themselves abandoned should the Truesong member believe that their reputation or anonymity is at stake.
 
 Truesong Dirge
 Medium humanoid (any race), chaotic neutral
@@ -894,6 +902,14 @@ Multiattack. The dirge makes two melee attacks.
 Warhammer. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) bludgeoning damage, or 8 (1d10 + 3) bludgeoning damage if used with two hands to make a melee attack.
 Heavy Crossbow. Melee Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit 6 (1d10+1) piercing damage.
 Thunderous Crescendo. As a bonus action, the dirge begins to play a magical song. At the start of each of the dirge's turns, all enemy creatures within 30 feet of the dirge that can hear the song must succeed on a DC 14 Constitution saving throw or take 9 (2d8) thunder damage. Any creature that takes damage in this way loses concentration if it is concentrating. The dirge can maintain concentration to continue playing the song. If it loses concentration, the song ends.
+##;
+#h;Truesong Guild
+Individualistic at heart and neutral to the world around them, the Tru esong guild is fickle and cunning, working as informants and turn coats. Maste rs of the arts and battle, Truesong guild m embe rs are as dange rous with their performances as they are with their weapons.
+#bs;Guild Rites. Truesong guild members must becom e masters of their craft, centering their focus on professions of entertainment. Working as spies, humble positions that can easy work their way into courts or among common folk are a priority for Truesong members.
+To enter the guild, performers must complete three tasks. The first is creating a song, dance or act that incites a crowd to act. The second is to acquire the service of a patron. Finally, initiates to the Truesong guild must defeat a master of the guild in single combat. Fighting to the master's chosen song, the two combatants follow th e rhythm of the song. Those who miss a step fail to pass the test and must wait a month and a day to try again.
+#bs;Organization. The Truesong guild operates with the desire for information and subtlety. Working as court bards or tavern performers, Truesong members embed themselves into society, gathering secrets and rumors.
+Being individualistic, Truesong members rarely share their information, using it instead for personal needs or to propel their influence and bargaining power. Throughout the guild, members train in guile and subterfuge. Powerful lords will often enlist Truesong members as personal assassins or as spies, yet Truesong help comes with a heavy and often unreliable price.
+#bs;Fickle Allies, Dire Foes. Truesong guild members are extremely cautious about their influence in the world. Working to gain influence while remaining anonymous, many Truesong members will find powerful patrons to sponsor them. Enraging a Truesong guild member has dire consequences as they may call upon the might of their patrons. Those who befriend a Truesong member may discover themselves abandoned should the Truesong member believe that their reputation or anonymity is at stake.
 
 Tuskaloth
 Gargantuan beast, unaligned
@@ -2311,25 +2327,6 @@ Laser Pistol. Ranged Weapon Attack: +4 to hit, range 40/120 ft., one target. Hit
 REACTIONS
 Force Field (Recharge 5-6). The technothug adds 4 to its AC against one attack that would hit it. To do so, the technothug must see the attacker.
 
-Chainer Geist
-Medium undead, chaotic evil
-Armor Class 11
-Hit Points 45 (10d8)
-Speed 0 ft., fly 40 ft.
-STR DEX CON INT WIS CHA 16 (+3) 13 (+1) 10 (+0) 10 (+0) 12 (+1) 14 (+2)
-Damage Resistances acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons
-Damage Immunities cold, necrotic, poison
-Condition Immunities charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained
-Senses darkvision 60 ft ., passive Perception 11
-Languages any languages it knew in life
-Challenge 4 (1,100 XP)
-Ethereal Sight. The geist can see 60 feet into the Ethereal Plane when it is on the Material plane, and vice versa.
-Incorporeal Movement. The geist can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.
-ACTIONS
-Multiattack. The geist makes two attacks with its chains.
-Chain. Melee Weapon Attack: +5 to hit, reach 1 Oft., one target. Hit: 10 (2d6 + 3) bludgeoning damage. The target is grappled (escape DC 13) if the geist isn't already grappling a creature. Until this grapple ends, the target is restra ined and takes 3 (1d6) necrotic damage at the start of each of its turns.
-Etherealness. The geist enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane.
-
 Bullywug Shaman
 Medium humanoid (bullywug), neutral evil
 Armor Class 14 (hide armor)
@@ -2352,3 +2349,36 @@ Standing Leap. The bullywug's long jump is up to 20 feet and its high jump is up
 ACTIONS
 Mace. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) bludgeoning damage.
 Change Shape (Recharges after a Short or Long Rest). The bullywug magically polymorphs into a giant toad, remaining in that form for up to 1 hour. It can revert to its true form as a bonus action. Its statistics are replaced by the statistics of a giant toad, but it retains its Intelligence, Wisdom, and Charisma scores. Any equipment it is wearing merges into the new form. It reverts to its true form if it dies.
+
+Goblin Alchemist
+Small humanoid (goblinoid), neutral evil
+Armor Class 14 (studded leather)
+Hit Points 10 (3d6)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 8 (-1) 14 (+2) 10 (+0) 11 (+0) 10 (+0) 8 (-1)
+Skills Stealth +6
+Senses darkvision 60 ft., passive Perception 10
+Languages Common, Goblin
+Challenge 1/2 (100 XP)
+Nimble Escape. The goblin can take the Disengage or Hide action as a bonus action on each of its turns.
+ACTIONS
+Club. Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) bludgeoning damage.
+Alchemist's Fire (5/Day). Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit: The target is covered in flaming adhesive, and takes 2 (1 d4) fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.
+Acid Vial (3/Day). Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit: 7 (2d6) acid damage.
+
+Goblin Ritualist
+Small humanoid (goblinoid), neutral evil
+Armor Class 14 (studded leather)
+Hit Points 10 (3d6)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 8 (-1) 14 (+2) 10 (+0) 10 (+0) 14 (+2) 8 (-1)
+Skills Religion +2, Stealth +6
+Senses darkvision 60 ft., passive Perception 12
+Languages Common, Goblin
+Challenge 1/2 (100 XP)
+Nimble Escape. The goblin can take the Disengage or Hide action as a bonus action on each of its turns.
+Spellcasting. The goblin is a 1st-level spellcaster. Its spellcasting ability is Wisdom (save DC 12, +4 to hit with spell attacks). The goblin has the following cleric spells prepared:
+Cantrips (at will): resistance, sacred flame (deals necrotic damage), thaumaturgy
+1st level (3 slots): bane, cure wounds, sanctuary
+ACTIONS
+Dagger. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.

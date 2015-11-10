@@ -2781,6 +2781,18 @@
             <desc type="string">As an action, the dancer begins to sing a song that magically boosts its attacks. Whenever the dancer makes an attack roll while singing, it can add a d4 to its roll. The dancer can maintain concentration to continue singing the song. If it loses concentration, the song ends.</desc>
           </id-00004>
         </actions>
+        <text type="formattedtext">
+          <h>Truesong Guild</h>
+          <p>Individualistic at heart and neutral to the world around them, the Tru esong guild is fickle and cunning, working as informants and turn coats. Maste rs of the arts and battle, Truesong guild m embe rs are as dange rous with their performances as they are with their weapons.</p>
+          <p>
+            <b>Guild Rites.</b> Truesong guild members must becom e masters of their craft, centering their focus on professions of entertainment. Working as spies, humble positions that can easy work their way into courts or among common folk are a priority for Truesong members.</p>
+          <p>To enter the guild, performers must complete three tasks. The first is creating a song, dance or act that incites a crowd to act. The second is to acquire the service of a patron. Finally, initiates to the Truesong guild must defeat a master of the guild in single combat. Fighting to the master's chosen song, the two combatants follow th e rhythm of the song. Those who miss a step fail to pass the test and must wait a month and a day to try again.</p>
+          <p>
+            <b>Organization.</b> The Truesong guild operates with the desire for information and subtlety. Working as court bards or tavern performers, Truesong members embed themselves into society, gathering secrets and rumors.</p>
+          <p>Being individualistic, Truesong members rarely share their information, using it instead for personal needs or to propel their influence and bargaining power. Throughout the guild, members train in guile and subterfuge. Powerful lords will often enlist Truesong members as personal assassins or as spies, yet Truesong help comes with a heavy and often unreliable price.</p>
+          <p>
+            <b>Fickle Allies, Dire Foes.</b> Truesong guild members are extremely cautious about their influence in the world. Working to gain influence while remaining anonymous, many Truesong members will find powerful patrons to sponsor them. Enraging a Truesong guild member has dire consequences as they may call upon the might of their patrons. Those who befriend a Truesong member may discover themselves abandoned should the Truesong member believe that their reputation or anonymity is at stake.</p>
+        </text>
       </truesongdancer>
       <truesongdirge>
         <locked type="number">1</locked>
@@ -2849,6 +2861,18 @@
             <desc type="string">As a bonus action, the dirge begins to play a magical song. At the start of each of the dirge's turns, all enemy creatures within 30 feet of the dirge that can hear the song must succeed on a DC 14 Constitution saving throw or take 9 (2d8) thunder damage. Any creature that takes damage in this way loses concentration if it is concentrating. The dirge can maintain concentration to continue playing the song. If it loses concentration, the song ends.</desc>
           </id-00004>
         </actions>
+        <text type="formattedtext">
+          <h>Truesong Guild</h>
+          <p>Individualistic at heart and neutral to the world around them, the Tru esong guild is fickle and cunning, working as informants and turn coats. Maste rs of the arts and battle, Truesong guild m embe rs are as dange rous with their performances as they are with their weapons.</p>
+          <p>
+            <b>Guild Rites.</b> Truesong guild members must becom e masters of their craft, centering their focus on professions of entertainment. Working as spies, humble positions that can easy work their way into courts or among common folk are a priority for Truesong members.</p>
+          <p>To enter the guild, performers must complete three tasks. The first is creating a song, dance or act that incites a crowd to act. The second is to acquire the service of a patron. Finally, initiates to the Truesong guild must defeat a master of the guild in single combat. Fighting to the master's chosen song, the two combatants follow th e rhythm of the song. Those who miss a step fail to pass the test and must wait a month and a day to try again.</p>
+          <p>
+            <b>Organization.</b> The Truesong guild operates with the desire for information and subtlety. Working as court bards or tavern performers, Truesong members embed themselves into society, gathering secrets and rumors.</p>
+          <p>Being individualistic, Truesong members rarely share their information, using it instead for personal needs or to propel their influence and bargaining power. Throughout the guild, members train in guile and subterfuge. Powerful lords will often enlist Truesong members as personal assassins or as spies, yet Truesong help comes with a heavy and often unreliable price.</p>
+          <p>
+            <b>Fickle Allies, Dire Foes.</b> Truesong guild members are extremely cautious about their influence in the world. Working to gain influence while remaining anonymous, many Truesong members will find powerful patrons to sponsor them. Enraging a Truesong guild member has dire consequences as they may call upon the might of their patrons. Those who befriend a Truesong member may discover themselves abandoned should the Truesong member believe that their reputation or anonymity is at stake.</p>
+        </text>
       </truesongdirge>
       <tuskaloth>
         <locked type="number">1</locked>
@@ -7475,13 +7499,13 @@
       <chainergeist>
         <locked type="number">1</locked>
         <name type="string">Chainer Geist</name>
-        <type type="string">undead</type>
+        <type type="string">Undead</type>
         <size type="string">Medium</size>
         <ac type="number">11</ac>
-        <actext type="string"/>
+        <actext type="string">(natural armor)</actext>
         <hp type="number">45</hp>
         <hd type="string">(10d8)</hd>
-        <speed type="string">0 ft., fly 40 ft.</speed>
+        <speed type="string">0 ft., fly 40ft.</speed>
         <abilities>
           <strength>
             <score type="number">16</score>
@@ -7511,7 +7535,7 @@
         <damageresistances type="string">acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons</damageresistances>
         <damageimmunities type="string">cold, necrotic, poison</damageimmunities>
         <conditionimmunities type="string">charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained</conditionimmunities>
-        <senses type="string">darkvision 60 ft ., passive Perception 11</senses>
+        <senses type="string">darkvision 60 ft., passive Perception 11</senses>
         <alignment type="string">chaotic evil</alignment>
         <languages type="string">any languages it knew in life</languages>
         <cr type="string">4</cr>
@@ -7519,7 +7543,7 @@
         <traits>
           <id-00001>
             <name type="string">Ethereal Sight</name>
-            <desc type="string">The geist can see 60 feet into the Ethereal Plane when it is on the Material plane, and vice versa.</desc>
+            <desc type="string">The gesit can see 60 feet into the Ethereal Plane when it is on the Material Plane, and vice versa</desc>
           </id-00001>
           <id-00002>
             <name type="string">Incorporeal Movement</name>
@@ -7533,11 +7557,11 @@
           </id-00001>
           <id-00002>
             <name type="string">Chain</name>
-            <desc type="string">Melee Weapon Attack: +5 to hit, reach 1 Oft., one target. Hit: 10 (2d6 + 3) bludgeoning damage. The target is grappled (escape DC 13) if the geist isn't already grappling a creature. Until this grapple ends, the target is restra ined and takes 3 (1d6) necrotic damage at the start of each of its turns.</desc>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage. The target is grappled (escape DC 13) if the geist isn't already grappling a creature. Until this grapple ends, the target is restrained and take 3 (1d6) necrotic damage at the start of each of its turns.</desc>
           </id-00002>
           <id-00003>
             <name type="string">Etherealness</name>
-            <desc type="string">The geist enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane.</desc>
+            <desc type="string">The gesit enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect, or be affected by anything on the other plane.</desc>
           </id-00003>
         </actions>
       </chainergeist>
@@ -7674,6 +7698,124 @@
           </id-00002>
         </actions>
       </bullywugshaman>
+      <goblinalchemist>
+        <locked type="number">1</locked>
+        <name type="string">Goblin Alchemist</name>
+        <type type="string">humanoid (goblinoid)</type>
+        <size type="string">Small</size>
+        <ac type="number">14</ac>
+        <actext type="string">(studded leather)</actext>
+        <hp type="number">10</hp>
+        <hd type="string">(3d6)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Stealth +6</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 10</senses>
+        <alignment type="string">neutral evil</alignment>
+        <languages type="string">Common, Goblin</languages>
+        <cr type="string">1/2</cr>
+        <xp type="number">100</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Nimble Escape</name>
+            <desc type="string">The goblin can take the Disengage or Hide action as a bonus action on each of its turns.</desc>
+          </id-00001>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Club</name>
+            <desc type="string">Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) bludgeoning damage. Alchemist's Fire (5/Day). Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit: The target is covered in flaming adhesive, and takes 2 (1 d4) fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Acid Vial (3/Day)</name>
+            <desc type="string">Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit: 7 (2d6) acid damage.</desc>
+          </id-00002>
+        </actions>
+      </goblinalchemist>
+      <goblinritualist>
+        <locked type="number">1</locked>
+        <name type="string">Goblin Ritualist</name>
+        <type type="string">humanoid (goblinoid)</type>
+        <size type="string">Small</size>
+        <ac type="number">14</ac>
+        <actext type="string">(studded leather)</actext>
+        <hp type="number">10</hp>
+        <hd type="string">(3d6)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Religion +2, Stealth +6</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 12</senses>
+        <alignment type="string">neutral evil</alignment>
+        <languages type="string">Common, Goblin</languages>
+        <cr type="string">1/2</cr>
+        <xp type="number">100</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Nimble Escape</name>
+            <desc type="string">The goblin can take the Disengage or Hide action as a bonus action on each of its turns.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Spellcasting</name>
+            <desc type="string">The goblin is a 1st-level spellcaster. Its spellcasting ability is Wisdom (save DC 12, +4 to hit with spell attacks). The goblin has the following cleric spells prepared: Cantrips (at will): resistance, sacred flame (deals necrotic damage), thaumaturgy 1st level (3 slots): bane, cure wounds, sanctuary</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Dagger</name>
+            <desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</desc>
+          </id-00001>
+        </actions>
+      </goblinritualist>
     </category>
   </npc>
   <lists>
@@ -8369,6 +8511,26 @@
                 </link>
                 <source type="string"/>
               </gill_man>
+              <goblinalchemist>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.goblinalchemist@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </goblinalchemist>
+              <goblinritualist>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.goblinritualist@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </goblinritualist>
             </index>
           </typeletterg>
           <typeletterh>
@@ -11617,6 +11779,18 @@
             <desc type="string">As an action, the dancer begins to sing a song that magically boosts its attacks. Whenever the dancer makes an attack roll while singing, it can add a d4 to its roll. The dancer can maintain concentration to continue singing the song. If it loses concentration, the song ends.</desc>
           </id-00004>
         </actions>
+        <text type="formattedtext">
+          <h>Truesong Guild</h>
+          <p>Individualistic at heart and neutral to the world around them, the Tru esong guild is fickle and cunning, working as informants and turn coats. Maste rs of the arts and battle, Truesong guild m embe rs are as dange rous with their performances as they are with their weapons.</p>
+          <p>
+            <b>Guild Rites.</b> Truesong guild members must becom e masters of their craft, centering their focus on professions of entertainment. Working as spies, humble positions that can easy work their way into courts or among common folk are a priority for Truesong members.</p>
+          <p>To enter the guild, performers must complete three tasks. The first is creating a song, dance or act that incites a crowd to act. The second is to acquire the service of a patron. Finally, initiates to the Truesong guild must defeat a master of the guild in single combat. Fighting to the master's chosen song, the two combatants follow th e rhythm of the song. Those who miss a step fail to pass the test and must wait a month and a day to try again.</p>
+          <p>
+            <b>Organization.</b> The Truesong guild operates with the desire for information and subtlety. Working as court bards or tavern performers, Truesong members embed themselves into society, gathering secrets and rumors.</p>
+          <p>Being individualistic, Truesong members rarely share their information, using it instead for personal needs or to propel their influence and bargaining power. Throughout the guild, members train in guile and subterfuge. Powerful lords will often enlist Truesong members as personal assassins or as spies, yet Truesong help comes with a heavy and often unreliable price.</p>
+          <p>
+            <b>Fickle Allies, Dire Foes.</b> Truesong guild members are extremely cautious about their influence in the world. Working to gain influence while remaining anonymous, many Truesong members will find powerful patrons to sponsor them. Enraging a Truesong guild member has dire consequences as they may call upon the might of their patrons. Those who befriend a Truesong member may discover themselves abandoned should the Truesong member believe that their reputation or anonymity is at stake.</p>
+        </text>
       </truesongdancer>
       <truesongdirge>
         <locked type="number">1</locked>
@@ -11685,6 +11859,18 @@
             <desc type="string">As a bonus action, the dirge begins to play a magical song. At the start of each of the dirge's turns, all enemy creatures within 30 feet of the dirge that can hear the song must succeed on a DC 14 Constitution saving throw or take 9 (2d8) thunder damage. Any creature that takes damage in this way loses concentration if it is concentrating. The dirge can maintain concentration to continue playing the song. If it loses concentration, the song ends.</desc>
           </id-00004>
         </actions>
+        <text type="formattedtext">
+          <h>Truesong Guild</h>
+          <p>Individualistic at heart and neutral to the world around them, the Tru esong guild is fickle and cunning, working as informants and turn coats. Maste rs of the arts and battle, Truesong guild m embe rs are as dange rous with their performances as they are with their weapons.</p>
+          <p>
+            <b>Guild Rites.</b> Truesong guild members must becom e masters of their craft, centering their focus on professions of entertainment. Working as spies, humble positions that can easy work their way into courts or among common folk are a priority for Truesong members.</p>
+          <p>To enter the guild, performers must complete three tasks. The first is creating a song, dance or act that incites a crowd to act. The second is to acquire the service of a patron. Finally, initiates to the Truesong guild must defeat a master of the guild in single combat. Fighting to the master's chosen song, the two combatants follow th e rhythm of the song. Those who miss a step fail to pass the test and must wait a month and a day to try again.</p>
+          <p>
+            <b>Organization.</b> The Truesong guild operates with the desire for information and subtlety. Working as court bards or tavern performers, Truesong members embed themselves into society, gathering secrets and rumors.</p>
+          <p>Being individualistic, Truesong members rarely share their information, using it instead for personal needs or to propel their influence and bargaining power. Throughout the guild, members train in guile and subterfuge. Powerful lords will often enlist Truesong members as personal assassins or as spies, yet Truesong help comes with a heavy and often unreliable price.</p>
+          <p>
+            <b>Fickle Allies, Dire Foes.</b> Truesong guild members are extremely cautious about their influence in the world. Working to gain influence while remaining anonymous, many Truesong members will find powerful patrons to sponsor them. Enraging a Truesong guild member has dire consequences as they may call upon the might of their patrons. Those who befriend a Truesong member may discover themselves abandoned should the Truesong member believe that their reputation or anonymity is at stake.</p>
+        </text>
       </truesongdirge>
       <tuskaloth>
         <locked type="number">1</locked>
@@ -16311,13 +16497,13 @@
       <chainergeist>
         <locked type="number">1</locked>
         <name type="string">Chainer Geist</name>
-        <type type="string">undead</type>
+        <type type="string">Undead</type>
         <size type="string">Medium</size>
         <ac type="number">11</ac>
-        <actext type="string"/>
+        <actext type="string">(natural armor)</actext>
         <hp type="number">45</hp>
         <hd type="string">(10d8)</hd>
-        <speed type="string">0 ft., fly 40 ft.</speed>
+        <speed type="string">0 ft., fly 40ft.</speed>
         <abilities>
           <strength>
             <score type="number">16</score>
@@ -16347,7 +16533,7 @@
         <damageresistances type="string">acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons</damageresistances>
         <damageimmunities type="string">cold, necrotic, poison</damageimmunities>
         <conditionimmunities type="string">charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained</conditionimmunities>
-        <senses type="string">darkvision 60 ft ., passive Perception 11</senses>
+        <senses type="string">darkvision 60 ft., passive Perception 11</senses>
         <alignment type="string">chaotic evil</alignment>
         <languages type="string">any languages it knew in life</languages>
         <cr type="string">4</cr>
@@ -16355,7 +16541,7 @@
         <traits>
           <id-00001>
             <name type="string">Ethereal Sight</name>
-            <desc type="string">The geist can see 60 feet into the Ethereal Plane when it is on the Material plane, and vice versa.</desc>
+            <desc type="string">The gesit can see 60 feet into the Ethereal Plane when it is on the Material Plane, and vice versa</desc>
           </id-00001>
           <id-00002>
             <name type="string">Incorporeal Movement</name>
@@ -16369,11 +16555,11 @@
           </id-00001>
           <id-00002>
             <name type="string">Chain</name>
-            <desc type="string">Melee Weapon Attack: +5 to hit, reach 1 Oft., one target. Hit: 10 (2d6 + 3) bludgeoning damage. The target is grappled (escape DC 13) if the geist isn't already grappling a creature. Until this grapple ends, the target is restra ined and takes 3 (1d6) necrotic damage at the start of each of its turns.</desc>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage. The target is grappled (escape DC 13) if the geist isn't already grappling a creature. Until this grapple ends, the target is restrained and take 3 (1d6) necrotic damage at the start of each of its turns.</desc>
           </id-00002>
           <id-00003>
             <name type="string">Etherealness</name>
-            <desc type="string">The geist enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane.</desc>
+            <desc type="string">The gesit enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect, or be affected by anything on the other plane.</desc>
           </id-00003>
         </actions>
       </chainergeist>
@@ -16510,6 +16696,124 @@
           </id-00002>
         </actions>
       </bullywugshaman>
+      <goblinalchemist>
+        <locked type="number">1</locked>
+        <name type="string">Goblin Alchemist</name>
+        <type type="string">humanoid (goblinoid)</type>
+        <size type="string">Small</size>
+        <ac type="number">14</ac>
+        <actext type="string">(studded leather)</actext>
+        <hp type="number">10</hp>
+        <hd type="string">(3d6)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Stealth +6</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 10</senses>
+        <alignment type="string">neutral evil</alignment>
+        <languages type="string">Common, Goblin</languages>
+        <cr type="string">1/2</cr>
+        <xp type="number">100</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Nimble Escape</name>
+            <desc type="string">The goblin can take the Disengage or Hide action as a bonus action on each of its turns.</desc>
+          </id-00001>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Club</name>
+            <desc type="string">Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) bludgeoning damage. Alchemist's Fire (5/Day). Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit: The target is covered in flaming adhesive, and takes 2 (1 d4) fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Acid Vial (3/Day)</name>
+            <desc type="string">Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit: 7 (2d6) acid damage.</desc>
+          </id-00002>
+        </actions>
+      </goblinalchemist>
+      <goblinritualist>
+        <locked type="number">1</locked>
+        <name type="string">Goblin Ritualist</name>
+        <type type="string">humanoid (goblinoid)</type>
+        <size type="string">Small</size>
+        <ac type="number">14</ac>
+        <actext type="string">(studded leather)</actext>
+        <hp type="number">10</hp>
+        <hd type="string">(3d6)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Religion +2, Stealth +6</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 12</senses>
+        <alignment type="string">neutral evil</alignment>
+        <languages type="string">Common, Goblin</languages>
+        <cr type="string">1/2</cr>
+        <xp type="number">100</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Nimble Escape</name>
+            <desc type="string">The goblin can take the Disengage or Hide action as a bonus action on each of its turns.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Spellcasting</name>
+            <desc type="string">The goblin is a 1st-level spellcaster. Its spellcasting ability is Wisdom (save DC 12, +4 to hit with spell attacks). The goblin has the following cleric spells prepared: Cantrips (at will): resistance, sacred flame (deals necrotic damage), thaumaturgy 1st level (3 slots): bane, cure wounds, sanctuary</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Dagger</name>
+            <desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</desc>
+          </id-00001>
+        </actions>
+      </goblinritualist>
     </npcdata>
     <npclists>
       <npcs>
@@ -17229,6 +17533,26 @@
                 </link>
                 <source type="number"/>
               </gill_man>
+              <goblinalchemist>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.goblinalchemist@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </goblinalchemist>
+              <goblinritualist>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.goblinritualist@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </goblinritualist>
             </index>
           </typeletterG>
           <typeletterH>
@@ -18144,6 +18468,26 @@
                 </link>
                 <source type="number"/>
               </technothug>
+              <goblinalchemist>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.goblinalchemist@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </goblinalchemist>
+              <goblinritualist>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.goblinritualist@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </goblinritualist>
             </index>
           </level1_2>
           <level09>
@@ -19517,7 +19861,7 @@
                     <field>name</field>
                   </description>
                 </link>
-                <source>undead</source>
+                <source>Undead</source>
               </chainergeist>
             </index>
           </typeundead>
@@ -19982,7 +20326,7 @@
                     <field>name</field>
                   </description>
                 </link>
-                <source>undead</source>
+                <source>Undead</source>
               </chainergeist>
             </index>
           </typeundead>
@@ -20811,6 +21155,31 @@
               </bullywugshaman>
             </index>
           </typehumanoid_bullywug_>
+          <typehumanoid_goblinoid_>
+            <description type="string">Humanoid (goblinoid)</description>
+            <index>
+              <goblinalchemist>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.goblinalchemist@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>humanoid (goblinoid)</source>
+              </goblinalchemist>
+              <goblinritualist>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.goblinritualist@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>humanoid (goblinoid)</source>
+              </goblinritualist>
+            </index>
+          </typehumanoid_goblinoid_>
         </groups>
       </bytype>
     </npclists>
