@@ -2382,3 +2382,22 @@ Cantrips (at will): resistance, sacred flame (deals necrotic damage), thaumaturg
 1st level (3 slots): bane, cure wounds, sanctuary
 ACTIONS
 Dagger. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.
+
+Lizardfolk Monk
+Medium humanoid (lizardfolk), neutral
+Armor Class 17 (natural armor)
+Hit Points 33 (6d8 + 6)
+Speed 40 ft., swim 40 ft.
+STR DEX CON INT WIS CHA 15 (+2) 16(+3) 13 (+1) 10 (+0) 12 (+1) 8 (-1)
+Skills Acrobatics +5, Perception +3, Stealth +7, Survival +5
+Senses passive Perception 13
+Languages Draconic
+Challenge 2 (450 XP)
+Hold Breath. The lizardfolk can hold its breath for 15 minutes. Unarmored Defense. While the lizardfolk is wearing no armor and wielding no shield, its AC includes its Wisdom modifier.
+Stunning Strike (Recharge 5-6). When the lizardfolk hits another creature with a melee weapon attack, the target must succeed on a DC 11 Constitution saving throw or be stunned until the end of the lizardfolk's next turn.
+ACTIONS
+Multiattack. The lizardfolk makes three attacks: two with its unarmed strikes and one with its tail.
+Unarmed Strike. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.
+Tail. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage.
+REACTIONS
+Deflect Missiles. The lizardfolk deflects the missile when it is hit by a ranged weapon attack, reducing the damage it takes to 0.
