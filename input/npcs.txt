@@ -2401,3 +2401,19 @@ Unarmed Strike. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 
 Tail. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage.
 REACTIONS
 Deflect Missiles. The lizardfolk deflects the missile when it is hit by a ranged weapon attack, reducing the damage it takes to 0.
+
+Orc Berserker
+Medium humanoid (orc), chaotic evil
+Armor Class 14
+Hit Points 30 (4d8 + 12)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 16 (+3) 12 (+1) 17 (+3) 7 (-2) 11 (+0) 10 (+0)
+Skills Athletics +S, Intimidation +2
+Senses darkvision 60 ft., passive Perception 10
+Languages Common, Orc
+Challenge 1 (200 XP)
+Aggresive. As a bonus action, the ore can move up to its speed toward a hostile creature that it can see.
+Reckless. At the start of its turn, the ore can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.
+Unarmored Defense. While the ore is wearing no armor, its AC includes its Consitution modifier.
+ACTIONS
+Greataxe. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage.

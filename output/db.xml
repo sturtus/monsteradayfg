@@ -7816,6 +7816,75 @@
           </id-00001>
         </actions>
       </goblinritualist>
+      <lizardfolkmonk>
+        <locked type="number">1</locked>
+        <name type="string">Lizardfolk Monk</name>
+        <type type="string">humanoid (lizardfolk)</type>
+        <size type="string">Medium</size>
+        <ac type="number">17</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">33</hp>
+        <hd type="string">(6d8 + 6)</hd>
+        <speed type="string">40 ft., swim 40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </strength>
+          <constitution>
+            <score type="number">13</score>
+            <modifier type="string">+1</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Acrobatics +5, Perception +3, Stealth +7, Survival +5</skills>
+        <senses type="string">passive Perception 13</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">Draconic</languages>
+        <cr type="string">2</cr>
+        <xp type="number">450</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Hold Breath</name>
+            <desc type="string">The lizardfolk can hold its breath for 15 minutes. Unarmored Defense. While the lizardfolk is wearing no armor and wielding no shield, its AC includes its Wisdom modifier.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Stunning Strike (Recharge 5-6)</name>
+            <desc type="string">When the lizardfolk hits another creature with a melee weapon attack, the target must succeed on a DC 11 Constitution saving throw or be stunned until the end of the lizardfolk's next turn.</desc>
+          </id-00002>
+        </traits>
+        <reactions>
+          <id-00001>
+            <name type="string">Deflect Missiles</name>
+            <desc type="string">The lizardfolk deflects the missile when it is hit by a ranged weapon attack, reducing the damage it takes to 0.</desc>
+          </id-00001>
+        </reactions>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The lizardfolk makes three attacks: two with its unarmed strikes and one with its tail.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Unarmed Strike</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Tail</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage.</desc>
+          </id-00003>
+        </actions>
+      </lizardfolkmonk>
     </category>
   </npc>
   <lists>
@@ -8621,6 +8690,16 @@
                 </link>
                 <source type="string"/>
               </livingspellbook>
+              <lizardfolkmonk>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.lizardfolkmonk@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </lizardfolkmonk>
             </index>
           </typeletterl>
           <typeletterp>
@@ -16814,6 +16893,75 @@
           </id-00001>
         </actions>
       </goblinritualist>
+      <lizardfolkmonk>
+        <locked type="number">1</locked>
+        <name type="string">Lizardfolk Monk</name>
+        <type type="string">humanoid (lizardfolk)</type>
+        <size type="string">Medium</size>
+        <ac type="number">17</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">33</hp>
+        <hd type="string">(6d8 + 6)</hd>
+        <speed type="string">40 ft., swim 40 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </strength>
+          <constitution>
+            <score type="number">13</score>
+            <modifier type="string">+1</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Acrobatics +5, Perception +3, Stealth +7, Survival +5</skills>
+        <senses type="string">passive Perception 13</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">Draconic</languages>
+        <cr type="string">2</cr>
+        <xp type="number">450</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Hold Breath</name>
+            <desc type="string">The lizardfolk can hold its breath for 15 minutes. Unarmored Defense. While the lizardfolk is wearing no armor and wielding no shield, its AC includes its Wisdom modifier.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Stunning Strike (Recharge 5-6)</name>
+            <desc type="string">When the lizardfolk hits another creature with a melee weapon attack, the target must succeed on a DC 11 Constitution saving throw or be stunned until the end of the lizardfolk's next turn.</desc>
+          </id-00002>
+        </traits>
+        <reactions>
+          <id-00001>
+            <name type="string">Deflect Missiles</name>
+            <desc type="string">The lizardfolk deflects the missile when it is hit by a ranged weapon attack, reducing the damage it takes to 0.</desc>
+          </id-00001>
+        </reactions>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The lizardfolk makes three attacks: two with its unarmed strikes and one with its tail.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Unarmed Strike</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Tail</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage.</desc>
+          </id-00003>
+        </actions>
+      </lizardfolkmonk>
     </npcdata>
     <npclists>
       <npcs>
@@ -17643,6 +17791,16 @@
                 </link>
                 <source type="number"/>
               </livingspellbook>
+              <lizardfolkmonk>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.lizardfolkmonk@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </lizardfolkmonk>
             </index>
           </typeletterL>
           <typeletterP>
@@ -18163,6 +18321,16 @@
                 </link>
                 <source type="number"/>
               </bullywugshaman>
+              <lizardfolkmonk>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.lizardfolkmonk@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </lizardfolkmonk>
             </index>
           </level02>
           <level01>
@@ -21180,6 +21348,21 @@
               </goblinritualist>
             </index>
           </typehumanoid_goblinoid_>
+          <typehumanoid_lizardfolk_>
+            <description type="string">Humanoid (lizardfolk)</description>
+            <index>
+              <lizardfolkmonk>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.lizardfolkmonk@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>humanoid (lizardfolk)</source>
+              </lizardfolkmonk>
+            </index>
+          </typehumanoid_lizardfolk_>
         </groups>
       </bytype>
     </npclists>
