@@ -2417,3 +2417,26 @@ Reckless. At the start of its turn, the ore can gain advantage on all melee weap
 Unarmored Defense. While the ore is wearing no armor, its AC includes its Consitution modifier.
 ACTIONS
 Greataxe. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage.
+
+Orc Hand Of Gruumsh
+Medium humanoid (orc), chaotic evil
+Armor Class 16 (chain mail)
+Hit Points 60 (8d8 + 24)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 16 (+3) 12 (+1) 17 (+3) 9 (-1) 14 (+2) 14 (+2)
+Skills Intimidation +4, Religion +1
+Senses darkvision 60 ft., passive Perception 12
+Languages Common, Orc
+Challenge 3 (700 XP)
+Aggressive. As a bonus action, the ore can move u p to its speed toward a hostile creature that it can see. Gruumsh's Pain. The ore deals an extra 4 (1 d8) necrotic damage when it hits with a weapon attack (included in the attack).
+Spellcasting. The ore is a 5th-level spellcaster. Its spellcasting ability is Wisdom (save DC 12, +4 to hit with spell attacks). The ore has the following cleric spells prepared:
+Cantrips (at will): resistance, spare the dying, thaumaturgy
+1st level (4 slots): bane, inflict wounds
+2nd level (3 slots): blindness/deafness, silence
+3rd level (2 slots): animate dead, spirit guardians
+ACTIONS
+Morningstar. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1 d8 + 3) piercing damage plus 4 (1 d8) necrotic damage.
+LEGENDARY ACTIONS
+The orc can take 2 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The orc regains spent legendary actions at the start of its turn.
+Command Undead. The orc chooses one undead creature it controls. That creature can immediately use its reaction to make one weapon attack.
+Mend Bones (Costs 2 actions). Up to six undead creatures that the ore can see within 60 feet of it regain 4 (1 d4 + 2) hit points.

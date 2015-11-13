@@ -7885,6 +7885,142 @@
           </id-00003>
         </actions>
       </lizardfolkmonk>
+      <orcberserker>
+        <locked type="number">1</locked>
+        <name type="string">Orc Berserker</name>
+        <type type="string">humanoid (orc)</type>
+        <size type="string">Medium</size>
+        <ac type="number">14</ac>
+        <actext type="string"/>
+        <hp type="number">30</hp>
+        <hd type="string">(4d8 + 12)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">17</score>
+            <modifier type="string">+3</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">7</score>
+            <modifier type="string">-1</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Athletics +S, Intimidation +2</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 10</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">Common, Orc</languages>
+        <cr type="string">1</cr>
+        <xp type="number">200</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Aggresive</name>
+            <desc type="string">As a bonus action, the ore can move up to its speed toward a hostile creature that it can see.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Reckless</name>
+            <desc type="string">At the start of its turn, the ore can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Unarmored Defense</name>
+            <desc type="string">While the ore is wearing no armor, its AC includes its Consitution modifier.</desc>
+          </id-00003>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Greataxe</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage.</desc>
+          </id-00001>
+        </actions>
+      </orcberserker>
+      <orchandofgruumsh>
+        <locked type="number">1</locked>
+        <name type="string">Orc Hand Of Gruumsh</name>
+        <type type="string">humanoid (orc)</type>
+        <size type="string">Medium</size>
+        <ac type="number">16</ac>
+        <actext type="string">(chain mail)</actext>
+        <hp type="number">60</hp>
+        <hd type="string">(8d8 + 24)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">17</score>
+            <modifier type="string">+3</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">9</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Intimidation +4, Religion +1</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 12</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">Common, Orc</languages>
+        <cr type="string">3</cr>
+        <xp type="number">700</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Aggressive</name>
+            <desc type="string">As a bonus action, the ore can move u p to its speed toward a hostile creature that it can see. Gruumsh's Pain. The ore deals an extra 4 (1 d8) necrotic damage when it hits with a weapon attack (included in the attack).</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Spellcasting</name>
+            <desc type="string">The ore is a 5th-level spellcaster. Its spellcasting ability is Wisdom (save DC 12, +4 to hit with spell attacks). The ore has the following cleric spells prepared: Cantrips (at will): resistance, spare the dying, thaumaturgy 1st level (4 slots): bane, inflict wounds 2nd level (3 slots): blindness/deafness, silence 3rd level (2 slots): animate dead, spirit guardians</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Morningstar</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1 d8 + 3) piercing damage plus 4 (1 d8) necrotic damage.</desc>
+          </id-00001>
+        </actions>
+        <legendaryactions>
+          <id-00001>
+            <name type="string">Morningstar</name>
+            <desc type="string"> The orc can take 2 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The orc regains spent legendary actions at the start of its turn.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Command Undead</name>
+            <desc type="string">The orc chooses one undead creature it controls. That creature can immediately use its reaction to make one weapon attack.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Mend Bones (Costs 2 actions)</name>
+            <desc type="string">Up to six undead creatures that the ore can see within 60 feet of it regain 4 (1 d4 + 2) hit points.</desc>
+          </id-00003>
+        </legendaryactions>
+      </orchandofgruumsh>
     </category>
   </npc>
   <lists>
@@ -9045,6 +9181,26 @@
                 </link>
                 <source type="string"/>
               </owlbearmatron>
+              <orcberserker>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.orcberserker@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </orcberserker>
+              <orchandofgruumsh>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.orchandofgruumsh@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </orchandofgruumsh>
             </index>
           </typelettero>
           <typeletteri>
@@ -16962,6 +17118,142 @@
           </id-00003>
         </actions>
       </lizardfolkmonk>
+      <orcberserker>
+        <locked type="number">1</locked>
+        <name type="string">Orc Berserker</name>
+        <type type="string">humanoid (orc)</type>
+        <size type="string">Medium</size>
+        <ac type="number">14</ac>
+        <actext type="string"/>
+        <hp type="number">30</hp>
+        <hd type="string">(4d8 + 12)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">17</score>
+            <modifier type="string">+3</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">7</score>
+            <modifier type="string">-1</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">11</score>
+            <modifier type="string">0</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Athletics +S, Intimidation +2</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 10</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">Common, Orc</languages>
+        <cr type="string">1</cr>
+        <xp type="number">200</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Aggresive</name>
+            <desc type="string">As a bonus action, the ore can move up to its speed toward a hostile creature that it can see.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Reckless</name>
+            <desc type="string">At the start of its turn, the ore can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Unarmored Defense</name>
+            <desc type="string">While the ore is wearing no armor, its AC includes its Consitution modifier.</desc>
+          </id-00003>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Greataxe</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage.</desc>
+          </id-00001>
+        </actions>
+      </orcberserker>
+      <orchandofgruumsh>
+        <locked type="number">1</locked>
+        <name type="string">Orc Hand Of Gruumsh</name>
+        <type type="string">humanoid (orc)</type>
+        <size type="string">Medium</size>
+        <ac type="number">16</ac>
+        <actext type="string">(chain mail)</actext>
+        <hp type="number">60</hp>
+        <hd type="string">(8d8 + 24)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">17</score>
+            <modifier type="string">+3</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">9</score>
+            <modifier type="string">0</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Intimidation +4, Religion +1</skills>
+        <senses type="string">darkvision 60 ft., passive Perception 12</senses>
+        <alignment type="string">chaotic evil</alignment>
+        <languages type="string">Common, Orc</languages>
+        <cr type="string">3</cr>
+        <xp type="number">700</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Aggressive</name>
+            <desc type="string">As a bonus action, the ore can move u p to its speed toward a hostile creature that it can see. Gruumsh's Pain. The ore deals an extra 4 (1 d8) necrotic damage when it hits with a weapon attack (included in the attack).</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Spellcasting</name>
+            <desc type="string">The ore is a 5th-level spellcaster. Its spellcasting ability is Wisdom (save DC 12, +4 to hit with spell attacks). The ore has the following cleric spells prepared: Cantrips (at will): resistance, spare the dying, thaumaturgy 1st level (4 slots): bane, inflict wounds 2nd level (3 slots): blindness/deafness, silence 3rd level (2 slots): animate dead, spirit guardians</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Morningstar</name>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1 d8 + 3) piercing damage plus 4 (1 d8) necrotic damage.</desc>
+          </id-00001>
+        </actions>
+        <legendaryactions>
+          <id-00001>
+            <name type="string">Morningstar</name>
+            <desc type="string"> The orc can take 2 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The orc regains spent legendary actions at the start of its turn.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Command Undead</name>
+            <desc type="string">The orc chooses one undead creature it controls. That creature can immediately use its reaction to make one weapon attack.</desc>
+          </id-00002>
+          <id-00003>
+            <name type="string">Mend Bones (Costs 2 actions)</name>
+            <desc type="string">Up to six undead creatures that the ore can see within 60 feet of it regain 4 (1 d4 + 2) hit points.</desc>
+          </id-00003>
+        </legendaryactions>
+      </orchandofgruumsh>
     </npcdata>
     <npclists>
       <npcs>
@@ -18146,6 +18438,26 @@
                 </link>
                 <source type="number"/>
               </owlbearmatron>
+              <orcberserker>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.orcberserker@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </orcberserker>
+              <orchandofgruumsh>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.orchandofgruumsh@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </orchandofgruumsh>
             </index>
           </typeletterO>
           <typeletterI>
@@ -18406,6 +18718,16 @@
                 </link>
                 <source type="number"/>
               </wintersprite>
+              <orcberserker>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.orcberserker@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </orcberserker>
             </index>
           </level01>
           <level03>
@@ -18541,6 +18863,16 @@
                 </link>
                 <source type="number"/>
               </magmabear>
+              <orchandofgruumsh>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.orchandofgruumsh@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </orchandofgruumsh>
             </index>
           </level03>
           <level1_2>
@@ -21363,6 +21695,31 @@
               </lizardfolkmonk>
             </index>
           </typehumanoid_lizardfolk_>
+          <typehumanoid_orc_>
+            <description type="string">Humanoid (orc)</description>
+            <index>
+              <orcberserker>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.orcberserker@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>humanoid (orc)</source>
+              </orcberserker>
+              <orchandofgruumsh>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.orchandofgruumsh@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>humanoid (orc)</source>
+              </orchandofgruumsh>
+            </index>
+          </typehumanoid_orc_>
         </groups>
       </bytype>
     </npclists>
