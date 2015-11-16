@@ -2526,11 +2526,11 @@ Cantrips (at will): resistance, spare the dying, thaumaturgy
 2nd level (3 slots): blindness/deafness, silence
 3rd level (2 slots): animate dead, spirit guardians
 ACTIONS
-Morningstar. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1 d8 + 3) piercing damage plus 4 (1 d8) necrotic damage.
+Morningstar. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1 d8) necrotic damage.
 LEGENDARY ACTIONS
 The orc can take 2 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The orc regains spent legendary actions at the start of its turn.
 Command Undead. The orc chooses one undead creature it controls. That creature can immediately use its reaction to make one weapon attack.
-Mend Bones (Costs 2 actions). Up to six undead creatures that the ore can see within 60 feet of it regain 4 (1 d4 + 2) hit points.
+Mend Bones (Costs 2 actions). Up to six undead creatures that the ore can see within 60 feet of it regain 4 (1d4 + 2) hit points.
 
 Armed Skeleton
 Medium undead, lawful evil
@@ -2564,4 +2564,4 @@ Harden. At the start of its turn, the elemental can choose to have disadvantage 
 Regeneration. The elemental regains 10 hit points at the start of its turn if it has at least 1 hit point. If the elemental takes thunder damage, this trait doesn't function at the start of the elemental's next turn.
 ACTIONS
 Multiattack. The elemental makes two attacks with its crystal spear.
-Crystal Spear. Me/ee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage.
+Crystal Spear. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage.
