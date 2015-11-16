@@ -5919,6 +5919,63 @@
             <desc type="string">Ranged Spell Attack: +6 to hit, range 30/60 ft., one target. Hit: 11 (2d10) psychic damage and the creature has disadvantage on Wisdom saving throws until the end of the enchanter's next turn.</desc>
           </id-00001>
         </actions>
+        <text type="formattedtext">
+          <h>Spellcasting</h>
+          <p>The enchanter is a 9th level spellcaster. Its spellcasting ability is Charisma (save DC 14, +6 to hit with spell attacks). The enchanter knows the following sorcerer spells:</p>
+          <p>
+            <b>Cantrips (at will):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.bladeward@*">Blade Ward</link>
+            <link class="reference_spell" recordname="reference.spelldata.light@*">Light</link>
+            <link class="reference_spell" recordname="reference.spelldata.magehand@*">Mage Hand</link>
+            <link class="reference_spell" recordname="reference.spelldata.message@*">Message</link>
+            <link class="reference_spell" recordname="reference.spelldata.prestidigitation@*">Prestidigitation</link>
+          </listlink>
+          <p>
+            <b>1st level (4 slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.charmperson@*">Charm Person</link>
+            <link class="reference_spell" recordname="reference.spelldata.magearmor@*">Mage Armor</link>
+            <link class="reference_spell" recordname="reference.spelldata.shield@*">Shield</link>
+          </listlink>
+          <p>
+            <b>2nd level (3 slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.holdperson@*">Hold Person</link>
+            <link class="reference_spell" recordname="reference.spelldata.suggestion@*">Suggestion</link>
+          </listlink>
+          <p>
+            <b>3rd level (3 slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.counterspell@*">Counterspell</link>
+            <link class="reference_spell" recordname="reference.spelldata.dispelmagic@*">Dispel Magic</link>
+          </listlink>
+          <p>
+            <b>4th level (3 slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.confusion@*">Confusion</link>
+            <link class="reference_spell" recordname="reference.spelldata.dominatebeast@*">Dominate Beast</link>
+          </listlink>
+          <p>
+            <b>5th level (1 slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.dominateperson@*">Dominate Person</link>
+          </listlink>
+          <h>Azure Sorcerers</h>
+          <p>Masters of manipulation, Azure sorcerers are found in every corner of the world. Working their power, plans come to fruition, kings dance like puppets and heroes unwittingly follow Azure machinations. Zealous and callous, Azure sorcerers guide the world, aiding or destroying anything that struggles to fit their design.</p>
+          <p>
+            <b>Azure Palace.</b> Located on a narrow coast, the city of Nesas lies hidden from prying eyes. Protected by powerful illusory magic, Nesas is the seat of the Azure Palace. Here, Azure sorcerers meet and scheme , plotting as much against each other as with the world around them . Governed by an absolute ruler, Nesas is a place of political games and complex conspiracies .</p>
+          <p>
+            <b>Divided beliefs.</b> All Azure sorcerers enjoy manipulating the world around them. Their motivations, however, often contradict. Divided into six orders, Azure sorcerers work in the best interests of their order, squabbling with the other five groups. Miniature wars have been known to break out between the various orders. When working outside of Nesas , Azure sorcerers rarely interact with one another, choosing instead to propel their own complex schemes. On the rare occasion that they do unite, Azure sorcerers have been known to build entire empires or crush mighty forces.</p>
+          <p>
+            <b>Initiation.</b> Becoming an Azure sorcerer is not a choice . Agents of the Azure palace roam the land, collecting individuals who show arcane promise in manipulation and illusion. Taken to Nesas , initiates then work as laborers and servants as they learn to channel their magical energies . Many initiates are caught up into political schemes, acting as spies and gears in greater plots. Those who fail to show promise in their studies are kept as veritable slaves, the lowest class in Nesas.</p>
+        </text>
       </azureenchanter>
       <azuremindsculptor>
         <locked type="number">1</locked>
@@ -5983,6 +6040,76 @@
             <desc type="string">The mind sculptor targets one creature that it can see within 60 feet of it. The target must succeed on a DC 17 Wisdom saving throw or be magically charmed. The charmed creature can't attack or otherwise harm another creature. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. The mind sculptor can have only one target charmed at a time in this way. If it charms another, the effect on the previous target ends.</desc>
           </id-00002>
         </actions>
+        <text type="formattedtext">
+          <h>Spellcasting.</h>
+          <p>The mind sculptor is a 13th level spellcaster. Its spellcasting ability is Charisma (save DC 17, +9 to hit with spell attacks). The mind sculptor knows the following sorcerer spells:</p>
+          <p>
+            <b>Cantrips (at will):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.bladeward@*">Blade Ward</link>
+            <link class="reference_spell" recordname="reference.spelldata.light@*">Light</link>
+            <link class="reference_spell" recordname="reference.spelldata.mage@*">Mage</link>
+            <link class="reference_spell" recordname="reference.spelldata.message@*">Message</link>
+            <link class="reference_spell" recordname="reference.spelldata.prestidigitation@*">Prestidigitation</link>
+          </listlink>
+          <p>
+            <b>1st level (4 slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.charmperson@*">Charm Person</link>
+            <link class="reference_spell" recordname="reference.spelldata.magearmor@*">Mage Armor</link>
+            <link class="reference_spell" recordname="reference.spelldata.shield@*">Shield</link>
+          </listlink>
+          <p>
+            <b>2nd level (3 slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.holdperson@*">Hold Person</link>
+            <link class="reference_spell" recordname="reference.spelldata.suggestion@*">Suggestion</link>
+          </listlink>
+          <p>
+            <b>3rd level (3 slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.counterspell@*">Counterspell</link>
+            <link class="reference_spell" recordname="reference.spelldata.dispelmagic@*">Dispel Magic</link>
+          </listlink>
+          <p>
+            <b>4th level (3 slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.confusion@*">Confusion</link>
+            <link class="reference_spell" recordname="reference.spelldata.dominatebeast@*">Dominate Beast</link>
+          </listlink>
+          <p>
+            <b>5th level (2 slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.dominateperson@*">Dominate Person</link>
+            <link class="reference_spell" recordname="reference.spelldata.seeming@*">Seeming</link>
+          </listlink>
+          <p>
+            <b>6th level (1 slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.masssuggestion@*">Mass Suggestion</link>
+          </listlink>
+          <p>
+            <b>7th level (1 slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.prismaticspray@*">Prismatic Spray</link>
+          </listlink>
+          <h>Azure Sorcerers</h>
+          <p>Masters of manipulation, Azure sorcerers are found in every corner of the world. Working their power, plans come to fruition, kings dance like puppets and heroes unwittingly follow Azure machinations. Zealous and callous, Azure sorcerers guide the world, aiding or destroying anything that struggles to fit their design.</p>
+          <p>
+            <b>Azure Palace.</b> Located on a narrow coast, the city of Nesas lies hidden from prying eyes. Protected by powerful illusory magic, Nesas is the seat of the Azure Palace. Here, Azure sorcerers meet and scheme , plotting as much against each other as with the world around them . Governed by an absolute ruler, Nesas is a place of political games and complex conspiracies .</p>
+          <p>
+            <b>Divided beliefs.</b> All Azure sorcerers enjoy manipulating the world around them. Their motivations, however, often contradict. Divided into six orders, Azure sorcerers work in the best interests of their order, squabbling with the other five groups. Miniature wars have been known to break out between the various orders. When working outside of Nesas , Azure sorcerers rarely interact with one another, choosing instead to propel their own complex schemes. On the rare occasion that they do unite, Azure sorcerers have been known to build entire empires or crush mighty forces.</p>
+          <p>
+            <b>Initiation.</b> Becoming an Azure sorcerer is not a choice . Agents of the Azure palace roam the land, collecting individuals who show arcane promise in manipulation and illusion. Taken to Nesas , initiates then work as laborers and servants as they learn to channel their magical energies . Many initiates are caught up into political schemes, acting as spies and gears in greater plots. Those who fail to show promise in their studies are kept as veritable slaves, the lowest class in Nesas.</p>
+        </text>
       </azuremindsculptor>
       <koboldcommander>
         <locked type="number">1</locked>
@@ -8021,6 +8148,128 @@
           </id-00003>
         </legendaryactions>
       </orchandofgruumsh>
+      <armedskeleton>
+        <locked type="number">1</locked>
+        <name type="string">Armed Skeleton</name>
+        <type type="string">undead</type>
+        <size type="string">Medium</size>
+        <ac type="number">13</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">26</hp>
+        <hd type="string">(4d8 + 8)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">6</score>
+            <modifier type="string">-2</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">6</score>
+            <modifier type="string">-2</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Athletics +3</skills>
+        <damagevulnerabilities type="string">bludgeoning</damagevulnerabilities>
+        <damageimmunities type="string">poison</damageimmunities>
+        <conditionimmunities type="string">exhaustion, poisoned</conditionimmunities>
+        <senses type="string">darkvision 60 ft., passive Perception 9</senses>
+        <alignment type="string">lawful evil</alignment>
+        <languages type="string">understands all languages it knew in life but can't speak</languages>
+        <cr type="string">1</cr>
+        <xp type="number">200</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Armed Advantage</name>
+            <desc type="string">The skeleton has advantage on Strength (Athletics) checks made to grapple.</desc>
+          </id-00001>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The skeleton makes four melee attacks. Claw. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) slashing damage.</desc>
+          </id-00001>
+        </actions>
+      </armedskeleton>
+      <crystalelemental>
+        <locked type="number">1</locked>
+        <name type="string">Crystal Elemental</name>
+        <type type="string">elemental</type>
+        <size type="string">Medium</size>
+        <ac type="number">15</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">57</hp>
+        <hd type="string">(6d8 + 30)</hd>
+        <speed type="string">30 ft ., burrow 30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </charisma>
+        </abilities>
+        <damagevulnerabilities type="string">thunder</damagevulnerabilities>
+        <damageresistances type="string">piercing and slashing from nonmagical weapons that aren't adamantine</damageresistances>
+        <senses type="string">darkvision 60 ft., tremorsense 60 ft., passive Perception 10</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">Terran</languages>
+        <cr type="string">3</cr>
+        <xp type="number">700</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Harden</name>
+            <desc type="string">At the start of its turn, the elemental can choose to have disadvantage on all melee weapon attack rolls during that turn, but attack ro lls against it have disadvantage until the start of its next turn.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Regeneration</name>
+            <desc type="string">The elemental regains 10 hit points at the start of its turn if it has at least 1 hit point. If the elemental takes thunder damage, this trait doesn't function at the start of the elemental's next turn.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The elemental makes two attacks with its crystal spear.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Crystal Spear</name>
+            <desc type="string">Me/ee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage.</desc>
+          </id-00002>
+        </actions>
+      </crystalelemental>
     </category>
   </npc>
   <lists>
@@ -8136,6 +8385,16 @@
                 </link>
                 <source type="string"/>
               </ancientchronomancer>
+              <armedskeleton>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.armedskeleton@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </armedskeleton>
             </index>
           </typelettera>
           <typeletterm>
@@ -8361,6 +8620,16 @@
                 </link>
                 <source type="string"/>
               </chainergeist>
+              <crystalelemental>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.crystalelemental@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </crystalelemental>
             </index>
           </typeletterc>
           <typeletters>
@@ -15152,6 +15421,63 @@
             <desc type="string">Ranged Spell Attack: +6 to hit, range 30/60 ft., one target. Hit: 11 (2d10) psychic damage and the creature has disadvantage on Wisdom saving throws until the end of the enchanter's next turn.</desc>
           </id-00001>
         </actions>
+        <text type="formattedtext">
+          <h>Spellcasting</h>
+          <p>The enchanter is a 9th level spellcaster. Its spellcasting ability is Charisma (save DC 14, +6 to hit with spell attacks). The enchanter knows the following sorcerer spells:</p>
+          <p>
+            <b>Cantrips (at will):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.bladeward@*">Blade Ward</link>
+            <link class="reference_spell" recordname="reference.spelldata.light@*">Light</link>
+            <link class="reference_spell" recordname="reference.spelldata.magehand@*">Mage Hand</link>
+            <link class="reference_spell" recordname="reference.spelldata.message@*">Message</link>
+            <link class="reference_spell" recordname="reference.spelldata.prestidigitation@*">Prestidigitation</link>
+          </listlink>
+          <p>
+            <b>1st level (4 slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.charmperson@*">Charm Person</link>
+            <link class="reference_spell" recordname="reference.spelldata.magearmor@*">Mage Armor</link>
+            <link class="reference_spell" recordname="reference.spelldata.shield@*">Shield</link>
+          </listlink>
+          <p>
+            <b>2nd level (3 slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.holdperson@*">Hold Person</link>
+            <link class="reference_spell" recordname="reference.spelldata.suggestion@*">Suggestion</link>
+          </listlink>
+          <p>
+            <b>3rd level (3 slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.counterspell@*">Counterspell</link>
+            <link class="reference_spell" recordname="reference.spelldata.dispelmagic@*">Dispel Magic</link>
+          </listlink>
+          <p>
+            <b>4th level (3 slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.confusion@*">Confusion</link>
+            <link class="reference_spell" recordname="reference.spelldata.dominatebeast@*">Dominate Beast</link>
+          </listlink>
+          <p>
+            <b>5th level (1 slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.dominateperson@*">Dominate Person</link>
+          </listlink>
+          <h>Azure Sorcerers</h>
+          <p>Masters of manipulation, Azure sorcerers are found in every corner of the world. Working their power, plans come to fruition, kings dance like puppets and heroes unwittingly follow Azure machinations. Zealous and callous, Azure sorcerers guide the world, aiding or destroying anything that struggles to fit their design.</p>
+          <p>
+            <b>Azure Palace.</b> Located on a narrow coast, the city of Nesas lies hidden from prying eyes. Protected by powerful illusory magic, Nesas is the seat of the Azure Palace. Here, Azure sorcerers meet and scheme , plotting as much against each other as with the world around them . Governed by an absolute ruler, Nesas is a place of political games and complex conspiracies .</p>
+          <p>
+            <b>Divided beliefs.</b> All Azure sorcerers enjoy manipulating the world around them. Their motivations, however, often contradict. Divided into six orders, Azure sorcerers work in the best interests of their order, squabbling with the other five groups. Miniature wars have been known to break out between the various orders. When working outside of Nesas , Azure sorcerers rarely interact with one another, choosing instead to propel their own complex schemes. On the rare occasion that they do unite, Azure sorcerers have been known to build entire empires or crush mighty forces.</p>
+          <p>
+            <b>Initiation.</b> Becoming an Azure sorcerer is not a choice . Agents of the Azure palace roam the land, collecting individuals who show arcane promise in manipulation and illusion. Taken to Nesas , initiates then work as laborers and servants as they learn to channel their magical energies . Many initiates are caught up into political schemes, acting as spies and gears in greater plots. Those who fail to show promise in their studies are kept as veritable slaves, the lowest class in Nesas.</p>
+        </text>
       </azureenchanter>
       <azuremindsculptor>
         <locked type="number">1</locked>
@@ -15216,6 +15542,76 @@
             <desc type="string">The mind sculptor targets one creature that it can see within 60 feet of it. The target must succeed on a DC 17 Wisdom saving throw or be magically charmed. The charmed creature can't attack or otherwise harm another creature. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. The mind sculptor can have only one target charmed at a time in this way. If it charms another, the effect on the previous target ends.</desc>
           </id-00002>
         </actions>
+        <text type="formattedtext">
+          <h>Spellcasting.</h>
+          <p>The mind sculptor is a 13th level spellcaster. Its spellcasting ability is Charisma (save DC 17, +9 to hit with spell attacks). The mind sculptor knows the following sorcerer spells:</p>
+          <p>
+            <b>Cantrips (at will):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.bladeward@*">Blade Ward</link>
+            <link class="reference_spell" recordname="reference.spelldata.light@*">Light</link>
+            <link class="reference_spell" recordname="reference.spelldata.mage@*">Mage</link>
+            <link class="reference_spell" recordname="reference.spelldata.message@*">Message</link>
+            <link class="reference_spell" recordname="reference.spelldata.prestidigitation@*">Prestidigitation</link>
+          </listlink>
+          <p>
+            <b>1st level (4 slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.charmperson@*">Charm Person</link>
+            <link class="reference_spell" recordname="reference.spelldata.magearmor@*">Mage Armor</link>
+            <link class="reference_spell" recordname="reference.spelldata.shield@*">Shield</link>
+          </listlink>
+          <p>
+            <b>2nd level (3 slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.holdperson@*">Hold Person</link>
+            <link class="reference_spell" recordname="reference.spelldata.suggestion@*">Suggestion</link>
+          </listlink>
+          <p>
+            <b>3rd level (3 slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.counterspell@*">Counterspell</link>
+            <link class="reference_spell" recordname="reference.spelldata.dispelmagic@*">Dispel Magic</link>
+          </listlink>
+          <p>
+            <b>4th level (3 slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.confusion@*">Confusion</link>
+            <link class="reference_spell" recordname="reference.spelldata.dominatebeast@*">Dominate Beast</link>
+          </listlink>
+          <p>
+            <b>5th level (2 slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.dominateperson@*">Dominate Person</link>
+            <link class="reference_spell" recordname="reference.spelldata.seeming@*">Seeming</link>
+          </listlink>
+          <p>
+            <b>6th level (1 slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.masssuggestion@*">Mass Suggestion</link>
+          </listlink>
+          <p>
+            <b>7th level (1 slots):</b>
+          </p>
+          <listlink>
+            <link class="reference_spell" recordname="reference.spelldata.prismaticspray@*">Prismatic Spray</link>
+          </listlink>
+          <h>Azure Sorcerers</h>
+          <p>Masters of manipulation, Azure sorcerers are found in every corner of the world. Working their power, plans come to fruition, kings dance like puppets and heroes unwittingly follow Azure machinations. Zealous and callous, Azure sorcerers guide the world, aiding or destroying anything that struggles to fit their design.</p>
+          <p>
+            <b>Azure Palace.</b> Located on a narrow coast, the city of Nesas lies hidden from prying eyes. Protected by powerful illusory magic, Nesas is the seat of the Azure Palace. Here, Azure sorcerers meet and scheme , plotting as much against each other as with the world around them . Governed by an absolute ruler, Nesas is a place of political games and complex conspiracies .</p>
+          <p>
+            <b>Divided beliefs.</b> All Azure sorcerers enjoy manipulating the world around them. Their motivations, however, often contradict. Divided into six orders, Azure sorcerers work in the best interests of their order, squabbling with the other five groups. Miniature wars have been known to break out between the various orders. When working outside of Nesas , Azure sorcerers rarely interact with one another, choosing instead to propel their own complex schemes. On the rare occasion that they do unite, Azure sorcerers have been known to build entire empires or crush mighty forces.</p>
+          <p>
+            <b>Initiation.</b> Becoming an Azure sorcerer is not a choice . Agents of the Azure palace roam the land, collecting individuals who show arcane promise in manipulation and illusion. Taken to Nesas , initiates then work as laborers and servants as they learn to channel their magical energies . Many initiates are caught up into political schemes, acting as spies and gears in greater plots. Those who fail to show promise in their studies are kept as veritable slaves, the lowest class in Nesas.</p>
+        </text>
       </azuremindsculptor>
       <koboldcommander>
         <locked type="number">1</locked>
@@ -17254,6 +17650,128 @@
           </id-00003>
         </legendaryactions>
       </orchandofgruumsh>
+      <armedskeleton>
+        <locked type="number">1</locked>
+        <name type="string">Armed Skeleton</name>
+        <type type="string">undead</type>
+        <size type="string">Medium</size>
+        <ac type="number">13</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">26</hp>
+        <hd type="string">(4d8 + 8)</hd>
+        <speed type="string">30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">15</score>
+            <modifier type="string">+2</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">6</score>
+            <modifier type="string">-2</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">8</score>
+            <modifier type="string">-1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">6</score>
+            <modifier type="string">-2</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Athletics +3</skills>
+        <damagevulnerabilities type="string">bludgeoning</damagevulnerabilities>
+        <damageimmunities type="string">poison</damageimmunities>
+        <conditionimmunities type="string">exhaustion, poisoned</conditionimmunities>
+        <senses type="string">darkvision 60 ft., passive Perception 9</senses>
+        <alignment type="string">lawful evil</alignment>
+        <languages type="string">understands all languages it knew in life but can't speak</languages>
+        <cr type="string">1</cr>
+        <xp type="number">200</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Armed Advantage</name>
+            <desc type="string">The skeleton has advantage on Strength (Athletics) checks made to grapple.</desc>
+          </id-00001>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The skeleton makes four melee attacks. Claw. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) slashing damage.</desc>
+          </id-00001>
+        </actions>
+      </armedskeleton>
+      <crystalelemental>
+        <locked type="number">1</locked>
+        <name type="string">Crystal Elemental</name>
+        <type type="string">elemental</type>
+        <size type="string">Medium</size>
+        <ac type="number">15</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">57</hp>
+        <hd type="string">(6d8 + 30)</hd>
+        <speed type="string">30 ft ., burrow 30 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">16</score>
+            <modifier type="string">+3</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">10</score>
+            <modifier type="string">0</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </charisma>
+        </abilities>
+        <damagevulnerabilities type="string">thunder</damagevulnerabilities>
+        <damageresistances type="string">piercing and slashing from nonmagical weapons that aren't adamantine</damageresistances>
+        <senses type="string">darkvision 60 ft., tremorsense 60 ft., passive Perception 10</senses>
+        <alignment type="string">neutral</alignment>
+        <languages type="string">Terran</languages>
+        <cr type="string">3</cr>
+        <xp type="number">700</xp>
+        <traits>
+          <id-00001>
+            <name type="string">Harden</name>
+            <desc type="string">At the start of its turn, the elemental can choose to have disadvantage on all melee weapon attack rolls during that turn, but attack ro lls against it have disadvantage until the start of its next turn.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Regeneration</name>
+            <desc type="string">The elemental regains 10 hit points at the start of its turn if it has at least 1 hit point. If the elemental takes thunder damage, this trait doesn't function at the start of the elemental's next turn.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Multiattack</name>
+            <desc type="string">The elemental makes two attacks with its crystal spear.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Crystal Spear</name>
+            <desc type="string">Me/ee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage.</desc>
+          </id-00002>
+        </actions>
+      </crystalelemental>
     </npcdata>
     <npclists>
       <npcs>
@@ -17393,6 +17911,16 @@
                 </link>
                 <source type="number"/>
               </ancientchronomancer>
+              <armedskeleton>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.armedskeleton@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </armedskeleton>
             </index>
           </typeletterA>
           <typeletterM>
@@ -17618,6 +18146,16 @@
                 </link>
                 <source type="number"/>
               </chainergeist>
+              <crystalelemental>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.crystalelemental@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </crystalelemental>
             </index>
           </typeletterC>
           <typeletterS>
@@ -18728,6 +19266,16 @@
                 </link>
                 <source type="number"/>
               </orcberserker>
+              <armedskeleton>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.armedskeleton@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </armedskeleton>
             </index>
           </level01>
           <level03>
@@ -18873,6 +19421,16 @@
                 </link>
                 <source type="number"/>
               </orchandofgruumsh>
+              <crystalelemental>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.crystalelemental@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </crystalelemental>
             </index>
           </level03>
           <level1_2>
@@ -20213,6 +20771,16 @@
                 </link>
                 <source>Elemental</source>
               </magmabear>
+              <crystalelemental>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.crystalelemental@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>elemental</source>
+              </crystalelemental>
             </index>
           </typeelemental>
           <typehumanoid_gazellean_>
@@ -20363,6 +20931,16 @@
                 </link>
                 <source>Undead</source>
               </chainergeist>
+              <armedskeleton>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.armedskeleton@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>undead</source>
+              </armedskeleton>
             </index>
           </typeundead>
           <typehumanoid_leonin_>
@@ -20828,6 +21406,16 @@
                 </link>
                 <source>Undead</source>
               </chainergeist>
+              <armedskeleton>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.armedskeleton@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>undead</source>
+              </armedskeleton>
             </index>
           </typeundead>
           <typemonstrosity>
@@ -21553,6 +22141,16 @@
                 </link>
                 <source>Elemental</source>
               </magmabear>
+              <crystalelemental>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.crystalelemental@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>elemental</source>
+              </crystalelemental>
             </index>
           </typeelemental>
           <typeconstructfiend>

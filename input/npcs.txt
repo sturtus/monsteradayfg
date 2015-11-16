@@ -1754,6 +1754,47 @@ ACTIONS
 Mind Lash. Ranged Spell Attack: +6 to hit, range 30/60 ft., one target. Hit: 11 (2d10) psychic damage and the creature has disadvantage on Wisdom saving throws until the end of the enchanter's next turn.
 REACTIONS
 Invoke Doubt. If the enchanter is the target of an attack and can see the attacker, it imposes disadvantage on the attack roll.
+##;
+#h;Spellcasting
+The enchanter is a 9th level spellcaster. Its spellcasting ability is Charisma (save DC 14, +6 to hit with spell attacks). The enchanter knows the following sorcerer spells: 
+#bp;Cantrips (at will): 
+#zls;
+#zal;spell;Blade Ward
+#zal;spell;Light
+#zal;spell;Mage Hand
+#zal;spell;Message
+#zal;spell;Prestidigitation
+#zle;
+#bp;1st level (4 slots): 
+#zls;
+#zal;spell;Charm Person
+#zal;spell;Mage Armor
+#zal;spell;Shield
+#zle;
+#bp;2nd level (3 slots): 
+#zls;
+#zal;spell;Hold Person
+#zal;spell;Suggestion
+#zle;
+#bp;3rd level (3 slots): 
+#zls;
+#zal;spell;Counterspell
+#zal;spell;Dispel Magic
+#zle;
+#bp;4th level (3 slots): 
+#zls;
+#zal;spell;Confusion
+#zal;spell;Dominate Beast
+#zle;
+#bp;5th level (1 slots): 
+#zls;
+#zal;spell;Dominate Person
+#zle;
+#h;Azure Sorcerers
+Masters of manipulation, Azure sorcerers are found in every corner of the world. Working their power, plans come to fruition, kings dance like puppets and heroes unwittingly follow Azure machinations. Zealous and callous, Azure sorcerers guide the world, aiding or destroying anything that struggles to fit their design.
+#bs;Azure Palace. Located on a narrow coast, the city of Nesas lies hidden from prying eyes. Protected by powerful illusory magic, Nesas is the seat of the Azure Palace. Here, Azure sorcerers meet and scheme , plotting as much against each other as with the world around them . Governed by an absolute ruler, Nesas is a place of political games and complex conspiracies .
+#bs;Divided beliefs. All Azure sorcerers enjoy manipulating the world around them. Their motivations, however, often contradict. Divided into six orders, Azure sorcerers work in the best interests of their order, squabbling with the other five groups. Miniature wars have been known to break out between the various orders. When working outside of Nesas , Azure sorcerers rarely interact with one another, choosing instead to propel their own complex schemes. On the rare occasion that they do unite, Azure sorcerers have been known to build entire empires or crush mighty forces.
+#bs;Initiation. Becoming an Azure sorcerer is not a choice . Agents of the Azure palace roam the land, collecting individuals who show arcane promise in manipulation and illusion. Taken to Nesas , initiates then work as laborers and servants as they learn to channel their magical energies . Many initiates are caught up into political schemes, acting as spies and gears in greater plots. Those who fail to show promise in their studies are kept as veritable slaves, the lowest class in Nesas.
 
 Azure Mind Sculptor
 Medium Humanoid (any race), any alignment
@@ -1779,6 +1820,56 @@ Cantrips (at will): blade ward, light, mage, message, prestidigitation
 ACTIONS
 Melt Mind. Ranged Spell Attack: +9 to hit, range 60/120 ft., one target. Hit: 16 (3d10) psychic damage and the creature must succeed on a DC 17 Wisdom saving throw or become stunned until the end of the mind sculptor's next turn.
 Pacify. The mind sculptor targets one creature that it can see within 60 feet of it. The target must succeed on a DC 17 Wisdom saving throw or be magically charmed. The charmed creature can't attack or otherwise harm another creature. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. The mind sculptor can have only one target charmed at a time in this way. If it charms another, the effect on the previous target ends.
+##;
+#h;Spellcasting. 
+The mind sculptor is a 13th level spellcaster. Its spellcasting ability is Charisma (save DC 17, +9 to hit with spell attacks). The mind sculptor knows the following sorcerer spells:
+#bp;Cantrips (at will): 
+#zls;
+#zal;spell;Blade Ward
+#zal;spell;Light
+#zal;spell;Mage
+#zal;spell;Message
+#zal;spell;Prestidigitation
+#zle;
+#bp;1st level (4 slots):
+#zls;
+#zal;spell;Charm Person
+#zal;spell;Mage Armor
+#zal;spell;Shield
+#zle;
+#bp;2nd level (3 slots):
+#zls;
+#zal;spell;Hold Person
+#zal;spell;Suggestion
+#zle;
+#bp;3rd level (3 slots):
+#zls;
+#zal;spell;Counterspell
+#zal;spell;Dispel Magic
+#zle;
+#bp;4th level (3 slots):
+#zls;
+#zal;spell;Confusion
+#zal;spell;Dominate Beast
+#zle;
+#bp;5th level (2 slots):
+#zls;
+#zal;spell;Dominate Person
+#zal;spell;Seeming
+#zle;
+#bp;6th level (1 slots):
+#zls;
+#zal;spell;Mass Suggestion
+#zle;
+#bp;7th level (1 slots):
+#zls;
+#zal;spell;Prismatic Spray
+#zle;
+#h;Azure Sorcerers
+Masters of manipulation, Azure sorcerers are found in every corner of the world. Working their power, plans come to fruition, kings dance like puppets and heroes unwittingly follow Azure machinations. Zealous and callous, Azure sorcerers guide the world, aiding or destroying anything that struggles to fit their design.
+#bs;Azure Palace. Located on a narrow coast, the city of Nesas lies hidden from prying eyes. Protected by powerful illusory magic, Nesas is the seat of the Azure Palace. Here, Azure sorcerers meet and scheme , plotting as much against each other as with the world around them . Governed by an absolute ruler, Nesas is a place of political games and complex conspiracies .
+#bs;Divided beliefs. All Azure sorcerers enjoy manipulating the world around them. Their motivations, however, often contradict. Divided into six orders, Azure sorcerers work in the best interests of their order, squabbling with the other five groups. Miniature wars have been known to break out between the various orders. When working outside of Nesas , Azure sorcerers rarely interact with one another, choosing instead to propel their own complex schemes. On the rare occasion that they do unite, Azure sorcerers have been known to build entire empires or crush mighty forces.
+#bs;Initiation. Becoming an Azure sorcerer is not a choice . Agents of the Azure palace roam the land, collecting individuals who show arcane promise in manipulation and illusion. Taken to Nesas , initiates then work as laborers and servants as they learn to channel their magical energies . Many initiates are caught up into political schemes, acting as spies and gears in greater plots. Those who fail to show promise in their studies are kept as veritable slaves, the lowest class in Nesas.
 
 Kobold Commander
 Small Humanoid (kobold), lawful evil
@@ -2440,3 +2531,37 @@ LEGENDARY ACTIONS
 The orc can take 2 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The orc regains spent legendary actions at the start of its turn.
 Command Undead. The orc chooses one undead creature it controls. That creature can immediately use its reaction to make one weapon attack.
 Mend Bones (Costs 2 actions). Up to six undead creatures that the ore can see within 60 feet of it regain 4 (1 d4 + 2) hit points.
+
+Armed Skeleton
+Medium undead, lawful evil
+Armor Class 13 (natural armor)
+Hit Points 26 (4d8 + 8)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 12 (+1) 14 (+2) 15 (+2) 6 (-2) 8 (-1) 6 (-2)
+Skills Athletics +3
+Damage Vulnerabilities bludgeoning
+Damage Immunities poison
+Condition Immunities exhaustion, poisoned
+Senses darkvision 60 ft., passive Perception 9
+Languages understands all languages it knew in life but can't speak
+Challenge 1 (200 XP)
+Armed Advantage. The skeleton has advantage on Strength (Athletics) checks made to grapple.
+ACTIONS
+Multiattack. The skeleton makes four melee attacks. Claw. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) slashing damage.
+
+Crystal Elemental
+Medium elemental, neutral
+Armor Class 15 (natural armor)
+Hit Points 57 (6d8 + 30)
+Speed 30 ft ., burrow 30 ft.
+STR DEX CON INT WIS CHA 16 (+3) 12 (+1) 20 (+5) 12 (+1) 10 (+0) 12 (+1)
+Damage Vulnerabilities thunder
+Damage Resistances piercing and slashing from nonmagical weapons that aren't adamantine
+Senses darkvision 60 ft., tremorsense 60 ft., passive Perception 10
+Languages Terran
+Challenge 3 (700 XP)
+Harden. At the start of its turn, the elemental can choose to have disadvantage on all melee weapon attack rolls during that turn, but attack ro lls against it have disadvantage until the start of its next turn.
+Regeneration. The elemental regains 10 hit points at the start of its turn if it has at least 1 hit point. If the elemental takes thunder damage, this trait doesn't function at the start of the elemental's next turn.
+ACTIONS
+Multiattack. The elemental makes two attacks with its crystal spear.
+Crystal Spear. Me/ee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage.
