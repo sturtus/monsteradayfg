@@ -2580,3 +2580,34 @@ False Appearance. While the anglerfish remains motionless in dim light or darkne
 Water Breathing. The anglerfish can breathe only underwater.
 ACTIONS
 Bite. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 21 (3d10 + 5) piercing damage. If the target is a Huge or smaller creature, that creature is swallowed. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the anglerfish, and it takes 17 (5d6) acid damage at the start of each of the anglerfish's turns. The anglerfish can hold only one Huge creature or up to four Large or smaller creatu res inside it at a time. If the anglerfish takes 20 damage or more on a single turn from a creature inside it, the ang lerfish regurg itates all swallowed creatures, which fall prone in a space within 5 feet of the anglerfish. If the anglerfish dies, a swallowed creatu re is no longer restrained by it and can escape from the corpse using 10 feet of movement, exiting prone.
+
+Pirate Axe Thrower
+Medium humanoid (any race), any non-lawful alignment
+Armor Class 13 (leather)
+Hit Points 55 (10d8 + 10)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 16 (+3) 15 (+2) 12 (+1) 11 (+0) 11 (+0) 10 (+0)
+Skills Athletics +5, Acrobatics +4
+Senses passive Perception 10
+Languages any two languages
+Challenge 2 (450 XP)
+Nimble Action. On each of its turns, the pirate can use a bonus action to take the Dash or Disengage action.
+Weapon Juggler. The pirate can draw and wield up to three onehanded weapons.
+ACTIONS
+Multiattack. The pirate makes two melee attacks or three ranged attacks with thrown weapons.
+Handaxe. Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d6 + 3) slashing damage.
+
+Pirate Chain Swinger
+Medium humanoid (any race), any non-lawful alignment
+Armor Class 15 (studded leather)
+Hit Points 66 (12d8 + 12)
+Speed 30 ft.
+STR DEX CON INT WIS CHA 16 (+3) 16 (+3) 12 (+1) 11 (+0) 11 (+0) 10 (+0)
+Skills Athletics +5, Acrobatics +5
+Senses passive Perception 10
+Languages any two languages
+Challenge 3 (700 XP)
+ACTIONS
+Multiattack. The pirate makes three attacks: two with its chain and one with its hook.
+Chain. Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 7 (1d8 + 3) piercing damage. Instead of dealing damage, the pirate can attempt to trip the target. The target must succeed on a DC 13 Strength saving throw or be knocked prone.
+Hook. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage. Instead of dealing damage, the pirate can attempt to disarm the target, forcing it to drop one item of the pirate's choice that it's holding. The target must make a DC 13 Strength saving throw. On a failed save, it drops the chosen object. The object lands at its feet.

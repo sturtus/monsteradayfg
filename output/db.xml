@@ -8130,7 +8130,7 @@
         <actions>
           <id-00001>
             <name type="string">Morningstar</name>
-            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1 d8 + 3) piercing damage plus 4 (1 d8) necrotic damage.</desc>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1 d8) necrotic damage.</desc>
           </id-00001>
         </actions>
         <legendaryactions>
@@ -8144,7 +8144,7 @@
           </id-00002>
           <id-00003>
             <name type="string">Mend Bones (Costs 2 actions)</name>
-            <desc type="string">Up to six undead creatures that the ore can see within 60 feet of it regain 4 (1 d4 + 2) hit points.</desc>
+            <desc type="string">Up to six undead creatures that the ore can see within 60 feet of it regain 4 (1d4 + 2) hit points.</desc>
           </id-00003>
         </legendaryactions>
       </orchandofgruumsh>
@@ -8266,10 +8266,69 @@
           </id-00001>
           <id-00002>
             <name type="string">Crystal Spear</name>
-            <desc type="string">Me/ee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage.</desc>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage.</desc>
           </id-00002>
         </actions>
       </crystalelemental>
+      <direanglerfish>
+        <locked type="number">1</locked>
+        <name type="string">Dire Anglerfish</name>
+        <type type="string">beast</type>
+        <size type="string">Huge</size>
+        <ac type="number">13</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">105</hp>
+        <hd type="string">(10d12 + 40)</hd>
+        <speed type="string">0 ft., swim 50 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">1</score>
+            <modifier type="string">-4</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">7</score>
+            <modifier type="string">-1</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Perception +4, Stealth +8</skills>
+        <senses type="string">blindsight 60 ft., darkvision 120 ft ., passive Perception 14</senses>
+        <alignment type="string">unaligned</alignment>
+        <languages type="string">-</languages>
+        <cr type="string">5</cr>
+        <xp type="number">1800</xp>
+        <traits>
+          <id-00001>
+            <name type="string">False Appearance</name>
+            <desc type="string">While the anglerfish remains motionless in dim light or darkness, it appears as dancing lights that resemble floating lanterns.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Water Breathing</name>
+            <desc type="string">The anglerfish can breathe only underwater.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Bite</name>
+            <desc type="string">Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 21 (3d10 + 5) piercing damage. If the target is a Huge or smaller creature, that creature is swallowed. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the anglerfish, and it takes 17 (5d6) acid damage at the start of each of the anglerfish's turns. The anglerfish can hold only one Huge creature or up to four Large or smaller creatu res inside it at a time. If the anglerfish takes 20 damage or more on a single turn from a creature inside it, the ang lerfish regurg itates all swallowed creatures, which fall prone in a space within 5 feet of the anglerfish. If the anglerfish dies, a swallowed creatu re is no longer restrained by it and can escape from the corpse using 10 feet of movement, exiting prone.</desc>
+          </id-00001>
+        </actions>
+      </direanglerfish>
     </category>
   </npc>
   <lists>
@@ -9420,6 +9479,16 @@
                 </link>
                 <source type="string"/>
               </deathwidow>
+              <direanglerfish>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>npc.direanglerfish@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string"/>
+              </direanglerfish>
             </index>
           </typeletterd>
           <typeletteru>
@@ -17632,7 +17701,7 @@
         <actions>
           <id-00001>
             <name type="string">Morningstar</name>
-            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1 d8 + 3) piercing damage plus 4 (1 d8) necrotic damage.</desc>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1 d8) necrotic damage.</desc>
           </id-00001>
         </actions>
         <legendaryactions>
@@ -17646,7 +17715,7 @@
           </id-00002>
           <id-00003>
             <name type="string">Mend Bones (Costs 2 actions)</name>
-            <desc type="string">Up to six undead creatures that the ore can see within 60 feet of it regain 4 (1 d4 + 2) hit points.</desc>
+            <desc type="string">Up to six undead creatures that the ore can see within 60 feet of it regain 4 (1d4 + 2) hit points.</desc>
           </id-00003>
         </legendaryactions>
       </orchandofgruumsh>
@@ -17768,10 +17837,69 @@
           </id-00001>
           <id-00002>
             <name type="string">Crystal Spear</name>
-            <desc type="string">Me/ee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage.</desc>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage.</desc>
           </id-00002>
         </actions>
       </crystalelemental>
+      <direanglerfish>
+        <locked type="number">1</locked>
+        <name type="string">Dire Anglerfish</name>
+        <type type="string">beast</type>
+        <size type="string">Huge</size>
+        <ac type="number">13</ac>
+        <actext type="string">(natural armor)</actext>
+        <hp type="number">105</hp>
+        <hd type="string">(10d12 + 40)</hd>
+        <speed type="string">0 ft., swim 50 ft.</speed>
+        <abilities>
+          <strength>
+            <score type="number">20</score>
+            <modifier type="string">+5</modifier>
+          </strength>
+          <dexterity>
+            <score type="number">14</score>
+            <modifier type="string">+2</modifier>
+          </dexterity>
+          <constitution>
+            <score type="number">18</score>
+            <modifier type="string">+4</modifier>
+          </constitution>
+          <intelligence>
+            <score type="number">1</score>
+            <modifier type="string">-4</modifier>
+          </intelligence>
+          <wisdom>
+            <score type="number">12</score>
+            <modifier type="string">+1</modifier>
+          </wisdom>
+          <charisma>
+            <score type="number">7</score>
+            <modifier type="string">-1</modifier>
+          </charisma>
+        </abilities>
+        <skills type="string">Perception +4, Stealth +8</skills>
+        <senses type="string">blindsight 60 ft., darkvision 120 ft ., passive Perception 14</senses>
+        <alignment type="string">unaligned</alignment>
+        <languages type="string">-</languages>
+        <cr type="string">5</cr>
+        <xp type="number">1800</xp>
+        <traits>
+          <id-00001>
+            <name type="string">False Appearance</name>
+            <desc type="string">While the anglerfish remains motionless in dim light or darkness, it appears as dancing lights that resemble floating lanterns.</desc>
+          </id-00001>
+          <id-00002>
+            <name type="string">Water Breathing</name>
+            <desc type="string">The anglerfish can breathe only underwater.</desc>
+          </id-00002>
+        </traits>
+        <actions>
+          <id-00001>
+            <name type="string">Bite</name>
+            <desc type="string">Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 21 (3d10 + 5) piercing damage. If the target is a Huge or smaller creature, that creature is swallowed. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the anglerfish, and it takes 17 (5d6) acid damage at the start of each of the anglerfish's turns. The anglerfish can hold only one Huge creature or up to four Large or smaller creatu res inside it at a time. If the anglerfish takes 20 damage or more on a single turn from a creature inside it, the ang lerfish regurg itates all swallowed creatures, which fall prone in a space within 5 feet of the anglerfish. If the anglerfish dies, a swallowed creatu re is no longer restrained by it and can escape from the corpse using 10 feet of movement, exiting prone.</desc>
+          </id-00001>
+        </actions>
+      </direanglerfish>
     </npcdata>
     <npclists>
       <npcs>
@@ -18946,6 +19074,16 @@
                 </link>
                 <source type="number"/>
               </deathwidow>
+              <direanglerfish>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.direanglerfish@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </direanglerfish>
             </index>
           </typeletterD>
           <typeletterU>
@@ -20151,6 +20289,16 @@
                 </link>
                 <source type="number"/>
               </maskedkiller>
+              <direanglerfish>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.direanglerfish@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="number"/>
+              </direanglerfish>
             </index>
           </level05>
           <level13>
@@ -20746,6 +20894,16 @@
                 </link>
                 <source>Beast</source>
               </snowspider>
+              <direanglerfish>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.direanglerfish@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>beast</source>
+              </direanglerfish>
             </index>
           </typebeast>
           <typeelemental>
@@ -21821,6 +21979,16 @@
                 </link>
                 <source>Beast</source>
               </snowspider>
+              <direanglerfish>
+                <link type="windowreference">
+                  <class>npc</class>
+                  <recordname>reference.npcdata.direanglerfish@Monster a Day</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source>beast</source>
+              </direanglerfish>
             </index>
           </typebeast>
           <typeconstruct>
