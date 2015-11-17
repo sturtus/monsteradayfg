@@ -2565,3 +2565,18 @@ Regeneration. The elemental regains 10 hit points at the start of its turn if it
 ACTIONS
 Multiattack. The elemental makes two attacks with its crystal spear.
 Crystal Spear. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage.
+
+Dire Anglerfish
+Huge beast, unaligned
+Armor Class 13 (natural armor)
+Hit Points 105 (10d12 + 40)
+Speed 0 ft., swim 50 ft.
+STR DEX CON INT WIS CHA 20 (+5) 14 (+2)  18 (+4) 1 (-5) 12 (+1) 7 (-2)
+Skills Perception +4, Stealth +8
+Senses blindsight 60 ft., darkvision 120 ft ., passive Perception 14
+Languages -
+Challenge 5 (1,800 XP)
+False Appearance. While the anglerfish remains motionless in dim light or darkness, it appears as dancing lights that resemble floating lanterns.
+Water Breathing. The anglerfish can breathe only underwater.
+ACTIONS
+Bite. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 21 (3d10 + 5) piercing damage. If the target is a Huge or smaller creature, that creature is swallowed. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the anglerfish, and it takes 17 (5d6) acid damage at the start of each of the anglerfish's turns. The anglerfish can hold only one Huge creature or up to four Large or smaller creatu res inside it at a time. If the anglerfish takes 20 damage or more on a single turn from a creature inside it, the ang lerfish regurg itates all swallowed creatures, which fall prone in a space within 5 feet of the anglerfish. If the anglerfish dies, a swallowed creatu re is no longer restrained by it and can escape from the corpse using 10 feet of movement, exiting prone.
