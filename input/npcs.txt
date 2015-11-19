@@ -2611,3 +2611,54 @@ ACTIONS
 Multiattack. The pirate makes three attacks: two with its chain and one with its hook.
 Chain. Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 7 (1d8 + 3) piercing damage. Instead of dealing damage, the pirate can attempt to trip the target. The target must succeed on a DC 13 Strength saving throw or be knocked prone.
 Hook. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage. Instead of dealing damage, the pirate can attempt to disarm the target, forcing it to drop one item of the pirate's choice that it's holding. The target must make a DC 13 Strength saving throw. On a failed save, it drops the chosen object. The object lands at its feet.
+
+Vodyanoy
+Medium monstrosity, chaotic neutral
+Armor Class 16 (natural armor)
+Hit Points 119 (14d8 + 56)
+Speed 30 ft., swim 50 ft.
+STR DEX CON INT WIS CHA 18 (+4) 16 (+3) 18 (+4) 11 (+0) 20 (+5) 12 (+1)
+Skills Athletics +7, Perception +8, Insight +8
+Senses darkvision 60 ft., passive Perception 18
+Languages Aquan, Common, Sylvan
+Challenge 5 (1,800 XP)
+Amphibious. The vodyanoy can breathe air and water.
+Innate Spellcasting. The vodyanoy's spellcasting ability is Wisdom (save DC 16). The vodyanoy can innately cast the following spells, requiring only verbal components:
+At will: druidcraft, shape water
+3/day each:/og cloud, tidal wave
+1/day each: divination, watery sphere
+ACTIONS
+Multiattack. The vodyanoy makes two slam attacks. If both attacks hit a Medium or smaller target, the target is grappled (escape DC 15). Until this grappled ends, the target is restrained and has disadvantage on Strength checks and Strength saving throws, the vodyanoy tries to drown it, and the vodyanoy can't slam another target.
+Slam. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.
+##;
+#h;Innate Spellcasting
+The vodyanoy's spellcasting ability is Wisdom (save DC 16). The vodyanoy can innately cast the following spells, requiring only verbal components:
+#bp;At will
+#zls; 
+#zal;spell;Druidcraft
+#zal;spell;Shape Water
+#zle;
+#bp;3/day each
+#zls;
+#zal;spell;Fog Cloud
+#zal;spell;Tidal Wave
+#zle;
+#bp;1/day each
+#zls;
+#zal;spell;Divination
+#zal;spell;Watery Sphere
+#zle;
+
+Crowlock
+Tiny monstrosity, chaotic neutral
+Armor Class 13
+Hit Points 10 (4d4)
+Speed 30 ft., fly 50 ft.
+STR DEX CON INT WIS CHA 4 (-3) 16 (+3) 10 (+0) 10 (+0) 14 (+2) 14 (+2)
+Skills Deception +6, Perception +4, Stealth +5
+Senses truesight 30 ft., passive Perception 14
+Languages Common, Deep Speech
+Challenge 1/2 (100 XP)
+Perfect Mimicry. The crowlock can mimic any sounds it has heard, including a person's voice. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check.
+ACTIONS
+Mind Pierce. Ranged Spell Attack: +4 to hit, range 60/120 ft., one creature. Hit: 7 (1d 10 + 2) psychic damage .
