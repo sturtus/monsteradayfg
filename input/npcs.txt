@@ -2743,3 +2743,22 @@ Challenge 2 (450 XP)
 Aura of Misfortune. Bad luck radiates from the beast in an aura with a 60-foot radius. Hostile creatures in that area have disadvantage on attack rolls, abi lity checks, and saving throws. Unfavorable Target. The beast is unaffected by critical hits.
 ACTIONS
 Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage.
+
+Stone Strix
+Huge monstrosity, unaligned
+Armor Class 16 (natural armor)
+Hit Points 147 (14d12 + 56)
+Speed 20 ft., fly 60 ft.
+STR DEX CON INT WIS CHA 18 (+4) 16 (+3) 18 (+4) 6 (-2) 14 (+2) 7 (-2)
+Saving Throws Dex +6, Con +7
+Skills Perception +8
+Senses darkvision 120 ft., passive Perception 18
+Languages -
+Challenge 8 (3,900 XP)
+Flyby. The strix doesn't provoke opportunity attacks when it flies out of an enemy's reach.
+Keen Hearing and Sight. The strix has advantage on Wisdom (Perception) checks that rely on hearing or sight. 
+Petrifying Gaze. When a creature that can see the strix's eyes starts its turn within 30 feet of the strix, the strix can force it to make a DC 15 Constitution saving throw if the strix isn't incapacitated and can see the creature. A creature that fails the save begins to turn to stone and is restrained. The restrained creature must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the greater restoration spell or other magic. Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the strix until the start of its next turn, when it can avert its eyes again. If the creature looks at the strix in the meantime, it must immediately make the save. If the strix sees itself reflected on a polished surface within 30 feet of it and in an area of bright light, the strix is affected by its own gaze.
+ACTIONS
+Multiattack. The strix makes two attacks: one with its beak and one with its talons.
+Beak. Melee Weapon Attack: + 7 to hit, reach 5 ft., one target. Hit: 22 (4d8 + 4) piercing damage.
+Talons. Melee Weapon Attack:+ 7 to hit, reach 5 ft ., one target. Hit: 18 (4d6 + 4) slashing damage.
