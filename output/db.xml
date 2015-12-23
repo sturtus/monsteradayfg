@@ -2783,7 +2783,7 @@
         </actions>
         <text type="formattedtext">
           <h>Truesong Guild</h>
-          <p>Individualistic at heart and neutral to the world around them, the Tru esong guild is fickle and cunning, working as informants and turn coats. Maste rs of the arts and battle, Truesong guild m embe rs are as dange rous with their performances as they are with their weapons.</p>
+          <p>Individualistic at heart and neutral to the world around them, the Truesong guild is fickle and cunning, working as informants and turn coats. Maste rs of the arts and battle, Truesong guild m embe rs are as dange rous with their performances as they are with their weapons.</p>
           <p>
             <b>Guild Rites.</b> Truesong guild members must becom e masters of their craft, centering their focus on professions of entertainment. Working as spies, humble positions that can easy work their way into courts or among common folk are a priority for Truesong members.</p>
           <p>To enter the guild, performers must complete three tasks. The first is creating a song, dance or act that incites a crowd to act. The second is to acquire the service of a patron. Finally, initiates to the Truesong guild must defeat a master of the guild in single combat. Fighting to the master's chosen song, the two combatants follow th e rhythm of the song. Those who miss a step fail to pass the test and must wait a month and a day to try again.</p>
@@ -3142,6 +3142,13 @@
             <desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 10 (2d8+1) piercing damage.</desc>
           </id-00001>
         </actions>
+        <text type="formattedtext">
+          <p>Its blueprints designed by a powerful wizard, Spellskites serve as protective shields against magic, positioned to offer protection to a single individual or an area. Made out of skeletal and metallic material, Spellskites are large living structures that serve their master's bidding, caring little about anything else.</p>
+          <p>
+            <b>Experiment Wards.</b> Employed as protective wards, Spellskites are commonly found in arcane laboratories, throne rooms or treasure rooms of deep dungeons. Absorbing magical energies and built of tough materials, Spellskites barely react to harmful or negative effects. In laboratories, powerful wizards make use of Spellskites to test newly created magic, protected by the Spellskites ability to reflect magic.</p>
+          <p>
+            <b>Eventual Dependency.</b> Acting as a shield against magical energies or being employed as a sentinel, Spellskites eventually become dependent of arcane power. Spellskites have been known to wander on their own to nearby magical sources simply to use the reflective nature of their bodies. Spellskites deprived of magic for years grow violent and hostile towards spellcasters, knowing that violence may provoke the spellcaster into using arcane energy.</p>
+        </text>
       </spellskite>
       <trollboar>
         <locked type="number">1</locked>
@@ -5372,6 +5379,10 @@
             <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 18 (4d8) cold damge on a failed save, or half as much damage on a successful one. If cold damage reduces the target to 0 hit points, the target becomes frozen. A frozen creature is paralyzed, and can thaw by spending 1 hour in warm temperature or taking 15 fire damage.</desc>
           </id-00001>
         </actions>
+        <text type="formattedtext">
+          <p>Kin to the giant spider, the snow spider is wreathed in snowy white fur. These spiders dwell in icy tunnels lined with dense calcined webbing. Snow spiders set lengthy lines of hard webbing across their lair and in the surrounding area. Blending into the environment , these lines act as signals to the snow spider.</p>
+          <p>Quietly stalking its prey, snow spiders either use their large size to overpower their pr ey or bite their victim , fleeing while their freezing venom takes effect before returning to drag helpless food back to their den. When a number of snow spider s inhabit an area, they will occasionally hunt in a pack, fi.ghting with one another over potential food.</p>
+        </text>
       </snowspider>
       <wintersprite>
         <locked type="number">1</locked>
@@ -6301,6 +6312,14 @@
             <desc type="string">The spellbook can expend one spell slot to deal force damage to a target within 60 feet of it. The damage is 18 (4d8) for a 1st-level spell slot, plus 9 (2d8) for each spell level higher than 1st. The target must make a DC 16 Dexterity saving throw, taking full damage on a failed save, or half as much damage on a successful one.</desc>
           </id-00002>
         </actions>
+        <text type="formattedtext">
+          <p>A Living Spellbook is created when a powerful wizard dies and a part of his consciousness is transferred to his spellbook. Retaining the spells that its master once knew, a Living Spellbook's actions are influenced by the imprint of their master. Living Spellbooks often return to their master's studies, seek out pages to construct their bodies or fulfill a dying wish of their master.</p>
+          <p>Warped Consiousness. Coming into being through their mast er's death, timely or not, Living Spellbooks retain only a fragment of their master's original consciousness. Living Spellbooks make their own decisions, but are influenced by their late master's desires. Living Spellbooks have been known to grow confus ed, hostile or behave erratically, speaking with their master's voice as well as with their own.</p>
+          <p>
+            <b>Starved for Knowledge.</b> Comprised of pages from their master's spellbook, a Living Spellbook desires to continue adding pages to its body. Living Spellbooks will hunt for new spells, hoping to place them on paper and absorbing them. Noticing a wizard's spell book provokes these beings to rifling through the pages, tricking or forcefully taking the sp ellbook from its owner. Living Spellbooks only add new spells to their form, destroying copies of spells it has already seen. Especially old Living Spellbooks are massive constructs, capable of answ ering any question about arcane magic.</p>
+          <p>
+            <b>Dynamic Personalities.</b> The school of magic that a Living Spellbook's master studied has a great influence on the construct's personality. Living Spellbooks originating from the Illusion school may be pron e to guile and subterfug e, where as origins from the school of Necromancy produc es a Living Sp ellbook that delights in investigating death. The spells that a Living Spellbook uses are indicative of their tendencies.</p>
+        </text>
       </livingspellbook>
       <wartitan>
         <locked type="number">1</locked>
@@ -6745,6 +6764,9 @@
             <desc type="string">Melee Weapon Attack: + 7 to hit, reach 5 ft., one target. Hit: 7 ( 1d6+4) piercing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 14 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to a bleeding wound. Each time the killer hits the wounded target with this attack, the damage dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a successful DC 14 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.</desc>
           </id-00002>
         </actions>
+        <text type="formattedtext">
+          <p>Notorious for the fear that the mask instills in their victims, masked killers are remorseless individuals who often plot intricate schemes for their victims. They may also roam the streets of cities, using the anonymity of their masks to justify any action they decide to take. Many famous figures have donned masks and some masks have gained as much infamy as the people behind them.</p>
+        </text>
       </maskedkiller>
       <headlesshorseman>
         <locked type="number">1</locked>
@@ -7531,6 +7553,15 @@
             <desc type="string">Ranged Weapon Attack: + 7 to hit, range 150/600 ft., one target. Hit: 17 (3d8 + 4) piercing damage.</desc>
           </id-00002>
         </actions>
+        <text type="formattedtext">
+          <p>Awakened plants imbued with the powers of intelligence and mobility. Sylvan Stalkers defend their land from the blight. Given sentience from a powerful treant, a Sylvan Stalker carries out the will of ancient commands and attempts to spread their kingdom wherever it can.</p>
+          <p>
+            <b>Wardens against the Blight.</b> Created to defend great forests, Sylvan Stalkers emerge from the Verdant Keep to destroy any threat to their wilderness. Sylvan Stalkers are independent creatures, but most act under orders from the Verdant Keep. Defending their kingdom, expanding their territory or seeking out valuable artifacts for the Verdant Keep, Sylvan Stalkers carry on the legacy of Karathi's long-dormant desires.</p>
+          <p>
+            <b>Spawn ofKarathi.</b> Legends tell of a powerful treant  named Karathi, who worked deep magic and raised up a great tree called the Verdant Keep. Karathi was destroyed when a band of heroes stormed his citadel and burned his battered remains. In his dying breath, Karathi awakened the Verdant Keep, his charred remains absorbed into the great tree. The tree shook and quaked, branches breaking and falling to the ground. Each branch that fell took on the form of Karathi, becoming a Sylvan Stalker.</p>
+          <p>Reaches of the Roots. Sylvan Stalkers seek out strong young saplings as they travel through their domain. Those saplings selected are returned to the Verdant Keep and are planted in the grand halls. Karathi's power fills these saplings, forming them into Sylvan Stalkers.</p>
+          <p>Every one-hundred years , the Verdant Keep produces seeds of its own. These are taken from the keep and brought into the world. Once planted, the seed will sprout into a large tower, wall or keep. These seeds grow slowly but are hardy and difficult to destroy. The plants nearby these seeds grow with supernatural speed. A number of Sylvan Stalkers will defend these growing structures as Karathi's kingdom is spread.</p>
+        </text>
       </sylvanstalker>
       <werewolfalpha>
         <locked type="number">1</locked>
@@ -8011,6 +8042,9 @@
             <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage.</desc>
           </id-00003>
         </actions>
+        <text type="formattedtext">
+          <p>Lean and sinewy, these lizardfolk display an unusual sense of calm compared to their more irritable kin. Rough tattoos crawl their way across arm s and back, marking the lizardfolk monk as one of the trained. Lizardfolk monks are strong and cunning and work towards separating themselves from the social hierarchies of their tribe. Often devoting themselves to a single cause Liz ardfolk monks stand apart from their tribe. Travelers who encount er a lizardfolk monk may find an ami able guide or, should they act violently, a dangerous combatant.</p>
+        </text>
       </lizardfolkmonk>
       <orcberserker>
         <locked type="number">1</locked>
@@ -13091,7 +13125,7 @@
         </actions>
         <text type="formattedtext">
           <h>Truesong Guild</h>
-          <p>Individualistic at heart and neutral to the world around them, the Tru esong guild is fickle and cunning, working as informants and turn coats. Maste rs of the arts and battle, Truesong guild m embe rs are as dange rous with their performances as they are with their weapons.</p>
+          <p>Individualistic at heart and neutral to the world around them, the Truesong guild is fickle and cunning, working as informants and turn coats. Maste rs of the arts and battle, Truesong guild m embe rs are as dange rous with their performances as they are with their weapons.</p>
           <p>
             <b>Guild Rites.</b> Truesong guild members must becom e masters of their craft, centering their focus on professions of entertainment. Working as spies, humble positions that can easy work their way into courts or among common folk are a priority for Truesong members.</p>
           <p>To enter the guild, performers must complete three tasks. The first is creating a song, dance or act that incites a crowd to act. The second is to acquire the service of a patron. Finally, initiates to the Truesong guild must defeat a master of the guild in single combat. Fighting to the master's chosen song, the two combatants follow th e rhythm of the song. Those who miss a step fail to pass the test and must wait a month and a day to try again.</p>
@@ -13450,6 +13484,13 @@
             <desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 10 (2d8+1) piercing damage.</desc>
           </id-00001>
         </actions>
+        <text type="formattedtext">
+          <p>Its blueprints designed by a powerful wizard, Spellskites serve as protective shields against magic, positioned to offer protection to a single individual or an area. Made out of skeletal and metallic material, Spellskites are large living structures that serve their master's bidding, caring little about anything else.</p>
+          <p>
+            <b>Experiment Wards.</b> Employed as protective wards, Spellskites are commonly found in arcane laboratories, throne rooms or treasure rooms of deep dungeons. Absorbing magical energies and built of tough materials, Spellskites barely react to harmful or negative effects. In laboratories, powerful wizards make use of Spellskites to test newly created magic, protected by the Spellskites ability to reflect magic.</p>
+          <p>
+            <b>Eventual Dependency.</b> Acting as a shield against magical energies or being employed as a sentinel, Spellskites eventually become dependent of arcane power. Spellskites have been known to wander on their own to nearby magical sources simply to use the reflective nature of their bodies. Spellskites deprived of magic for years grow violent and hostile towards spellcasters, knowing that violence may provoke the spellcaster into using arcane energy.</p>
+        </text>
       </spellskite>
       <trollboar>
         <locked type="number">1</locked>
@@ -15680,6 +15721,10 @@
             <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 18 (4d8) cold damge on a failed save, or half as much damage on a successful one. If cold damage reduces the target to 0 hit points, the target becomes frozen. A frozen creature is paralyzed, and can thaw by spending 1 hour in warm temperature or taking 15 fire damage.</desc>
           </id-00001>
         </actions>
+        <text type="formattedtext">
+          <p>Kin to the giant spider, the snow spider is wreathed in snowy white fur. These spiders dwell in icy tunnels lined with dense calcined webbing. Snow spiders set lengthy lines of hard webbing across their lair and in the surrounding area. Blending into the environment , these lines act as signals to the snow spider.</p>
+          <p>Quietly stalking its prey, snow spiders either use their large size to overpower their pr ey or bite their victim , fleeing while their freezing venom takes effect before returning to drag helpless food back to their den. When a number of snow spider s inhabit an area, they will occasionally hunt in a pack, fi.ghting with one another over potential food.</p>
+        </text>
       </snowspider>
       <wintersprite>
         <locked type="number">1</locked>
@@ -16609,6 +16654,14 @@
             <desc type="string">The spellbook can expend one spell slot to deal force damage to a target within 60 feet of it. The damage is 18 (4d8) for a 1st-level spell slot, plus 9 (2d8) for each spell level higher than 1st. The target must make a DC 16 Dexterity saving throw, taking full damage on a failed save, or half as much damage on a successful one.</desc>
           </id-00002>
         </actions>
+        <text type="formattedtext">
+          <p>A Living Spellbook is created when a powerful wizard dies and a part of his consciousness is transferred to his spellbook. Retaining the spells that its master once knew, a Living Spellbook's actions are influenced by the imprint of their master. Living Spellbooks often return to their master's studies, seek out pages to construct their bodies or fulfill a dying wish of their master.</p>
+          <p>Warped Consiousness. Coming into being through their mast er's death, timely or not, Living Spellbooks retain only a fragment of their master's original consciousness. Living Spellbooks make their own decisions, but are influenced by their late master's desires. Living Spellbooks have been known to grow confus ed, hostile or behave erratically, speaking with their master's voice as well as with their own.</p>
+          <p>
+            <b>Starved for Knowledge.</b> Comprised of pages from their master's spellbook, a Living Spellbook desires to continue adding pages to its body. Living Spellbooks will hunt for new spells, hoping to place them on paper and absorbing them. Noticing a wizard's spell book provokes these beings to rifling through the pages, tricking or forcefully taking the sp ellbook from its owner. Living Spellbooks only add new spells to their form, destroying copies of spells it has already seen. Especially old Living Spellbooks are massive constructs, capable of answ ering any question about arcane magic.</p>
+          <p>
+            <b>Dynamic Personalities.</b> The school of magic that a Living Spellbook's master studied has a great influence on the construct's personality. Living Spellbooks originating from the Illusion school may be pron e to guile and subterfug e, where as origins from the school of Necromancy produc es a Living Sp ellbook that delights in investigating death. The spells that a Living Spellbook uses are indicative of their tendencies.</p>
+        </text>
       </livingspellbook>
       <wartitan>
         <locked type="number">1</locked>
@@ -17053,6 +17106,9 @@
             <desc type="string">Melee Weapon Attack: + 7 to hit, reach 5 ft., one target. Hit: 7 ( 1d6+4) piercing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 14 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to a bleeding wound. Each time the killer hits the wounded target with this attack, the damage dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a successful DC 14 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.</desc>
           </id-00002>
         </actions>
+        <text type="formattedtext">
+          <p>Notorious for the fear that the mask instills in their victims, masked killers are remorseless individuals who often plot intricate schemes for their victims. They may also roam the streets of cities, using the anonymity of their masks to justify any action they decide to take. Many famous figures have donned masks and some masks have gained as much infamy as the people behind them.</p>
+        </text>
       </maskedkiller>
       <headlesshorseman>
         <locked type="number">1</locked>
@@ -17839,6 +17895,15 @@
             <desc type="string">Ranged Weapon Attack: + 7 to hit, range 150/600 ft., one target. Hit: 17 (3d8 + 4) piercing damage.</desc>
           </id-00002>
         </actions>
+        <text type="formattedtext">
+          <p>Awakened plants imbued with the powers of intelligence and mobility. Sylvan Stalkers defend their land from the blight. Given sentience from a powerful treant, a Sylvan Stalker carries out the will of ancient commands and attempts to spread their kingdom wherever it can.</p>
+          <p>
+            <b>Wardens against the Blight.</b> Created to defend great forests, Sylvan Stalkers emerge from the Verdant Keep to destroy any threat to their wilderness. Sylvan Stalkers are independent creatures, but most act under orders from the Verdant Keep. Defending their kingdom, expanding their territory or seeking out valuable artifacts for the Verdant Keep, Sylvan Stalkers carry on the legacy of Karathi's long-dormant desires.</p>
+          <p>
+            <b>Spawn ofKarathi.</b> Legends tell of a powerful treant  named Karathi, who worked deep magic and raised up a great tree called the Verdant Keep. Karathi was destroyed when a band of heroes stormed his citadel and burned his battered remains. In his dying breath, Karathi awakened the Verdant Keep, his charred remains absorbed into the great tree. The tree shook and quaked, branches breaking and falling to the ground. Each branch that fell took on the form of Karathi, becoming a Sylvan Stalker.</p>
+          <p>Reaches of the Roots. Sylvan Stalkers seek out strong young saplings as they travel through their domain. Those saplings selected are returned to the Verdant Keep and are planted in the grand halls. Karathi's power fills these saplings, forming them into Sylvan Stalkers.</p>
+          <p>Every one-hundred years , the Verdant Keep produces seeds of its own. These are taken from the keep and brought into the world. Once planted, the seed will sprout into a large tower, wall or keep. These seeds grow slowly but are hardy and difficult to destroy. The plants nearby these seeds grow with supernatural speed. A number of Sylvan Stalkers will defend these growing structures as Karathi's kingdom is spread.</p>
+        </text>
       </sylvanstalker>
       <werewolfalpha>
         <locked type="number">1</locked>
@@ -18319,6 +18384,9 @@
             <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage.</desc>
           </id-00003>
         </actions>
+        <text type="formattedtext">
+          <p>Lean and sinewy, these lizardfolk display an unusual sense of calm compared to their more irritable kin. Rough tattoos crawl their way across arm s and back, marking the lizardfolk monk as one of the trained. Lizardfolk monks are strong and cunning and work towards separating themselves from the social hierarchies of their tribe. Often devoting themselves to a single cause Liz ardfolk monks stand apart from their tribe. Travelers who encount er a lizardfolk monk may find an ami able guide or, should they act violently, a dangerous combatant.</p>
+        </text>
       </lizardfolkmonk>
       <orcberserker>
         <locked type="number">1</locked>
