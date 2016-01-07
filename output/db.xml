@@ -1292,7 +1292,7 @@
           </id-00002>
           <id-00003>
             <name type="string">Claws</name>
-            <desc type="string">Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2dl 0 + 3) slashing damage.</desc>
+            <desc type="string">Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2d10 + 3) slashing damage.</desc>
           </id-00003>
           <id-00004>
             <name type="string">Fetid Cloud (Recharge 5-6)</name>
@@ -7632,11 +7632,11 @@
           </id-00001>
           <id-00002>
             <name type="string">Bite (Wolf or Hybrid Form Only)</name>
-            <desc type="string">Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage. If the target is a humanoid, it must succeed on a DC 14 Constitution saving throw or be cursed with werewolf lycanthropy.</desc>
+            <desc type="string">Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 14 (2d8+5) piercing damage. If the target is a humanoid, it must succeed on a DC 14 Constitution saving throw or be cursed with werewolf lycanthropy.</desc>
           </id-00002>
           <id-00003>
             <name type="string">Claws (Hybrid Form Only)</name>
-            <desc type="string">Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 16 (2d1 O + 5) slashing damage.</desc>
+            <desc type="string">Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) slashing damage.</desc>
           </id-00003>
         </actions>
         <legendaryactions>
@@ -11638,7 +11638,7 @@
           </id-00002>
           <id-00003>
             <name type="string">Claws</name>
-            <desc type="string">Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2dl 0 + 3) slashing damage.</desc>
+            <desc type="string">Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2d10 + 3) slashing damage.</desc>
           </id-00003>
           <id-00004>
             <name type="string">Fetid Cloud (Recharge 5-6)</name>
@@ -17978,11 +17978,11 @@
           </id-00001>
           <id-00002>
             <name type="string">Bite (Wolf or Hybrid Form Only)</name>
-            <desc type="string">Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage. If the target is a humanoid, it must succeed on a DC 14 Constitution saving throw or be cursed with werewolf lycanthropy.</desc>
+            <desc type="string">Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 14 (2d8+5) piercing damage. If the target is a humanoid, it must succeed on a DC 14 Constitution saving throw or be cursed with werewolf lycanthropy.</desc>
           </id-00002>
           <id-00003>
             <name type="string">Claws (Hybrid Form Only)</name>
-            <desc type="string">Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 16 (2d1 O + 5) slashing damage.</desc>
+            <desc type="string">Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) slashing damage.</desc>
           </id-00003>
         </actions>
         <legendaryactions>
