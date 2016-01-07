@@ -389,7 +389,7 @@ Aura of Decay. Negative energy radiates from the herald in an aura with a 120-fo
 ACTIONS
 Multiattack. The herald makes two attacks: one with its beak and one with its claws.
 Beak. Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit 10 (2d6 + 3) piercing damage.If the target is a creature, it must succeed on a DC 14 Constitution saving throw or become diseased. While diseased in this way, the target takes 9 (2d8) necrotic damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, ending the disease on a success.
-Claws. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2dl 0 + 3) slashing damage.
+Claws. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2d10 + 3) slashing damage.
 Fetid Cloud (Recharge 5-6). A 20-foot-radius cloud of disease extends out from the herald. The cloud spreads around corners. Each creature in that area must succeed on a DC 14 Constitution saving throw or become diseased. While diseased in this way, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. A target can repeat the saving throw at the end of each of its turns, ending the disease on a success. 
 ##;
 #h;Herald of Rot:
@@ -2400,8 +2400,8 @@ Pack Leader. The werewolf's allies have advantage on melee attack rolls against 
 Shapechanger. The werewolf can use its action to polymorph into a wolf-humanoid hybrid or into a wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
 ACTIONS
 Multiattack (Hybrid Form Only). The werewolf makes three attacks: one with its bite and two with its claws.
-Bite (Wolf or Hybrid Form Only). Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage. If the target is a humanoid, it must succeed on a DC 14 Constitution saving throw or be cursed with werewolf lycanthropy.
-Claws (Hybrid Form Only). Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 16 (2d1 O + 5) slashing damage.
+Bite (Wolf or Hybrid Form Only). Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 14 (2d8+5) piercing damage. If the target is a humanoid, it must succeed on a DC 14 Constitution saving throw or be cursed with werewolf lycanthropy.
+Claws (Hybrid Form Only). Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) slashing damage.
 LEGENDARY ACTIONS
 The werewolf can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The werewolf regains spent legendary actions at the start of its turn.
 Leap. The werewolf moves up to its speed without provoking opportunity attacks.
