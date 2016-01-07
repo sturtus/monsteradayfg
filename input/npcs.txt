@@ -2186,6 +2186,9 @@ Glaive. Melee Weapon Attack: + 7 to hit, reach 10ft., one target. Hit: 9 (1d10 +
 Sting. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage, and the target must make a DC 14 Constitution saving throw, taking 22 (4d10) poison damage on a failed save, or half as much damage on a successful one.
 REACTIONS
 Parry. The scorpikis adds 3 to its AC against one melee attack that would hit it. To do so, the scorpikis must see the attacker.
+##;
+Wandering through desert wastes or found lurking in dry salt caves, Skorpikis curse the world. Summoned before the Grand Sultan in the fabled City of Brass, the chosen few must show their skill and promise. The successful reap grand treasures; the failures are transformed into horrifi.c Skorpikis - a hybrid of a humanoid and a giant skorpion. Muttering and cursing to themselves, Skorpikis are heard continually worshiping the Grand Sultan in vain attempts to please their lord.
+Returned to the Material Plane, Skorpikis are malicious and resentful creatures. Reminded of their failures in front of the Grand Sultan, Skorpikis are hermits and hunters, either hiding in their lairs or leading raids of giant scorpions and lesser servants. Occasionally, a Skorpikis lives on the edge of their old society. Treated as fearful seers or horrific raiders, old civilizations barely tolerate Skorpikis, as likely to route out these beasts as to meet with them to learn about the fabled City of Brass.
 
 Ancient Chronomancer
 Medium humanoid construct, neutral
@@ -2785,3 +2788,4 @@ ACTIONS
 Multiattack. The strix makes two attacks: one with its beak and one with its talons.
 Beak. Melee Weapon Attack: + 7 to hit, reach 5 ft., one target. Hit: 22 (4d8 + 4) piercing damage.
 Talons. Melee Weapon Attack:+ 7 to hit, reach 5 ft ., one target. Hit: 18 (4d6 + 4) slashing damage.
+
