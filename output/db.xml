@@ -474,7 +474,7 @@
           </id-00001>
           <id-00002>
             <name type="string">Bite</name>
-            <desc type="string">Melee Weapon Attack: + 11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage.</desc>
+            <desc type="string">Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage.</desc>
           </id-00002>
           <id-00003>
             <name type="string">Claw</name>
@@ -490,11 +490,11 @@
           </id-00005>
           <id-00006>
             <name type="string">Fire Tar Breath</name>
-            <desc type="string">The dragon sprays flaming tar in a 30-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 35 (1 Od6) fire damage on a failed save, or half as much damage on a successful one. On a failed save, a creature is restrained (escape DC 18). While restrained in this way, a creature takes 1 O (3d6) fire damage at the start of each of its turns.</desc>
+            <desc type="string">The dragon sprays flaming tar in a 30-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 35 (10d6) fire damage on a failed save, or half as much damage on a successful one. On a failed save, a creature is restrained (escape DC 18). While restrained in this way, a creature takes 10 (3d6) fire damage at the start of each of its turns.</desc>
           </id-00006>
           <id-00007>
             <name type="string">Knockout Gas Breath</name>
-            <desc type="string">The dragon exhales knockout gas in a 60-foot cone. Each creature in that area must succeed on a DC 18 Constitution saving throw or fall unconscious for 1 O minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</desc>
+            <desc type="string">The dragon exhales knockout gas in a 60-foot cone. Each creature in that area must succeed on a DC 18 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</desc>
           </id-00007>
         </actions>
         <legendaryactions>
@@ -638,11 +638,11 @@
         <actions>
           <id-00001>
             <name type="string">Muftiattack</name>
-            <desc type="string">The s iver makes two claw attacks.</desc>
+            <desc type="string">The sliver makes two claw attacks.</desc>
           </id-00001>
           <id-00002>
             <name type="string">Claw</name>
-            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (Td8 + 3) slashing damage.</desc>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.</desc>
           </id-00002>
           <id-00003>
             <name type="string">Acid Spray (Recharge 6)</name>
@@ -856,7 +856,7 @@
           </id-00001>
           <id-00002>
             <name type="string">Slam</name>
-            <desc type="string">Melee Weapon Attack: +14 to hit, reach 1 Oft., one target. Hit: 20 (2d10 + 9) bludgeoning damage plus 9 (2d8) damage of a type chosen randomly from the following: acid, lightning, fire, or cold.</desc>
+            <desc type="string">Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 20 (2d10 + 9) bludgeoning damage plus 9 (2d8) damage of a type chosen randomly from the following: acid, lightning, fire, or cold.</desc>
           </id-00002>
           <id-00003>
             <name type="string">Hurl Energy</name>
@@ -1683,7 +1683,7 @@
           </id-00001>
           <id-00002>
             <name type="string">Bite</name>
-            <desc type="string">Melee Weapon Attack: +1 Oto hit, reach 5 ft., one target. Hit: 15 (2d8 + 6) piercing damage. If the target is a Medium or smaller creature grappled by the kraken, that creature is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the kraken, and it takes 21 (6d6) acid damage at the start of each of the kraken's turns. If the kraken takes 25 damage or more on a single turn from a creature inside it, the kraken must succeed on a DC 25 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of t he kraken. If the kraken dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 10 feet of movement, exiting prone.</desc>
+            <desc type="string">Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 15 (2d8 + 6) piercing damage. If the target is a Medium or smaller creature grappled by the kraken, that creature is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the kraken, and it takes 21 (6d6) acid damage at the start of each of the kraken's turns. If the kraken takes 25 damage or more on a single turn from a creature inside it, the kraken must succeed on a DC 25 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of t he kraken. If the kraken dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 10 feet of movement, exiting prone.</desc>
           </id-00002>
           <id-00003>
             <name type="string">Tentacle</name>
@@ -3844,7 +3844,7 @@
           </id-00001>
           <id-00002>
             <name type="string">Ingest Scion</name>
-            <desc type="string">As a bonus action, the butcher can ingest an eldrazi scion within 1 O feet of it, destroying the scion. The butcher then regains use of Consume.</desc>
+            <desc type="string">As a bonus action, the butcher can ingest an eldrazi scion within 10 feet of it, destroying the scion. The butcher then regains use of Consume.</desc>
           </id-00002>
         </traits>
         <actions>
@@ -3854,7 +3854,7 @@
           </id-00001>
           <id-00002>
             <name type="string">Claw</name>
-            <desc type="string">Me/ee Weapon Attack: +1 Oto hit, reach 1 Oft., one target. Hit: 22 (3d10 + 6) slashing damage.</desc>
+            <desc type="string">Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 22 (3d10 + 6) slashing damage.</desc>
           </id-00002>
           <id-00003>
             <name type="string">Constrict</name>
@@ -5744,7 +5744,7 @@
           </id-00001>
           <id-00002>
             <name type="string">Tresses</name>
-            <desc type="string">Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) bludgeoning damamge and the target is grappled (escape DC 16) and pulled 5 feet toward the rusalka. Until this grapple ends, the target is restrained, the rusalka tries to drown it, and the rusalka can't use its tresses on another target.</desc>
+            <desc type="string">Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) bludgeoning damage and the target is grappled (escape DC 16) then pulled 5 feet toward the rusalka. Until this grapple ends, the target is restrained, the rusalka tries to drown it, and the rusalka can't use its tresses on another target.</desc>
           </id-00002>
           <id-00003>
             <name type="string">Tickle</name>
@@ -6761,7 +6761,7 @@
           </id-00001>
           <id-00002>
             <name type="string">Shortsword</name>
-            <desc type="string">Melee Weapon Attack: + 7 to hit, reach 5 ft., one target. Hit: 7 ( 1d6+4) piercing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 14 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to a bleeding wound. Each time the killer hits the wounded target with this attack, the damage dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a successful DC 14 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.</desc>
+            <desc type="string">Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) piercing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 14 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to a bleeding wound. Each time the killer hits the wounded target with this attack, the damage dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a successful DC 14 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.</desc>
           </id-00002>
         </actions>
         <text type="formattedtext">
@@ -6828,8 +6828,12 @@
           </id-00001>
           <id-00002>
             <name type="string">Vorpal Longsword</name>
-            <desc type="string">Melee Weapon Attack:+ 7 to hit, reach 5 ft., one target. Hit: 17 (3d8 + 4) slashing damage. When the horseman rolls a 20 on the attack roll, if the damage would reduce the creature to 0 hit points, the horseman cuts off the creature's head. Jack-o'-lantern (Recharge 6). Ranged Weapon Attack:+ 7 to hit, range 30/60 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage plus 14 (4d6) fire damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or become stunned until the end of the horseman's next turn.</desc>
+            <desc type="string">Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 17 (3d8 + 4) slashing damage. When the horseman rolls a 20 on the attack roll, if the damage would reduce the creature to 0 hit points, the horseman cuts off the creature's head.</desc>
           </id-00002>
+          <id-00003>
+            <name type="string">Jack o lantern (Recharge 6)</name>
+            <desc type="string">Ranged Weapon Attack: +7 to hit, range 30/60 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage plus 14 (4d6) fire damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or become stunned until the end of the horseman's next turn.</desc>
+          </id-00003>
         </actions>
         <text type="formattedtext">
           <h>DREAD STEED</h>
@@ -6897,7 +6901,7 @@
           </id-00002>
           <id-00003>
             <name type="string">Squash</name>
-            <desc type="string">Melee Weapon Attack:+ 11 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage. The target must succeed on a DC 19 Strength saving throw or be knocked prone.</desc>
+            <desc type="string">Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage. The target must succeed on a DC 19 Strength saving throw or be knocked prone.</desc>
           </id-00003>
           <id-00004>
             <name type="string">Gourd</name>
@@ -6905,7 +6909,7 @@
           </id-00004>
           <id-00005>
             <name type="string">Seed Spit (Recharge 5-6)</name>
-            <desc type="string">The king spits pumpkin seeds in a 60-foot cone. Each creature in that area must make a DC 19 Dexterity saving throw, taking 45 (1 Od8) piercing damage on a failed save, or half as much damage on a successful one.</desc>
+            <desc type="string">The king spits pumpkin seeds in a 60-foot cone. Each creature in that area must make a DC 19 Dexterity saving throw, taking 45 (10d8) piercing damage on a failed save, or half as much damage on a successful one.</desc>
           </id-00005>
         </actions>
         <legendaryactions>
@@ -7143,11 +7147,11 @@
           </id-00001>
           <id-00002>
             <name type="string">Claw</name>
-            <desc type="string">Melee Weapon Attack: + 7 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) bludgeoning damage, and the target is grappled (escape DC 14). The scorpikis has two claws, each of which can grapple only one target.</desc>
+            <desc type="string">Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) bludgeoning damage, and the target is grappled (escape DC 14). The scorpikis has two claws, each of which can grapple only one target.</desc>
           </id-00002>
           <id-00003>
             <name type="string">Glaive</name>
-            <desc type="string">Melee Weapon Attack: + 7 to hit, reach 10ft., one target. Hit: 9 (1d10 + 4) slashing damage.</desc>
+            <desc type="string">Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 9 (1d10 + 4) slashing damage.</desc>
           </id-00003>
           <id-00004>
             <name type="string">Sting</name>
@@ -7554,7 +7558,7 @@
           </id-00001>
           <id-00002>
             <name type="string">Longbow</name>
-            <desc type="string">Ranged Weapon Attack: + 7 to hit, range 150/600 ft., one target. Hit: 17 (3d8 + 4) piercing damage.</desc>
+            <desc type="string">Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 17 (3d8 + 4) piercing damage.</desc>
           </id-00002>
         </actions>
         <text type="formattedtext">
@@ -7763,7 +7767,7 @@
             <modifier type="string">0</modifier>
           </charisma>
         </abilities>
-        <senses type="string">passive Perception 1 O</senses>
+        <senses type="string">passive Perception 10</senses>
         <alignment type="string">chaotic neutral</alignment>
         <languages type="string">any two languages</languages>
         <cr type="string">1/2</cr>
@@ -8816,7 +8820,7 @@
           </id-00001>
           <id-00002>
             <name type="string">Tongue</name>
-            <desc type="string">Melee Weapon Attack: +4 to hit, reach 10ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage. Instead of dealing damage, the chamaelean can attempt to disarm the target, forcing it to drop one item of the chamaelean's choice that it's holding. The target must make a DC 10 Strength saving throw. On a failed save, the chamaelean takes the object and holds it with its tongue.</desc>
+            <desc type="string">Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage. Instead of dealing damage, the chamaelean can attempt to disarm the target, forcing it to drop one item of the chamaelean's choice that it's holding. The target must make a DC 10 Strength saving throw. On a failed save, the chamaelean takes the object and holds it with its tongue.</desc>
           </id-00002>
         </actions>
       </chamaelean>
@@ -9006,11 +9010,11 @@
           </id-00001>
           <id-00002>
             <name type="string">Beak</name>
-            <desc type="string">Melee Weapon Attack: + 7 to hit, reach 5 ft., one target. Hit: 22 (4d8 + 4) piercing damage.</desc>
+            <desc type="string">Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 22 (4d8 + 4) piercing damage.</desc>
           </id-00002>
           <id-00003>
             <name type="string">Talons</name>
-            <desc type="string">Melee Weapon Attack:+ 7 to hit, reach 5 ft ., one target. Hit: 18 (4d6 + 4) slashing damage.</desc>
+            <desc type="string">Melee Weapon Attack: +7 to hit, reach 5 ft ., one target. Hit: 18 (4d6 + 4) slashing damage.</desc>
           </id-00003>
         </actions>
       </stonestrix>
@@ -10820,7 +10824,7 @@
           </id-00001>
           <id-00002>
             <name type="string">Bite</name>
-            <desc type="string">Melee Weapon Attack: + 11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage.</desc>
+            <desc type="string">Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage.</desc>
           </id-00002>
           <id-00003>
             <name type="string">Claw</name>
@@ -10836,11 +10840,11 @@
           </id-00005>
           <id-00006>
             <name type="string">Fire Tar Breath</name>
-            <desc type="string">The dragon sprays flaming tar in a 30-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 35 (1 Od6) fire damage on a failed save, or half as much damage on a successful one. On a failed save, a creature is restrained (escape DC 18). While restrained in this way, a creature takes 1 O (3d6) fire damage at the start of each of its turns.</desc>
+            <desc type="string">The dragon sprays flaming tar in a 30-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 35 (10d6) fire damage on a failed save, or half as much damage on a successful one. On a failed save, a creature is restrained (escape DC 18). While restrained in this way, a creature takes 10 (3d6) fire damage at the start of each of its turns.</desc>
           </id-00006>
           <id-00007>
             <name type="string">Knockout Gas Breath</name>
-            <desc type="string">The dragon exhales knockout gas in a 60-foot cone. Each creature in that area must succeed on a DC 18 Constitution saving throw or fall unconscious for 1 O minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</desc>
+            <desc type="string">The dragon exhales knockout gas in a 60-foot cone. Each creature in that area must succeed on a DC 18 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</desc>
           </id-00007>
         </actions>
         <legendaryactions>
@@ -10984,11 +10988,11 @@
         <actions>
           <id-00001>
             <name type="string">Muftiattack</name>
-            <desc type="string">The s iver makes two claw attacks.</desc>
+            <desc type="string">The sliver makes two claw attacks.</desc>
           </id-00001>
           <id-00002>
             <name type="string">Claw</name>
-            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (Td8 + 3) slashing damage.</desc>
+            <desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.</desc>
           </id-00002>
           <id-00003>
             <name type="string">Acid Spray (Recharge 6)</name>
@@ -11202,7 +11206,7 @@
           </id-00001>
           <id-00002>
             <name type="string">Slam</name>
-            <desc type="string">Melee Weapon Attack: +14 to hit, reach 1 Oft., one target. Hit: 20 (2d10 + 9) bludgeoning damage plus 9 (2d8) damage of a type chosen randomly from the following: acid, lightning, fire, or cold.</desc>
+            <desc type="string">Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 20 (2d10 + 9) bludgeoning damage plus 9 (2d8) damage of a type chosen randomly from the following: acid, lightning, fire, or cold.</desc>
           </id-00002>
           <id-00003>
             <name type="string">Hurl Energy</name>
@@ -12029,7 +12033,7 @@
           </id-00001>
           <id-00002>
             <name type="string">Bite</name>
-            <desc type="string">Melee Weapon Attack: +1 Oto hit, reach 5 ft., one target. Hit: 15 (2d8 + 6) piercing damage. If the target is a Medium or smaller creature grappled by the kraken, that creature is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the kraken, and it takes 21 (6d6) acid damage at the start of each of the kraken's turns. If the kraken takes 25 damage or more on a single turn from a creature inside it, the kraken must succeed on a DC 25 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of t he kraken. If the kraken dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 10 feet of movement, exiting prone.</desc>
+            <desc type="string">Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 15 (2d8 + 6) piercing damage. If the target is a Medium or smaller creature grappled by the kraken, that creature is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the kraken, and it takes 21 (6d6) acid damage at the start of each of the kraken's turns. If the kraken takes 25 damage or more on a single turn from a creature inside it, the kraken must succeed on a DC 25 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of t he kraken. If the kraken dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 10 feet of movement, exiting prone.</desc>
           </id-00002>
           <id-00003>
             <name type="string">Tentacle</name>
@@ -14190,7 +14194,7 @@
           </id-00001>
           <id-00002>
             <name type="string">Ingest Scion</name>
-            <desc type="string">As a bonus action, the butcher can ingest an eldrazi scion within 1 O feet of it, destroying the scion. The butcher then regains use of Consume.</desc>
+            <desc type="string">As a bonus action, the butcher can ingest an eldrazi scion within 10 feet of it, destroying the scion. The butcher then regains use of Consume.</desc>
           </id-00002>
         </traits>
         <actions>
@@ -14200,7 +14204,7 @@
           </id-00001>
           <id-00002>
             <name type="string">Claw</name>
-            <desc type="string">Me/ee Weapon Attack: +1 Oto hit, reach 1 Oft., one target. Hit: 22 (3d10 + 6) slashing damage.</desc>
+            <desc type="string">Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 22 (3d10 + 6) slashing damage.</desc>
           </id-00002>
           <id-00003>
             <name type="string">Constrict</name>
@@ -16090,7 +16094,7 @@
           </id-00001>
           <id-00002>
             <name type="string">Tresses</name>
-            <desc type="string">Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) bludgeoning damamge and the target is grappled (escape DC 16) and pulled 5 feet toward the rusalka. Until this grapple ends, the target is restrained, the rusalka tries to drown it, and the rusalka can't use its tresses on another target.</desc>
+            <desc type="string">Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) bludgeoning damage and the target is grappled (escape DC 16) then pulled 5 feet toward the rusalka. Until this grapple ends, the target is restrained, the rusalka tries to drown it, and the rusalka can't use its tresses on another target.</desc>
           </id-00002>
           <id-00003>
             <name type="string">Tickle</name>
@@ -17107,7 +17111,7 @@
           </id-00001>
           <id-00002>
             <name type="string">Shortsword</name>
-            <desc type="string">Melee Weapon Attack: + 7 to hit, reach 5 ft., one target. Hit: 7 ( 1d6+4) piercing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 14 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to a bleeding wound. Each time the killer hits the wounded target with this attack, the damage dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a successful DC 14 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.</desc>
+            <desc type="string">Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) piercing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 14 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to a bleeding wound. Each time the killer hits the wounded target with this attack, the damage dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a successful DC 14 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.</desc>
           </id-00002>
         </actions>
         <text type="formattedtext">
@@ -17174,8 +17178,12 @@
           </id-00001>
           <id-00002>
             <name type="string">Vorpal Longsword</name>
-            <desc type="string">Melee Weapon Attack:+ 7 to hit, reach 5 ft., one target. Hit: 17 (3d8 + 4) slashing damage. When the horseman rolls a 20 on the attack roll, if the damage would reduce the creature to 0 hit points, the horseman cuts off the creature's head. Jack-o'-lantern (Recharge 6). Ranged Weapon Attack:+ 7 to hit, range 30/60 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage plus 14 (4d6) fire damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or become stunned until the end of the horseman's next turn.</desc>
+            <desc type="string">Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 17 (3d8 + 4) slashing damage. When the horseman rolls a 20 on the attack roll, if the damage would reduce the creature to 0 hit points, the horseman cuts off the creature's head.</desc>
           </id-00002>
+          <id-00003>
+            <name type="string">Jack o lantern (Recharge 6)</name>
+            <desc type="string">Ranged Weapon Attack: +7 to hit, range 30/60 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage plus 14 (4d6) fire damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or become stunned until the end of the horseman's next turn.</desc>
+          </id-00003>
         </actions>
         <text type="formattedtext">
           <h>DREAD STEED</h>
@@ -17243,7 +17251,7 @@
           </id-00002>
           <id-00003>
             <name type="string">Squash</name>
-            <desc type="string">Melee Weapon Attack:+ 11 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage. The target must succeed on a DC 19 Strength saving throw or be knocked prone.</desc>
+            <desc type="string">Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage. The target must succeed on a DC 19 Strength saving throw or be knocked prone.</desc>
           </id-00003>
           <id-00004>
             <name type="string">Gourd</name>
@@ -17251,7 +17259,7 @@
           </id-00004>
           <id-00005>
             <name type="string">Seed Spit (Recharge 5-6)</name>
-            <desc type="string">The king spits pumpkin seeds in a 60-foot cone. Each creature in that area must make a DC 19 Dexterity saving throw, taking 45 (1 Od8) piercing damage on a failed save, or half as much damage on a successful one.</desc>
+            <desc type="string">The king spits pumpkin seeds in a 60-foot cone. Each creature in that area must make a DC 19 Dexterity saving throw, taking 45 (10d8) piercing damage on a failed save, or half as much damage on a successful one.</desc>
           </id-00005>
         </actions>
         <legendaryactions>
@@ -17489,11 +17497,11 @@
           </id-00001>
           <id-00002>
             <name type="string">Claw</name>
-            <desc type="string">Melee Weapon Attack: + 7 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) bludgeoning damage, and the target is grappled (escape DC 14). The scorpikis has two claws, each of which can grapple only one target.</desc>
+            <desc type="string">Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) bludgeoning damage, and the target is grappled (escape DC 14). The scorpikis has two claws, each of which can grapple only one target.</desc>
           </id-00002>
           <id-00003>
             <name type="string">Glaive</name>
-            <desc type="string">Melee Weapon Attack: + 7 to hit, reach 10ft., one target. Hit: 9 (1d10 + 4) slashing damage.</desc>
+            <desc type="string">Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 9 (1d10 + 4) slashing damage.</desc>
           </id-00003>
           <id-00004>
             <name type="string">Sting</name>
@@ -17900,7 +17908,7 @@
           </id-00001>
           <id-00002>
             <name type="string">Longbow</name>
-            <desc type="string">Ranged Weapon Attack: + 7 to hit, range 150/600 ft., one target. Hit: 17 (3d8 + 4) piercing damage.</desc>
+            <desc type="string">Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 17 (3d8 + 4) piercing damage.</desc>
           </id-00002>
         </actions>
         <text type="formattedtext">
@@ -18109,7 +18117,7 @@
             <modifier type="string">0</modifier>
           </charisma>
         </abilities>
-        <senses type="string">passive Perception 1 O</senses>
+        <senses type="string">passive Perception 10</senses>
         <alignment type="string">chaotic neutral</alignment>
         <languages type="string">any two languages</languages>
         <cr type="string">1/2</cr>
@@ -19162,7 +19170,7 @@
           </id-00001>
           <id-00002>
             <name type="string">Tongue</name>
-            <desc type="string">Melee Weapon Attack: +4 to hit, reach 10ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage. Instead of dealing damage, the chamaelean can attempt to disarm the target, forcing it to drop one item of the chamaelean's choice that it's holding. The target must make a DC 10 Strength saving throw. On a failed save, the chamaelean takes the object and holds it with its tongue.</desc>
+            <desc type="string">Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage. Instead of dealing damage, the chamaelean can attempt to disarm the target, forcing it to drop one item of the chamaelean's choice that it's holding. The target must make a DC 10 Strength saving throw. On a failed save, the chamaelean takes the object and holds it with its tongue.</desc>
           </id-00002>
         </actions>
       </chamaelean>
@@ -19352,11 +19360,11 @@
           </id-00001>
           <id-00002>
             <name type="string">Beak</name>
-            <desc type="string">Melee Weapon Attack: + 7 to hit, reach 5 ft., one target. Hit: 22 (4d8 + 4) piercing damage.</desc>
+            <desc type="string">Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 22 (4d8 + 4) piercing damage.</desc>
           </id-00002>
           <id-00003>
             <name type="string">Talons</name>
-            <desc type="string">Melee Weapon Attack:+ 7 to hit, reach 5 ft ., one target. Hit: 18 (4d6 + 4) slashing damage.</desc>
+            <desc type="string">Melee Weapon Attack: +7 to hit, reach 5 ft ., one target. Hit: 18 (4d6 + 4) slashing damage.</desc>
           </id-00003>
         </actions>
       </stonestrix>
